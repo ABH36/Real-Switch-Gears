@@ -1,0 +1,2444 @@
+[
+  {
+    "slug": "enersys",
+    "name": "Enersys",
+    "category": "PCC and MCC Panels",
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F4bd65cfe9f6845119e075b09a6119cf7?format=webp",
+    "overview": [
+      "Enersys by Lauritz Knudsen Electrical & Automation is more than a power distribution unit—it's a blend of smart engineering and digital innovation. Crafted for superior safety, reliability, and efficiency, it combines advanced technology with a sleek, modern look, ensuring your electrical systems are secure and future-proof. Enersys, a true smart panel, integrates advanced communication capabilities, intelligent thermal management, and eco-conscious engineering design for next-generation power solutions. Backed by Lauritz Knudsen Electrical & Automation’s 70-year legacy of powering India, it delivers reliable, future-ready electrical systems tailored for Indian conditions, blending performance with innovation."
+    ],
+    "benefits": [
+      "Internal Arc withstand up to 85 kA for 0.3 sec as per IEC 61641 with active and passive resistance",
+      "The Enersys Panels accommodating ACBs are as narrow as 500mm."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fa1cbd7edf03c46b69558475230338f82?format=webp?format=webp",
+    "features": [
+      {
+        "title": "Base Plate Mounting",
+        "text": "Description of this feature."
+      },
+      {
+        "title": "IP54 Degree of Protection",
+        "text": "Description of this feature."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F0a3ed10d89954c5db80dc656d8d48e30?format=webp",
+    "catalogue": "/catalogues/lauritz-knudsen/mn-starter.pdf"
+  },
+  {
+    "slug": "u-power-omega",
+    "name": "U-Power Omega",
+    "category": "air-circuit-breaker-acb",
+    "overview": [
+      "Electrical protection is crucial for ensuring the safety and reliability of power systems. Electrical installations and equipment are susceptible to internal and external faults that can cause severe damage. Circuit Breakers are essential to detect and isolate faults promptly by early detection and localization of faults. Circuit Breakers also aim to minimize the fault duration and isolate faulty parts from the circuit. Electrical systems may experience excessive current caused by overloads, short circuits, and ground faults condition.",
+      "Lauritz Knudsen Electrical & Automation is a leading manufacturer of Low Voltage Switchgear for over 70 years. Lauritz Knudsen Electrical & Automation’s OMEGA Air Circuit Breakers are ideal for high-power applications in low-voltage distribution networks, offering reliability and compactness & versatility while meeting the needs of various industries."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7ae38fcee57b40e0b0da2a4d2ce054a6?format=webp?format=webp",
+    "benefits": [
+      "Ensures system safety and reliability. Improves control, monitoring, and energy usage analysis",
+      "Provides consistent performance under challenging environmental conditions.",
+      "Boosting efficiency & accessibility with Digitalization & Sustainability"
+    ],
+    "features": [
+      {
+        "title": "Complete range conforms to IS / IEC 60947-2 & IEC 60947-2",
+        "text": ""
+      },
+      {
+        "title": "on-site conversion from Fixed to Draw-out & Manual to Electrical versions",
+        "text": ""
+      },
+      {
+        "title": "across the range",
+        "text": ""
+      },
+      {
+        "title": "Current rating in 3 frame sizes",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "slug": "mcx",
+    "name": "MCX",
+    "category": "contactors",
+    "overview": [
+      "The MCX range of 4-pole contactors, available from 18A to 900A AC-1, is extensively used with auto source transfer controllers to switch power from the main supply to backup sources such as DG (Diesel Generator) and UPS (Uninterruptible Power Supply)."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F4691e4d76a4f41d4870b9dd66cdc9f91?format=webp",
+    "benefits": [
+      "The accessories are common across the range and compatible with the MNX range, simplifying inventory management and reducing the need to stock multiple types of accessories.",
+      "A detailed selection chart based on the diesel generator (DG) rating is provided, making it straightforward for users to select the appropriate contactor.",
+      "The compact mechanical interlock arrangement for models up to 80A enhances safety by preventing the simultaneous closure of both sets of contacts."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compliance with IS / IEC 60947-4-1 & IEC 60947-4-1 Standards",
+        "text": "The MCX range of 4-pole contactors meets the stringent requirements of both IS 60947-4-1 and IEC 60947-4-1 standards, ensuring high performance, reliability, and safety in electrical installations."
+      },
+      {
+        "title": "48V DC up to MCX 23",
+        "text": "These contactors can operate efficiently with a control voltage of 48V DC for models up to the MCX 23 series, providing versatility and compatibility with various control systems."
+      },
+      {
+        "title": "2NO 2NC Power Contacts Configuration",
+        "text": "The contactors are available in a configuration of 2 normally open (NO) and 2 normally closed (NC) power contacts, offering flexibility in circuit design and enabling both control and power switching applications."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "contactor-mnx",
+    "name": "MNX",
+    "category": "MNX power contactors are primarily utilised in motor feeder and control system applications. With a range spanning from 9A to 650A (AC-3), they deliver dependable performance under various conditions, including high ambient temperatures and humidity. Additionally, accessories and spare parts are available for the entire range.",
+    "overview": [],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc6b54f1aff614a879c9919a3363322a9?format=webp",
+    "benefits": [
+      "High reliability ensures consistent performance and minimal downtime in demanding applications.",
+      "Easy access terminals from 50A and above simplify installation and maintenance, enhancing operational efficiency.",
+      "Suitable for DC-1, DC-3, and DC-5 applications, offering versatile usage across various direct current systems.",
+      "Accessories and spares are available for the entire range, facilitating customization and long-term maintenance."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compliance with IS/IEC 60947-4-1 Standards",
+        "text": "The MNX power contactors adhere to the IS/IEC 60947-4-1 and IEC 60947-4-1 standards, ensuring high safety, reliability, and performance in electrical motor feeder and control system applications."
+      },
+      {
+        "title": "Click-Fit Type Construction Up to 40A",
+        "text": "For ratings up to 40A, the MNX power contactors feature a convenient click-fit type construction. This design simplifies installation and maintenance, reducing downtime and enhancing operational efficiency."
+      },
+      {
+        "title": "Coil-On-Top Design for 95A and Above",
+        "text": "In models rated at 95A and above, the MNX power contactors incorporate a coil-on-top design. This layout improves heat dissipation and accessibility, ensuring more reliable performance under heavy-duty conditions."
+      },
+      {
+        "title": "Built-In 1 NO / 1 NC Auxiliary Contacts from 9-22A",
+        "text": "MNX power contactors ranging from 9A to 22A come with integrated 1 Normally Open (NO) and 1 Normally Closed (NC) auxiliary contact. This feature enhances control capabilities and allows for additional monitoring and signaling options without the need for extra components."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "contactor-mu",
+    "name": "mu",
+    "category": "contactors",
+    "overview": [
+      "MO Contactors combine distinctive styling and visual appeal with dependable performance. Available in a range from 9A to 300A AC-3/3e, they are ideal for both general and specialised machinery. Their compact design saves panel space, and as RoHS compliant devices, they offer the advantages of being environmentally friendly and sustainable."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F16b384a739bf4f97869d8915beb95634",
+    "benefits": [
+      "Low panel footprint, saving valuable space in the control panel and allowing for more efficient use of available area.",
+      "Common spare parts for the MO family, minimising inventory requirements, reducing the need to stock multiple spare parts, simplifying maintenance, and lowering costs.",
+      "Type-2 chart available for motor applications, providing clear guidelines and ensuring reliable and optimised performance.",
+      "Lug and lugless termination options, offering flexibility in wiring methods and accommodating different installation preferences and requirements.",
+      "Shrouded design ensures user safety by protecting users from accidental contact with live components, enhancing operational safety.",
+      "Cassette type bridge facilitates easy inspection and maintenance, simplifying the process and reducing downtime, improving serviceability."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Conventional/Universal AC/DC Electronic Coil Version (140A-300A)",
+        "text": "MO Contactors feature versatile electronic coils compatible with both AC and DC, ensuring flexibility and reliability in various applications."
+      },
+      {
+        "title": "Box Clamp Termination and Cassette Type Bridge (50A-110A)",
+        "text": "Models ranging from 50A to 110A include box clamp termination and a cassette type bridge, facilitating easy and secure wiring for enhanced safety and installation efficiency."
+      },
+      {
+        "title": "Compact Dimensions and Modular Design",
+        "text": "With compact dimensions, these contactors save valuable panel space. The modular design allows for easy integration and customisation, making them suitable for diverse industrial needs."
+      },
+      {
+        "title": "Shrouded Design and Finger-Proof Termination",
+        "text": "The entire range features a shrouded design and finger-proof termination, ensuring user safety by preventing accidental contact with live parts."
+      },
+      {
+        "title": "Four Terminal Coil",
+        "text": "The four terminal coil provides greater connection flexibility and simplifies wiring, contributing to more efficient installation and maintenance processes."
+      },
+      {
+        "title": "No Derating from 140A Onwards at 690V",
+        "text": "These contactors maintain their full rated current capacity without derating up to 690V from 140A onwards, ensuring reliable performance under high voltage conditions."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "contactor-mo0",
+    "name": "MO0",
+    "category": "Contactors",
+    "overview": [
+      "MO0 control contactors are fundamental 4-pole contactors available with both AC and DC control. These contactors can be utilised for constructing control logic. With add-on blocks, these contactors can provide up to 8 auxiliary contacts. They are suitable for both industrial and commercial installations."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff4044c35f5a2489b966a3a4ef7c6b106?format=webp",
+    "benefits": [
+      "Finger-proof terminations ensure safe and secure auxiliary and control connections, reducing the risk of accidental contact.",
+      "Accessories are shared with the MO family of power contactors, thereby minimising inventory requirements and simplifying parts management.",
+      "Four auxiliary contacts are provided within a compact 45mm width, optimising space utilisation in installations.",
+      "An inbuilt surge suppressor in the MO0 DC model protects against voltage spikes, enhancing the reliability and lifespan of the contactor.",
+      "A common coil suitable for both 50Hz and 60Hz applications offers flexibility and reduces the need for multiple coil variants."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "RoHS Compliant",
+        "text": "These contactors adhere to the Restriction of Hazardous Substances (RoHS) directive, ensuring they are free from harmful materials and environmentally friendly."
+      },
+      {
+        "title": "DIN Rail Mounting",
+        "text": "Designed for easy installation, these contactors can be conveniently mounted on standard DIN rails, streamlining setup and maintenance."
+      },
+      {
+        "title": "Lug and Lugless Termination",
+        "text": "Offering versatile connection options, these contactors support both lug and lugless terminations, accommodating various wiring preferences and requirements."
+      },
+      {
+        "title": "DC-13 Rating",
+        "text": "Specifically designed to handle DC switching applications, these contactors meet the DC-13 rating standard, ensuring reliable performance in direct current circuits."
+      },
+      {
+        "title": "AC-15 Ratings at Higher Voltage",
+        "text": "These contactors provide AC-15 ratings at an elevated operating voltage of 690 Vac, making them suitable for high-voltage switching tasks."
+      },
+      {
+        "title": "10A, AC-15 Rating at 240V",
+        "text": "With a 10A, AC-15 rating at an operational voltage of 240V, these contactors deliver dependable switching performance for common voltage levels in numerous applications."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mn-starter",
+    "name": "MN Starter",
+    "category": "Industrial Starter",
+    "overview": [
+      "MN range of industrial starters offers complete motor starting solution for industrial applications. These starters are time tested for reliable performance. They are a proven work horse for stand-alone motors in the industry."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F96ee0d80b13147fb9ee736e6ace26f08?format=webp",
+    "benefits": [
+      "Single Phasing Protection ensures the motor is safeguarded against damage caused by single phasing, preserving its longevity and preventing costly repairs.",
+      "Auto-Manual Reset Switch offers the convenience of automatic or manual reset options, allowing for flexibility in resetting the motor starter based on operational needs.",
+      "Trip Test Facility facilitates easy testing of the trip mechanism, enabling quick identification and resolution of potential issues to maintain optimal performance.",
+      "Electronic Timer in MN FASD for High Accuracy incorporates an electronic timer in the MN FASD model, delivering precise timing functionality for enhanced control and operational accuracy."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Base Plate Mounting",
+        "text": "Designed for easy base plate mounting, these starters ensure a straightforward installation process, simplifying setup and integration into various industrial systems."
+      },
+      {
+        "title": "IP54 Degree of Protection",
+        "text": "With an IP54 rating, these starters are protected against dust and water splashes, ensuring reliable performance and longevity in harsh industrial environments."
+      },
+      {
+        "title": "Off / Reset Push-Button",
+        "text": "The off/reset push-button allows for quick stopping and resetting of the motor starter, enhancing safety and operational efficiency."
+      },
+      {
+        "title": "Flush-Mounted Push Buttons",
+        "text": "Flush-mounted push buttons offer ease of use and a clean, professional appearance, minimizing accidental activation and improving overall functionality."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mpcb-mog",
+    "name": "MOG",
+    "category": "Motor Protection Circuit Breaker",
+    "overview": [
+      "MOG MPCB combines short circuit protection and overload relay functionality in a highly compact unit. The MPCB is suitable for a wide range of small to medium motor loads that require high breaking capacity. Additionally, its compact size allows for a smaller installation area with reduced wiring space, thereby minimizing panel space."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F0da754cea5294eb3b1d9b781b5143122",
+    "benefits": [
+      "Compact design allows for a smaller installation area, saving valuable panel space.",
+      "Provides high breaking capacity for effective fault current interruption.",
+      "Ensures reliable short circuit protective coordination, reducing equipment damage.",
+      "Integrated features reduce wiring work, simplifying installation and cutting labour costs.",
+      "High switching durability ensures long-lasting performance in demanding applications."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Protection",
+        "text": "The MOG MPCB provides comprehensive protection, including short circuit, overcurrent, overload, and phase loss protection, ensuring reliable operation and safety for your motor loads."
+      },
+      {
+        "title": "Operation Handle with Padlock in OFF Condition",
+        "text": "The operation handle can be securely locked in the OFF position with a padlock, preventing unauthorized access and ensuring safety during maintenance or downtime."
+      },
+      {
+        "title": "Sealable Adjustment Dial for Motor Full-Load Currents",
+        "text": "The sealable adjustment dial allows precise settings for all motor full-load currents, offering flexibility and accuracy in matching the MPCB to your specific motor requirements."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "immr",
+    "name": "IMMR",
+    "category": "Electronic Motor Protection Relays",
+    "overview": [
+      "Motors play an important role in any industry and impact plant’s efficiency and energy consumption. It is, therefore, vital to protect your motor installations. Different motor installations require different types of protection. At Lauritz Knudsen Electrical & Automation, we understand the need of the industry and offer an Intelligent Motor Management Relay (iMMR) for reliable protection, control and monitoring of electrical motors."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff5638c21ee1644239dd67914d1e75146",
+    "benefits": [
+      "Designed for use in the Intelligent motor control center, iMMR helps you to run your operation with reliable and effective protection against current/voltage variation, overload and earth fault.",
+      "The iMMR provides detailed information about operational and diagnostic data in real-time that allows you to take corrective actions and avoid unexpected production downtime, losses and breakdowns.",
+      "The compact design with built-in pre-programmed starter logic reduces manufacturing and commissioning time.",
+      "iMMR suite software is available for easy and effective configuration, operation and diagnosis of the iMMR."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Protection",
+        "text": "Current or Current + Voltage based relay. Comprehensive Current based or Current + Voltage based protections. Overload with thermal memory-based on IEC 60947"
+      },
+      {
+        "title": "Control",
+        "text": "4 DI + 3 DO available to take care of DOL, Star-Delta, RDOL and other Starters. Comprehensive motor protection and control features like reacceleration and anti-Black spin."
+      },
+      {
+        "title": "Monitoring",
+        "text": "Real-time monitoring, recording and service/diagnostic data. 20 nos. of last trip records, 100 event records and IRF (Internal Relay Failure) records."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "olr-mn-relay",
+    "name": "MN Relay",
+    "category": "Over Load Relay - OLR",
+    "overview": [
+      "MN Thermal Overload Relays, ranging from 0.2A to 570A, complement the MNX series of power contactors. These relays are compensated for ambient temperature, and their distinctive double slide mechanism ensures dependable protection against single phasing. MN 12L relays, with a trip class of 30, are specifically designed for applications with extended starting times."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F226e2715f13a496480756b17725e7744",
+    "benefits": [
+      "Provides flexibility with manual and auto reset modes.",
+      "Offers enhanced safety with built-in single phasing protection.",
+      "Features Trip Class 30 in MN 12L relays, ideal for long starting applications."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Conforms to IS/IEC 60947-4-1 & IEC 60947-4-1",
+        "text": "These thermal overload relays meet the stringent standards set by IS/IEC 60947-4-1 and IEC 60947-4-1, ensuring high reliability and safety in electrical installations."
+      },
+      {
+        "title": "Available in 3 Frame Sizes from 0.2A to 570A",
+        "text": "The relays come in three different frame sizes, accommodating a wide range of current ratings from 0.2A to 570A, making them versatile for various applications."
+      },
+      {
+        "title": "Direct Mounting on MNX Contactors",
+        "text": "Designed for seamless integration, these relays can be directly mounted on MNX contactors, facilitating easy installation and reducing assembly time."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "olr-rto-relay",
+    "name": "RTO Relay",
+    "category": "Over Load Relay - OLR",
+    "overview": [
+      "RTO Thermal Overload Relays complement the MO range of contactors and can be directly mounted onto them. The relays are compensated for ambient temperature and are sensitive to phase failure. They feature front access to START and STOP/RESET buttons and are equipped with three contacts for Alarm, Trip, and Start functions."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7b799b917f5e4474a50152d36d947ff2",
+    "benefits": [
+      "Direct mounting on MO contactors simplifies installation.",
+      "Visual status indication (tripped/non-tripped) visible from the front enhances monitoring.",
+      "Front access to terminals for easy wiring streamlines installation.",
+      "Separate mounting facility available for flexibility.",
+      "Auto/manual reset function offers versatile reset options"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Conforms to IS/IEC 60947-4-1 & IEC 60947-4-1",
+        "text": "These relays meet the stringent standards set by IS/IEC 60947-4-1 and IEC 60947-4-1, ensuring high reliability and performance in industrial applications."
+      },
+      {
+        "title": "Ambient Temperature Compensated up to 55°C",
+        "text": "Designed to operate efficiently in varying temperature conditions, these relays are compensated to function correctly up to 55°C, maintaining accuracy and stability."
+      },
+      {
+        "title": "Built-in Single Phasing Protection",
+        "text": "The relays include built-in protection against single phasing, safeguarding equipment from damage caused by phase loss and ensuring continuous, safe operation."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "ac-drive-xd1000",
+    "name": "xD1000",
+    "category": "AC Drive",
+    "overview": [
+      "The xD1000 AC Drive is a powerful, compact variable frequency drive (VFD) engineered to elevate performance across a wide range of applications. Built for versatility, it seamlessly supports pumps, fans, conveyors, and compressors across industrial and building segments, while also delivering exceptional control for machine applications such as F&B, packaging, woodworking, textile, and other special-purpose machines.",
+      "Designed with the user in mind, the xD1000 features an intuitive, user-friendly interface that makes setup effortless, even for first-time users. Its advanced motor‑control algorithms ensure superior performance, smoother operation, and optimised energy use, helping businesses reduce operational costs without compromising productivity.",
+      "With its rugged construction, intelligent features, and adaptability to diverse environments, the xD1000 AC Drive is more than a VFD; it’s a reliable partner for boosting energy efficiency, improving process reliability, and unlocking higher performance in every application."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc27531c52e0a43308aa9274261cfbce0?format=webp",
+    "benefits": [
+      "Compact, user-friendly design with clear terminals, secure controls, simple setup, and easy",
+      "Reliable, smooth restarting for bidirectional rotating applications like fans, AHUs, reactors",
+      "Advanced PID control with multiple presets, wake/sleep functionality, and predictive speed response"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "ac-drive-xd2000",
+    "name": "xD2000",
+    "category": "AC Drive",
+    "overview": [
+      "The xD2000 Drive is a high-performance variable frequency drive designed to deliver exceptional control and efficiency for a variety of utility applications with its advanced control capabilities. The xD2000 allows for seamless integration into automation systems, enhancing overall operational performance. Its robust design ensures reliability in demanding environments, while features like energy-saving modes help reduce operational costs. The user-friendly interface simplifies setup and adjustments, making the xD2000 an ideal choice for both new installations and upgrades"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F86d050d3cf554f5db4f1e39bf7f286fe",
+    "benefits": [
+      "Inbuilt DC Reactor",
+      "Inbuilt EMC filter",
+      "Busbar plating to avoid chemical gas corrosion",
+      "Robust galvanic isolation",
+      "Inbuilt detachable LCD Display",
+      "Control of Permanent Magnet Synchronous Motors",
+      "Built in PID with 4 preset PID references, Wake up & sleep mode, PID predictive speed",
+      "Booster Pump Control",
+      "Stall prevention",
+      "Skip frequency",
+      "Catch on the fly ( speed search / flying start )",
+      "Fault inhibition ( Fire mode )",
+      "Cooling Fan Control",
+      "Catch on the fly (Flying Start)",
+      "Error detect disabling (Fire Mode)",
+      "Master-Slave Pump control"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "ac-drive-xd3000",
+    "name": "xD3000",
+    "category": "AC Drive",
+    "overview": [
+      "The xD3000 Drive is a versatile and high-performance variable frequency drive designed for a wide range of OEM applications. With its compact design and robust features, the xD3000 offers seamless integration into various industrial environments. It supports advanced motor control algorithms and includes built-in connectivity options, allowing for easy integration with automation systems. While, xD3000 is engineered for energy efficiency, safety of machines, it also help businesses to reduce operational costs & maintaining optimal performance. Its user-friendly interface ensures quick setup and ease of use, making it an excellent choice for both new installations and retrofits."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb8e6732731454175880cb85640f646a6?format=webp",
+    "benefits": [
+      "Control of Permanent Magnet Synchronous Motors",
+      "Motor surge limit function for Old, Poor quality, Rewound Motors",
+      "Delinearization for Analog Inputs",
+      "High frequency range up to 599Hz for high-speed motors",
+      "Reference Addition, Subtraction & Multiplication",
+      "Hoisting - External Brake Control, Load (External Weight) Measurement, High-speed Hoisting, Rope Slack",
+      "Motor / Generator Torque Limit",
+      "Load sharing",
+      "Line Contactor Control",
+      "Output Contactor Control",
+      "Positioning by Limit Switches or Sensors",
+      "Traverse control",
+      "Motor Thermal Protection through PTC Probes",
+      "Kinetic Energy Buffering (KEB)",
+      "Parameter switching (up to 15 Nos & 3 sets)"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "ac-drive-xd4000",
+    "name": "xD4000",
+    "category": "AC Drive",
+    "overview": [
+      "The xD4000 Drive is a highly advanced variable frequency drive designed for demanding applications in industries such as manufacturing, water treatment, and process automation. Featuring a powerful control algorithm, the xD4000 provides precise motor control and exceptional performance, ensuring optimal operation across various load conditions. Its extensive connectivity options enable easy integration with existing automation systems, while built-in energy-saving features help reduce operational costs. The xD4000 also boasts a user-friendly interface for quick setup and intuitive operation, making it an excellent choice for enhancing efficiency and productivity in any industrial environment."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fe670ab8eb01549e5b90f2a4ca03ec26b?format=webp",
+    "benefits": [
+      "Inbuilt EMC Filter C2 & C3",
+      "Inbuilt DC Reactor entire range",
+      "Inbuilt braking transistor upto 160kW HD",
+      "Interactive & easy to use Graphical LCD keypad with help menu, battery for RTC & QR code for troubleshooting",
+      "Abundant multifunctional IOs for field interface",
+      "Sucker rod function",
+      "Backspin sequence for PCP",
+      "Load sharing (Speed & Torque)",
+      "Backlash compensation",
+      "Built in PID with 4 preset PID references, Wake up & sleep mode, Sleep Boost, PID predictive speed",
+      "Torque boost",
+      "Configure multiple functions on one input at a same time",
+      "Main Contactor Control",
+      "Output Contactor Control",
+      "Slip compensation",
+      "Acceleration profiles : Linear, S curve, U curve, Customised S curve",
+      "16 preset speeds",
+      "Automatic restart",
+      "Cooling fan control",
+      "Fast stop ramp divider",
+      "Delinearization for Analog Inputs",
+      "Reference Addition, Subtraction & Multiplication",
+      "IGBT Test - On power up & before RUN command",
+      "Sleep/Wake-Up in Speed Control Mode",
+      "Stall prevention :",
+      "Deceleration ramp time adaptation",
+      "Current limit during running",
+      "Skip frequency",
+      "Catch on the fly ( Speed search / flying start )",
+      "Fault inhibition ( Fire mode )",
+      "DC braking ( During stopping )",
+      "Error detect disabling (Fire Mode)",
+      "Last 15 fault retention"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "ac-drive-sx2000",
+    "name": "Sx2000",
+    "category": "AC Drive",
+    "overview": [
+      "The Sx2000 drives offer a reliable solution for various industrial applications. With advanced control features and robust design, these drives provide efficient and precise motor control. They are engineered to deliver consistent performance in diverse operating conditions, making them a trusted choice for high-quality motor control solutions.",
+      "Further enhancing their appeal, the Sx2000 drives are designed for easy integration into existing systems, offering scalable options to meet the specific needs of any application. They support a wide range of motor types, including AC induction motors, ensuring flexibility in deployment. This adaptability, combined with their user-friendly interface, simplifies setup and maintenance, helping to reduce downtime and operational costs."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F249a97326dec4e199ee3b23d8e222d41?format=webp",
+    "benefits": [
+      "The integrated EMC filter minimizes electromagnetic interference, ensuring smoother operation.",
+      "The built-in DC reactor enhances energy efficiency and reduces harmonic distortion.",
+      "Output voltage control allows for precise adjustments to meet specific application requirements.",
+      "The KEB and Flying Start feature facilitates smooth restarts under dynamic loads without the need to reset.",
+      "Programmable user sequences enable customisable control for specific sequences and operations.",
+      "The multi-keypad interface offers user-friendly access for adjustments and monitoring."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Integrated EMC Filter",
+        "text": "Minimizes electromagnetic interference, ensuring smoother operation."
+      },
+      {
+        "title": "Built-in DC Reactor",
+        "text": "Improves energy efficiency and reduces harmonic distortion."
+      },
+      {
+        "title": "Output Voltage Control",
+        "text": "Allows precise adjustments to meet specific application requirements."
+      },
+      {
+        "title": "KEB (Kinetic Energy Buffering) & Flying Start",
+        "text": "Facilitates smooth restarts under dynamic loads without resetting."
+      },
+      {
+        "title": "Programmable User Sequences",
+        "text": "Customisable control for specific sequences and operations."
+      },
+      {
+        "title": "Multi-Keypad Interface",
+        "text": "Offers user-friendly access for adjustments and monitoring."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "ac-drive-fx2000",
+    "name": "Fx2000",
+    "category": "AC Drive",
+    "overview": [
+      "The Fx2000 drives are renowned for their robust construction and seamless functionality, establishing them as a top choice for industrial motor control applications. Engineered to deliver exceptional performance, these drives combine energy efficiency with reliable operation, meeting the varied demands of different industries. Their user-friendly features and advanced control capabilities make the Fx2000 drives an effective solution for boosting productivity and optimising processes.",
+      "LK's Fx2000 drives are distinguished by their ability to provide efficient and customised motor control solutions, making them a reliable option for businesses aiming to enhance operational efficiency. With a focus on durability and adaptability, these drives support a range of industrial activities, ensuring that they not only meet but exceed the expectations of users in terms of performance and ease of use."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff9ec2d7ad07845f684c56e057c3fe390?format=webp",
+    "benefits": [
+      "Brake control manages braking mechanisms efficiently, ensuring quick and safe stops that enhance operational safety and reduce wear on the system.",
+      "Kinetic energy buffering captures and reuses energy, which enhances overall efficiency during dynamic operations and reduces power consumption.",
+      "Output voltage control allows for precise voltage adjustments, optimising motor performance and ensuring optimal energy use.",
+      "The regeneration evasion function for press applications prevents energy backflow, improving both safety and equipment longevity in demanding industrial settings."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Brake Control",
+        "text": "Manages braking mechanisms efficiently to ensure quick and safe stops."
+      },
+      {
+        "title": "Kinetic Energy Buffering (KEB)",
+        "text": "Captures and reuses energy, enhancing efficiency during dynamic operations."
+      },
+      {
+        "title": "Output Voltage Control",
+        "text": "Provides precise voltage adjustments to optimize motor performance."
+      },
+      {
+        "title": "Regeneration Evasion Function for Press",
+        "text": "Prevents energy backflow in press applications, improving safety and equipment longevity."
+      },
+      {
+        "title": "Droop Control",
+        "text": "Automatic Torque Balance - Automatically adjusts torque to maintain consistent performance across multiple motors."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "ac-drive-hx2000",
+    "name": "Hx2000",
+    "category": "AC Drive",
+    "overview": [
+      "Engineered to deliver exceptional precision and control, the Hx2000 AC drives enhance motor efficiency and productivity in a variety of HVAC applications. Featuring advanced technologies such as vector control and adaptive algorithms, these drives optimise motor performance, significantly reducing energy consumption. This makes them an ideal choice for industries aiming to streamline operations and cut costs, while maintaining high performance standards.",
+      "The Hx2000 AC drives combine excellence and reliability, offering a robust solution suited to demanding industrial environments. They ensure smooth and consistent operation, day in and day out, providing businesses with the confidence that their motor-driven systems will perform reliably under various conditions. This reliability, coupled with enhanced efficiency, positions the Hx2000 drives as essential tools for improving operational effectiveness and sustainability."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F1407e9e6616848c2812053f3e4962204?format=webp",
+    "benefits": [
+      "Sub TitleThe pre-defined MACRO feature simplifies the initial setup process, enabling quick and efficient configuration tailored to specific applications, which accelerates deployment and reduces downtime.",
+      "Integrated EMC filtering enhances operational stability by reducing electromagnetic interference, ensuring compliance with international standards and protecting other sensitive electronics from disruptions.",
+      "Time Event Scheduling, alongside the Real Time Clock, automates operations based on precise timing, which optimises processes and improves overall system efficiency without manual intervention.",
+      "Multi Motor Control and the capability to operate a second motor from a single drive provide substantial cost savings and system simplification, allowing for streamlined management of multiple motor setups."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Pre-defined MACRO",
+        "text": "Allows quick configuration for common applications, simplifying setup and reducing start-up times."
+      },
+      {
+        "title": "Integrated EMC Filter",
+        "text": "Minimizes electromagnetic interference, ensuring stable operation and compliance with regulatory standards."
+      },
+      {
+        "title": "Time Event Scheduling (Real Time Clock)",
+        "text": "Enables programming of operations based on real-time, enhancing automation and efficiency."
+      },
+      {
+        "title": "2nd Motor Operation",
+        "text": "Supports control of a secondary motor, providing flexibility and cost savings in dual motor applications."
+      },
+      {
+        "title": "Multi Motor Control (MMC)",
+        "text": "Facilitates control over multiple motors from a single drive, optimizing space and reducing equipment costs."
+      },
+      {
+        "title": "4 Process PIDs (1 Main + 3 EPIDs)",
+        "text": "Offers precise control over various process variables, improving system responsiveness and stability."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "ac-drive-nx2000",
+    "name": "NX2000",
+    "category": "AC Drive",
+    "overview": [
+      "SuThe Nx2000 AC drives represent a transformative advancement in industrial automation technology. Engineered to deliver unmatched performance and versatility, these drives are ideal for controlling electric motors across a wide range of industrial applications. With a focus on precision and reliability, the Nx2000 drives incorporate advanced features such as precise speed control, adaptive algorithms, and comprehensive protection mechanisms. These capabilities ensure optimal efficiency and enhanced safety during operation, making them a critical component in modern industrial setups.",
+      "LK's longstanding expertise and commitment to quality are evident in the design and functionality of the Nx2000 AC drives. These drives empower industries to achieve new heights in productivity, efficiency, and operational excellence. Whether used in manufacturing, processing, or other demanding environments, the Nx2000 drives offer a robust solution that significantly improves system performance while maintaining high standards of energy efficiency and reliability."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fd830ce5dfaec4d22adcd45cbe2a46c78?format=webp",
+    "benefits": [
+      "DIN rail mounting available up to 2.2kW provides a flexible and space-efficient installation option, simplifying setup in various industrial environments.",
+      "The integrated EMC filter reduces electromagnetic interference, ensuring stable and reliable operation of the drive under all conditions.",
+      "Side by side installation allows for compact use of space, enabling the placement of multiple drives close together without risk of overheating.",
+      "The remote expansion keypad enables convenient operation from a distance, improving accessibility and user comfort in managing drive settings and monitoring performance."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "DIN Rail Mounting",
+        "text": "Available up to 2.2kW, offering a flexible and space-efficient installation option that simplifies setup in industrial environments."
+      },
+      {
+        "title": "Integrated EMC Filter",
+        "text": "Enhances performance by reducing electromagnetic interference, ensuring stable and reliable drive operation."
+      },
+      {
+        "title": "Side by Side Installation",
+        "text": "Allows for compact and efficient use of space, enabling multiple drives to be installed closely without overheating concerns."
+      },
+      {
+        "title": "Remote Expansion Keypad",
+        "text": "Provides the convenience of remote operation, allowing for adjustments and monitoring from a distance, enhancing usability and accessibility."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "nx2000-plus",
+    "name": "Nx2000+",
+    "category": "AC Drive",
+    "overview": [
+      "Building on the success of its predecessor, the Nx2000+ drives represent a significant leap forward in motor control and power management. These drives feature advanced sensorless vector control and intuitive user interfaces, providing unparalleled precision, reliability, and efficiency in regulating electric motors across a broad spectrum of industrial applications. Enhanced features allow for meticulous power adjustments, ensuring optimal motor performance with minimal energy waste.",
+      "LK's longstanding commitment to innovation is evident in the design and capabilities of the Nx2000+ AC drives. With decades of expertise behind them, these drives empower industries to reach peak performance levels, optimise energy usage, and contribute to a sustainable future. The combination of cutting-edge technology and user-focused design makes the Nx2000+ a key tool for industries aiming to enhance their operational efficiency and environmental stewardship."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fd92ac0e7f10a4d28a18b7663fc7e3d25?format=webp",
+    "benefits": [
+      "DIN rail mounting available up to 4kW provides flexible and space-efficient installation options that simplify integration into a variety of settings.",
+      "The two relay outputs offer increased control flexibility, allowing for more complex operations and automation setups.",
+      "The dual port Ethernet option enhances network connectivity, enabling seamless integration and communication between devices.",
+      "The remote expansion keypad allows for convenient operation and system adjustments from a distance, improving accessibility and user comfort.",
+      "The integrated EMC filter minimises electromagnetic interference, ensuring stable and reliable operation across a range of industrial environments."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "DIN Rail Mounting",
+        "text": "Available up to 4kW, allowing for versatile and space-efficient installation options."
+      },
+      {
+        "title": "2 Relay Outputs",
+        "text": "Provides dual output options for increased control flexibility."
+      },
+      {
+        "title": "Dual Port Ethernet Option",
+        "text": "Offers enhanced connectivity options for network integration and communication."
+      },
+      {
+        "title": "Remote Expansion Keypad",
+        "text": "Facilitates remote operation and management, enhancing user convenience."
+      },
+      {
+        "title": "Integrated EMC Filter",
+        "text": "Reduces electromagnetic interference, ensuring stable and reliable drive performance."
+      },
+      {
+        "title": "Easy Parameter Setup",
+        "text": "Simplifies configuration, making initial setup and adjustments more user-friendly."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "soft-starter-xs1000",
+    "name": "xS1000",
+    "category": "Soft Starters",
+    "overview": [
+      "The xS1000 Soft Starter is a solution for the controlled starting and stopping of induction motors. The xS1000 Soft Starter offers seamless integration, advanced motor protection features, and a user-friendly interface for easy operation. With its compact design and comprehensive functionality, the xS1000 Soft Starter is well-suited for diverse industrial applications, providing reliable and energy-efficient motor control. Its robust construction and advanced features make it a top choice for optimizing motor performance and enhancing operational efficiency."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fbab606a125314c1a82381966aaf227c8?format=webp",
+    "features": [
+      {
+        "title": "Compact design, small footprint",
+        "text": ""
+      },
+      {
+        "title": "Built-in bypass contactor",
+        "text": ""
+      },
+      {
+        "title": "Easy installation and operation",
+        "text": ""
+      },
+      {
+        "title": "Complements existing motor protection",
+        "text": ""
+      },
+      {
+        "title": "Supply Fault Protection",
+        "text": ""
+      },
+      {
+        "title": "Shorted SCR Protection",
+        "text": ""
+      },
+      {
+        "title": "Communication options",
+        "text": "Modbus RTU, DeviceNet, Profibus, Modbus TCP, Ethernet IP, Profinet"
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "soft-starter-xs2000",
+    "name": "xS2000",
+    "category": "Soft Starters",
+    "overview": [
+      "The xS2000 Soft Starter engineered to ensure smooth and efficient motor control while mitigating issues associated with direct-on-line starting, such as high inrush currents and mechanical stress. The xS2000 Soft Starter features advanced motor protection, integrated bypass, and a user-friendly interface, offering seamless integration and easy operation. Its compact design and comprehensive functionality make it suitable for a wide array of industrial applications, delivering reliable and energy-efficient motor control. With its robust construction and advanced features, the xS2000 Soft Starter stands as a top choice for optimizing motor performance and ensuring operational excellence."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F274c96554dae431b93a1c2bc424fca37?format=webp",
+    "features": [
+      {
+        "title": "Compact design, small footprint",
+        "text": ""
+      },
+      {
+        "title": "Built-in bypass contactor",
+        "text": ""
+      },
+      {
+        "title": "Easy installation and operation",
+        "text": ""
+      },
+      {
+        "title": "Complements existing motor protection",
+        "text": ""
+      },
+      {
+        "title": "Communication options",
+        "text": "Modbus RTU, DeviceNet, Profibus, Modbus TCP, Ethernet IP, Profinet"
+      },
+      {
+        "title": "Various Protections",
+        "text": "Instantaneous over current, Bypass overload, Motor Overload, Current Imbalance, Excess Start Time, Supply Fault, Shorted SCR"
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "soft-starter-xs3000",
+    "name": "xS3000",
+    "category": "Soft Starters",
+    "overview": [
+      "The LK-EA xS3000 Soft Starter is a cutting-edge solution designed to efficiently control the Starting & Stopping of three-phase induction motors, providing seamless and reliable operation while minimizing mechanical stress and power distribution issues. With its advanced motor protection features and intelligent control algorithms, the xS3000 ensures smooth and controlled motor starting and stopping, contributing to enhanced system longevity and reduced maintenance costs. Equipped with a user-friendly interface and comprehensive monitoring capabilities, this soft starter is an ideal choice for applications across various industries, offering optimal performance and energy efficiency."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F0a50620cb0604aec88f441d6015d6a5f?format=webp",
+    "features": [
+      {
+        "title": "Built-in bypass contractor",
+        "text": ""
+      },
+      {
+        "title": "Versatile starting & stopping methods",
+        "text": ""
+      },
+      {
+        "title": "Screw-less design for easy and fast servicing",
+        "text": ""
+      },
+      {
+        "title": "USB port for easy and fast commissioning and data extraction",
+        "text": ""
+      },
+      {
+        "title": "Full graphical display with multi-languages support",
+        "text": ""
+      },
+      {
+        "title": "Real time graphs of motor operating performance",
+        "text": ""
+      },
+      {
+        "title": "384 event logs",
+        "text": ""
+      },
+      {
+        "title": "Advanced protection system",
+        "text": ""
+      },
+      {
+        "title": "Communication options available",
+        "text": ""
+      },
+      {
+        "title": "Smart card for level-controlled pump activation and pump protection",
+        "text": ""
+      },
+      {
+        "title": "Starts per hour counter",
+        "text": ""
+      },
+      {
+        "title": "Fire mode function available",
+        "text": ""
+      },
+      {
+        "title": "Power through function available",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "soft-starter-xs4000",
+    "name": "xS4000",
+    "category": "Soft Starters",
+    "overview": [
+      "The xS4000 Soft Starter is designed to provide seamless and efficient control for induction motors. It offers advanced features such as integrated bypass, built-in motor protection, and a user-friendly interface, making it suitable for a wide range of industrial applications. The xS4000 Soft Starter also incorporates advanced communication options, energy optimization capabilities, and robust construction, ensuring reliable and smooth motor operations while minimizing wear and tear. With its comprehensive set of features, the xS4000 Soft Starter stands as a top choice for optimizing motor performance and ensuring operational excellence."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fa56bcbd2baf64e8c80a807901c46b86c?format=webp",
+    "features": [
+      {
+        "title": "Built-in bypass contractor",
+        "text": ""
+      },
+      {
+        "title": "Versatile starting & stopping methods",
+        "text": ""
+      },
+      {
+        "title": "Screw-less design for easy and fast servicing",
+        "text": ""
+      },
+      {
+        "title": "USB port for easy and fast commissioning and data extraction",
+        "text": ""
+      },
+      {
+        "title": "Full graphical display with multi-languages support",
+        "text": ""
+      },
+      {
+        "title": "Real time graphs of motor operating performance",
+        "text": ""
+      },
+      {
+        "title": "384 event logs",
+        "text": ""
+      },
+      {
+        "title": "Advanced protection system",
+        "text": ""
+      },
+      {
+        "title": "Communication options available",
+        "text": ""
+      },
+      {
+        "title": "Smart card for level-controlled pump activation and pump protection",
+        "text": ""
+      },
+      {
+        "title": "Starts per hour counter",
+        "text": ""
+      },
+      {
+        "title": "Fire mode function available",
+        "text": ""
+      },
+      {
+        "title": "Power through function available",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "plc-xp1000",
+    "name": "xP1000",
+    "category": "Programmable Logic Controller - PLC",
+    "overview": [
+      "Welcome to Our xP Series all PLC Range. Discover the power and versatility of our xP Series PLC range, designed to meet the automation needs of modern industries. Our compact and efficient PLCs offer robust performance, easy integration, and exceptional reliability, making them the perfect choice for a wide variety of applications."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff67ea33881ce48de80fdd77b5a75f680?format=webp",
+    "benefits": [
+      "Compact Design: Ideal for space-constrained environments without compromising on functionality.",
+      "High Performance: Fast processing speeds and advanced control capabilities ensure optimal operation.",
+      "User-Friendly Interface: Simplified programming and configuration for quick and easy setup.",
+      "Scalability: Easily expandable to accommodate growing automation requirements.",
+      "Durability: Built to withstand harsh industrial conditions, ensuring long-term reliability."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "plc-xp3000-xp5000",
+    "name": "xP3000 and xP5000",
+    "category": "Programmable Logic Controller - PLC",
+    "overview": [
+      "Welcome to Our xP Series all PLC Range",
+      "Discover the power and versatility of our xP Series PLC range, designed to meet the automation needs of modern industries. Our compact and efficient PLCs offer robust performance, easy integration, and exceptional reliability, making them the perfect choice for a wide variety of applications.",
+      "Key Features:",
+      "Compact Design: Ideal for space-constrained environments without compromising on functionality. High Performance: Fast processing speeds and advanced control capabilities ensure optimal operation. User-Friendly Interface: Simplified programming and configuration for quick and easy setup. Scalability: Easily expandable to accommodate growing automation requirements. Durability: Built to withstand harsh industrial conditions, ensuring long-term reliability. Whether you're looking to automate a small machine or mid performance automation task our xP Series PLC range provides the flexibility and control you need to enhance productivity and efficiency. Explore our products today and take the first step towards smarter automation."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F61b20a4f35004b59a7bbbce8ebb6ae4e?format=webp"
+  },
+  {
+    "slug": "hmi-xt1000",
+    "name": "XT1000",
+    "category": "Human-Machine Interface - HMI",
+    "overview": [
+      "The XT series HMIs (Human Machine Interfaces) is a cutting-edge solution designed to enhance the visualisation and control of machines and industrial processes within a plant. Integrating the latest hardware and software technologies, these HMIs come equipped with user-friendly software featuring pre-built graphics, industry symbols, and programming blocks. This enables users to create intuitive graphical interfaces swiftly and efficiently for various demanding applications, including machine, factory, process, and building/home automation."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F4539bc85317e4098bc22d6c5a7123236?format=webp",
+    "benefits": [
+      "Increased efficiency by reducing time and effort required to develop HMI applications.",
+      "Seamless integration with existing systems and devices due to extensive connectivity options.",
+      "Enhanced automation capabilities through advanced features like datalogging and custom scripting."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "User-Friendly Software",
+        "text": "The XT series HMIs come with software that includes ready-to-use graphics, industry symbols, and programming blocks."
+      },
+      {
+        "title": "Enhanced Connectivity",
+        "text": "Equipped with onboard Ethernet ports, serial ports, and SD card slots, the XT series ensures robust connectivity with a wide range of peripheral devices and supports multiple open protocols for seamless communication with various PLCs."
+      },
+      {
+        "title": "Advanced Functionality",
+        "text": "The XT series HMIs provide a host of innovative features such as alarms, scheduler, recipe management, offline simulator, memo pad, datalogging, and custom scripting, catering to complex factory automation needs."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "hmi-xte6000-xts6000",
+    "name": "xTE6000 and xTS6000",
+    "category": "Human-Machine Interface - HMI",
+    "overview": [
+      "The XT series HMIs (Human Machine Interfaces) is a cutting-edge solution designed to enhance the visualisation and control of machines and industrial processes within a plant. Integrating the latest hardware and software technologies, these HMIs come equipped with user-friendly software featuring pre-built graphics, industry symbols, and programming blocks. This enables users to create intuitive graphical interfaces swiftly and efficiently for various demanding applications, including machine, factory, process, and building/home automation."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7f0ddd2a29a341a891440d24c3fdf51c?format=webp",
+    "benefits": [
+      "Increased efficiency by reducing time and effort required to develop HMI applications.",
+      "Seamless integration with existing systems and devices due to extensive connectivity options.",
+      "Enhanced automation capabilities through advanced features like datalogging and custom scripting."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "User-Friendly Software",
+        "text": "The XT series HMIs come with software that includes ready-to-use graphics, industry symbols, and programming blocks."
+      },
+      {
+        "title": "Enhanced Connectivity",
+        "text": "Equipped with onboard Ethernet ports, serial ports, and SD card slots, the XT series ensures robust connectivity with a wide range of peripheral devices and supports multiple open protocols for seamless communication with various PLCs."
+      },
+      {
+        "title": "Advanced Functionality",
+        "text": "The XT series HMIs provide a host of innovative features such as alarms, scheduler, recipe management, offline simulator, memo pad, datalogging, and custom scripting, catering to complex factory automation needs."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "servo-m5",
+    "name": "M5",
+    "category": "Servo",
+    "overview": [
+      "The M5 Series Servo System by Lauritz Knudsen Electrical and Automation offers high-speed, high-precision control through pulse/analog or EtherCAT network options. With IP65 protection and optional features like oil seals and brakes, it ensures robust performance. Embedded position controls with up to 64 index tables provide versatile positioning options, while the built-in EtherCAT Interface enables 100BASE-TX Ethernet communication with real-time capabilities and precise synchronisation. Additional features include Modbus RTU Protocol for parameter management and intelligent controls such as notch filters for resonance suppression and FFT function for frequency analysis. Easy to configure and use, the system includes a PC tool for setup and tuning, automatic inertia estimation for simplified gain tuning, and a rotary switch for drive node address configuration. CE certified, the M5 Series meets international safety standards."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc572898d7e274e35a43ef5b8003baea9?format=webp",
+    "benefits": [
+      "High-speed, high-precision control improves machine performance and efficiency.",
+      "Multiple control options and robust protection features suit various industrial environments. Real-time frequency analysis boosts reliability.",
+      "PC tool for easy configuration, tuning, and debugging simplifies setup.",
+      "Automatic inertia estimation and rotary switch for address configuration enhance usability.",
+      "Advanced filters for resonance suppression and vibration control ensure optimal operation."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Control Options",
+        "text": "Supports pulse/analog or network (EtherCAT) control."
+      },
+      {
+        "title": "Protection and Options",
+        "text": "Conformal coating, IP65 rating, with optional oil seal, brake, and STO mode (in network type only)."
+      },
+      {
+        "title": "Embedded Position Controls",
+        "text": "Up to 64 index tables for versatile position control through I/O combination and table configuration."
+      },
+      {
+        "title": "Built-in EtherCAT Interface",
+        "text": "100BASE-TX Ethernet communication with real-time capabilities and precise synchronisation, supporting up to 100m between nodes."
+      },
+      {
+        "title": "High-Speed Position Capture",
+        "text": "Touch Probe1 and Touch Probe2 for accurate position capture."
+      },
+      {
+        "title": "Modbus RTU Protocol",
+        "text": "RS-422 communication for parameter management through HMI."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "gas-filled-capacitors",
+    "name": "Heavy - Gas Filled Capacitors",
+    "category": "Power Quality and Power Factor Correction",
+    "overview": [
+      "Lauritz Knudsen Electrical & Automation's Gas-filled Heavy Duty Plus capacitors come in cylindrical configurations, ranging from 3 to 30 kVAr. With a lifespan of 150,000 hours, these Heavy Duty Plus capacitors offer durability and reliability. After an extensive drying process, they are filled with an inert gas to safeguard against corrosion of internal components. These capacitors boast an impressive inrush withstand of 300 times In and an overload withstand capacity of 1.8 times In. Safety features include an over-pressure disconnector and self-healing mechanisms. Their compact design ensures efficient space utilization"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F059daae1997145b1a9f54d9fc1dbff5e?format=webp",
+    "benefits": [
+      "Available in 440V, 480V, and 525V variants, these capacitors offer flexibility with voltage options.",
+      "Suitable for heavy industrial applications, these capacitors provide reliable performance even in demanding environments.",
+      "Designed for Indian conditions ensure consistent performance and longevity.",
+      "Compact and space-saving design makes them suitable for installations where space is limited or where maximizing space utilization is important."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Capacitor Technologies",
+        "text": "MPP Type - Utilising Metallised Polypropylene (MPP) technology known for its reliability and low losses."
+      },
+      {
+        "title": "1.8 x In Overcurrent Withstand Capacity",
+        "text": "Capable of handling overcurrents up to 1.8 times the rated current (In) without performance degradation."
+      },
+      {
+        "title": "300 x In Peak Inrush Current Withstand Capacity",
+        "text": "Designed to withstand peak inrush currents up to 300 times the rated current (In) for reliable operation during startup or power surges."
+      },
+      {
+        "title": "Inbuilt Protection Features",
+        "text": "Equipped with Over Pressure Disconnector (OPD), discharge resistors, and IP20 terminals for enhanced safety and reliability."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "ultra-heavy-capacitors",
+    "name": "Ultra Heavy Capacitors",
+    "category": "Power Quality and Power Factor Correction",
+    "overview": [
+      "LTXL Ultra Heavy duty cylindrical capacitors, like their box counterparts, are sturdy & specially designed to work in very heavy duty applications and high harmonics. They have an inrush current withstand capability of 500 times the rated and an overload withstands capacity of 3 times the rated. In modern industries with high harmonics and high switching rates, it can be an effective solution and delivers long life. It has all necessary safety features of standard capacitors like over pressure disconnector and self-healing technology"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff6efe7f803dc41319720a967e198291e",
+    "benefits": [
+      "Capacitor Technologies – MPP type",
+      "3 x In Over current withstand capacity.",
+      "500 x In Peak Inrush current withstand capacity",
+      "Inbuilt protection such as OPD, Discharge Resistor, IP 20 terminal",
+      "Low Operating Losses (0.45 W/kVAr)",
+      "Universal Mounting"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Available in 440 V, 480 V and 525 V.",
+        "text": ""
+      },
+      {
+        "title": "Suitable for Mid & Large scale Heavy Industrial application",
+        "text": ""
+      },
+      {
+        "title": "Designed for Indian tropical conditions temp upto 65 Degree",
+        "text": ""
+      },
+      {
+        "title": "Available in a wide range (5 kVAr to 20 kVAr in Cyl)  to meet demanding requirements",
+        "text": ""
+      },
+      {
+        "title": "Extended Long Life",
+        "text": "3,00,000 hrs"
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "apfc-etasmart",
+    "name": "ETASMART",
+    "category": "APFC Relays",
+    "overview": [
+      "Introducing the etaSMART APFC Controller from Lauritz Knudsen – a smart, user-friendly relay that automatically controls power factor by intelligently managing capacitor switching. Engineered for reliability in diverse electrical systems, it offers effortless installation with auto-programming capabilities, site-selectable CT secondary options (1/5A), and site-selectable 2/4 quadrant operation for industries with or without solar plant."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F968ebaab11c346e3a10e03e7c950cb43?format=webp",
+    "benefits": [
+      "Improved System Efficiency — Optimizes overall power quality, enhances equipment performance, and supports compliance with standards, leading to longer lifespan for motors, transformers, and other loads.",
+      "Easy Installation and Setup — Includes auto-programming (AUTOSET) function, site-selectable CT secondary (1A or 5A), and automatic CT polarity detection/correction, saving time and reducing wiring errors.",
+      "Versatility for Modern Applications — Supports 2-quadrant (conventional) or 4-quadrant operation, ideal for sites with or without solar integration, handling power export scenarios effectively.",
+      "Fast Response Options — Dedicated thyristor-switching models enable zero-crossing switching for rapid correction in dynamic loads, reducing transients compared to contactor-based systems.",
+      "Compact and Reliable Design — 96x96mm flush-mount size, suitable for balanced loads with low fluctuations; available in up to 8 steps for contactor switching."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Available upto 16 steps",
+        "text": ""
+      },
+      {
+        "title": "Space-saving. Compact size of 96 x 96 mm for controller upto 8 steps",
+        "text": ""
+      },
+      {
+        "title": "Site Programmable CT Secondary 1A/5A",
+        "text": ""
+      },
+      {
+        "title": "Automatic detection of CT polarity saves time and effort.",
+        "text": ""
+      },
+      {
+        "title": "etaSMART detects the CT reversal and automatically corrects it",
+        "text": ""
+      },
+      {
+        "title": "Site selectable 2 or 4 quadrant operation for industries with or without Solar plants",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "dpm-mfm",
+    "name": "MFM",
+    "category": "Digital Panel Meters",
+    "overview": [
+      "Experience the ultimate in monitoring with our Multifunction Meters, delivering essential parameters and advanced load monitoring expertise. Featuring Total Harmonic Distortion (THD) measurement for Voltage and Current, these meters ensure precise power quality analysis. The addition of Maximum Demand measurement with Real-Time Clock elevates their capabilities, offering precise insights into energy consumption patterns. Moreover, the meters showcase phase-wise Voltage and Current waveforms on an LCD for real-time critical data visualization. Tailor your display with the \"My Favourite\" screen option, and benefit from independently programmable Analog output for versatile configurations. It's the epitome of monitoring convenience and accuracy."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F651375d1b2ac4009a7429e6a4852923f",
+    "benefits": [
+      "Offers precise measurement of various electrical parameters, ensuring reliable data for monitoring and control.",
+      "Capable of monitoring a wide range of parameters including voltage, current, power, energy, and more, making them suitable for diverse applications.",
+      "Can be seamlessly integrated into existing electrical systems, offering flexibility and convenience."
+    ],
+    "features": [
+      {
+        "title": "Configurable for 3 Phase 4 Wire, 3 Phase 3 Wire, 1 Phase",
+        "text": ""
+      },
+      {
+        "title": "LED & LCD Display options",
+        "text": ""
+      },
+      {
+        "title": "Accurate Measurement as per IEC62053-21 & 22. (Class 1, 0.5, 0.5s, 0.2,0.2s)",
+        "text": ""
+      },
+      {
+        "title": "128 Samples per Cycle",
+        "text": ""
+      },
+      {
+        "title": "Site Selectable Configuration",
+        "text": ""
+      },
+      {
+        "title": "Can be used for LT / HT Connections",
+        "text": ""
+      },
+      {
+        "title": "With & Without Communication",
+        "text": "RS485 or Modbus TCP/IP"
+      },
+      {
+        "title": "AC/DC (Universal) Aux Supply",
+        "text": ""
+      },
+      {
+        "title": "Parameter Auto Scrolling & Freeze Mode",
+        "text": ""
+      },
+      {
+        "title": "Password Protection",
+        "text": ""
+      },
+      {
+        "title": "DIDO/AIAO Option available (in Selected Models)",
+        "text": ""
+      },
+      {
+        "title": "Direct Navigation to Basic, Energy & Power Parameters",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fe6de1c38b3934bdcb1493ed0789c62ad?format=webp?format=webp"
+  },
+  {
+    "slug": "tariff-meter-em101-plus",
+    "name": "EM101+",
+    "category": "Tariff Meter",
+    "overview": [
+      "EM101+ is compact direct connected energy meter used in domestic & commercial application in 1Ph segment. This meter is available in different current range, with no compromise on accuracy of measurement in class 1.0 segment. This is a reliable meter for 1Phase 2Wire operation with vast features set as below"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F256ac12c2a0947c5ad1a35da1e81e1c9?format=webp",
+    "features": [
+      {
+        "title": "Best class of accuracy 1.0 as per IS & IEC standards.",
+        "text": ""
+      },
+      {
+        "title": "Wide range from LT WC, LT CT, HT CT PT",
+        "text": ""
+      },
+      {
+        "title": "Easy to install & commission.",
+        "text": ""
+      },
+      {
+        "title": "Easy to identify display parameters with universal legends & Backlit LCD.",
+        "text": ""
+      },
+      {
+        "title": "Anti Tamper features.",
+        "text": ""
+      },
+      {
+        "title": "Access to display in absence of Power.",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "tariff-meter-er300p",
+    "name": "ER300P",
+    "category": "Tariff Meter",
+    "overview": [
+      "ER300P is comprehensive range of direct connected, CT Operated & CT VT operated tri-vector Meter that integrates several functions and replaces various equipment’s for Metering energy parameters. These meters are suitable for LT & HT applications and come in different class of accuracies. They used for domestic, commercial as well as industrial metering at various voltage levels."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fab2f46b72bda48df8409cb7d4f34e77c?format=webp",
+    "features": [
+      {
+        "title": "Best accuracy class of 1.0, 0.5S, 0.2s as per IS & IEC Standards",
+        "text": ""
+      },
+      {
+        "title": "Wide range from LT WC, LT CT, HT CT PT",
+        "text": ""
+      },
+      {
+        "title": "Easy to install & commission.",
+        "text": ""
+      },
+      {
+        "title": "Easy to identify display parameters with universal legends & Backlit LCD.",
+        "text": ""
+      },
+      {
+        "title": "Anti Tamper features.",
+        "text": ""
+      },
+      {
+        "title": "Access to display in absence of Power.",
+        "text": ""
+      },
+      {
+        "title": "Multi Tariff & Tod facility",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "db-exora-n",
+    "name": "Exora.N",
+    "category": "Distribution Board - DB",
+    "overview": [
+      "At the heart of every reliable electrical system lies a robust distribution network. Our EXORA.N Distribution Boards (DBs) portfolio is engineered to deliver safe, efficient, and scalable power distribution across residential, commercial, and industrial applications.",
+      "Laurits Knudsen’s EXORA.N Distribution Board assortment is wide enough to take care of each and every customer requirement with its standard and customized offering.",
+      "EXORA.N Distribution Boards are a perfect blend of superior aesthetics, contemporary feel and subtle presence that gel harmoniously with your décor"
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/547247152/JJ/WA/AY/5050274/l-t-exora-n-distribution-panel-500x500.jpg"
+  },
+  {
+    "slug": "db-tripper",
+    "name": "Tripper",
+    "category": "Distribution Board - DB",
+    "overview": [
+      "Tripbox NXT combines modern aesthetics with effortless installation and long-lasting performance. Engineered as a next-generation distribution box, it delivers a premium look without compromising on technical excellence.",
+      "Featuring a sleek, anti-dust front door and a seamless over-the-frame design, Tripbox NXT enhances the appearance of contemporary electrical installations while ensuring superior durability and reliable performance for years to come."
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/547247152/JJ/WA/AY/5050274/l-t-exora-n-distribution-panel-500x500.jpg"
+  },
+  {
+    "slug": "mcb-exora",
+    "name": "Exora",
+    "category": "Miniature Circuit Breaker - MCB",
+    "overview": [
+      "At the heart of every reliable electrical system lies a robust distribution network. Our EXORA.N Distribution Boards (DBs) portfolio is engineered to deliver safe, efficient, and scalable power distribution across residential, commercial, and industrial applications.",
+      "Laurits Knudsen’s EXORA.N Distribution Board assortment is wide enough to take care of each and every customer requirement with its standard and customized offering.",
+      "EXORA.N Distribution Boards are a perfect blend of superior aesthetics, contemporary feel and subtle presence that gel harmoniously with your décor"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F21aa99956ae5413fa8f98180fa1b8453?format=webp"
+  },
+  {
+    "slug": "mcb-au",
+    "name": "AU",
+    "category": "Miniature Circuit Breaker - MCB",
+    "overview": [
+      "AU Solutions comprises protection, control, and monitoring devices crafted from accumulated knowledge. From safeguarding against overload and earth leakage to handling lightning and switching surges, this collection exceeds expectations, catering to both current and future needs."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb39a65f34f1f4ac3b603bf019a7fb0c1",
+    "benefits": [
+      "Providing protection against overload and short-circuit faults.",
+      "The AU range of MCBs is designed to offer the lowest watt loss in the industry. This conserves power and helps you save much more than money."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Short-circuit Fault Indication",
+        "text": "This feature promptly alerts users to short-circuit faults, enabling swift identification and response to potential electrical hazards."
+      },
+      {
+        "title": "Lowest Watt Loss",
+        "text": "AU Solutions boasts the lowest watt loss in its category, ensuring optimal energy efficiency and minimal power wastage, resulting in cost savings and environmental benefits."
+      },
+      {
+        "title": "True Position Indication",
+        "text": "With true position indication, users can accurately ascertain the operational status of the device, ensuring correct installation and reliable performance."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mcb-tripper",
+    "name": "Tripper",
+    "category": "Miniature Circuit Breaker - MCB",
+    "overview": [
+      "The Tripper range is a complete package for your home, ensuring that the safety of your loved ones is paramount. Designed to provide comprehensive protection and convenience, the Tripper range integrates advanced technology with user-friendly features to create a secure living environment."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F9c3997a479394dd48e8980d1aae27a75",
+    "benefits": [
+      "The ACCL automatically switches to the generator when the main power fails.",
+      "This ensures uninterrupted power.",
+      "It effectively manages and distributes generator power, minimizing downtime in high-rise apartments and commercial buildings.",
+      "When the main power returns, the ACCL seamlessly switches back.",
+      "This ensures continuous power flow without manual intervention."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Different LED Colours",
+        "text": "The Tripper range includes LED indicators with distinct colours to clearly differentiate between the statuses of Mains ON, Genset ON, and Genset Overload. This visual cue ensures users can quickly and easily identify the current power state."
+      },
+      {
+        "title": "Reset Button",
+        "text": "A convenient reset button is provided to restore the supply to the load after non-essential loads are switched off. This feature allows for quick recovery and minimal disruption."
+      },
+      {
+        "title": "Protection Degree",
+        "text": "IP20: Designed with a protection degree of IP20, the ACCL offers solid protection against finger contact and small objects, ensuring safe and reliable operation within indoor environments."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "rcbo-au",
+    "name": "AU",
+    "category": "Residual Current Operated Circuit Breaker - RCBO",
+    "overview": [
+      "As India's leading manufacturer of low-voltage and medium-voltage switchgear for industries, buildings, homes and agriculture segments; we offer more than expected – meeting your needs of today and tomorrow."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F24578b8ba09b4cd39251860491493720",
+    "benefits": [
+      "The AU range RCBOs provides protection from overload, short-circuit and earth leakage."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Short-circuit Fault Indication",
+        "text": "A feature that promptly alerts users to short-circuit faults within a system, aiding in quick identification and resolution to prevent damage or downtime."
+      },
+      {
+        "title": "Earth Leakage Fault Indication",
+        "text": "This feature promptly notifies users of earth leakage faults, which are crucial for safety in electrical systems to prevent electric shocks and fires caused by current leakage to ground."
+      },
+      {
+        "title": "Flexibility in Termination",
+        "text": "Refers to the ability of a system to accommodate various termination methods, allowing users to choose the most suitable option for their specific needs or installation requirements."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "rccb-exora",
+    "name": "Exora",
+    "category": "Residual Current Circuit Breaker - RCCB",
+    "overview": [
+      "The AU-R range of RCCBs from Lauritz Knudsen offers unmatched protection against earth leakage faults. Available in 2 Pole & 4 Pole versions with Type AC and Type Adi technologies, the range is engineered for reliability, ease of installation and complete safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F408faf86c50442759c021ada4d8c83a9",
+    "benefits": [
+      "Earth Leakage Fault Indication - Clear yellow-coloured flag for instant visual detection of earth leakage.",
+      "Flexibility in Termination - Bi-connect terminals – accept busbar or cable on both incoming & outgoing sides.",
+      "Line-Load Reversibility - Supply or load can be terminated on either side.",
+      "RCCB Removability with Busbar in Place - Unique DIN clip allows easy removal without disturbing busbar connections."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Connection",
+        "text": "Biconnect on both sides of RCCB -This means the RCCB can be connected from either side, providing installation flexibility."
+      },
+      {
+        "title": "Neutral advance mechanism ensures complete protection",
+        "text": "This feature enhances protection by closely monitoring the neutral wire, ensuring comprehensive safety."
+      },
+      {
+        "title": "Provision for Padlock",
+        "text": "Lockable in ON or OFF position."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "accl-au",
+    "name": "AU",
+    "category": "1Phase & 3Phase Automatic Changeover with Current Limiter - ACCL",
+    "overview": [
+      "Lauritz Knudsen Electrical and Automation stands as India's foremost producer of low and medium-voltage switchgear for industrial, commercial, residential, and agricultural applications. From the beginning, we have attentively listened to, observed, and understood our customers' requirements. This insight has led to the creation of AU Solutions, a comprehensive range of devices for protection, control, and monitoring. From protection against overload and earth leakage to lightning and switching surges, this range offers more than expected – meeting your needs of today and tomorrow."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F0e208f9ac67941cd931de00a0e0fad28",
+    "benefits": [
+      "Ideal for efficient power distribution in high-rise apartments, townships, and commercial buildings.",
+      "Three pairs of terminals: two for connecting single-phase supplies (main and backup) and one for connecting the single-phase load.",
+      "Switches the load to backup/generator supply when the main/default supply fails.",
+      "Automatically reverts to the default supply upon its resumption for seamless power management."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Distinct LED Colours",
+        "text": "Easily differentiate between Mains ON, Genset ON, and Genset Overload statuses with different LED colours."
+      },
+      {
+        "title": "Reset Button",
+        "text": "Restore the supply to load after non-essential loads are switched off by using the reset button."
+      },
+      {
+        "title": "Protection Degree",
+        "text": "IP20 rating ensures adequate protection."
+      },
+      {
+        "title": "Microcontroller-Based Design",
+        "text": "Reliable sensing and control provided by a microcontroller-based system."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "tripper-accl",
+    "name": "Tripper",
+    "category": "1Ph & 3Ph Automatic Changeover with Current Limiter - ACCL",
+    "overview": [
+      "The Tripper range is a complete package for your home, ensuring that the safety of your loved ones is paramount. Designed to provide comprehensive protection and convenience, the Tripper range integrates advanced technology with user-friendly features to create a secure living environment."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F9c3997a479394dd48e8980d1aae27a75",
+    "benefits": [
+      "The ACCL automatically switches to the generator when the main power fails.",
+      "This ensures uninterrupted power.",
+      "It effectively manages and distributes generator power, minimizing downtime in high-rise apartments and commercial buildings.",
+      "When the main power returns, the ACCL seamlessly switches back.",
+      "This ensures continuous power flow without manual intervention."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Different LED Colours",
+        "text": "The Tripper range includes LED indicators with distinct colours to clearly differentiate between the statuses of Mains ON, Genset ON, and Genset Overload. This visual cue ensures users can quickly and easily identify the current power state."
+      },
+      {
+        "title": "Reset Button",
+        "text": "A convenient reset button is provided to restore the supply to the load after non-essential loads are switched off. This feature allows for quick recovery and minimal disruption."
+      },
+      {
+        "title": "Protection Degree",
+        "text": "IP20: Designed with a protection degree of IP20, the ACCL offers solid protection against finger contact and small objects, ensuring safe and reliable operation within indoor environments."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "spd-au",
+    "name": "AU",
+    "category": "Surge Protective Devices - SPD",
+    "overview": [
+      "AU Solutions is a range of protection, control and monitoring devices born from the learning gained. From protection against overload and earth leakage to lightning and switching surges, this range offers more than expected – meeting your needs of today and tomorrow."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F8a477ab0f79b4a1b8949a6334639389f?format=webp",
+    "benefits": [
+      "SPDs provide protection to electrical/electronic equipment against a brief overvoltage spike or disturbance on a power/signal waveform called a surge.",
+      "The AU Solutions range of SPDs provides protection against lightning and switching surges."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Long-lasting, Easy to Use",
+        "text": "Durable, plug-and-play modules for each phase ensure longevity and simplify usage."
+      },
+      {
+        "title": "Easy Replacement",
+        "text": "Swiftly replaceable individual phase cartridges minimise downtime and maintenance hassle."
+      },
+      {
+        "title": "Remote Signalling",
+        "text": "Remote indication confirms SPD's operational status, ensuring peace of mind from afar."
+      },
+      {
+        "title": "Surge Disconnection Indication",
+        "text": "Instant alerting if the device disconnects due to a surge, prompting timely action."
+      },
+      {
+        "title": "Compact, Space Saving Design",
+        "text": "Space-efficient design accommodates single-phase and three-phase protection in minimal modules, optimizing space utilization."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "modular-changeover-au",
+    "name": "AU",
+    "category": "Modular Change Over",
+    "overview": [
+      "Since the start of our journey, we have listened, observed and experienced our customers' needs. AU Solutions is a range of protection, control and monitoring devices born from the learning gained. From protection against overload and earth leakage to lightning and switching surges, this range offers more than expected – meeting your needs of today and tomorrow."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7585371a461c416ab00c7eb830be7853",
+    "benefits": [
+      "If continuity of power is what you seek for your business, the AU Solutions range of manual Changeover Switches is the answer.",
+      "The Changeover Switches perfectly suit your applications, having a range of up to 63A."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Padlock Provision",
+        "text": "Allows locking the switch in either ON 1 or ON 2 positions for security."
+      },
+      {
+        "title": "True Position Indication",
+        "text": "Knob shows the actual contact position for clarity."
+      },
+      {
+        "title": "3 Positions with Centre Off",
+        "text": "Offers ON 1, OFF, and ON 2 options, with a central off position for versatile control."
+      },
+      {
+        "title": "Utilisation Category AC-22A",
+        "text": "Designed for switching resistive loads and moderate overloads in AC circuits."
+      },
+      {
+        "title": "Compliance",
+        "text": "Meets safety and performance standards: IEC 60947-3 and IS/IEC 60947-3."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "modular-contactor-au",
+    "name": "AU",
+    "category": "Modular Contactor",
+    "overview": [
+      "AU Solutions is a range of protection, control and monitoring devices born from the learning gained. From protection against overload and earth leakage to lightning and switching surges, this range offers more than expected – meeting your needs of today and tomorrow."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F5d901e652ae34762b715d77293ca84ae?format=webp",
+    "benefits": [
+      "Modular contactors provide remote switching and automatic control of electric devices and equipment used in residential and commercial spaces."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compliance with International Standards",
+        "text": "The product meets the requirements set by international standards such as IEC 61095, EN 61095, IEC 60497-4-1, EN 60497-4-1, and IEC 60497-5-1, ensuring quality, safety, and compatibility."
+      },
+      {
+        "title": "Variety of Configurations",
+        "text": "Available in different versions including 1NO, 2NO, 3NO, 4NO, and 2NO+2NC, providing flexibility to suit various application needs."
+      },
+      {
+        "title": "Protection Degree IP20",
+        "text": "Designed with an IP20 protection degree, offering basic protection against solid objects and suitable for indoor use in dry environments."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "isolator-exora",
+    "name": "Exora",
+    "category": "Isolators",
+    "overview": [
+      "Our new range of Modular Devices – EXORA – ensure a safe environment around you. Protection and Control devices offered in this range provide safety at your home and at your workplace. Salient features of this range – Quick Break Mechanism, True Contact Position Indicator, Energy Limitation Class 3 – enhance safety of human lives and precious belongings. Further, Low Watt loss of these products reduces the amount of electricity consumed and results in low electricity expense."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F01008d4f3b5d473ca82a42fd520954d8?format=webp",
+    "benefits": [
+      "The isolator ensures that the circuit is entirely isolated, meaning no current can reach the load side when the isolator is turned OFF. This provides a high level of safety and prevents any unintended electrical flow, even if there is an impulse voltage.",
+      "Isolators are designed to make, carry, and break circuit current, allowing them to handle various electrical states. This versatility makes them essential for managing electrical installations and ensuring safe operation under different conditions."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Connection",
+        "text": "Biconnect on both sides - Allows connections on both sides using standard or flexible wires, enhancing installation flexibility."
+      },
+      {
+        "title": "True contact indication",
+        "text": "Provides a visual indication that confirms proper electrical contact, ensuring safety and reliability."
+      },
+      {
+        "title": "No line load bias gives flexibility for incomer supply termination on either side - The device can have the incoming power supply connected from either side, making installation simpler.",
+        "text": ""
+      },
+      {
+        "title": "Suitable for AC22-A utilization category",
+        "text": "Designed to handle mixed resistive and inductive loads with moderate overloads, ensuring versatile and reliable performance."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
+  },
+  {
+    "slug": "isolator-tripper",
+    "name": "Tripper",
+    "category": "Isolators",
+    "overview": [
+      "The Tripper range isn't just about functionality; it's a testament to a philosophy that prioritizes peace of mind. It's about empowering homeowners to create a living space where they can thrive, knowing that every aspect of their environment has been carefully considered and fortified against potential risks."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F3036d1908ffb4a929453961e30186205?format=webp",
+    "benefits": [
+      "Isolators are used in electrical installations to make, carry and break circuit current. The Isolator ensures that the circuit remains completely isolated i.e. there will be no current at the load side even if the impulse voltage appears when the isolator is OFF."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "True Contact Indication",
+        "text": "This feature ensures reliable confirmation that electrical contacts are securely engaged or connected, essential for safe operation."
+      },
+      {
+        "title": "Breathing Channels",
+        "text": "These channels facilitate airflow within equipment or enclosures, crucial for dissipating heat and maintaining proper ventilation, especially in harsh environments."
+      },
+      {
+        "title": "Closed IP20 Terminals",
+        "text": "Terminals with an IP20 rating are protected against solid objects larger than 12.5mm, and \"closed\" implies they're fully sealed to prevent foreign object ingress."
+      },
+      {
+        "title": "No Load-Line Bias",
+        "text": "This indicates a different biasing method or that biasing isn't necessary for the particular application or component being discussed."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "engem",
+    "name": "enGem",
+    "category": "Modular Switches",
+    "overview": [
+      "A reliable switch that is made for every type of household. The superior quality and looks of enGem switches is sure to earn you compliments from every guest who visits your home."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F3fa398ec69844f319ea1574f4d01c29b?format=webp",
+    "benefits": [
+      "enGem switches come with in-built safety shutters for added safety, and they’re engineered in way to deliver a completely hassle-free user experience."
+    ],
+    "features": [
+      {
+        "title": "Fit it, forget it. That’s what the Engem switches are engineered to deliver",
+        "text": "convenience. Once you install it, you will never have to worry about it as it will last you for 1 lakh switching operations."
+      }
+    ]
+  },
+  {
+    "slug": "entice",
+    "name": "Entice",
+    "category": "Modular Switches",
+    "overview": [
+      "When choices are different, personalities are different, styles are different, then why should the switch be the same. Presenting the all-new shades of switches and cover plates designed for #EveryShadeOfYou. Shade that reflects you."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7bcdde540adf4d6d8814dde9bc1a2ed8?format=webp",
+    "benefits": [
+      "Entice and its vibrant palette is made for every shade of you. Every colour is a character, a trait we saw in you. When it adorns your walls it doesn’t make a style statement, it makes your statement. So go ahead, find a shade that reflects you."
+    ],
+    "features": [
+      {
+        "title": "Get a lifelike experience of our switches by mixing and matching the colours with your wall colour and the general theme of your home.",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "slug": "englaze",
+    "name": "Englaze",
+    "category": "Modular Switches",
+    "overview": [
+      "Flawlessly flat and majestically minimal, englaze would silently",
+      "stay a testament to your taste."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F7bcdde540adf4d6d8814dde9bc1a2ed8?format=webp",
+    "benefits": [
+      "When you have stepped beyond the ordinary,",
+      "every step you take elevates you to the next",
+      "level. Every step is a switch up. Flawlessly",
+      "flat and majestically minimalist, Englaze",
+      "would silently stay a testament to your taste, the life you lived and the world you built",
+      "around you."
+    ],
+    "features": [
+      {
+        "title": "Get a lifelike experience of our switches by mixing and matching the colours with your wall colour and the general theme of your home.",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "slug": "enconnect",
+    "name": "enConnect",
+    "category": "Home Automation",
+    "overview": [
+      "Your home reflects your lifestyle. With enConnect, experience technology and luxury in perfect harmony. It offers smart features like adjusting the lighting to match your mood, automating temperature control for energy savings, and ensuring round-theclock security to elevate your living experience. Crafted for modern thinkers, enConnect is a statement of class and a commitment to a life well-lived."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F986e572ac2c1486abcb13b6a4f12635f?format=webp",
+    "features": [
+      {
+        "title": "Plug, Play, and Automate with enConnect—no complex wiring, effortless connectivity, future-ready technology, and seamless integration with existing setups for easy retrofitting.",
+        "text": ""
+      },
+      {
+        "title": "Touch, App and Voice Command",
+        "text": ""
+      },
+      {
+        "title": "Experience versatile control with enConnect's intuitive app, seamless voice commands with Amazon Alexa and Google Home, and dedicated touch control for effortless smart home management.",
+        "text": ""
+      },
+      {
+        "title": "Data Security",
+        "text": ""
+      },
+      {
+        "title": "enConnect app prioritizes data security with robust encryption protocols, secure authentication methods, and Azure cloud servers to safeguard your personal information and to protect your peace of mind.",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb5c4fe74011c4e2fbca73790fddecce0?format=webp?format=webp"
+  },
+  {
+    "slug": "mk-starter",
+    "name": "MK Starter",
+    "category": "Starter",
+    "overview": [
+      "Lauritz Knudsen Electrical & Automation began its legacy 70 years ago with the introduction of MK Starters, a cornerstone of reliability in motor control technology. To date, the brand has sold over 25 million units, a testament to the enduring trust and satisfaction of its customers. These starters have been designed to meet the demands of both Direct Online (DOL) and Star-Delta applications, ensuring versatility across a wide range of agricultural and industrial uses.",
+      "The MK1 and MK2 series are distinguished by their wide-band coil operation, which enhances performance across varied voltage conditions. This feature, coupled with robust design and advanced protective mechanisms, makes MK Starters a preferred choice for ensuring optimal motor efficiency and longevity in demanding agricultural and industrial environments Available Range:",
+      "MK1 Starters:",
+      "Relay Range: Up to 13-22 A",
+      "MK2 Starters:",
+      "Relay Range: 20-32 A for higher current applications.",
+      "Direct Online (DOL) Starters:",
+      "Available up to 7.5hp.",
+      "Star-Delta Starters:",
+      "Available up to 15hp. (Offered in fully automatic and semi-automatic configurations)"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F791fe58c4e32437a95361f3d231cbbee?format=webp",
+    "benefits": [
+      "Ensures safe operation across various conditions- offers high reliability",
+      "Can handle wide range of voltages from 200-400 V.",
+      "The design ensures reliable performance in adverse conditions such as hot, humid environments and supply voltage unbalance.",
+      "Built-in \"ON & OFF\" indicators provide clear and immediate operational status to users.",
+      "Enhances durability and electrical conductivity for prolonged service life.",
+      "Rugged silver-tipped contacts enhance durability and electrical conductivity for prolonged service life.",
+      "The protective enclosure shields internal components from dust, humidity, and insects, enhancing longevity."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Thermal Overload Protection",
+        "text": "Highly effective and reliable, ensuring safe operation under various conditions."
+      },
+      {
+        "title": "Field Proven Starters",
+        "text": "Demonstrated reliability and effectiveness in real-world applications."
+      },
+      {
+        "title": "Wide Band Coil Operation",
+        "text": "Capable of operating across a voltage range of 200-400 V."
+      },
+      {
+        "title": "Reliable Performance in Adverse Conditions",
+        "text": "Ensures stable operation in hot, humid environments and under conditions of supply voltage unbalance."
+      },
+      {
+        "title": "Built-In “ON & OFF” Indication",
+        "text": "Provides clear status visibility to operators."
+      },
+      {
+        "title": "Protective Enclosure",
+        "text": "Shields internal components from dust, humidity, and insects."
+      },
+      {
+        "title": "Compatibility with Voltage/Current Auto SPPR",
+        "text": "Ensures seamless integration with safety and performance monitoring systems."
+      },
+      {
+        "title": "Connection Capability",
+        "text": "Can be linked to a Dry Run Protection device to prevent operation under unsafe conditions."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mr-gi-controller",
+    "name": "MR-Gi Digital Single Phase Controller",
+    "category": "Controller",
+    "overview": [
+      "The Digital single-phase controller is offered in three distinct variants to cater to a range of needs: MR-Gi, MR-GiA, and MR-GiB. The MR-Gi model is the manual version, designed for users who prefer control over the basic functions of their system. On the other hand, the MR-GiA and MR-GiB are equipped with automatic functionalities, enhancing convenience and efficiency. The MR-GiA variant is particularly advanced, featuring an in-built Water Level Controller (WLC) that automates water management. In contrast, the MR-GiB does not include a WLC, offering a simpler automatic option for users who do not require this feature.",
+      "All variants are equipped with an automatic load setting and a digital display that provides critical real-time data on various operational parameters such as voltage and current. This feature allows for better monitoring and management of the controller's performance, ensuring optimal functionality and helping to prevent issues related to electrical parameters. Whether for residential, commercial, or agricultural use, each controller variant is designed to offer tailored solutions, ensuring users have the right tools for efficient management of their single-phase systems.",
+      "Range Available:",
+      "0.5 HP to 3 HP (Single Phase Applications Only)"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ff476b6ef3ae04c5db4e8286fe64903fd?format=webp",
+    "benefits": [
+      "Manual Mode Benefits:",
+      "Manual mode provides direct control over the system, allowing users to adjust settings based on immediate needs or changes in conditions.",
+      "It enables operators to engage directly with the system, offering opportunities for hands-on troubleshooting and fine-tuning.",
+      "Automatic Mode Benefits:",
+      "Automatic mode simplifies operations by managing routine tasks through pre-set controls, reducing the need for constant human intervention.",
+      "It enhances consistency in operations by maintaining optimal conditions automatically, minimizing the risk of human error.",
+      "Features like the inbuilt Water Level Controller automate water management, ensuring efficient use of resources and prevention of issues such as overflows or dry running.",
+      "Timers and delay functions in automatic mode help maintain a schedule, protect equipment, and conserve energy by running the system only when necessary."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Features",
+        "text": "MR-Gi Manual version"
+      },
+      {
+        "title": "Microcontroller Based Solution",
+        "text": "Ensures precise control and monitoring."
+      },
+      {
+        "title": "Complete Protection",
+        "text": "Guards against dry run, under-voltage, and over-voltage."
+      },
+      {
+        "title": "Current and Voltage Metering",
+        "text": "Allows for detailed monitoring of electrical parameters."
+      },
+      {
+        "title": "Bypass Mode",
+        "text": "Enables manual operation of the system."
+      },
+      {
+        "title": "Off Timer",
+        "text": "Can controls the operational duration."
+      },
+      {
+        "title": "Digital Display",
+        "text": "Provides real-time feedback on system status."
+      },
+      {
+        "title": "Automatic Current Setting",
+        "text": "Adjusts electrical current automatically."
+      },
+      {
+        "title": "Capacitor Cut-off",
+        "text": "Extends the life of capacitors."
+      },
+      {
+        "title": "Water Tank Status Indication",
+        "text": "Indicates water level status to prevent overfill or depletion."
+      },
+      {
+        "title": "Settable Parameters",
+        "text": "Customizable settings for overload, high voltage, under voltage, and dry run thresholds for tailored protection."
+      },
+      {
+        "title": "Features",
+        "text": "MR-GiA Automatic version"
+      },
+      {
+        "title": "All Features of Manual Version",
+        "text": "Includes all functionalities of the basic manual version."
+      },
+      {
+        "title": "Inbuilt Water Level Controller (WLC)",
+        "text": "Automates water level management efficiently."
+      },
+      {
+        "title": "Auto Start Capacitor Switching",
+        "text": "Enhances energy efficiency and operational reliability."
+      },
+      {
+        "title": "WLC Bypass Option",
+        "text": "Allows manual override of the water level controller if necessary."
+      },
+      {
+        "title": "Dual Mode Operation",
+        "text": "Features both automatic and manual modes for flexible usage."
+      },
+      {
+        "title": "Dry Run Auto-Reset Timer",
+        "text": "Automatically resets the system after a dry run detection."
+      },
+      {
+        "title": "Power On Delay",
+        "text": "Prevents surge currents by delaying power up."
+      },
+      {
+        "title": "RTC Based Daily On/Off Timer",
+        "text": "Enables setting daily operational schedules based on real-time clock."
+      },
+      {
+        "title": "Cyclic Timer",
+        "text": "Ensures periodic ON/OFF of the motor based on user setting."
+      },
+      {
+        "title": "Timer Countdown Display",
+        "text": "Shows remaining time on active timers for better monitoring."
+      },
+      {
+        "title": "Timer Compensation",
+        "text": "Compensates for lost operating time in the event of a power outage."
+      },
+      {
+        "title": "* Also available in without WLC version",
+        "text": "MR-GiB"
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mu-gs-smart-controller",
+    "name": "MU-GS SMART Controller",
+    "category": "Controller",
+    "overview": [
+      "The MU-G Smart Controller is a comprehensive solution designed to address the evolving needs of modern farming and water management. This all-in-one digital controller integrates various functionalities to enhance both convenience and efficiency in agricultural operations. It combines the traditional function of a controller with remote switching capabilities similar to M-POWER PRO, enabling effective and convenient control over your pumping systems from a distance.",
+      "The Smart Controller is equipped with short circuit protection features similar to those found in MCBs, and dry run protection feature of i-Protector, ensuring your system operates safely under all conditions. An innovative anti-theft feature also protects the motor, cables, and controller against theft, securing your investment comprehensively. This multifaceted approach not only secures but simplifies the management of water systems, making farming operations more efficient and hassle-free."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc987c784fe7843758661fe71df72e023?format=webp",
+    "benefits": [
+      "The in-built anti-theft protection ensures security by alerting you via mobile about any unauthorized attempt to access your pump, cable, or controller, and remains functional for 48 hours without power.",
+      "Provides Dry Run, Locked Rotor, and Short Circuit protection to safeguard your equipment from potential damage, enhancing its longevity.",
+      "The controller's sophisticated timing controls include hour-based and Real-Time Clock-based timers with time compensation, ensuring accurate scheduling and efficiency even during power outages.",
+      "The cyclic timer can be set with timer compensation to recover lost operational time during power failures, ensuring continuous productivity.",
+      "Extensive metering capabilities provide detailed insights into Line Voltage, Phase Current, Power Factor, Power, Energy, and total run time of your pump, facilitating optimal resource management.",
+      "Remote operation capabilities allow for complete control via SMS, LTLK Connect Mobile App, or IVRS, offering convenience and accessibility."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "In-built Anti-Theft Protection",
+        "text": "Sends emergency alerts to your mobile if there is any attempt to steal your pump, cable, or controller, remaining active for 48 hours even without power."
+      },
+      {
+        "title": "Comprehensive Protection Mechanisms",
+        "text": "Includes Dry Run, Locked Rotor, and Short Circuit protection with an integrated LTLK MCB."
+      },
+      {
+        "title": "Advanced Fault Protection",
+        "text": "Features voltage and current-based protection for all faults with an option to enable or disable individual protections."
+      },
+      {
+        "title": "Sophisticated Timing Controls",
+        "text": "Equipped with hour-based and Real-Time Clock-based timers, featuring time compensation to adjust for power interruptions."
+      },
+      {
+        "title": "Extensive Metering Capabilities",
+        "text": "Provides detailed readings for Line Voltage, Phase Current, Power Factor, Power, Energy, and total runtime of your pump."
+      },
+      {
+        "title": "Remote Operation",
+        "text": "Allows complete control (Remote ON/OFF, parameter setting, monitoring, and troubleshooting) via SMS, LTLK Connect Mobile App, or IVRS."
+      },
+      {
+        "title": "Multilingual Support",
+        "text": "Available in multiple languages including Hindi, Gujarati, Marathi, Tamil, Telugu, Kannada, Malayalam, Bengali, Oriya, Punjabi, and English, allowing individual users to choose their preferred language."
+      },
+      {
+        "title": "Easy Installation",
+        "text": "Comes with factory-fitted wiring and a terminal block; only requires connection to the supply and motor wires."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "solar-drive-controller",
+    "name": "Solar Drive Controller",
+    "category": "Solar Solutions",
+    "overview": [
+      "The Solar Drive Controller (Px3000) offers a robust and intuitive solution tailored to enhance the performance of three-phase submersible and monoblock pump motors across a wide range of applications, including irrigation, water supply, tank filling, and various industrial activities. Featuring advanced true Maximum Power Point Tracking (MPPT) technology, the Px3000 is engineered to optimize the efficiency of solar energy conversion, ensuring that pumps operate at peak performance even under varying solar conditions. Its plug-and-play design simplifies installation, allowing for immediate operation without the need for extensive setup.",
+      "In addition to its powerful MPPT capability, the Px3000 is adept at functioning in less than ideal solar conditions, such as cloudy weather, ensuring that the maximum possible power is extracted from the photovoltaic (PV) panels at all times. This auto-adjustable feature dynamically alters current and voltage parameters to maximize output, enhancing overall energy efficiency. The dual supply capability of the controller allows it to switch seamlessly between solar and grid power, providing cost-effective operation by leveraging solar power during daylight hours. Furthermore, the controller's ability to operate at temperatures up to 50 degrees Celsius without any derating exemplifies its suitability for challenging environments, ensuring reliable performance regardless of external conditions.",
+      "Range Available:",
+      "Available for 5 HP Motors: Suitable for 3 Phase 415V class induction motors. Available for 7.5 HP Motors: Suitable for 3 Phase 415V class induction motors. Available for 10 HP Motors: Suitable for 3 Phase 415V class induction motors."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fa93840f59dc94e33bb08c18fd8a77810?format=webp",
+    "benefits": [
+      "True MPPT technology ensures that you get the most efficient use of solar energy throughout the day, maximising water output and reducing energy waste.",
+      "The controller's ability to automatically start and stop the pump based on sunlight intensity optimises energy use and prolongs the lifespan of the pump.",
+      "Dual energy compatibility provides the flexibility to switch between solar and grid power, ensuring reliable operation regardless of weather conditions and reducing dependency on non-renewable energy sources.",
+      "Reverse polarity protection safeguards the motor from installation errors, enhancing the system's reliability and reducing the risk of damage due to incorrect wiring.",
+      "The plug and play feature eliminates the need for manual parameter configuration, facilitating quick and easy setup that saves time and minimises setup errors.",
+      "A robust design capable of handling high input voltages up to 850V ensures the system can cope with variable solar intensities and maintain stable operation under diverse environmental conditions."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "True MPPT Technology",
+        "text": "Maximizes water output during the day by optimally converting solar energy into usable power."
+      },
+      {
+        "title": "Automatic Operation",
+        "text": "Automatically starts and stops the pump based on the intensity of sunlight, enhancing energy efficiency."
+      },
+      {
+        "title": "Dual Energy Compatibility",
+        "text": "Operates seamlessly using either solar power or grid electricity, offering flexibility in energy sourcing."
+      },
+      {
+        "title": "Reverse Polarity Protection",
+        "text": "Equipped with a feature that allows the motor to run correctly even if the PV wires are connected to opposite polarity terminals, preventing potential damage."
+      },
+      {
+        "title": "Plug & Play Installation",
+        "text": "Simplifies setup with easy installation; automatically detects and sets necessary parameters like Vmp and Voc without manual input."
+      },
+      {
+        "title": "Robust Design",
+        "text": "Capable of handling very high input DC voltages up to 850V, making it suitable for a wide range of solar applications."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "time-switch-fmqt",
+    "name": "FMQT",
+    "category": "Time Switches",
+    "overview": [
+      "An Analog Time Switch uses a mechanical dial to control electrical devices at fixed intervals. It helps optimize energy usage, enhance safety, and reduce manual intervention by turning devices on or off at specific times. It’s perfect for basic automation tasks like turning lights or pumps on and off."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F86c3e373958a47f689f9cc26305408cf?format=webp",
+    "features": [
+      {
+        "title": "Power reserve upto 150 hrs",
+        "text": ""
+      },
+      {
+        "title": "Inbuilt over-ride facility",
+        "text": ""
+      },
+      {
+        "title": "High switching capacity",
+        "text": ""
+      },
+      {
+        "title": "Tamper proof sealing Provision",
+        "text": ""
+      },
+      {
+        "title": "1 set of changeover, 240 V AC, 16 A (resistive)",
+        "text": ""
+      },
+      {
+        "title": "Modular Construction",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "timer-micon-225",
+    "name": "Micon 225",
+    "category": "Timers",
+    "overview": [
+      "The 22.5mm Analog Timer provides robust time control with a slightly wider design for enhanced durability and ease of handling. It features a mechanical dial for straightforward scheduling and is suitable for standard automation tasks in residential, commercial, and industrial setups."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fe23c92e498ea428a867de8e462cb6885?format=webp",
+    "benefits": [
+      "Conveyor belt start/stop sequencing",
+      "Star-delta motor starter transition timing",
+      "Periodic flushing in water treatment plants",
+      "Periodic mixing in food or pharma industries",
+      "Controlling blowers and fans"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compact 22.5 mm wide Base/DIN rail Timer",
+        "text": ""
+      },
+      {
+        "title": "Multi-voltage (24-240 V AC/DC / 240-415V AC), Multi-function & multi-range (0.1 Sec-120 Days) timers",
+        "text": ""
+      },
+      {
+        "title": "Time range",
+        "text": "0.1 sec to 120 days"
+      },
+      {
+        "title": "Flush knobs for better security",
+        "text": ""
+      },
+      {
+        "title": "Finger proof terminals (IP20)",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "voltage-monitoring-relays",
+    "name": "Voltage Monitoring Relays",
+    "category": "Monitoring Devices",
+    "overview": [
+      "A Voltage Monitoring Relay continuously checks the voltage levels in electrical systems to detect overvoltage, undervoltage, or phase failures. It helps protect sensitive equipment by triggering alarms or disconnecting loads when voltage deviates from safe limits, ensuring system stability and safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F2d05cc87af8f4f02997c8db2c72a3ec8?format=webp",
+    "benefits": [
+      "Protection of motors and pumps",
+      "Railways",
+      "EV chargers",
+      "Automation panels",
+      "HVAC Systems",
+      "Industrial control systems",
+      "Power distribution panels",
+      "PCC, MCC panels"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Protects against Phase loss, Phase reversal and Phase",
+        "text": "Phase unbalance, Under voltage, Over voltage, Neutral loss"
+      },
+      {
+        "title": "Compatible with 1 phase, 3 phase 3 wire/4 wire Systems",
+        "text": ""
+      },
+      {
+        "title": "Adjustable trip time delays",
+        "text": ""
+      },
+      {
+        "title": "Indication for relay and power status",
+        "text": ""
+      },
+      {
+        "title": "1 C/O and 2 C/O relay options available",
+        "text": ""
+      },
+      {
+        "title": "Fail safe/ non-fail safe relay operation selectable",
+        "text": ""
+      },
+      {
+        "title": "Enable/Disable feature available for protections",
+        "text": ""
+      },
+      {
+        "title": "DIN rail & base mounting",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "gen-next-pro",
+    "name": "Gen Next Pro 22.5 mm Enquire Now",
+    "category": "Push Buttons & Indicating Lamps",
+    "overview": [
+      "The 22.5mm Indicator is a panel-mounted visual device used to display the operational status of electrical circuits. Its larger size ensures high visibility, making it ideal for industrial control panels. Available in multiple colors, it supports quick status identification and enhances safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Faa5c5a17c6734beb84a51fc6f4f816b0?format=webp",
+    "benefits": [
+      "Power ON/OFF status indication",
+      "Fault or error indication in control panels",
+      "Phase presence or failure indication",
+      "Motor running/stopped status",
+      "Emergency stop status",
+      "Overload or trip condition indication",
+      "Process status (e.g., heating, cooling, mixing)"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Pro LED Indicator best in class with high bright & uniform illumination",
+        "text": ""
+      },
+      {
+        "title": "SMD LED cluster technology",
+        "text": ""
+      },
+      {
+        "title": "Burning hours of greater than 50,000 hours at rated voltage",
+        "text": ""
+      },
+      {
+        "title": "Inbuilt low voltage glow protection at 25% of rated voltage to avoid false indication due to stray voltages.",
+        "text": ""
+      },
+      {
+        "title": "Passes Surge test of 2KV & HV test of 1.5 KV",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "t-era",
+    "name": "T-ERA",
+    "category": "PCC and MCC Panels",
+    "overview": [
+      "T-ERA, a testament to sustainability, reliability, and safety, is crafted with decades of engineering excellence. Its range of low voltage switchgear meets international standards and quality, ensuring the safety of your applications while maximising space efficiency and minimising hazards. T-ERA not only saves you time and energy but also enhances cost optimisation. As the eco-friendly choice across a variety of applications, T-ERA leads the way in responsible technology."
+    ],
+    "benefits": [
+      "T-ERA offers advanced technology today, ensuring adaptability to future needs in safety, sustainability, and digital integration.",
+      "Built with top-notch engineering, T-ERA exceeds safety standards, providing dependable performance for peace of mind.",
+      "T-ERA's compact and efficient design maximises space utilisation without compromising functionality.",
+      "With withdrawable modules and advanced monitoring systems, T-ERA minimises downtime and reduces operational costs."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compact Modular Design",
+        "text": "T-ERA features a Compact Modular Design with fractional width modules, optimising space utilisation for installations with limited space."
+      },
+      {
+        "title": "Patented Double Deck Bus System",
+        "text": "T-ERA utilises a Patented Double Deck Bus System, maximising space efficiency while ensuring top-notch performance."
+      },
+      {
+        "title": "True Closed-Door MCC Construction",
+        "text": "T-ERA's True Closed-Door MCC Construction exceeds IEC safety standards, providing comprehensive protection for all components."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "ti",
+    "name": "Ti",
+    "category": "PCC and MCC Panels",
+    "overview": [
+      "Ti by Lauritz Knudsen Electrical & Automation, a fully type – tested CDV (Complete Design Verified assembly) designed in accordance with the latest IEC 61439 1&2, offering a cutting-edge switchboard solution that embodies legacy of excellence in catering to Indian customers. Ti, Lauritz Knudsen Electrical and automation’s Deming Prize – winning TQM standards, which are evident in every aspect of Ti’s design, manufacture, and quality control. Ti also features state – of – the – art digitalization for remote monitoring and management and employs sustainable materials for environmental care."
+    ],
+    "benefits": [
+      "Internal Arc withstand up to 85 kA for 0.5 sec as per IEC 61641 with active and passive resistance",
+      "QR code, Predictive maintenance, and Smartcomm Digital Architecture. Smart panel compatible with EMS",
+      "APFC & hybrid panels compliant with IEC 61439 & IEC 61921, ROHS compliant"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Feabb6883aeed40dd9c149900b4f840ee?format=webp"
+  },
+  {
+    "slug": "enersys-s",
+    "name": "Enersys S",
+    "category": "Sub-Main Distribution Board - SMDB",
+    "overview": [
+      "Enersys-S Power Distribution board from Lauritz Knudsen Electrical and automation meet the demands of commercial buildings, educational establishments, hospitals, government buildings, manufacturing facilities and other applications that require safe, reliable & high performance protection of their electrical sub-distribution systems",
+      "Enersys-S is a NABL tested Sub-Main Distribution Board used for power distribution. It has MCCB as incoming and outgoing switching-cum-protection devices. compact MCCB design ensures maximum cabling area within the enclosure",
+      "Removable top and bottom glad plates are provided for ease of installation & cabling."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F3f6465be85434bef9e33b89368b54910?format=webp",
+    "benefits": [
+      "Compact solution - Enersys-S saves almost 30% of floor space over conventional panels due to its compact PN system & MCCB's",
+      "Protection from risk of shock - Separate earthing for enclosure ensure operator safety",
+      "Ease of termination - Enersys-S facilitates separate earth and neutral bars on both the sides with the required number of cable termination points",
+      "Off the shelf assembly - Enersys-S is a ready-to-use solution for nay power distribution needs"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compliance with latest standard",
+        "text": "IEC 61439-2"
+      },
+      {
+        "title": "DEKRA and ASTA certified",
+        "text": ""
+      },
+      {
+        "title": "Rating up to 630 A",
+        "text": ""
+      },
+      {
+        "title": "Short-time withstand current",
+        "text": ""
+      },
+      {
+        "title": "250A & 400A SMDB",
+        "text": "36 kA 1s"
+      },
+      {
+        "title": "630A SMDB",
+        "text": "50 kA 1s"
+      },
+      {
+        "title": "Choice in number of outgoing ways",
+        "text": "4, 8, 12 and 16"
+      },
+      {
+        "title": "Ingress protection",
+        "text": "IP 43"
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mo-c",
+    "name": "MO C",
+    "category": "Contactors",
+    "overview": [
+      "MO C Capacitor Duty Contactors are specially designed for capacitor switching applications. As capacitor switching is associated with high inrush current, the contactors are provided with damping resistors which limit the value of inrush current to a safe value. The contactors are used in APFC panels for switching power capacitors depending upon the amount of reactive power compensation required"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F4c35653a09f44f8e8ee28fdda2711e4d?format=webp",
+    "benefits": [
+      "Modular design saving precious panel space, optimising the utilisation of available area in electrical panels.",
+      "De-latching auxiliary contacts for improved switching, enhancing performance and reliability during operations.",
+      "Aesthetics and accessories same as MO Contactors, thus reducing the inventory by maintaining consistency across components.",
+      "Separate termination for damping resistors, ensuring easier installation and maintenance, and improving overall system organisation."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Conforms to IS / IEC 60947-4-1 & IEC 60947-4-1",
+        "text": "Adheres to international standards for low-voltage switchgear and control gear, ensuring reliability and safety in electrical applications."
+      },
+      {
+        "title": "Delatching type early make contacts",
+        "text": "Features advanced delatching contacts that ensure early engagement, reducing electrical arcing and enhancing the longevity and performance of the contactor."
+      },
+      {
+        "title": "Encapsulated damping resistor assembly",
+        "text": "Incorporates a damping resistor assembly within an encapsulated unit, providing effective inrush current limitation and improved safety and durability."
+      },
+      {
+        "title": "Suitable for Lug as well as Lugless termination",
+        "text": "Designed for flexible installation, compatible with both lug and lug less terminations to accommodate different wiring preferences and requirements."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "contactor-mo",
+    "name": "MO",
+    "category": "Contactors",
+    "overview": [
+      "MO Contactors combine distinctive styling and visual appeal with dependable performance. Available in a range from 9A to 300A AC-3/3e, they are ideal for both general and specialised machinery. Their compact design saves panel space, and as RoHS compliant devices, they offer the advantages of being environmentally friendly and sustainable."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F16b384a739bf4f97869d8915beb95634",
+    "benefits": [
+      "Low panel footprint, saving valuable space in the control panel and allowing for more efficient use of available area.",
+      "Common spare parts for the MO family, minimising inventory requirements, reducing the need to stock multiple spare parts, simplifying maintenance, and lowering costs.",
+      "Type-2 chart available for motor applications, providing clear guidelines and ensuring reliable and optimised performance.",
+      "Lug and lugless termination options, offering flexibility in wiring methods and accommodating different installation preferences and requirements.",
+      "Shrouded design ensures user safety by protecting users from accidental contact with live components, enhancing operational safety.",
+      "Cassette type bridge facilitates easy inspection and maintenance, simplifying the process and reducing downtime, improving serviceability."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Conventional/Universal AC/DC Electronic Coil Version (140A-300A)",
+        "text": "MO Contactors feature versatile electronic coils compatible with both AC and DC, ensuring flexibility and reliability in various applications."
+      },
+      {
+        "title": "Box Clamp Termination and Cassette Type Bridge (50A-110A)",
+        "text": "Models ranging from 50A to 110A include box clamp termination and a cassette type bridge, facilitating easy and secure wiring for enhanced safety and installation efficiency."
+      },
+      {
+        "title": "Compact Dimensions and Modular Design",
+        "text": "With compact dimensions, these contactors save valuable panel space. The modular design allows for easy integration and customisation, making them suitable for diverse industrial needs."
+      },
+      {
+        "title": "Shrouded Design and Finger-Proof Termination",
+        "text": "The entire range features a shrouded design and finger-proof termination, ensuring user safety by preventing accidental contact with live parts."
+      },
+      {
+        "title": "Four Terminal Coil",
+        "text": "The four terminal coil provides greater connection flexibility and simplifies wiring, contributing to more efficient installation and maintenance processes."
+      },
+      {
+        "title": "No Derating from 140A Onwards at 690V",
+        "text": "These contactors maintain their full rated current capacity without derating up to 690V from 140A onwards, ensuring reliable performance under high voltage conditions."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "contactor-mcx",
+    "name": "MCX",
+    "category": "Contactors",
+    "overview": [
+      "The MCX range of 4-pole contactors, available from 18A to 900A AC-1, is extensively used with auto source transfer controllers to switch power from the main supply to backup sources such as DG (Diesel Generator) and UPS (Uninterruptible Power Supply)."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F4691e4d76a4f41d4870b9dd66cdc9f91?format=webp",
+    "benefits": [
+      "The accessories are common across the range and compatible with the MNX range, simplifying inventory management and reducing the need to stock multiple types of accessories.",
+      "A detailed selection chart based on the diesel generator (DG) rating is provided, making it straightforward for users to select the appropriate contactor.",
+      "The compact mechanical interlock arrangement for models up to 80A enhances safety by preventing the simultaneous closure of both sets of contacts."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Compliance with IS / IEC 60947-4-1 & IEC 60947-4-1 Standards",
+        "text": "The MCX range of 4-pole contactors meets the stringent requirements of both IS 60947-4-1 and IEC 60947-4-1 standards, ensuring high performance, reliability, and safety in electrical installations."
+      },
+      {
+        "title": "48V DC up to MCX 23",
+        "text": "These contactors can operate efficiently with a control voltage of 48V DC for models up to the MCX 23 series, providing versatility and compatibility with various control systems."
+      },
+      {
+        "title": "2NO 2NC Power Contacts Configuration",
+        "text": "The contactors are available in a configuration of 2 normally open (NO) and 2 normally closed (NC) power contacts, offering flexibility in circuit design and enabling both control and power switching applications."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  }
+]

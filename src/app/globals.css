@@ -1,3 +1,5 @@
+
+
 @import "tailwindcss";
 
 :root {
@@ -12,15 +14,85 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---- Clients marquee ---- */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* ---- Brand theme ---- */
+/* .bg-brand-gradient {
+  background: linear-gradient(90deg, #0b6fb8 0%, #00a99d 100%);
+}
+.bg-brand-gradient-soft {
+  background: linear-gradient(135deg, #bfe3f5 0%, #7fd4cd 100%);
+} */
+
+
+/* ---- Brand theme (original site values) ---- */
+.bg-brand-gradient {
+  background: linear-gradient(90deg, #006db1 0%, #03a099 100%);
+}
+.bg-brand-gradient-soft {
+  background: linear-gradient(270deg, rgba(3, 160, 153, 0.4) 0%, rgba(0, 109, 177, 0.4) 100%);
+}
+
+/* Hero slider arrows */
+.hero-swiper .swiper-button-prev,
+.hero-swiper .swiper-button-next {
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  color: #1e293b;
+}
+.hero-swiper .swiper-button-prev::after,
+.hero-swiper .swiper-button-next::after {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 45s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
 }
