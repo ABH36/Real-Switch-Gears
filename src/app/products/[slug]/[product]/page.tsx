@@ -175,6 +175,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, FileDown } from "lucide-react";
 import { brands, getBrand } from "@/data/brands";
+import VariantTabs from "@/components/VariantTabs";
 
 export function generateStaticParams() {
   return brands.flatMap((b) => [
@@ -367,6 +368,11 @@ export default async function ProductPage({
           </div>
         </section>
       )}
+
+            {prod.variants && prod.variants.length > 0 && (
+        <VariantTabs variants={prod.variants} />
+      )}
+
     </>
   );
 }

@@ -10,6 +10,17 @@ import { gicCatalog, gicProducts } from "./catalog/gic";
 import { newtekCatalog, newtekProducts } from "./catalog/newtek";
 import { esbeeCatalog, esbeeProducts } from "./catalog/esbee";
 
+export type ProductVariant = {
+  name: string;             // e.g. "NE 210S"
+  image?: string;
+  features?: string[];      // "Product Feature" bullets
+  description?: string;     // optional intro line
+  technicalImages?: string[]; // "Technical Data" table/diagram screenshots
+  catalogue?: string;       // per-model datasheet PDF
+};
+
+
+
 export type ProductDetail = {
   slug: string;
   name: string;
@@ -21,6 +32,7 @@ export type ProductDetail = {
   features?: { title: string; text: string }[];
   featuresImage?: string;  // optional image beside features
   catalogue?: string;      // PDF path
+  variants?: ProductVariant[];
 };
 
 export type Brand = {

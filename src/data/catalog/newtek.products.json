@@ -1,1 +1,1465 @@
-[]
+[
+  {
+    "slug": "window-type-cts-bus-bar",
+    "name": "Current Transformer Bar Type",
+    "category": "Metering Type CT'S",
+    "overview": [
+      "Newtek Bar type current transformers are designed to be mounted in-line with bus bars, making them an integral part of power distribution systems. These CTs are fully insulated to withstand the high voltages present in switchgear applications. The construction of a bar type CT involves several key elements that contribute to its functionality and reliability.",
+      "The primary winding of a bar type current transformer consists of a single turn primary conductor, which is typically a fully insulated bar. The insulation on the primary winding conductor can either be a bakelized paper tube or a resin directly molded on the bar. This insulation ensures the safety and integrity of the primary winding in high voltage environments.",
+      "The secondary winding of a bar type CT is wound on a core, which is similar to other types of current transformers. The core is made up of laminated steel or other suitable materials to minimize magnetic losses. The secondary winding consists of multiple turns, and the number of turns is determined by the desired turns ratio."
+    ],
+    "image": "/images/products/newtek/window-type-cts-bus-bar-ne-210s.png",
+    "benefits": [
+      "Fully insulated design for safe operation in high voltage environments.",
+      "Accurate current measurement with low burden on the secondary winding.",
+      "Wide range of turns ratio options for precise current monitoring.",
+      "Robust construction to withstand short circuit forces and mechanical stresses.",
+      "Flexibility in installation and assembly, with options for on-site assembly.",
+      "Power distribution systems in commercial and industrial settings.",
+      "Electrical substations for accurate monitoring of current levels.",
+      "Power generation plants for reliable current measurement.",
+      "Renewable energy systems, such as solar and wind farms.",
+      "High voltage applications where insulation and safety are critical."
+    ],
+    "variants": [
+      {
+        "name": "NE 210S",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-210s.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing bar type CTs of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-210s-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-210s-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 310S",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-310s.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing bar type CTs of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-310s-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-310s-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 310",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-310.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-310-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-310-tech2.png"
+        ]
+      },
+      {
+        "name": "NE 4B312",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-4b312.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-4b312-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-4b312-tech2.png"
+        ]
+      },
+      {
+        "name": "NEM 5B412",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-nem-5b412.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-nem-5b412-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-nem-5b412-tech2.png"
+        ]
+      },
+      {
+        "name": "NE 412",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-412.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-412-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-412-tech2.png"
+        ]
+      },
+      {
+        "name": "NE 512",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-512.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-512-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-512-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 615",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-615.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-615-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-615-tech2.png"
+        ]
+      },
+      {
+        "name": "NE 640",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-640.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-640-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-640-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 815",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-815.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-815-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-815-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 830H/ V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-830h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-830h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-830h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 1030H/V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-1030h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1030h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1030h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 1056",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-1056.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1056-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1056-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 1256H/V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-1256h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1256h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1256h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 1656H/V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-1656h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1656h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1656h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 1659H/V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-1659h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1659h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-1659h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 2065H/ V",
+        "image": "/images/products/newtek/window-type-cts-bus-bar-ne-2065h-v.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/window-type-cts-bus-bar-ne-2065h-v-tech1.png",
+          "/images/products/newtek/window-type-cts-bus-bar-ne-2065h-v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "wpl-type",
+    "name": "WPL Type",
+    "category": "Metering Type CT'S",
+    "overview": [
+      "Current transformers are critical to measuring AC power that flows through the transmission lines. Newtek nylon casing current transformers come with a casing of nylon 66 flame retardant material, which makes them more resistant to fire and capable of performing in high temperatures. Nylon casing CTs have a much shorter lead time and yet, have a longer service life and better performance, especially in places such as cement plants where there is high amount of dust."
+    ],
+    "image": "/images/products/newtek/wpl-type-ne-3wst-ne-4wst.png",
+    "variants": [
+      {
+        "name": "NE 3WST/NE 4WST",
+        "image": "/images/products/newtek/wpl-type-ne-3wst-ne-4wst.png",
+        "features": [
+          "Unbreakable",
+          "Flame Retardant",
+          "Cores are made from high grade CRGO material",
+          "Integrated Secondary terminal caps"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/wpl-type-ne-3wst-ne-4wst-tech1.png",
+          "/images/products/newtek/wpl-type-ne-3wst-ne-4wst-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 4WPL6/NEM 5WPL6",
+        "image": "/images/products/newtek/wpl-type-ne-4wpl6-nem-5wpl6.png",
+        "features": [
+          "Unbreakable",
+          "Flame Retardant",
+          "Cores are made from high grade CRGO material",
+          "Integrated Secondary terminal caps"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/wpl-type-ne-4wpl6-nem-5wpl6-tech1.png",
+          "/images/products/newtek/wpl-type-ne-4wpl6-nem-5wpl6-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NEM 5WPL8",
+        "image": "/images/products/newtek/wpl-type-nem-5wpl8.png",
+        "features": [
+          "Unbreakable",
+          "Flame Retardant",
+          "Cores are made from high grade CRGO material",
+          "Integrated Secondary terminal caps"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/wpl-type-nem-5wpl8-tech1.png",
+          "/images/products/newtek/wpl-type-nem-5wpl8-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "round-id-type-cts",
+    "name": "Ring Type Current Transformers",
+    "category": "Metering Type CT'S",
+    "overview": [
+      "Ring Type Current Transformers deliver exceptional accuracy and reliability. Newtek ring type cts features a unique design that allows it to be easily installed around a conductor, enabling non-intrusive current sensing. Its high-quality materials and precision winding ensure accurate current measurement.",
+      "Our ring type current transformers robust construction and reliable performance, it provides precise readings for monitoring and control purposes. Our ring type CTs is in Nylon casing which provides excellent insulation and protection which safeguarding the transformer from external factors such as moisture and dust."
+    ],
+    "image": "/images/products/newtek/round-id-type-cts-ne-r21.png",
+    "variants": [
+      {
+        "name": "NE R21",
+        "image": "/images/products/newtek/round-id-type-cts-ne-r21.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing ring CT of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-r21-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-r21-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE MR21",
+        "image": "/images/products/newtek/round-id-type-cts-ne-mr21.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-mr21-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-mr21-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 3R30",
+        "image": "/images/products/newtek/round-id-type-cts-ne-3r30.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-3r30-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-3r30-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 4R30",
+        "image": "/images/products/newtek/round-id-type-cts-ne-4r30.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-4r30-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-4r30-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NEM 5R30",
+        "image": "/images/products/newtek/round-id-type-cts-nem-5r30.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-nem-5r30-tech1.png",
+          "/images/products/newtek/round-id-type-cts-nem-5r30-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 4R40",
+        "image": "/images/products/newtek/round-id-type-cts-ne-4r40.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-4r40-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-4r40-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 5R50",
+        "image": "/images/products/newtek/round-id-type-cts-ne-5r50.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-5r50-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-5r50-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NE 6R65",
+        "image": "/images/products/newtek/round-id-type-cts-ne-6r65.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/round-id-type-cts-ne-6r65-tech1.png",
+          "/images/products/newtek/round-id-type-cts-ne-6r65-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "nylon-casing-protective-type-bus-bar",
+    "name": "Protective Current Transformer Nylon Casing",
+    "category": "Protection Type CT'S",
+    "overview": [
+      "The protective current transformer is specifically engineered to safeguard your electrical infrastructure. It offers comprehensive protection against overcurrent and fault conditions, allowing for timely detection and response to potential hazards. Our Protective CTs achieve this by producing proportional currents in their secondary windings, which are effectively isolated from the main power circuit. With its high accuracy and precise current measurement capabilities, it enables effective monitoring and control of electrical parameters.",
+      "The Newtek Protective Current Transformer seamlessly integrates into busbar systems, ensuring efficient power transmission and reliable electrical connectivity. Its compact form factor and versatile installation options make it suitable for a wide range of applications, including industrial plants, commercial buildings, textile, chemical and power distribution networks and many more."
+    ],
+    "image": "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-635h.png",
+    "variants": [
+      {
+        "name": "NEP 635H",
+        "image": "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-635h.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-635h-tech1.png",
+          "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-635h-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      },
+      {
+        "name": "NEP 1257H",
+        "image": "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-1257h.png",
+        "features": [
+          "Unbreakable, flame retardant, self-extinguishing Nylon casing of grade UL 94 V2.",
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.5Nm.",
+          "Integrated secondary terminal caps."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-1257h-tech1.png",
+          "/images/products/newtek/nylon-casing-protective-type-bus-bar-nep-1257h-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/nylon-casing.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "resin-cast-wpl",
+    "name": "Resin Cast CTs -WPL",
+    "category": "Resin Cast CT'S",
+    "overview": [
+      "The Newtek Resin Cast CTs features a resin cast design, which provides superior insulation and protection for the internal components. This resin casting technique enhances the transformer’s ability to withstand harsh environments, ensuring long-term reliability and minimizing the risk of electrical faults.",
+      "Specifically, the Resin Cast CTs (Current Transformer) variant of the Newtek transformer offers accurate current measurement capabilities with its resin encapsulated windings. This resin casting not only ensures precise and reliable current sensing but also provides excellent insulation properties, preventing potential electrical hazards.",
+      "Choose the Newtek Resin Cast CTs for exceptional reliability and performance. With its resin casting and advanced design, it guarantees efficient power distribution, accurate current measurement, and enhanced safety. Trust Newtek to provide you with a resin type transformer that meets the highest industry standards and elevates your power distribution system to new heights."
+    ],
+    "image": "/images/products/newtek/resin-cast-wpl-nercwpl6.jpg",
+    "variants": [
+      {
+        "name": "NERCWPL6",
+        "image": "/images/products/newtek/resin-cast-wpl-nercwpl6.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-wpl-nercwpl6-tech1.png",
+          "/images/products/newtek/resin-cast-wpl-nercwpl6-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCWPL8",
+        "image": "/images/products/newtek/resin-cast-wpl-nercwpl8.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-wpl-nercwpl8-tech1.png",
+          "/images/products/newtek/resin-cast-wpl-nercwpl8-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEMRCWPL6",
+        "image": "/images/products/newtek/resin-cast-wpl-nemrcwpl6.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-wpl-nemrcwpl6-tech1.png",
+          "/images/products/newtek/resin-cast-wpl-nemrcwpl6-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEMRCWPL8",
+        "image": "/images/products/newtek/resin-cast-wpl-nemrcwpl8.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-wpl-nemrcwpl8-tech1.png",
+          "/images/products/newtek/resin-cast-wpl-nemrcwpl8-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "resin-cast-bus-bar",
+    "name": "Resin Cast Busbar Transformer",
+    "category": "Resin Cast CT'S",
+    "overview": [
+      "Newtek Resin Cast Busbar Transformer, a cutting-edge solution that combines the reliability of resin casting with the efficiency of busbar technology. Designed to optimize power distribution systems, this transformer offers exceptional performance and seamless electrical connectivity.",
+      "As a busbar current collector, this transformer is specifically engineered to ensure efficient power transmission and reliable electrical connectivity across busbars. Its compact form factor and versatile installation options make it suitable for a wide range of applications, including industrial plants, commercial buildings, and power distribution networks.",
+      "With the Newtek Resin Cast Busbar Transformer, you can trust in its superior quality, advanced design, and reliable performance. It is the perfect choice for power distribution systems that require efficient busbar technology and the durability of resin casting. Upgrade your electrical infrastructure with the Newtek resin type transformer and experience enhanced reliability and seamless power distribution."
+    ],
+    "image": "/images/products/newtek/resin-cast-bus-bar-nerc6540v.jpg",
+    "variants": [
+      {
+        "name": "NERC6540V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc6540v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc6540v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc6540v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC9040V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc9040v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc9040v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc9040v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC9080V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc9080v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc9080v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc9080v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC1140V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc1140v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc1140v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc1140v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC1180V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc1180v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc1180v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc1180v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC11100V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc11100v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc11100v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc11100v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC13580V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc13580v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc13580v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc13580v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC135100V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc135100v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc135100v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc135100v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERC16540V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-nerc16540v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-nerc16540v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-nerc16540v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEPRC16580V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-neprc16580v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-neprc16580v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-neprc16580v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEPRC2175V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-neprc2175v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-neprc2175v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-neprc2175v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEPRC22100V",
+        "image": "/images/products/newtek/resin-cast-bus-bar-neprc22100v.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-bus-bar-neprc22100v-tech1.png",
+          "/images/products/newtek/resin-cast-bus-bar-neprc22100v-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "resin-cast-round-id",
+    "name": "Ring Type Resin Cast CTs",
+    "category": "Resin Cast CT'S",
+    "overview": [
+      "The Newtek Ring Type Resin Cast Current Transformer features a resin cast design that provides superior insulation and protection for the internal components. This resin casting technique enhances the transformer’s ability to withstand harsh environments, ensuring long-term reliability and minimizing the risk of electrical faults.",
+      "As a ring type current transformer, this Newtek transformer offers precise current measurement capabilities in various applications. Its unique design allows for easy installation around a conductor, enabling non-intrusive current sensing without interrupting the electrical system. The resin cast windings ensure accurate and consistent readings, making it an ideal choice for monitoring and control purposes."
+    ],
+    "image": "/images/products/newtek/resin-cast-round-id-nercr20.jpg",
+    "variants": [
+      {
+        "name": "NERCR20",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr20.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr20-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr20-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR30",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr30.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr30-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr30-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEMRCR30",
+        "image": "/images/products/newtek/resin-cast-round-id-nemrcr30.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nemrcr30-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nemrcr30-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR40",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr40.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr40-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr40-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NEMRCR40",
+        "image": "/images/products/newtek/resin-cast-round-id-nemrcr40.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nemrcr40-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nemrcr40-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR50",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr50.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr50-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr50-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR60",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr60.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr60-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr60-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR80",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr80.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr80-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr80-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      },
+      {
+        "name": "NERCR105",
+        "image": "/images/products/newtek/resin-cast-round-id-nercr105.jpg",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/resin-cast-round-id-nercr105-tech1.png",
+          "/images/products/newtek/resin-cast-round-id-nercr105-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/rcct-catalouge.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "digital-meter",
+    "name": "Digital Meter",
+    "category": "Digital Energy Meters",
+    "overview": [
+      "Digital meters is a measuring device based on microcontroller. It measures a number of power parameters and while communicating with a remote server. As India transitions from conventional to smart grid, Newtek provides future-ready digital meters that make power measurement precise, accurate and easy to follow. Efficient digital meters make it easier for businesses to calculate power consumption on hourly and daily bases, and make adjustments accordingly to save power costs."
+    ],
+    "image": "/images/products/newtek/digital-meter-energy-meter-neo-em3.png",
+    "variants": [
+      {
+        "name": "Energy Meter Neo EM3",
+        "image": "/images/products/newtek/digital-meter-energy-meter-neo-em3.png",
+        "features": [
+          "Analog load bar graph for indicating average current in %",
+          "Compact depth (54mm)",
+          "96 mm × 96 mm DIN quadratic",
+          "Single line 6 digit LED display",
+          "True RMS measurement up to 15th harmonic",
+          "Energy pulse LED on front panel : 1000 imp / kWh (Meter Constant)",
+          "Onsite programmable :",
+          "Indication for healthy phases",
+          "Indication for reverse (Irev)",
+          "Screw type i/p current termination",
+          "Active energy (kWh)",
+          "Old active energy (kWh)",
+          "Energy billing in specified currency",
+          "Input Voltage: 10 -290V L-N (500VLL)",
+          "Frequency: 45 to 65 Hz",
+          "Current: 1A or 5A",
+          "AUX Supply: 230 VAC. ± 20%",
+          "Accuracy: Class 1.0,Optional: Class 0.5",
+          "Operating Temperature range: 0 to +50degC",
+          "Enclosure: Front- IP54 (Dust & water) Back – IP20 Material – Polycarbonate (UL94 VO)",
+          "High voltage test: 2.2 kVAC 50Hz for 1 minute between all electrical Circuits"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Energy Meter Ace 3E1",
+        "image": "/images/products/newtek/digital-meter-energy-meter-ace-3e1.png",
+        "features": [
+          "Protection against accidental opening of secondary terminals of external C.T",
+          "Analog load bar graph for indicating average current in %",
+          "Communication LED for MODBUS (RS – 485) on front panel",
+          "Compact depth even with optional features (61mm)",
+          "96 mm × 96 mm DIN quadratic",
+          "Single line 8 digit LED display",
+          "True RMS measurement up to 15th harmonic",
+          "Energy pulse LED on front panel : 3600 imp / kWH (Meter Constant)",
+          "Onsite programmable : 3 phase 4 wire / 3 wire / 2 wire, CT / PT primary, CT secondary 1A or 5A, PT secondary (100 VLL to 500 VLL).",
+          "Indication for healthy phases (Von)",
+          "Indication for reverse (Irev)",
+          "MODBUS (RS – 485)",
+          "1 relay output (As pulse output)",
+          "Active energy (kWh)",
+          "Old active energy (kWh)",
+          "Energy billing in specified currency",
+          "Basic : V,I, Hz",
+          "Power : kW, kVAr, kVA, PF, Ø",
+          "Energy : kWh, kVAh, Old kWh",
+          "Input Voltage : 10 -290V L-N (500VLL)",
+          "Frequency : 45 to 65 Hz",
+          "Current: 1A or 5A",
+          "AUX Supply : 80 – 300V AC/DC",
+          "Accuracy : Class 1.0,Optional: Class 0.5",
+          "Operating Temperature range : 0 to +50degC",
+          "Applicable Standards : IEC 61010, IEC 60529, IEC 61326",
+          "Enclosure : Front- IP54 (Dust & water)",
+          "Back – IP20 Material – Polycarbonate (UL94 VO)",
+          "Installation Categary : III",
+          "Pollution Degree : 2",
+          "High voltage test : 3.3 kVAC 50Hz for 1 minute between all electrical Circuits (2.2 kVAC for Mobbus & Relay)"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "multifunction-meter",
+    "name": "Multifunction Meter",
+    "category": "Digital Energy Meters",
+    "overview": [
+      "Digital meters is a measuring device based on microcontroller. It measures a number of power parameters and while communicating with a remote server. As India transitions from conventional to smart grid, Newtek provides future-ready digital meters that make power measurement precise, accurate and easy to follow. Efficient digital meters make it easier for businesses to calculate power consumption on hourly and daily bases, and make adjustments accordingly to save power costs."
+    ],
+    "image": "/images/products/newtek/multifunction-meter-ace-353.png",
+    "variants": [
+      {
+        "name": "Ace 353",
+        "image": "/images/products/newtek/multifunction-meter-ace-353.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, PF",
+          "System : RPM, Run – hour",
+          "MODBUS (RS – 485)",
+          "Relay output (As limit switch)"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 355",
+        "image": "/images/products/newtek/multifunction-meter-ace-355.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, PF",
+          "Energy : kWh",
+          "System : RPM, Run – hour",
+          "Unbalance in % : V, I",
+          "Event Counter : Event Counter Run – hour",
+          "MODBUS (RS – 485)",
+          "1 Relay output (As pulse or limit switch)"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 354",
+        "image": "/images/products/newtek/multifunction-meter-ace-354.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, PF",
+          "Energy : kWh",
+          "System : RPM, Run – hour",
+          "Unbalance in % : V, I",
+          "Event Counter : Event Counter Run – hour",
+          "MODBUS (RS – 485)",
+          "1 Relay output (As pulse or limit switch)"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 357",
+        "image": "/images/products/newtek/multifunction-meter-ace-357.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, kVAr, kVA, PF, Ø, In",
+          "Demarnd : I, kW, kVA",
+          "Energy : kWH, kVArh, kVAh",
+          "System : RPM, Run – hour, On – hour, Interruptions",
+          "Unbalance in % : V, I",
+          "Net energy : (kWh)"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 357T",
+        "image": "/images/products/newtek/multifunction-meter-ace-357t.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, kVAr, kVA, PF, Ø, In",
+          "Demarnd : I, kW, kVA",
+          "Energy : kWH, kVArh, kVAh",
+          "Power quality parameters :",
+          "THD in % : V, I",
+          "Harmonic Voltage : Total fundamental distorted",
+          "Harmonic Current : Total fundamental distorted",
+          "Total demand distortion in % K – factor (Harmonic factor) : Total fundamental distorted",
+          "System : RPM, Run – hour, On – hour, Interruptions",
+          "Unbalance in % : V, I"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 357TH",
+        "image": "/images/products/newtek/multifunction-meter-ace-357th.png",
+        "features": [
+          "Basic : V, I, Hz",
+          "Power : kW, kVAr, kVA, PF, Ø, In",
+          "Demarnd : I, kW, kVA",
+          "Energy : kWH, kVArh, kVAh",
+          "Power quality parameters :",
+          "THD in % : V, I",
+          "Harmonic Voltage : Total fundamental distorted",
+          "Harmonic Current : Total fundamental distorted",
+          "Total demand distortion in % : K – factor (Harmonic factor) Individual odd harmonics (3rd, 5th…15th) in %",
+          "System : RPM, Run – hour, On – hour, Interruptions",
+          "Unbalance in % : V, I"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 357C",
+        "image": "/images/products/newtek/multifunction-meter-ace-357c.png",
+        "features": [
+          "Screw type connectors",
+          "Input current connections of Ace 357C : Screw type connectors are available on Ace 357C for input current terminations"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "Ace 357D",
+        "image": "/images/products/newtek/multifunction-meter-ace-357d.png",
+        "features": [
+          "Direct measurement of current up to 30A AC",
+          "Max value for direct current measurement programmable on site from 5A to 30A"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "power-meter",
+    "name": "VAF Power Meter",
+    "category": "Digital Energy Meters",
+    "overview": [
+      "Digital meters is a measuring device based on microcontroller. It measures a number of power parameters and while communicating with a remote server. As India transitions from conventional to smart grid, Newtek provides future-ready digital meters that make power measurement precise, accurate and easy to follow. Efficient digital meters make it easier for businesses to calculate power consumption on hourly and daily bases, and make adjustments accordingly to save power costs."
+    ],
+    "image": "/images/products/newtek/power-meter-vaf-meter-neo-322.png",
+    "variants": [
+      {
+        "name": "VAF Meter Neo 322",
+        "image": "/images/products/newtek/power-meter-vaf-meter-neo-322.png",
+        "features": [
+          "96 mm × 96 mm DIN quadratic",
+          "3 Line : 3 Digit LED display",
+          "Onsite Programmable : 3 phase 4 wire/3 wire /2 wire. CT / PT Primary. CT Secondary 1A or 5A. PT Secondary (1OOVLL to 500VLL)",
+          "Compact depth (54mm)",
+          "Screw type i/p current termination",
+          "Basic : V, I, Hz",
+          "System : RPM, Run-hour",
+          "Unbclcnce in % : V, I",
+          "Input Voltage : 10 -290V L-N (500VLL)",
+          "Frequency : 45 to 65 Hz",
+          "Current : 1A or 5A",
+          "AUX Supply : 230 VAC. ± 20%",
+          "Accuracy : Class 1.0,Optional: Class 0.5",
+          "Operating Temperature range : 0 to +50degC",
+          "Enclosure : Front– IP54 (Dust & water) Back – IP20 Material – Polycarbonate (UL94 VO)",
+          "High voltage test : 2.2 kVAC 50Hz for 1 minute between all electrical Circuits"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "VAF Meter Neo 323",
+        "image": "/images/products/newtek/power-meter-vaf-meter-neo-323.png",
+        "features": [
+          "Pass through CT : Protection against accidental opening of secondary terminals of external C.T.",
+          "Compact depth even with optional features (61mm)",
+          "Optional Features : Up to 2 Relay outputs (AS Limit switch).",
+          "96 mm × 96 mm DIN quadratic",
+          "3 line – 4 digit LED display",
+          "True RMS measurement up to 15th harmonic",
+          "Onsite Programmable : 3 phase 4 wire / 3 wire / 2 wire, CT / PT Primary, CT Secondary 1A or 5A, PT Secondary (100VLL to 500VLL)",
+          "Basic : V, i, hZ",
+          "System : RPM, Run – hour, On- hour, interruptions",
+          "Input Voltage: 10 -290V L-N (500VLL)",
+          "Frequency: 45 to 65 Hz",
+          "Current : 1A or 5A",
+          "AUX Supply : 230 VAC. ± 20%",
+          "Accuracy : Class 1.0,Optional: Class 0.5",
+          "Operating Temperature range : 0 to +50degC",
+          "Enclosure : Front- IP54 (Dust & water) Back – IP20 Material – Polycarbonate (UL94 VO)",
+          "High voltage test : 2.2 kVAC 50Hz for 1 minute between all electrical Circuits"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      },
+      {
+        "name": "VAF Meter Neo 323C",
+        "image": "/images/products/newtek/power-meter-vaf-meter-neo-323c.png",
+        "features": [
+          "96 mm × 96 mm DIN quadratic",
+          "3 Line : 3 Digit LED display",
+          "Onsite Programmable : 3 phase 4 wire/3 wire /2 wire. CT / PT Primary. CT Secondary 1A or 5A. PT Secondary (1OOVLL to 500VLL)",
+          "Compact depth (54mm)",
+          "Screw type i/p current termination",
+          "Basic : V, I, Hz",
+          "System : RPM, Run-hour",
+          "Unbclcnce in % : V, I",
+          "Input Voltage : 10 -290V L-N (500VLL)",
+          "Frequency : 45 to 65 Hz",
+          "Current : 1A or 5A",
+          "AUX Supply : 230 VAC. ± 20%",
+          "Accuracy : Class 1.0,Optional: Class 0.5",
+          "Operating Temperature range : 0 to +50degC",
+          "Enclosure : Front– IP54 (Dust & water) Back – IP20 Material – Polycarbonate (UL94 VO)",
+          "High voltage test : 2.2 kVAC 50Hz for 1 minute between all electrical Circuits"
+        ],
+        "catalogue": "/catalogues/newtek/newtek-meter.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "control-transformer-three-phase",
+    "name": "Control Transformer",
+    "category": "Control Transformer",
+    "overview": [
+      "Control transformer designed to provide & maintain high degree secondary voltage stability during a short period of time on overload condition. Designed to meet the specific requirements of control applications, this transformer provides stable and regulated voltage to ensure smooth operation of control devices and equipment. Control Transformer, a reliable and efficient solution for powering control circuits in various electrical systems.",
+      "The Control Transformer is specifically designed to convert high-voltage power supply to a lower voltage level suitable for control circuits. With its compact size and versatile mounting options, it can be easily integrated into control panels and electrical enclosures.",
+      "Featuring robust construction and high-quality components, the Control Transformer delivers consistent and reliable performance even in demanding environments. Its insulation properties ensure safety and protection against electrical hazards.",
+      "When it comes to three-phase transformer connections, the Control Transformer offers flexibility to meet different electrical system requirements. With options for delta and star (wye) connections, it allows for seamless integration into three-phase systems, providing efficient power distribution and control.",
+      "Whether used in industrial automation, machinery control, or HVAC systems, the Control Transformer plays a crucial role in maintaining optimal control circuit performance. It provides a stable and regulated power supply, preventing voltage fluctuations and ensuring the accuracy and reliability of control signals."
+    ],
+    "image": "/images/products/newtek/control-transformer-three-phase-three-phase-tape-insulated-tech1.png",
+    "benefits": [
+      "Single Phase Tape Insulated",
+      "Three Phase Tape Insulated"
+    ],
+    "variants": [
+      {
+        "name": "Three Phase Tape Insulated",
+        "technicalImages": [
+          "/images/products/newtek/control-transformer-three-phase-three-phase-tape-insulated-tech1.png",
+          "/images/products/newtek/control-transformer-three-phase-three-phase-tape-insulated-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/control-pt.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "control-transformer-single-phase",
+    "name": "Control Transformer Single Phase Tape Insulated",
+    "category": "Control Transformer",
+    "overview": [
+      "Control transformers are built to serve electronic circuits that need constant voltage and current at low power and volt amp rating. Control transformers are best suited for industrial environments where electromagnetic devices like solenoids and relays are being deployed. These transformers can regulate output voltage and inrush capability in electromagnetic devices. Current transformers have very high quality insulation across all its winding. A control transformer, typically employed in electronic circuits demanding consistent voltage at a low power or volt-amp rating, serves as an isolation transformer. Control Transformers are specifically designed to convert high-voltage power supply to a lower voltage level suitable for control circuits."
+    ],
+    "image": "/images/products/newtek/control-transformer-single-phase-single-phase-tape-insulated-tech1.png",
+    "benefits": [
+      "Single Phase Tape Insulated",
+      "Three Phase Tape Insulated"
+    ],
+    "variants": [
+      {
+        "name": "Single Phase Tape Insulated",
+        "technicalImages": [
+          "/images/products/newtek/control-transformer-single-phase-single-phase-tape-insulated-tech1.png",
+          "/images/products/newtek/control-transformer-single-phase-single-phase-tape-insulated-tech2.png"
+        ],
+        "catalogue": "/catalogues/newtek/control-pt.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "mv-potential-transformers",
+    "name": "MV Potential Transformers",
+    "category": "MV Current & Potential Transformers",
+    "overview": [
+      "Newtek MV Potential Transformer, a high-performance solution for accurate voltage measurement and monitoring in medium-voltage electrical systems. As a leading potential transformer manufacturer, Newtek specializes in delivering reliable and precise transformers designed to meet the specific requirements of medium-voltage applications.",
+      "The Newtek MV Potential Transformer are manufactured using high quality PU material. Engineered with precision and expertise, We manufacture transformers utilizing advanced manufacturing techniques and high-quality materials. Newtek’s MV transformers are type tested for various parameters to ensure durability, performance, and adherence to industrial requirements. As a trusted manufacturer, Newtek is committed to delivering exceptional quality and performance. Our MV Potential Transformers are designed to withstand harsh conditions, delivering accurate voltage measurement even in challenging environments. We prioritize customer satisfaction and strive to provide innovative solutions that meet the diverse needs of our clients."
+    ],
+    "image": "/images/products/newtek/mv-potential-transformers-hsv-12kv.png",
+    "benefits": [
+      "Single Phase Tape Insulated",
+      "Three Phase Tape Insulated"
+    ],
+    "variants": [
+      {
+        "name": "HSV: 12kV",
+        "image": "/images/products/newtek/mv-potential-transformers-hsv-12kv.png",
+        "features": [
+          "Cores are made from high-grade CRGO material.",
+          "Dual coated copper wire having the class of insulation H.",
+          "Nickel-plated secondary terminals with plus-minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-potential-transformers-hsv-12kv-tech1.png",
+          "/images/products/newtek/mv-potential-transformers-hsv-12kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "HSV: 22kV",
+        "image": "/images/products/newtek/mv-potential-transformers-hsv-22kv.png",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-potential-transformers-hsv-22kv-tech1.png",
+          "/images/products/newtek/mv-potential-transformers-hsv-22kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "HSV: 33kV",
+        "image": "/images/products/newtek/mv-potential-transformers-hsv-33kv.png",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having the class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-potential-transformers-hsv-33kv-tech1.png",
+          "/images/products/newtek/mv-potential-transformers-hsv-33kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "mv-current-transformers",
+    "name": "MV Current Transformers",
+    "category": "MV Current & Potential Transformers",
+    "overview": [
+      "MV Current Transformers from Newtek, designed to withstand Harsh operational environments, These current transformers come with a range upto 33 kV. Want to know more?",
+      "Newtek MV Current Transformers, a state-of-the-art solution for accurate current measurement and monitoring in medium-voltage electrical systems. Designed with precision and expertise, these MV Current Transformers are manufactured by Newtek, a trusted name in the industry known for delivering reliable and high-performance transformers.",
+      "The Newtek MV Current Transformers are specifically engineered to handle the challenges of medium-voltage applications. With their robust construction and advanced insulation, they ensure accurate current measurement and reliable performance in demanding environments. These transformers play a crucial role in various applications such as power distribution, energy management, and equipment protection.",
+      "With their precise current measurement capabilities, the Newtek MV Current Transformers provide valuable data for system monitoring, power quality analysis, and energy efficiency optimization. They accurately convert high currents to a safe and measurable range, allowing for seamless integration with metering and control systems.",
+      "Newtek’s commitment to quality and innovation is evident in the design and manufacturing of MV Current Transformers. These transformers undergo stringent testing to ensure their adherence to industry standards and the highest level of performance. They are built to withstand the rigors of medium-voltage systems and provide reliable and accurate current measurement for critical operations."
+    ],
+    "image": "/images/products/newtek/mv-current-transformers-hsv-3-6kv-to-15kv.png",
+    "benefits": [
+      "MV Current transformers range upto 33 kV",
+      "Partial discharge in MV transformers",
+      "Single Phase Tape Insulated",
+      "Three Phase Tape Insulated"
+    ],
+    "variants": [
+      {
+        "name": "HSV: 3.6kV to 15kV",
+        "image": "/images/products/newtek/mv-current-transformers-hsv-3-6kv-to-15kv.png",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having the class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-current-transformers-hsv-3-6kv-to-15kv-tech1.png",
+          "/images/products/newtek/mv-current-transformers-hsv-3-6kv-to-15kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "HSV: 24kV",
+        "image": "/images/products/newtek/mv-current-transformers-hsv-24kv.png",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-current-transformers-hsv-24kv-tech1.png",
+          "/images/products/newtek/mv-current-transformers-hsv-24kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "HSV: 36kV",
+        "image": "/images/products/newtek/mv-current-transformers-hsv-36kv.png",
+        "features": [
+          "Cores are made from high grade CRGO material.",
+          "Dual coated copper wire having class of insulation H.",
+          "Nickel plated secondary terminals with plus minus screws of 0.SNm."
+        ],
+        "technicalImages": [
+          "/images/products/newtek/mv-current-transformers-hsv-36kv-tech1.png",
+          "/images/products/newtek/mv-current-transformers-hsv-36kv-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "split-core-current-transformers",
+    "name": "Split Core Current Transformer",
+    "category": "Split Core Current Transformers",
+    "overview": [
+      "Split core current transformers are designed for convenient and non disruptive installation. Splite core CT are allow for a straightforward setup without the necessity of disconnecting wires or interrupting the flow of power. These CTs typically have a split or hinged design, which enables them to be easily clamped around the conductor or cable carrying the current to be measured.",
+      "This ease of installation minimizes downtime and ensures that essential electrical systems can continue running without disruption while the CTs are being installed. The split core current transformer design simplifies maintenance and upgrades, making them a practical choice in various applications, including energy monitoring, power quality analysis, and more.",
+      "Newtek Split Core Current Transformer, an innovative solution designed for easy and convenient current measurement in a wide range of applications. As a leading split core CT manufacturer, Newtek specializes in delivering high quality and reliable transformers that meet the diverse needs of modern electrical systems.",
+      "Our Split Core Current Transformers are meticulously manufactured using advanced techniques and superior nylon materials. We ensure that each transformer meets stringent quality standards and delivers accurate and reliable current measurement. With its durable construction and precise winding, the Newtek Split Core Current Transformer provides dependable performance even in challenging environments."
+    ],
+    "image": "/images/products/newtek/split-core-current-transformers-nespct3323.png",
+    "benefits": [
+      "Single Phase Tape Insulated",
+      "Three Phase Tape Insulated"
+    ],
+    "variants": [
+      {
+        "name": "NESPCT3323",
+        "image": "/images/products/newtek/split-core-current-transformers-nespct3323.png",
+        "features": [
+          "Wide range of system current ratings.",
+          "Various Mounting Options like Bus Bar Mounting (b), Base Mounting (d).",
+          "Protective Terminal Cover (a).",
+          "Terminal with self lifting screw with dual connection facility giving access from both sides of transformers (c)"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/split-core-current-transformers-nespct3323-tech1.jpg",
+          "/images/products/newtek/split-core-current-transformers-nespct3323-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "NESPCT5543",
+        "image": "/images/products/newtek/split-core-current-transformers-nespct5543.png",
+        "features": [
+          "Wide range of system current ratings.",
+          "Various Mounting Options like Bus Bar Mounting (b), Base Mounting (d).",
+          "Protective Terminal Cover (a).",
+          "Terminal with self lifting screw with dual connection facility giving access from both sides of transformers (c)"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/split-core-current-transformers-nespct5543-tech1.jpg",
+          "/images/products/newtek/split-core-current-transformers-nespct5543-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/split-core-current-transformers-1.pdf"
+      },
+      {
+        "name": "NESPCT8555",
+        "image": "/images/products/newtek/split-core-current-transformers-nespct8555.png",
+        "features": [
+          "Wide range of system current ratings.",
+          "Various Mounting Options like Bus Bar Mounting (b), Base Mounting (d).",
+          "Protective Terminal Cover (a).",
+          "Terminal with self lifting screw with dual connection facility giving access from both sides of transformers (c)"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/split-core-current-transformers-nespct8555-tech1.jpg",
+          "/images/products/newtek/split-core-current-transformers-nespct8555-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "NESPCT12585",
+        "image": "/images/products/newtek/split-core-current-transformers-nespct12585.png",
+        "features": [
+          "Wide range of system current ratings.",
+          "Various Mounting Options like Bus Bar Mounting (b), Base Mounting (d).",
+          "Protective Terminal Cover (a).",
+          "Terminal with self lifting screw with dual connection facility giving access from both sides of transformers (c)"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/split-core-current-transformers-nespct12585-tech1.jpg",
+          "/images/products/newtek/split-core-current-transformers-nespct12585-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      },
+      {
+        "name": "NESPCT17285",
+        "image": "/images/products/newtek/split-core-current-transformers-nespct17285.png",
+        "features": [
+          "Wide range of system current ratings.",
+          "Various Mounting Options like Bus Bar Mounting (b), Base Mounting (d).",
+          "Protective Terminal Cover (a).",
+          "Terminal with self lifting screw with dual connection facility giving access from both sides of transformers (c)"
+        ],
+        "technicalImages": [
+          "/images/products/newtek/split-core-current-transformers-nespct17285-tech1.jpg",
+          "/images/products/newtek/split-core-current-transformers-nespct17285-tech2.jpg"
+        ],
+        "catalogue": "/catalogues/newtek/mv-current-potential-transformers.pdf"
+      }
+    ]
+  }
+]
