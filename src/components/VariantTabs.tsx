@@ -100,6 +100,37 @@ export default function VariantTabs({ variants }: { variants: ProductVariant[] }
               </div>
             </div>
           )}
+
+          {v.specTable && v.specTable.rows.length > 0 && (
+            <div className="mt-10">
+              <h4 className="text-xl font-bold text-slate-800">Technical Details</h4>
+              <span className="mt-2 block h-1 w-10 bg-red-600" />
+              <div className="mt-5 overflow-x-auto">
+                <table className="min-w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="bg-[#1268b3] text-white">
+                      {v.specTable.headers.map((h, i) => (
+                        <th key={i} className="px-3 py-2 text-left font-semibold whitespace-nowrap">
+                          {h}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {v.specTable.rows.map((row, ri) => (
+                      <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-slate-100"}>
+                        {row.map((cell, ci) => (
+                          <td key={ci} className="px-3 py-2 whitespace-nowrap text-slate-700 border-t border-slate-200">
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

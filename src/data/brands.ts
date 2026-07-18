@@ -17,6 +17,7 @@ export type ProductVariant = {
   description?: string;     // optional intro line
   technicalImages?: string[]; // "Technical Data" table/diagram screenshots
   catalogue?: string;       // per-model datasheet PDF
+  specTable?: { headers: string[]; rows: string[][] }; // dimensional/technical spec table
 };
 
 
