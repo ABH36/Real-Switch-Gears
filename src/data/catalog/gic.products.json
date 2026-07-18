@@ -1,1 +1,1205 @@
-[]
+[
+  {
+    "slug": "hmi-4-3-inch-tft-display",
+    "name": "4.3 Inch Touch Screen HMI TFT Display – Human Machine Interface",
+    "category": "Human Machine Interface (HMI)",
+    "overview": [
+      "4.3 INCH TOUCH HMI"
+    ],
+    "image": "/images/products/gic/hmi-4-3-inch-tft-display.webp",
+    "benefits": [
+      "4.3” TFT display options with & without Ethernet model",
+      "Equipped with powerful CPU Cortex-M7, 600MHz",
+      "Built-in RTC (Real Time Clock)",
+      "Higher brightness level up to 440 cd/m2 for display",
+      "Long backlight life up to 50,000 hours for display",
+      "Resolution (Pixels) : 4.3”(480×272), 7”(800×480), 10.1”(1024×600)",
+      "Memory : RAM (32MB for all models), ROM (32MB for Non-Ethernet model & 64MB for Ethernet model)",
+      "Resistive type touchscreen",
+      "2 Serial & 1 Ethernet port supported for programming & communication",
+      "1 USB Host & 1 SD card slot interface support for data log & application download (Data log support up to 4 GB on external device)",
+      "1 USB Slave port support for application upload/download",
+      "Operating temperature 0 to 50 °C",
+      "PCB conformal coating protection",
+      "Shock & vibration protection as per IEC standard",
+      "IP65 Protection for front panel",
+      "CE, UKCA, ROHS Certified"
+    ],
+    "catalogue": "/catalogues/gic/hmi-catalogue.pdf"
+  },
+  {
+    "slug": "hmi-7-inch-tft-display",
+    "name": "7 Inch Touch Screen HMI TFT Display – Human Machine Interface",
+    "category": "Human Machine Interface (HMI)",
+    "overview": [
+      "7 INCH TOUCH HMI"
+    ],
+    "image": "/images/products/gic/hmi-7-inch-tft-display.webp",
+    "benefits": [
+      "7” TFT display options with & without Ethernet model",
+      "Equipped with powerful CPU Cortex-M7, 600MHz",
+      "Built-in RTC (Real Time Clock)",
+      "Higher brightness level up to 440 cd/m2 for display",
+      "Long backlight life up to 50,000 hours for display",
+      "Resolution (Pixels) : 4.3”(480×272), 7”(800×480), 10.1”(1024×600)",
+      "Memory : RAM (32MB for all models), ROM (32MB for Non-Ethernet model & 64MB for Ethernet model)",
+      "Resistive type touchscreen",
+      "2 Serial & 1 Ethernet port supported for programming & communication",
+      "1 USB Host & 1 SD card slot interface support for data log & application download (Data log support up to 4 GB on external device)",
+      "1 USB Slave port support for application upload/download",
+      "Operating temperature 0 to 50 °C",
+      "PCB conformal coating protection",
+      "Shock & vibration protection as per IEC standard",
+      "IP65 Protection for front panel",
+      "CE, UKCA, ROHS Certified"
+    ],
+    "catalogue": "/catalogues/gic/hmi-catalogue.pdf"
+  },
+  {
+    "slug": "hmi-10-1-inch-tft-display",
+    "name": "10.1 Inch Touch Screen HMI TFT Display – Human Machine Interface",
+    "category": "Human Machine Interface (HMI)",
+    "overview": [
+      "10.1 Inch Touch Screen HMI"
+    ],
+    "image": "/images/products/gic/hmi-10-1-inch-tft-display.webp",
+    "benefits": [
+      "10.1” TFT display options with & without Ethernet model",
+      "Equipped with powerful CPU Cortex-M7, 600MHz",
+      "Built-in RTC (Real Time Clock)",
+      "Higher brightness level up to 440 cd/m2 for display",
+      "Long backlight life up to 50,000 hours for display",
+      "Resolution (Pixels) : 4.3”(480×272), 7”(800×480), 10.1”(1024×600)",
+      "Memory : RAM (32MB for all models), ROM (32MB for Non-Ethernet model & 64MB for Ethernet model)",
+      "Resistive type touchscreen",
+      "2 Serial & 1 Ethernet port supported for programming & communication",
+      "1 USB Host & 1 SD card slot interface support for data log & application download (Data log support up to 4 GB on external device)",
+      "1 USB Slave port support for application upload/download",
+      "Operating temperature 0 to 50 °C",
+      "PCB conformal coating protection",
+      "Shock & vibration protection as per IEC standard",
+      "IP65 Protection for front panel",
+      "CE, UKCA, ROHS Certified"
+    ],
+    "catalogue": "/catalogues/gic/hmi-catalogue.pdf"
+  },
+  {
+    "slug": "plc-pl100",
+    "name": "Mini PLC PL-100",
+    "category": "Programmable Logic Controller",
+    "overview": [
+      "Mini Programmable Logic Controller PL-100",
+      "The Mini PLC PL-100 is a versatile solution for industrial automation, supporting up to 112 IOs. Its modular design allows for flexible expansion with Relay Base and Transistor Low Side Base modules. With isolated Digital Inputs and Transistorized Outputs, the PLC ensures robust signal control.",
+      "Featuring high-speed inputs, high-speed outputs, and analog voltage/current capabilities, the PLC offers comprehensive functionality. The dedicated PC software facilitates seamless programming, simulation, and HMI/SCADA interface. Moreover, the PLC supports Modbus RTU, enhancing its compatibility with various systems.",
+      "The PLC’s extensive library includes 128 weekly, monthly, and yearly time switches, multiple timers, counters, retentive counters, hour meters, and more. Elevate your automation experience with the Mini PLC PL-100, a compact yet powerful solution for diverse industrial applications."
+    ],
+    "image": "/images/products/gic/plc-pl100.jpg",
+    "benefits": [
+      "Supports up to 112 IOS",
+      "Relay Base & Transistor Low Side Base modules",
+      "Stacking using FRC cable up to maximum 6 Expansion Modules",
+      "Isolated Digital Inputs with sourcing & sinking capability",
+      "Isolated Digital Transistorized Outputs (Low Side and High side driver)",
+      "High Speed Inputs – Single / Quadrature (1x/2x/4x)",
+      "High Speed Outputs (PTO/PWM / S-Profile)",
+      "Analog Voltage/Current Inputs and Outputs of 0-10 V / 4-20 mA",
+      "PC Software for programming, online & offline simulation",
+      "Standard RS232/RS485 port with RJ11 for HMI/SCADA Interface",
+      "Modbus RTU support",
+      "128 Weekly, Monthly & Yearly Time Switches each",
+      "Multiple Timers, Counters including retentive counters, Hour meters & many more function blocks"
+    ],
+    "catalogue": "/catalogues/gic/pl100-plc-catalogue.pdf"
+  },
+  {
+    "slug": "smart-relay-genie-nx",
+    "name": "Smart Relay Genie NX",
+    "category": "Programmable Logic Controller",
+    "overview": [
+      "Smart Relay Module Genie NX",
+      "The Smart Relay Genie Nx offers dynamic automation solutions with support for 48 I/Os, including 32 Digital Inputs and 16 Digital Outputs. Its robust programming capabilities extend to 250 lines of ladder logic, accommodating various features such as soft text messages, Time Switches, Compare Counters, Timers, Counters, and 12 Analog functions. Further enhancing its versatility, the relay incorporates 4 Hour Meters for comprehensive automation needs.",
+      "Navigating automation complexities becomes seamless with the Smart Relay Genie Nx’s user-friendly design, featuring a backlit LCD screen for parameter display and modification. Paired with PC software, it enables effortless programming, simulation, documentation, and printing for diverse applications.",
+      "Engineered for both commercial and industrial automation, the Smart Relay Genie Nx prioritizes security with multi-level password protection. The runtime parameter save feature adds convenience, preserving essential settings for a secure and efficient automation experience. Elevate your automation endeavours with the Smart Relay Genie Nx – a powerhouse of efficiency, intelligence, and security."
+    ],
+    "image": "/images/products/gic/smart-relay-genie-nx.jpg",
+    "benefits": [
+      "Supports up to 48 I/Os (32 Digital Inputs & 16 Digital Outputs)",
+      "250 lines of ladder programming",
+      "16 soft text messages, Time Switches, Compare Counters, Timers, Counters & 12 Analog functions, 4 Hour Meters",
+      "DST Feature Available",
+      "Backlit LCD Screen for display & modification of pre-selected parameters of functional blocks, viewing I/O status and programming on the device",
+      "PC software for programming, online & offline simulation, documentation & printing",
+      "Designed for use in automation for commercial & Industrial sectors",
+      "Multi level password and run time parameter save facility"
+    ],
+    "catalogue": "/catalogues/gic/genie-nx.pdf"
+  },
+  {
+    "slug": "genie-pro",
+    "name": "Genie Pro",
+    "category": "Programmable Logic Controller",
+    "overview": [],
+    "image": "/images/products/gic/genie-pro.jpg",
+    "benefits": [
+      "Supports up to 60 I/Os (24DI + 20DO + 8AI + 8AO)",
+      "Built in Ethernet port with detachable optional RS485 serial port support",
+      "Relay and transistor base modules with LCD and LED display",
+      "Micro SD card support for application transfer and data logging",
+      "Backlit LCD screen with 6 line display",
+      "Operating temperature range from −20 °C to 55 °C",
+      "High speed I/P up to 5 kHz (4 inputs)",
+      "PWM output for transistor model up to 2 kHz (4 outputs)",
+      "Ladder and FBD programming support",
+      "Analog input and output (0–20 mA, 4–20 mA, 0–10 V)",
+      "Programming software: Genie Pro Soft",
+      "Analog RTD input for PT100 and PT1000 sensors",
+      "CE, REACH, UKCA, and UL certified"
+    ],
+    "catalogue": "/catalogues/gic/genie-nx.pdf"
+  },
+  {
+    "slug": "modular-power-supply",
+    "name": "Modular Power Supply",
+    "category": "Power Supply",
+    "overview": [
+      "Modular Power Supply Unit (PSU)",
+      "Our Power Supplies redefine reliability with outstanding Load & Line Regulation for consistent performance. Featuring high noise immunity and low ripple, they deliver stable power across diverse applications. Notably energy-efficient, these supplies have a No Load Power Consumption of under 0.5W. Robust protective features, including Overload and Short Circuit Protection, ensure durability.",
+      "Operating with exceptional efficiency, these power supplies offer versatility. Their compact design, small form factor, peak power capacity, and DIN Mounting make them an efficient and space-saving choice for various applications."
+    ],
+    "image": "/images/products/gic/modular-power-supply.jpg",
+    "benefits": [
+      "Excellent Load & Line Regulation",
+      "High Noise Immunity & Low Ripple",
+      "No Load Power Consumption of less than 0.5W",
+      "Overload & Short Circuit Protection",
+      "High Efficiency of Operation",
+      "Suitable for Temperatures upto 55°C",
+      "Small Form Factor",
+      "Peak Power Capacity",
+      "Compact Design with DIN Mounting"
+    ],
+    "catalogue": "/catalogues/gic/modular-smps-catalogue-1.pdf"
+  },
+  {
+    "slug": "din-rail-power-supply",
+    "name": "DIN Rail Power Supply",
+    "category": "Power Supply",
+    "overview": [
+      "Our Power Supplies redefine reliability with outstanding Load & Line Regulation for consistent performance. Featuring high noise immunity and low ripple, they deliver stable power across diverse applications. Notably energy-efficient, these supplies have a No Load Power Consumption of under 0.5W. Robust protective features, including Overload and Short Circuit Protection, ensure durability.",
+      "Operating with exceptional efficiency, these power supplies offer versatility. Their compact design, small form factor, peak power capacity, and DIN Mounting make them an efficient and space-saving choice for various applications."
+    ],
+    "image": "/images/products/gic/din-rail-power-supply.jpg",
+    "benefits": [
+      "Excellent Load & Line Regulation",
+      "Universal input voltage range",
+      "Excellent Load Transient Response",
+      "High Noise Immunity & Low Ripple",
+      "High Efficiency of Operation",
+      "Wide operating temperature – 30°C to 70°C",
+      "Overload, Over voltage, Short Circuit & Over Temperature Protection",
+      "High MTBF > 700,000 hrs",
+      "Over Voltage category II",
+      "Pollution degree II",
+      "Small form factor",
+      "Din rail mount",
+      "CE & RoHS compliance"
+    ],
+    "catalogue": "/catalogues/gic/din-rail-power-supply-catalogue.pdf"
+  },
+  {
+    "slug": "panel-mount-power-supply",
+    "name": "Panel Mount Power Supply",
+    "category": "Power Supply",
+    "overview": [
+      "Panel Mount SMPS",
+      "The Panel Mount Switched Mode Power Supply ensures excellent load and line regulation, offering high noise immunity and low ripple for stable performance. With a minimal No Load Power Consumption of less than 0.5W, it is an energy-efficient solution. The power supply incorporates robust protection features, including Overvoltage, Overload, Short-Circuit, and Over-Temperature Protection.",
+      "Operating with high efficiency, it is suitable for temperatures up to 70°C, making it resilient in diverse environments. Its compact design with Panel Mounting or DIN Mounting with a bracket ensures easy integration into various setups. The power supply’s small form factor, peak power capacity, and compact design make it ideal for applications demanding reliability and precision."
+    ],
+    "image": "/images/products/gic/panel-mount-power-supply.jpg",
+    "benefits": [
+      "Excellent Load & Line Regulation",
+      "High Noise Immunity & Low Ripple",
+      "No Load Power Consumption of less than 0.5W",
+      "Over voltage, Overload, Short-Circuit & Over Temperature Protection",
+      "High Efficiency of Operation",
+      "Suitable for Temperatures upto 70°C",
+      "Small Form Factor",
+      "Peak Power Capacity",
+      "Compact Design with Panel Mounting (DIN Mounting with bracket)",
+      "Excellent Load Transient Response"
+    ],
+    "catalogue": "/catalogues/gic/panel-mount-power-supply-catalogue-1.pdf"
+  },
+  {
+    "slug": "protocol-converter",
+    "name": "Protocol Converter",
+    "category": "Gateways & Converters",
+    "overview": [
+      "Protocol Converter Lynx+ Gateway"
+    ],
+    "image": "/images/products/gic/protocol-converter.jpg",
+    "benefits": [
+      "Serial protocol support for Modbus (RTU and ASCII) Master/Slave",
+      "Network protocol support for Modbus TCP (Server/Client)",
+      "Supports Raw Serial to Ethernet conversion with Telnet RFC2217",
+      "Serial Interface support for RS232, RS422 and RS485 network",
+      "Serial Baud rate: 300 bps to 115.2 Kbps",
+      "Ethernet interface support: 10/100Mbps with Auto Negotiation",
+      "Configurable using Embedded Web server and Application software",
+      "Network Protocols: ARP, TCP/IP, HTTP, BOOTP, TFTP, ICMP, TELNET, DHCP, AutoIP, UPnP",
+      "Isolation between Communication Ports & Input Power supply"
+    ],
+    "catalogue": "/catalogues/gic/protocol-converters.pdf"
+  },
+  {
+    "slug": "interface-converters",
+    "name": "Interface Converters",
+    "category": "Gateways & Converters",
+    "overview": [
+      "Serial Interface Converter – RS232 to RS485/RS422 converter"
+    ],
+    "image": "/images/products/gic/interface-converters.jpg",
+    "benefits": [
+      "Isolated RS485/RS422 on terminal block.",
+      "RS232 with DB9 Female connector",
+      "Auto direction control for RS485-2W transmission.",
+      "Galvanic Isolation of 1500V for RS485/RS422.",
+      "Supports Baud rate up to 230Kbps.",
+      "Internal 1.5 kV ESD protection both RS232 and RS485/RS422.",
+      "LED Indication for Transmit, Receive signal communication traffic.",
+      "Input power supply range 9 to 26.4 VDC",
+      "2M enclosure with DIN Rail mounting."
+    ],
+    "catalogue": "/catalogues/gic/interface-converters.pdf"
+  },
+  {
+    "slug": "signal-transducers",
+    "name": "Signal Transducers",
+    "category": "Gateways & Converters",
+    "overview": [
+      "Signal Transducer / Signal Isolator"
+    ],
+    "image": "/images/products/gic/signal-transducers.jpg",
+    "benefits": [
+      "Input / Output configuration selected via DIP switch combinations",
+      "Choice of multiple analog input-output configurations",
+      "Provides 3-way galvanic isolation of 3.75kV",
+      "Fast output Response Time (<100ms)",
+      "Sleek 22.5mm wide"
+    ],
+    "catalogue": "/catalogues/gic/signal-transducer.pdf"
+  },
+  {
+    "slug": "gsm-controller",
+    "name": "GSM Controller",
+    "category": "GSM Controller",
+    "overview": [
+      "GSM Pump Controller",
+      "Our GSM pump controller offers an ideal solution to remotely monitor & control the ON/OFF switching of various electrical loads like pumps, motors using mobile handsets. Primarily it is used by farmers to switch ON and OFF pump sets from a remote location which enables them to handle their irrigation pump sets efficiently. This is done by some missed rings or sending SMS from a master mobile handset to the GSM pump controller installed along with the pump starter panel. It is also equipped with IVRS (An interactive voice response system) for real-time monitoring and ease of control. There is a facility to configure single master and two monitor numbers; master numbers can control & monitor the system while monitor numbers can only monitor the status of the system.",
+      "Regular status updates in the form of SMS for ON/OFF status of the load, Power failure, Power recovery, Phase error, Error recovery, Phase fail, Contactor pick-up fault and SIM balance make sure proper communication of the site & load condition to the farmers/users. This results in saving time, effort, electricity, water, and wear & tear of the pump sets/load by using a GSM pump controller to operate pumps remotely.",
+      "Intelligent Automation with GIC GSM Controllers: Simple Remote Access & Real-Time Management",
+      "You can control your electrical systems at any time and from any location with GIC’s GSM controllers. These controllers offer smooth remote access through GSM-based communication, multi-mode operations, and real-time alerts. They are designed to be reliable, secure, and convenient. GIC GSM Motor Controllers let you control operations without having to be physically present on-site, whether it’s industrial machinery, a pump, or a motor. These devices are revolutionizing automation control and are perfect for use in manufacturing, infrastructure, water treatment, and agriculture."
+    ],
+    "image": "/images/products/gic/gsm-controller.jpg",
+    "benefits": [
+      "Load can be made ON / OFF using mobile phone from remote location either by making an IVRS call, missed call or sending SMS to the device",
+      "Device is suitable for Single Phase and Three Phase supply",
+      "Device is compatible with SASD, FASD & DOL starters and controllers",
+      "One Master and two other Master or Monitor numbers can be configured to control and monitor the Load operation",
+      "Load can be operated in Manual Mode, GSM Auto Mode, Timer Mode, Retentive Timer Mode or Multiple Daily Timer Mode",
+      "Wire antenna for flexible positioning to get proper signal strength",
+      "User can get information of events like Load ON/OFF, Phase error, Error recovery, Power Fail, Power ON, Phase fail, Contactor pick up fault through SMS and call back from device",
+      "Anti-theft feature",
+      "Powered with Android App “M-Remote”"
+    ],
+    "catalogue": "/catalogues/gic/gsm-controller.pdf"
+  },
+  {
+    "slug": "slim-relays",
+    "name": "Slim Relays",
+    "category": "Interface Relays",
+    "overview": [
+      "Slim Interface Relays"
+    ],
+    "image": "/images/products/gic/slim-relays.png",
+    "benefits": [
+      "Compact 6.2 mm slim design",
+      "Variety of Operating voltages (24 VDC, 24 VAC/DC, 120 VAC/DC, 230 VAC, 230 VAC/DC)",
+      "Output Relay: 1 C/O for high switching current up to 6A at 250VAC",
+      "All sockets with LED for relay status",
+      "Shorting Link, Marker & end clamp available as accessories"
+    ],
+    "catalogue": "/catalogues/gic/slim-relay-catalogue-page.pdf"
+  },
+  {
+    "slug": "isolated-relay-module",
+    "name": "Isolated Relay Module",
+    "category": "Interface Relays",
+    "overview": [
+      "Isolated Relay"
+    ],
+    "image": "/images/products/gic/isolated-relay-module.jpg",
+    "benefits": [
+      "Provides effective 3 way Isolation between supply, input switch & relay output",
+      "Provides isolation of dissimilar circuits",
+      "Enables control of multiple loads when only one relay output is available",
+      "Isolated Relays are mainly used in fire safety applications that interface with HVAC system, elevator controls and access control doors.",
+      "It can also be integrated with PLC systems"
+    ],
+    "catalogue": "/catalogues/gic/isolated-relay-output-module.pdf"
+  },
+  {
+    "slug": "pid-temperature-controller-48x48",
+    "name": "48×48 mm PID Temperature Controller",
+    "category": "Temperature Controller",
+    "overview": [
+      "48×48 mm Digital PID Temperature Controller"
+    ],
+    "image": "/images/products/gic/pid-temperature-controller-48x48.jpg",
+    "benefits": [
+      "Flush Mounting 48×48 mm",
+      "Lower Depth of 65mm",
+      "Universal Input",
+      "Single and Dual LED Display",
+      "Configurable Output: Relay or SSR Drive",
+      "°C & °F temperature unit selectable",
+      "Ramp & Soak profile with Power Failure resumption mode",
+      "TC with CT input",
+      "RS485 Communication",
+      "Configurable Analog Input & Analog Output",
+      "Multiple device programming with Memory card support",
+      "Rapid Set Point change feature",
+      "Alarm Functionality",
+      "Single/Dual acting PID controllers",
+      "IP 65 (for Front Panel) IP 20 (for Terminals & Enclosure)",
+      "Auto-tuning PID with provision for Soft-Start",
+      "CE, UKCA, ROHS Certified"
+    ],
+    "catalogue": "/catalogues/gic/48x48.pdf"
+  },
+  {
+    "slug": "pid-temperature-controller-72x72",
+    "name": "72×72 mm PID Temperature Controller",
+    "category": "Temperature Controller",
+    "overview": [
+      "72×72 mm Digital PID Temperature Controller"
+    ],
+    "image": "/images/products/gic/pid-temperature-controller-72x72.png",
+    "benefits": [
+      "Flush Mounting 72×72 mm",
+      "Lower Depth of 65mm",
+      "Universal Input",
+      "Single and Dual LED Display",
+      "Configurable Output: Relay or SSR Drive",
+      "°C & °F temperature unit selectable",
+      "Multiple device programming with Memory card support",
+      "Rapid Set Point change feature",
+      "Alarm Functionality",
+      "Single/Dual acting PID controllers",
+      "IP 65 (for Front Panel) IP 20 (for Terminals & Enclosure)",
+      "Auto-tuning PID with provision for Soft-Start",
+      "CE, UKCA, ROHS Certified"
+    ],
+    "catalogue": "/catalogues/gic/72x72.pdf"
+  },
+  {
+    "slug": "pid-temperature-controller-96x96",
+    "name": "96×96 mm PID Temperature Controller",
+    "category": "Temperature Controller",
+    "overview": [
+      "96×96 mm Digital PID Temperature Controller"
+    ],
+    "image": "/images/products/gic/pid-temperature-controller-96x96.jpg",
+    "benefits": [
+      "Flush Mounting Version 96×96 mm with Dual Line Digital Seven Segment Display",
+      "Universal Input",
+      "Configurable Output combination",
+      "Configurable: Band, Deviation, Sensor break & Loop break alarms",
+      "Single/Dual acting PID controllers with 4 Control modes",
+      "Analog Voltage/Current Inputs (0-5V, 1-5V, 0-10V / 4-20mA) & Outputs (0-10V / 4-20mA)",
+      "Auto-tuning PID with provision for Soft-Start",
+      "6 Segment Ramp & Soak profile with Power Failure resumption modes",
+      "Rapid Set Point change feature",
+      "RS485 Communication",
+      "Bumpless Auto-Manual transfer",
+      "IP 20 (for Terminals & Enclosure) IP 40 (for Front Panel only)",
+      "Timer functionality with settable time from 1min to 9999 min",
+      "CE and RoHS complied"
+    ],
+    "catalogue": "/catalogues/gic/96x96.pdf"
+  },
+  {
+    "slug": "process-indicator",
+    "name": "Process Indicator",
+    "category": "Process Indicator",
+    "overview": [
+      "Process Indicators",
+      "Industrial processes demand accurate and dependable monitoring to maintain control and avoid costly disruptions. GIC India’s process indicators are designed to deliver precise real time visibility across a wide range of industrial applications, supporting effective process control even in demanding environments.",
+      "GIC process indicator controllers provide consistent measurement, reliable performance, and user friendly operation for seamless system integration. With flexible configuration and communication options, they adapt easily to diverse requirements while meeting strict quality standards. Backed by technical expertise and global presence, GIC India helps industries improve efficiency and maintain stable operations.",
+      "Critical process values such as temperature, pressure, flow, voltage, or current can be reliably displayed in real time using GIC’s precision engineered process indicators. These process control indicators function as a versatile process indicator controller, offering a clear display indicator for accurate process display across industrial automation systems. Designed with adaptability and user friendly operation in mind, GIC solutions enable continuous monitoring and faster, more confident decision making.",
+      "GIC process control indicators are compatible with temperature controllers, timers and counters, PLCs, and monitoring devices, ensuring accurate and consistent process display across industrial systems."
+    ],
+    "image": "/images/products/gic/process-indicator.jpg",
+    "benefits": [
+      "Flush Mounting Version 96X48 mm with 7 segment display",
+      "Thermocouple (J, K, T, R & S) / RTD 3-wire (Pt-100) sensor inputs",
+      "Analog Inputs (0-10 VDC / 0-20mA / 4-20mA), mV (Linear) – 5 to 56mV",
+      "Alarm Outputs, Analog (0-20mA/ 4-20mA or 0-10V/ 0-5V) & Relay 5A for alarm indication",
+      "Configurable Band, Deviation Alarms",
+      "°C & °F temperature unit selectable",
+      "Short depth of 65 mm",
+      "RS 485 Communication",
+      "IP 20 (For terminal and enclosure) & IP 55 (For Front Panel only)"
+    ],
+    "catalogue": "/catalogues/gic/process-indicators.pdf"
+  },
+  {
+    "slug": "voltage-monitoring",
+    "name": "Voltage Monitoring",
+    "category": "Monitoring Devices",
+    "overview": [
+      "As we mentioned before, over and under voltage protection aren’t the only benefits that a phase monitoring relay renders. Such devices can also help you deal with Phase unbalance or phase asymmetry issues. This situation occurs when one or multiple line to line voltages do not match with each other. This results in unbalanced voltage, which leads to unbalanced current inside the motor winding. If this happens, the temperature of the windings will also increase.",
+      "Phase asymmetry can be caused due to an unbalanced transformer bank, an unstable utility supply, or because of unevenly distributed loads on the same power system. A under voltage monitoring relay can protect the motor from damage because of phase asymmetry by turning off the equipment as soon as such an issue is detected.",
+      "Another issue that a voltage detection relay can be effective against is phase loss, which occurs when one out of the three phases is lost. Phase loss can happen because of a broken wire, thermal overload, mechanical failure, or worn contact. If phase loss transpires, motors, compressors, and pumps with 3 phases will consume excess current.",
+      "This could result in the device becoming overheated and therefore unsafe. A good-quality voltage monitor relay will protect the system from damage in such a scenario by immediately switching the equipment off as soon as a phase loss is detected.",
+      "Sometimes voltages are attained at their maximum positive value. When this happens, it is called phase sequence. When it comes to a three-phase system, each of the three voltages should fall within the same magnitude while ensuring the frequency is displaced electrically by an angle of 120 degrees."
+    ],
+    "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm175.jpg",
+    "benefits": [
+      "UPS",
+      "Auto Mains Failure Panel",
+      "Battery Charger Panels",
+      "Generator Set Panels",
+      "Inverter Panels",
+      "IDC Drive Control Panels",
+      "Overvoltage and under voltage protection",
+      "Phase sequence, phase loss, phase asymmetry protection",
+      "Protection against under and over frequency issues",
+      "Protection against neutral open.",
+      "Configurable Relay Outputs",
+      "Protection: IP20 and IP40"
+    ],
+    "variants": [
+      {
+        "name": "Voltage Monitoring Relay – SM175",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm175.jpg",
+        "features": [
+          "Compact 17.5 mm Wide",
+          "Multi-Voltage: Three Phase 3 Wire @ 208-480 VAC or Three Phase 4 Wire @ 120-277 VAC",
+          "Can be configured for 3 Phase 3 Wire or 3 Phase 4 Wire system",
+          "Protection against Phase loss, Phase Sequence, Phase Asymmetry, Under Voltage & Over Voltage",
+          "Selectable Under Voltage / Over Voltage, Asymmetry and Phase Sequence",
+          "LED Indication for all Faults & for change in dip switch settings during runtime for better security",
+          "Adjustable ON/OFF Time Delay in seconds / minutes",
+          "1 C/O Configuration"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-175.pdf"
+      },
+      {
+        "name": "Voltage Monitoring Relay – SM301",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm301.jpg",
+        "features": [
+          "Protects against Phase Loss, Phase Reversal & Phase Asymmetry",
+          "No Auxiliary Supply needed",
+          "Voltage Sensing principle",
+          "1 C/O & 2 C/O Configurations",
+          "Designed to meet Industrial and Agricultural segment applications"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-301.pdf"
+      },
+      {
+        "name": "Voltage Monitoring Relay – SM500",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm500.jpg",
+        "features": [
+          "Protects against Phase Loss, Phase Reversal & Phase Asymmetry",
+          "Can be configured for 3 Phase 4 Wire or 1 Phase system",
+          "Selectable Over Voltage / Under Voltage Trip level",
+          "Selectable Time Delay",
+          "LED Indications for Power and Fault conditions",
+          "Voltage Sensing principle",
+          "1 C/O or 2 C/O Configuration"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-500.pdf"
+      },
+      {
+        "name": "Voltage Monitoring Relay – SM501",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm501.jpg",
+        "features": [
+          "Protects against Phase Loss, Phase Reversal & Phase Asymmetry",
+          "Suitable for 3 Phase 3 Wire system",
+          "Selectable Under Voltage / Over Voltage Trip level",
+          "Selectable Time Delay",
+          "Models for Selectable Phase Asymmetry",
+          "LED Indications for Power and Fault conditions",
+          "Voltage Sensing Principle",
+          "2 C/O Configuration"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-501.pdf"
+      },
+      {
+        "name": "Voltage Monitoring Relay – SM600",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm600.jpg",
+        "features": [
+          "True RMS Measurement",
+          "Wide supply monitoring range from 500V-1000V AC",
+          "Monitors own supply and detects fault conditions on one or more phases",
+          "Protection against Phase loss, Phase Sequence, Phase Asymmetry, Under Voltage(UV), Over Voltage (OV) and 3 phase interruption",
+          "Adjustable UV, OV and Phase asymmetry trip settings through Potentiometer",
+          "LED Indication for supply and fault status",
+          "Selectable ON or OFF delay through DIP Switch and adjustable delay time settings through Potentiometer",
+          "Two SPDT relay outputs which can be configured separately for UV and OV fault through DIP Switch"
+        ],
+        "catalogue": "/catalogues/gic/mmr-smb110-catalogue-1.pdf"
+      },
+      {
+        "name": "Voltage Monitoring Relay – SM800",
+        "image": "/images/products/gic/voltage-monitoring-voltage-monitoring-sm800.jpg",
+        "features": [
+          "LCD Display with Green backlight",
+          "Multi-Voltage: Three Phase 4 Wire & Three Phase 3 Wire @ 145-500 VAC",
+          "Protection against Phase loss, Phase Sequence, Phase Asymmetry, Under Voltage, Over Voltage, Neutral Open, Over Frequency and Under Frequency",
+          "Can be configured for 3 Phase 3 Wire or 3 Phase 4 Wire system",
+          "Selectable Over Voltage/ Under Voltage, Asymmetry, Phase Loss, Phase Sequence, Over Frequency/ Under Frequency",
+          "Adjustable ON/OFF Time Delay in seconds/ minutes",
+          "5A Single and Dual relay outputs",
+          "Two Separate Relay outputs with independent Programming",
+          "Password protection",
+          "Log of 5 previous faults for better monitoring",
+          "Fail safe/ Non-Fail safe relay output",
+          "Latch (Manual) and Non-Latch (Auto) Modes"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-800.pdf"
+      },
+      {
+        "name": "Single Phase Voltage Monitoring Relay",
+        "image": "/images/products/gic/voltage-monitoring-single-phase-voltage-monitoring-relay.png",
+        "features": [
+          "True RMS measurement",
+          "Monitors an own supply",
+          "Self-powered & Suitable for AC & DC supply monitoring",
+          "Available in wide voltage ranges 12V DC, 24-48V AC/DC, 10-240V AC/DC",
+          "Adjustable settings for Under/Over voltage threshold, hysteresis, and trip time delay",
+          "LED status indication",
+          "Auto / Manual reset provision",
+          "1 C/O relay output",
+          "CE & RoHS Compliant"
+        ],
+        "catalogue": "/catalogues/gic/voltage-monitoring-series-sm-175.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "current-monitoring-relay",
+    "name": "Current Monitoring Relay",
+    "category": "Monitoring Devices",
+    "overview": [
+      "Current Protection Relay",
+      "A Current Monitoring Relay (CMR) is a protective device designed to monitor electrical current levels in circuits, motors, and equipment. It ensures that current remains within safe operating limits, protecting systems from overload, underload, phase loss, or imbalance conditions. By continuously supervising current flow, these relays help prevent equipment damage, optimize energy efficiency, and enhance overall operational safety. They are widely used in industrial automation, HVAC systems, pumping stations, and manufacturing facilities.",
+      "CMRs detect overload, underload, and phase loss conditions, ensuring a quick response to prevent damage.",
+      "By keeping current levels within safe ranges, these relays extend motor and equipment lifespan.",
+      "Monitoring and controlling current usage reduces wastage, optimizes energy consumption, and lowers operating costs."
+    ],
+    "image": "/images/products/gic/current-monitoring-relay.jpg",
+    "benefits": [
+      "Protects against Overload, Phase Reverse, Phase Loss and Phase Unbalance faults",
+      "Wide Range of Sensing Current : 1A-45A",
+      "Models for 1 Phase and 3 Phase systems",
+      "Auto/Manual Reset selection",
+      "Fail-Safe Protection",
+      "Inverse Time model with Under load, Locked Rotor Protection and Selectable Trip Class",
+      "Definite Time model with Under load and selectable Start and Trip time"
+    ],
+    "catalogue": "/catalogues/gic/current-monitoring-relay.pdf"
+  },
+  {
+    "slug": "earth-leakage-monitoring",
+    "name": "Earth Leakage Monitoring",
+    "category": "Monitoring Devices",
+    "overview": [
+      "Earth Leakage Relays (ELRs) constitute indispensable safeguarding apparatus within electrical infrastructures, meticulously engineered to discern and mitigate deleterious earth fault currents. These sophisticated protective devices continuously scrutinize current disparities between live conductors and earth pathways, instantaneously triggering corrective measures upon detecting anomalous leakage exceeding predetermined thresholds.",
+      "Modern earth leakage indicator feature comprehensive parameter configurability—spanning leakage sensitivity from 30mA to 30A, adjustable trip delays up to 10 seconds, and versatile auxiliary supply compatibility across 110-415V AC/DC ranges. Incorporating nano-crystalline core-balanced current transformers for enhanced precision, these relays provide instantaneous tripping at quintuple set values while offering diagnostic LED indicators, manual/remote reset capabilities, and RS485 communication protocols.",
+      "Their deployment spans diverse applications including low-tension control panels, mining operations, variable-speed drives, HVAC systems, and fire protection circuits—ensuring comprehensive electrical safety across industrial and commercial installations through continuous monitoring and rapid fault isolation.",
+      "An Earth Leakage Relay, or ELR, is an essential component in electrical systems due to its vital role in providing earth leakage protection. Its importance lies in the ability to detect and respond to potentially hazardous leakage currents that can lead to electric shocks or electrical faults.",
+      "The primary reason to use an earth leakage protection relay is to enhance electrical safety. It acts as a protective measure by continuously monitoring the current flowing between the live conductors and the earth. If an abnormal current or leakage exceeding the set threshold is detected, the earth fault monitoring relay initiates a protective action to prevent accidents or equipment damage."
+    ],
+    "image": "/images/products/gic/earth-leakage-monitoring-earth-leakage-relay.jpg",
+    "benefits": [
+      "Monitors, Detects and Protects Power systems from Earth Leakage Fault (Type ‘A’ & ‘AC’)",
+      "A wide range of selectable Earth Leakage Current: 30 mA – 30 A",
+      "Configurable Earth Leakage Trip time: 0 – 10 s",
+      "Wide Auxiliary Supply Range: 110 – 240V AC/DC, 240-415V AC/DC",
+      "Nano Crystalline CBCT measures the leakage current to the highest accuracy",
+      "Instantaneous Trip for 5 times the set value of Leakage current",
+      "Test feature to check complete product functionality",
+      "LED Indication for Relay Status, Earth Leakage Fault & Alarm Condition",
+      "Manual / Remote Reset feature",
+      "Continuous Scrolling display for Set Current and Set time",
+      "1 C/O (Alarm Relay) + 1 C/O ( Fault Relay)",
+      "RS 485 Communication"
+    ],
+    "variants": [
+      {
+        "name": "Earth Leakage Relay",
+        "image": "/images/products/gic/earth-leakage-monitoring-earth-leakage-relay.jpg",
+        "features": [
+          "Monitors, Detects and Protects Power systems from Earth Leakage Faults",
+          "Wide range of selectable Earth Leakage Current: 30 mA – 30 A",
+          "Configurable Earth Leakage Trip time: 0 – 10 s",
+          "Wide Auxiliary Supply Range: 110 – 240 V AC / DC, 220 – 415 V AC / 220 V DC",
+          "Instantaneous Trip for 5 times of set value of Leakage current",
+          "Test feature to check complete product functionality",
+          "LED Indication for Relay status, CT open, Earth Leakage fault & Test/Reset switch feature",
+          "Manual / Remote Reset feature",
+          "1 C/O + 1 NO Relay Output"
+        ],
+        "catalogue": "/catalogues/gic/earth-leakage-relay-catalog.pdf"
+      },
+      {
+        "name": "Integral Earth Leakage Relay",
+        "image": "/images/products/gic/earth-leakage-monitoring-integral-earth-leakage-relay.jpg",
+        "features": [
+          "Monitors, True RMS Earth Leakage Current.",
+          "Integral toroid-35mm Ø",
+          "Earth Leakage Relay with Inbuilt CBCT of three variant available:30mA, 100mA, 300mA",
+          "“Test” and “Reset” push buttons.",
+          "SPDT Output Relay with Energized to trip.",
+          "Protected against the nuisance tripping.",
+          "Green LED indicates presence of power supply.",
+          "Red LED flashing indicates when fault current is >50% of ▲ n & fault current is >75% LED ON as relay has tripped.",
+          "Base or DIN rail Mounting.",
+          "Easy to install and compact size."
+        ],
+        "catalogue": "/catalogues/gic/integrated-elr-catalogue.pdf"
+      },
+      {
+        "name": "Digital Earth Leakage Relay with CBCT",
+        "image": "/images/products/gic/earth-leakage-monitoring-digital-earth-leakage-relay-with-cbct.jpg",
+        "features": [
+          "Monitors, Detects and Protects Power systems from Earth Leakage Faults",
+          "Wide range of selectable Earth Leakage Current: 30 mA – 30 A",
+          "Configurable Earth Leakage Trip time: 0 – 10 s",
+          "Wide Auxiliary Supply Range: 110 – 240 V AC / DC, 220 – 415 V AC / 220 V DC",
+          "Instantaneous Trip for 5 times of set value of Leakage current",
+          "Test feature to check complete product functionality",
+          "LED Indication for Relay status, CT open, Earth Leakage fault & Test/Reset switch feature",
+          "Manual / Remote Reset feature",
+          "1 C/O + 1 NO Relay Output"
+        ],
+        "catalogue": "/catalogues/gic/earth-leakage-relay-30ma-30a.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "ptc-thermistor-relays",
+    "name": "PTC Thermistor Relays",
+    "category": "Monitoring Devices",
+    "overview": [
+      "PTC relays continuously monitor motor winding temperatures, ensuring automatic shutdown during thermal overloads to prevent damage.",
+      "By preventing overheating and insulation breakdown, PTC relays significantly increase the operational lifespan of motors and machinery.",
+      "Easy to install and integrate, PTC relays reduce maintenance costs and downtime while offering a low-cost thermal protection solution.",
+      "From small motors to heavy-duty equipment, PTC relays are scalable and adaptable for diverse industrial environments.",
+      "A PTC Thermistor Relay is a protective device that works with thermistor sensors embedded in motor windings or equipment. It prevents overheating by monitoring resistance changes in the PTC thermistors and tripping when limits are exceeded."
+    ],
+    "image": "/images/products/gic/ptc-thermistor-relays-pt100.png",
+    "benefits": [
+      "PTC Thermistor Relay TR-100 – Compact motor protection relay with adjustable trip points.",
+      "PTC Relay TR-200 – Multi-channel relay designed for larger machines and advanced safety needs.",
+      "Accessories for PTC Relays – Expansion modules, sockets, and mounting kits for seamless installation.",
+      "PTC thermistors sense rising temperatures.",
+      "Resistance increases when preset limits are reached.",
+      "The relay detects this change and disconnects the load or triggers an alarm.",
+      "Electric motor protection",
+      "Transformer temperature monitoring",
+      "Generators and alternators",
+      "Industrial heating systems",
+      "Pumps, fans, and compressors",
+      "Number of PTC sensors supported"
+    ],
+    "variants": [
+      {
+        "name": "PT100",
+        "image": "/images/products/gic/ptc-thermistor-relays-pt100.png",
+        "features": [
+          "Wide operating Supply Range 24V to 240V AC/DC.",
+          "Two analog outputs of 0 to 10V DC.",
+          "Sensor Fault detection (open/short) indication through LED’s as well as Analog outputs.",
+          "LED Indications for power ON and relay ON status display.",
+          "Adjustable wide temperature range from -50°C to 300°C through DIP switches.",
+          "Auto/Manual reset mode selectable through DIP switch.",
+          "Relay Normal/Inversion mode selectable through DIP switch.",
+          "High load switching capacity of output up to 10A."
+        ],
+        "catalogue": "/catalogues/gic/pt-100-temperature-control-relay.pdf"
+      },
+      {
+        "name": "Single Phasing Relays",
+        "image": "/images/products/gic/ptc-thermistor-relays-single-phasing-relays.jpg",
+        "features": [
+          "Thermistor Relay combined with Protection against Phase Sequence, Phase Loss & Phase Asymmetry Faults",
+          "Monitor and Protects Motors with Integrated PTC Resistor sensors",
+          "Protection against Over heating for Heavy Duty Load, High Switching Frequency, High operating temperature & Insufficient cooling conditions",
+          "LED indications for Healthy, Unhealthy, Sensor Open/Short and Phase Sequence fault conditions"
+        ],
+        "catalogue": "/catalogues/gic/ptc-thermistor-relay-series-pd-225.pdf"
+      },
+      {
+        "name": "Temperature Monitoring",
+        "image": "/images/products/gic/ptc-thermistor-relays-temperature-monitoring.jpg",
+        "features": [
+          "Monitors and Protects Motors with Integrated PTC Resistor sensors",
+          "Protection against Over heating for Heavy Duty Load, High Switching Frequency, High operating temperature & Insufficient cooling conditions",
+          "Wide Auxiliary Supply Voltage: 24 VAC/DC, 110 – 240 VAC & 220 – 415 VAC",
+          "LED Indications for Healthy, Unhealthy, Sensor Open/Short conditions",
+          "1 C/O & 2 C/O Configuration",
+          "Reset Options: Auto, Manual and Remote"
+        ],
+        "catalogue": "/catalogues/gic/ptc-thermistor-relay-series-pd-225.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "liquid-level-monitoring-relays",
+    "name": "Liquid Level Controller/ Water Level Controller",
+    "category": "Monitoring Devices",
+    "overview": [
+      "Liquid Level Controller Relay",
+      "A Liquid Level Monitoring Relay (LLMR) is a control and protection device designed to monitor and regulate liquid levels in tanks, reservoirs, and pipelines. It detects high, low, or intermediate liquid levels and triggers pumps, alarms, or valves to maintain safe and efficient operation. These relays are essential in water treatment plants, pumping stations, industrial process systems, and HVAC applications, ensuring reliable automation of liquid handling processes.",
+      "Accurately monitors high and low liquid levels, ensuring pumps and valves operate only when needed.",
+      "Protects pumps from running without liquid and prevents tank overflow, reducing equipment damage and water wastage.",
+      "Simple wiring, DIN-rail mounting, and adjustable sensitivity make installation and commissioning quick."
+    ],
+    "image": "/images/products/gic/liquid-level-monitoring-relays.jpg",
+    "benefits": [
+      "Fully Automatic operation enabling both draining and filling simultaneously with a single device",
+      "Adjustable sensitivity level from 1k to 200k Ohm",
+      "Includes provision for Manual start",
+      "Protects submersible pumps against dry running and prevents overfilling",
+      "Enables maximum utilization of incoming liquid (eg. water) supply",
+      "Specially designed corrosion and shock resistant sensors to ensure trouble free operation."
+    ],
+    "catalogue": "/catalogues/gic/liquid-level-controller.pdf"
+  },
+  {
+    "slug": "insulation-monitoring-relays",
+    "name": "Insulation Monitoring Relays",
+    "category": "Monitoring Devices",
+    "overview": [
+      "Insulation Monitoring Relay",
+      "An Insulation Monitoring Relay (IMR) is a protective device used to monitor the insulation resistance of ungrounded (IT) power systems. It continuously measures insulation resistance between active conductors and earth, providing early detection of insulation faults. By alerting operators before a complete breakdown occurs, insulation monitoring relays help prevent electrical shocks, equipment failures, and costly downtime. They are essential in applications where continuous operation and high safety standards are critical.",
+      "IMRs provide real-time monitoring of insulation resistance, detecting faults early and ensuring safer electrical operation.",
+      "By identifying insulation degradation before breakdown, IMRs reduce the risk of electric shock, fire, or equipment damage.",
+      "With preventive monitoring, operators can perform corrective maintenance before faults escalate, minimizing downtime."
+    ],
+    "image": "/images/products/gic/insulation-monitoring-relays.jpg",
+    "benefits": [
+      "Monitors insulation resistance of unearthed IT Systems in compliance with IEC 61557-8, EN 50155, IEC 61373 and EN 45545 HL-2/3",
+      "Suitable for monitoring 1 Ph, 3P3W and 3P4W unearthed supply systems",
+      "Measuring input L-PE with line voltages upto 520V AC",
+      "Wide auxiliary supply voltage range 24V – 240V AC/DC",
+      "Adjustable trip resistance value from 1K to 100Kohm",
+      "2 Relay outputs (1C/O + 1NO) for fail safe and non fail safe operation",
+      "Test / Reset function with Manual and remote facility",
+      "Configurable Auto / Manual Reset",
+      "LED indication for insulation fault, Power and Relay output",
+      "DIN Rail / Base Mounting"
+    ],
+    "catalogue": "/catalogues/gic/imr122-catalogue.pdf"
+  },
+  {
+    "slug": "electronic-timer",
+    "name": "Electronic Timer",
+    "category": "Timers",
+    "overview": [
+      "Electronic timers provide accurate switching at defined intervals, ensuring consistent performance across applications.",
+      "By automating start/stop sequences and reducing manual intervention, timers help optimize system efficiency and reduce human error.",
+      "From motor control to lighting and HVAC automation, timers adapt to a broad range of industrial and commercial uses.",
+      "Compact designs, DIN-rail mounting, and user-friendly settings make GIC timers easy to install and configure.",
+      "An Electronic Timer is used to control the timing of operations in automation systems, such as switching equipment ON or OFF after a preset delay or cycle."
+    ],
+    "image": "/images/products/gic/electronic-timer-electronic-timer-series-micon-225.jpg",
+    "benefits": [
+      "Multi-Function Timer MF-100 – Flexible timer supporting multiple modes like ON-delay, OFF-delay, interval, and cyclic operations.",
+      "Star-Delta Timer SD-200 – A specialized timer designed for motor starting applications, featuring adjustable transition delay.",
+      "Digital Timer DT-300 – High-precision digital timer with display for advanced control needs.",
+      "Accessories – Sockets, mounting kits, and protective covers for easy installation and extended durability.",
+      "Receives a start signal or power input.",
+      "Counts time as per the programmed delay or mode.",
+      "Switches the output ON or OFF when the set time condition is met.",
+      "ON-delay timers – Delay before output activation.",
+      "OFF-delay timers – Delay before output deactivation.",
+      "Interval timers – Maintain output ON for a set period.",
+      "Cyclic timers – Alternate ON/OFF cycles continuously.",
+      "Motor control and protection"
+    ],
+    "variants": [
+      {
+        "name": "Electronic Timer – Series Micon 225",
+        "image": "/images/products/gic/electronic-timer-electronic-timer-series-micon-225.jpg",
+        "features": [
+          "Multi-function with Signal Start and Supply Start.",
+          "16 Timing Functions selected by DIP switch.",
+          "Two independent relay outputs with either both relays timed or one timed and one instantaneous.",
+          "Wide Input Signal & Supply range – 24-240V AC/DC.",
+          "Wide Timing Range – 0.1 s to 120 days.",
+          "High timing Accuracy.",
+          "LED indicators for Power Supply & Relay Status.",
+          "22.5mm DIN Mount Housing."
+        ],
+        "catalogue": "/catalogues/gic/electronic-timer-series-micon-225.pdf"
+      },
+      {
+        "name": "Electronic Timer – Series Micon ® 175",
+        "image": "/images/products/gic/electronic-timer-electronic-timer-series-micon-175.jpg",
+        "features": [
+          "Compact 17.5mm Wide",
+          "Integrated Dual Voltage",
+          "Functions: ON Delay, Interval, Star Delta, One Shot, Signal Off Delay",
+          "Wide Time Range: 0.1s – 100h",
+          "LED Indications for Power and Relay status",
+          "Low Power Consumption"
+        ],
+        "catalogue": "/catalogues/gic/electronic-timer-series-micon-175.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "digital-timer",
+    "name": "Digital Timer Eliro",
+    "category": "Timers",
+    "overview": [
+      "Digital Timer Module",
+      "A Digital Timer is a precision time-control device that utilizes digital technology to manage on/off switching operations in automation systems. Unlike analog timers, digital timers offer greater accuracy, easy programmability, and clear digital displays, making them ideal for applications requiring precise timing cycles and repeatability. They are widely used in industrial automation, motor control, lighting systems, pumping stations, and process sequencing, helping improve efficiency and reduce manual intervention.",
+      "Digital timers offer superior timing accuracy compared to analog timers, ensuring reliable process control.",
+      "Clear digital displays and intuitive settings allow quick configuration and real-time monitoring of timing cycles.",
+      "Support for multiple timing modes enables broad application use, from simple delays to complex cyclic operations."
+    ],
+    "image": "/images/products/gic/digital-timer.jpg",
+    "benefits": [
+      "Compact 17.5 mm Wide",
+      "Multi-Function: (8 or 18) Non-Signal & Signal based functions",
+      "Multi-Voltage: 24 – 240 VAC/DC",
+      "Wide Timing Range: 0.1s to 999 Hr",
+      "3 Digit LCD for Preset time and Run time",
+      "Option to select Up/Down counting",
+      "Tamper proof with key lock feature"
+    ],
+    "catalogue": "/catalogues/gic/digital-timers.pdf"
+  },
+  {
+    "slug": "brown-out-timers",
+    "name": "Brown Out Timers",
+    "category": "Timers",
+    "overview": [
+      "Motor Protection Timer Relay",
+      "A Brownout Timer is a protective timing device designed to safeguard electrical and electronic equipment from the harmful effects of low-voltage (brownout) conditions. When the voltage drops below a safe threshold, the brown out timer disconnects the load and reconnects it only after the supply stabilizes for a preset time delay. This ensures that motors, compressors, control systems, and sensitive devices are shielded from voltage dips, frequent restarts, and premature failures.",
+      "Prevents motors, compressors, and electronics from damage caused by low-voltage conditions and sudden restarts.",
+      "Configurable delay ensures that the load reconnects only after the voltage stabilizes, preventing nuisance tripping.",
+      "By avoiding frequent restarts,brownout timers help reduce mechanical and thermal stress on equipment, improving service life."
+    ],
+    "image": "/images/products/gic/brown-out-timers.jpg",
+    "benefits": [
+      "Compact 17.5mm wide",
+      "Brown Out Timer with many functional options",
+      "Detects Voltage Dips and Momentary Loss of Supply & Resets the control panel",
+      "Low Power Consumption",
+      "Fast Response Time",
+      "Excellent Noise Immunity to the latest IEC standards"
+    ],
+    "catalogue": "/catalogues/gic/motor-control-timers.pdf"
+  },
+  {
+    "slug": "analog-time-switch",
+    "name": "Analog Time Switch",
+    "category": "Time Switches",
+    "overview": [
+      "Analog Time Switch FM Series",
+      "An Analog Time Switch is a simple yet reliable device used to control the switching of electrical loads based on a preset time schedule. By using a rotating dial and mechanical pins or segments, analog time switches allow users to program daily or weekly ON/OFF operations for lights, pumps, motors, and other electrical devices. These devices are ideal for applications where straightforward, cost-effective, and dependable time control is required.",
+      "Analog dials with pins or segments make scheduling intuitive and quick, even without technical expertise.",
+      "Provides affordable automation for repetitive tasks without the need for complex electronic programming.",
+      "Built with durable mechanical and electronic components for long-lasting and consistent operation."
+    ],
+    "image": "/images/products/gic/analog-time-switch.png",
+    "benefits": [
+      "Modular construction",
+      "Inbuilt over-ride facility",
+      "High switching capacity",
+      "Tamper proof sealing",
+      "Daily/Weekly programming"
+    ],
+    "catalogue": "/catalogues/gic/time-switches-fm-series.pdf"
+  },
+  {
+    "slug": "digital-time-switch",
+    "name": "Digital Time Switch",
+    "category": "Time Switches",
+    "overview": [
+      "Digital Time Switch",
+      "A Digital Time Switch is a programmable device used to control the switching of electrical loads at pre-set times with high accuracy and flexibility. Unlike analog time switches, digital time switches use microprocessor-based technology and LCD/LED displays, allowing precise scheduling, multiple programs, and advanced features such as weekly cycles, holiday overrides, and countdown functions. They are widely used in industrial, commercial, and residential applications, such as lighting, HVAC systems, pumps, and process automation.",
+      "Microprocessor control ensures precise timing and reliable switching with daily or weekly schedules.",
+      "Supports multiple ON/OFF cycles, holiday overrides, countdown timers, and cyclic programs.",
+      "LCD/LED display with intuitive buttons makes programming and monitoring simple."
+    ],
+    "image": "/images/products/gic/digital-time-switch-digital-time-switch-crono-pro.png",
+    "benefits": [
+      "Precise time programming for Daily/Weekly/Pulse switching",
+      "25 ON/OFF programs",
+      "Weekend Exclusion (FRI SAT or SAT SUN) and Weekly OFF programming",
+      "LED Indication of Relay status",
+      "12/24 h display formats",
+      "6 Years Battery reserve",
+      "Simple Reset & Manual override",
+      "Settable DST & Keypad Lock Feature"
+    ],
+    "variants": [
+      {
+        "name": "Digital Time Switch Crono Pro",
+        "image": "/images/products/gic/digital-time-switch-digital-time-switch-crono-pro.png",
+        "features": [
+          "Precise time programming for Daily/Weekly/Pulse switching",
+          "25 ON/OFF programs",
+          "Weekend Exclusion (FRI SAT or SAT SUN) and Weekly OFF programming",
+          "LED Indication of Relay status",
+          "12/24 h display formats",
+          "6 Years Battery reserve",
+          "Simple Reset & Manual override",
+          "Settable DST & Keypad Lock Feature"
+        ],
+        "catalogue": "/catalogues/gic/digital-time-switches-crono-pulse.pdf"
+      },
+      {
+        "name": "Digital Time Switch Pulse",
+        "image": "/images/products/gic/digital-time-switch-digital-time-switch-pulse.png",
+        "catalogue": "/catalogues/gic/digital-time-switches-crono-pulse.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "astronomical-time-switches",
+    "name": "Astronomical Time Switches",
+    "category": "Time Switches",
+    "overview": [
+      "Digital Astronomical Time Switch",
+      "An Astronomical Time Switch is an advanced time-control device designed to switch electrical loads based on sunrise and sunset times for a given location. Unlike traditional time switches that rely on fixed schedules, astro time switches automatically adjust switching times throughout the year according to the natural day–night cycle. This makes them ideal for outdoor lighting, signage, and energy-saving applications, ensuring accurate and efficient automation without the need for manual adjustments.",
+      "Eliminates the need for manual resetting, as switching times adapt automatically to seasonal sunrise and sunset variations.",
+      "Ensures lights and equipment operate only when needed, significantly reducing energy consumption and operating costs.",
+      "Ideal for street lighting, signage, outdoor displays, and security lighting systems."
+    ],
+    "image": "/images/products/gic/astronomical-time-switches.png",
+    "benefits": [
+      "LCD Display with Green backlight",
+      "Precise time programming for Astro / Daily / Weekly / Pulse / Cyclic switching",
+      "Latitude / Longitude Database for 45 Countries and 280 cities",
+      "Settable Latitude / Longitude precise to the minute with time zone",
+      "Sunrise/Sunset or Twilight rise/set trigger modes",
+      "Ease of Day selection in Weekly programming",
+      "50 ON/OFF programs, 10 Holiday Programs",
+      "Settable DST feature & Password protection",
+      "16A Single and Dual relay outputs",
+      "Two Separate Relay outputs with independent Programming",
+      "12/24 Hour Display Format",
+      "6 Years Battery reserve",
+      "Simple Reset & Manual Override",
+      "Service/Load hours measurement"
+    ],
+    "catalogue": "/catalogues/gic/astronomical-time-switch-astro-pro.pdf"
+  },
+  {
+    "slug": "digital-hour-meter-counter",
+    "name": "Digital Hour Meter Counter",
+    "category": "Hour Meters & Counters",
+    "overview": [
+      "Digital Hour Meter & Counter",
+      "A Digital Hour Meter & Counter is an electronic device designed to track operating hours, events, or cycles of machines and equipment with precision. Hour meters record the cumulative run-time of machinery, while counters register the number of operations, strokes, or events. These devices are essential for preventive maintenance, production monitoring, and performance analysis across industrial, commercial, and automotive applications.",
+      "Ensures precise tracking of machine hours and event counts, enabling better maintenance planning and productivity analysis.",
+      "Bright digital LCD/LED displays make monitoring simple, even in low-light environments.",
+      "Rugged construction with a compact form factor ensures durability and easy integration into panels or machines."
+    ],
+    "image": "/images/products/gic/digital-hour-meter-counter.jpg",
+    "benefits": [
+      "Suitable for Hour meter & Counter (Up / Down) application",
+      "Wide Hour meter range from 1 sec to 9999999 hrs",
+      "Wide counter range from 1 to 9999999 counts",
+      "Prescaling facility for Counter",
+      "Runtime set point change & Alarm facility for both Hour meter & Counter",
+      "Configurable NO/NC Relay & MOSFET Output with Over Load detection",
+      "Retentive & Non-Retentive modes",
+      "7 Digit LCD with luxurious green backlight & Password Protection",
+      "Compact size",
+      "Suitable for panel mounting"
+    ],
+    "catalogue": "/catalogues/gic/hour-meter-amp-counters.pdf"
+  },
+  {
+    "slug": "digital-hour-meter",
+    "name": "Digital Hour Meter",
+    "category": "Hour Meters & Counters",
+    "overview": [
+      "Digital Running Hour Meter",
+      "A Digital Hour Meter also called as digital running hour meter is a monitoring device designed to record and display the total operating hours of equipment with high precision. It helps track machine usage, schedule preventive maintenance, and ensure optimal performance across industrial and commercial applications. With a clear LCD/LED display and long-lasting electronic circuits, digital hour meters provide reliable tracking compared to traditional mechanical meters, making them ideal for modern automation systems.",
+      "Precisely records machine operating hours, ensuring reliable maintenance planning and usage tracking.",
+      "Helps plan timely servicing of machines, reducing breakdowns and extending equipment lifespan.",
+      "LCD/LED displays provide real-time, accurate visibility of accumulated hours."
+    ],
+    "image": "/images/products/gic/digital-hour-meter.jpg",
+    "benefits": [
+      "6-digit LCD",
+      "In-built nonvolatile memory (EEPROM) offering exceptional reliability",
+      "Wide range of supply voltage",
+      "Remote reset",
+      "Available in 3 different Bezels",
+      "Low Power Consumption"
+    ],
+    "catalogue": "/catalogues/gic/digital-hour-meter.pdf"
+  },
+  {
+    "slug": "digital-pulse-counters",
+    "name": "Digital Counters",
+    "category": "Hour Meters & Counters",
+    "overview": [
+      "Digital Pulse Counter",
+      "A Digital Counter is an electronic device designed to measure, record, and display the number of events, pulses, or operations in a process with high precision. By tracking machine cycles, production counts, or process inputs, electronic pulse counters provide valuable data for monitoring, control, and automation.",
+      "They are widely used in industrial automation, packaging, material handling, assembly lines, and quality control systems, where accurate counting and monitoring are essential.",
+      "Ensures precise counting of pulses, machine cycles, or production runs, minimizing human error.",
+      "Helps track output levels, detect process deviations, and optimize overall system efficiency."
+    ],
+    "image": "/images/products/gic/digital-pulse-counters.jpg",
+    "benefits": [
+      "6-digit LCD",
+      "In-built nonvolatile memory (EEPROM) offering exceptional reliability",
+      "Wide range of supply voltage",
+      "Remote reset",
+      "Available in 3 different shaped Bezels",
+      "Low Power Consumption"
+    ],
+    "catalogue": "/catalogues/gic/digital-counters.pdf"
+  },
+  {
+    "slug": "electromechanical-hour-meter",
+    "name": "Electromechanical Hour Meter",
+    "category": "Hour Meters & Counters",
+    "overview": [
+      "Hour Meter HM 36",
+      "An Hour Meter is a device used to measure and record the total operating hours of equipment. It helps monitor machine usage, schedule preventive maintenance, and improve operational efficiency. Hour meters are available in both mechanical and digital models, each designed to suit specific industrial and commercial needs.",
+      "The GIC Hour Meter Series provides reliable tracking solutions for generators, compressors, pumps, motors, HVAC systems, and industrial machines, ensuring that operators can effectively manage service schedules and equipment performance.",
+      "Precisely records operating hours, helping plan maintenance schedules and avoid unexpected breakdowns.",
+      "Supports preventive servicing, reducing downtime and extending equipment life."
+    ],
+    "image": "/images/products/gic/electromechanical-hour-meter-hour-meter-series-hm-36.jpg",
+    "benefits": [
+      "Robust design with high degree of Accuracy and Compact size",
+      "Frequency independent for AC applications",
+      "Indicates operating time in hours and tenths with running indicators",
+      "Panel mountable with 7 Bezel options",
+      "6 Digit Non-Resettable with automatic recycle to zero",
+      "Wide supply voltage range: 4 – 36V AC/DC, 10 – 80V DC & 90 – 264V AC",
+      "Shock & Vibration Proof"
+    ],
+    "variants": [
+      {
+        "name": "Hour Meter Series HM 36",
+        "image": "/images/products/gic/electromechanical-hour-meter-hour-meter-series-hm-36.jpg",
+        "features": [
+          "Robust design with high degree of Accuracy and Compact size",
+          "Frequency independent for AC applications",
+          "Indicates operating time in hours and tenths with running indicators",
+          "Panel mountable with 7 Bezel options",
+          "6 Digit Non-Resettable with automatic recycle to zero",
+          "Wide supply voltage range: 4 – 36V AC/DC, 10 – 80V DC & 90 – 264V AC",
+          "Shock & Vibration Proof"
+        ],
+        "catalogue": "/catalogues/gic/hour-meter-series-hm-36.pdf"
+      },
+      {
+        "name": "Hour Meter Series HR 26",
+        "image": "/images/products/gic/electromechanical-hour-meter-hour-meter-series-hr-26.jpg",
+        "catalogue": "/catalogues/gic/hour-meter-series-hr-26.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "impulse-counter",
+    "name": "Impulse Counter",
+    "category": "Hour Meters & Counters",
+    "overview": [
+      "Provides precise counting of pulses or events, minimizing errors and ensuring reliable monitoring.",
+      "Helps track machine cycles, production output, and energy consumption for better operational efficiency.",
+      "Supports totalized counts, batch counting, and resettable functions, adapting to diverse industrial applications.",
+      "GIC Impulse Counters are built with rugged electronics and noise-immune circuits for consistent performance in harsh environments."
+    ],
+    "image": "/images/products/gic/impulse-counter-impulse-counter-series-cr-26.jpg",
+    "benefits": [
+      "IC-100 – Compact counter for simple pulse counting and event tracking.",
+      "IC-200 Multi-Function – Supports totalizing, batch counting, and resettable functions.",
+      "IC-300 Advanced – High-speed impulse counter with digital display, memory backup, and multi-input compatibility.",
+      "Accessories – Panel mounting kits, protective covers, and sockets for easy installation.",
+      "Receives pulses or signals from connected equipment.",
+      "Accumulates the total count digitally.",
+      "Displays the count on an LCD/LED display for real-time monitoring.",
+      "Energy meter pulse tracking",
+      "Water, gas, and flow meters",
+      "Production line cycle counting",
+      "Industrial machine monitoring",
+      "Process control and automation"
+    ],
+    "variants": [
+      {
+        "name": "Impulse Counter CR 26",
+        "image": "/images/products/gic/impulse-counter-impulse-counter-series-cr-26.jpg",
+        "features": [
+          "6-digit Compact Non Reset and Robust Design",
+          "High Accuracy and Reliability",
+          "Requires no lubrication or maintenance",
+          "Ideal where space is limitation",
+          "Three mounting options: Bail, Panel, Base, Behind Panel"
+        ],
+        "catalogue": "/catalogues/gic/impulse-counter-series-cr-26.pdf"
+      },
+      {
+        "name": "Impulse Counter CR 18",
+        "image": "/images/products/gic/impulse-counter-impulse-counter-cr-18.jpg",
+        "features": [
+          "7-digit Compact Size",
+          "High Accuracy and Reliability",
+          "Requires no lubrication or maintenance",
+          "Ideal where space is limitation",
+          "Mounting options: Panel, PCB, REAR"
+        ],
+        "catalogue": "/catalogues/gic/impulse-counter-series-cr-18.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "phase-indicator",
+    "name": "Phase Indicator",
+    "category": "Phase Indicator",
+    "overview": [
+      "Ensure Electrical Safety with Reliable Digital Phase Indicators",
+      "GIC’s Phase loss Indicators are made to be precise, reliable, and simple to use. Because these devices are made to detect the presence and sequence of all three phases (R-Y-B), they are essential for preventing costly equipment failures and guaranteeing proper motor and machinery operation. GIC Phase Indicator light are a reliable tool for routine maintenance, troubleshooting, and commissioning for electrical professionals in a variety of industries.",
+      "GIC’s LED Phase Indicators are made to be precise, reliable, and simple to use. Because these devices are made to detect the presence and sequence of all three phases (R-Y-B), they are essential for preventing costly equipment failures and guaranteeing proper motor and machinery operation. GIC Phase loss Indicators are a reliable tool for routine maintenance, troubleshooting, and commissioning for electrical professionals in a variety of industries.",
+      "GIC Phase loss Indicators are compatible with Voltage Monitoring Relays, Motor Protection Relays, Integrating GIC’s range of electrical automation products, customers can build smart, safe, and efficient electrical systems from a single trusted brand.",
+      "Quickly detects the presence of phases and confirms that all three phases are in the proper order (R-Y-B), which is essential before supplying power to motors and other industrial machinery."
+    ],
+    "image": "/images/products/gic/phase-indicator.png",
+    "benefits": [
+      "Compact 17.5 mm Wide",
+      "Available for Single, Two and Three Phase indications",
+      "Choice of four colours",
+      "LED technology for long life",
+      "Integrated front product labeling"
+    ],
+    "catalogue": "/catalogues/gic/phase-indicators.pdf"
+  },
+  {
+    "slug": "alarm-annunciators",
+    "name": "Alarm Annunciators",
+    "category": "Alarm Annunciators",
+    "overview": [
+      "GIC has introduced Alarm Annunciators that come equipped with advanced features. As automation continues to increase at every stage of a process control system, they are crucial for immediately detecting faults and providing instant visual and audible alarms to safeguard valuable equipment. Regardless of the complexity of your alarm needs, offer the most cost-effective solution.",
+      "Annunciator Window is a group of indicator lights that use blinking LEDs and audible buzzers to signal the presence of abnormal conditions. In industrial process control, an annunciator panel is a system that alerts operators of alarm conditions in the plant. GIC provides a wide range of Alarm Annunciators, all designed to meet the needs of modern-day manufacturing plants and their future requirements.",
+      "GIC introduces Alarm Annunciators with the most advanced features. With increasing automation at every stage in a process control system, our Alarm Annunciators would play a vital role in immediate fault recognition by providing instant visual and audible alarms to protect valuable equipment. However simple or complex your alarm requirement is, our Alarm Annunciators will provide the most cost-effective solution.",
+      "Alarm Annunciator Panel is an array of indicator lights. It signals the presence of abnormal conditions by blinking an LED and sounding an audible buzzer. In industrial process control, an annunciator panel is a system to alert operators of alarm conditions in the plant. GIC offers a wide range of Alarm annunciator panel. The entire range is designed with an understanding of the modern-day manufacturing plant and its future requirement."
+    ],
+    "image": "/images/products/gic/alarm-annunciators.png",
+    "catalogue": "/catalogues/gic/alarm-annunciators.pdf"
+  }
+]
