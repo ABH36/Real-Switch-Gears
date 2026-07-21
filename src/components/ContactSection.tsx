@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MapPin, Mail, Clock, PhoneCall } from "lucide-react";
+import { MapPin, Mail, Clock, PhoneCall, Send } from "lucide-react";
 import { site } from "@/data/site";
 
 export default function ContactSection() {
@@ -16,28 +16,30 @@ export default function ContactSection() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = () => {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
     const body = encodeURIComponent(
       `Company: ${form.company}\nEmail: ${form.email}\nPhone: ${form.phone}\n\n${form.message}`
     );
     window.location.href = `mailto:${site.email}?subject=Enquiry from ${form.company}&body=${body}`;
   };
 
-  const label = "block font-semibold text-slate-700 uppercase tracking-wide";
+  const label = "block text-sm font-semibold text-slate-700";
   const input =
-    "mt-3 w-full rounded-md border border-slate-300 px-4 py-4 focus:outline-none focus:ring-2 focus:ring-teal-500";
+    "mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#1268b3]/30 focus:border-[#1268b3] transition-colors";
 
   return (
     <>
-      <section className="py-16">
-        <div className="mx-auto max-w-[1500px] px-4 grid gap-10 lg:grid-cols-2 items-start">
+      <section className="py-12 md:py-16">
+        <div className="mx-auto max-w-6xl px-4 grid gap-6 lg:grid-cols-2 items-start">
           {/* Left: Get In Touch card */}
-          <div className="bg-brand-gradient rounded-2xl p-10 md:p-12 text-white">
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide">
-              GET IN TOUCH
-            </h2>
+          <div className="bg-brand-gradient rounded-2xl p-8 md:p-10 text-white">
+            <h2 className="text-2xl md:text-3xl font-extrabold">Get In Touch</h2>
+            <p className="mt-2 text-white/80 text-sm">
+              Reach us directly through any of the channels below.
+            </p>
 
-            <div className="mt-12 space-y-12">
+            <div className="mt-9 space-y-8">
               <InfoRow icon={MapPin} title="Office Address">
                 <p>{site.address}</p>
               </InfoRow>
@@ -68,43 +70,86 @@ export default function ContactSection() {
           </div>
 
           {/* Right: form card */}
-          <div className="bg-white rounded-2xl shadow-[0_0_40px_rgba(0,0,0,0.09)] p-10 md:p-12">
-            <div className="space-y-8">
+          <div className="rounded-2xl bg-white border border-slate-200 shadow-[0_2px_20px_rgba(15,50,80,0.06)] p-8 md:p-10">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">Send a Message</h2>
+            <p className="mt-2 text-slate-500 text-sm">We usually respond within one business day.</p>
+
+            <form onSubmit={handleSubmit} className="mt-7 space-y-5">
               <div>
                 <label className={label}>Company Name</label>
-                <input name="company" value={form.company} onChange={handleChange} className={input} />
+                <input
+                  name="company"
+                  required
+                  placeholder="Your company"
+                  value={form.company}
+                  onChange={handleChange}
+                  className={input}
+                />
               </div>
-              <div>
-                <label className={label}>Email</label>
-                <input name="email" type="email" value={form.email} onChange={handleChange} className={input} />
-              </div>
-              <div>
-                <label className={label}>Phone Number</label>
-                <input name="phone" value={form.phone} onChange={handleChange} className={input} />
+              <div className="grid gap-5 sm:grid-cols-2">
+                <div>
+                  <label className={label}>Email</label>
+                  <input
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="you@company.com"
+                    value={form.email}
+                    onChange={handleChange}
+                    className={input}
+                  />
+                </div>
+                <div>
+                  <label className={label}>Phone Number</label>
+                  <input
+                    name="phone"
+                    type="tel"
+                    required
+                    placeholder="+91"
+                    value={form.phone}
+                    onChange={handleChange}
+                    className={input}
+                  />
+                </div>
               </div>
               <div>
                 <label className={label}>Message</label>
-                <textarea name="message" rows={5} value={form.message} onChange={handleChange} className={input} />
+                <textarea
+                  name="message"
+                  rows={5}
+                  required
+                  placeholder="Tell us what you're looking for..."
+                  value={form.message}
+                  onChange={handleChange}
+                  className={input}
+                />
               </div>
               <button
-                onClick={handleSubmit}
-                className="w-full bg-[#1268b3] hover:bg-[#0d5798] text-white font-bold uppercase tracking-wide py-5 rounded-full transition-colors"
+                type="submit"
+                className="w-full inline-flex items-center justify-center gap-2 bg-brand-gradient text-white font-semibold py-3.5 rounded-full hover:opacity-90 transition-opacity"
               >
-                Submit
+                Send Message <Send className="h-4 w-4" />
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </section>
 
-      {/* Full-width map */}
-      <iframe
-        src={site.mapEmbed}
-        className="w-full h-[480px] border-0 block"
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="Real Switchgears location map"
-      />
+      {/* Map */}
+      <section className="pb-12 md:pb-16">
+        <div className="mx-auto max-w-6xl px-4">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">Find Us</h2>
+          <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
+            <iframe
+              src={site.mapEmbed}
+              className="w-full h-[380px] md:h-[440px] border-0 block"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Real Switchgears location map"
+            />
+          </div>
+        </div>
+      </section>
     </>
   );
 }
@@ -119,13 +164,13 @@ function InfoRow({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex gap-6">
-      <span className="h-14 w-14 shrink-0 rounded-full bg-white flex items-center justify-center">
-        <Icon className="h-6 w-6 text-red-600" />
+    <div className="flex gap-4">
+      <span className="h-11 w-11 shrink-0 rounded-full bg-white/15 flex items-center justify-center">
+        <Icon className="h-5 w-5 text-white" />
       </span>
       <div>
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <div className="mt-2 space-y-1 text-lg leading-relaxed">{children}</div>
+        <h3 className="text-base font-bold">{title}</h3>
+        <div className="mt-1 space-y-0.5 text-sm text-white/85 leading-relaxed">{children}</div>
       </div>
     </div>
   );

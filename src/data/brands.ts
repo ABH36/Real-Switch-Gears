@@ -9,6 +9,7 @@ import { bracoCatalog, bracoProducts } from "./catalog/braco";
 import { gicCatalog, gicProducts } from "./catalog/gic";
 import { newtekCatalog, newtekProducts } from "./catalog/newtek";
 import { esbeeCatalog, esbeeProducts } from "./catalog/esbee";
+import { polycabCatalog, polycabProducts } from "./catalog/polycab";
 
 export type ProductVariant = {
   name: string;             // e.g. "NE 210S"
@@ -26,6 +27,7 @@ export type ProductDetail = {
   slug: string;
   name: string;
   category: string;
+  family?: string;         // finer grouping under `category`, e.g. catalog section heading
   image?: string;          // hero product image
   overview: string[];      // paragraphs
   benefits?: string[];     // bullet points
@@ -69,6 +71,8 @@ export const brands: Brand[] = [
       "High-quality, durable wires and cables for every wiring requirement.",
     image: "/images/brands/polycab.png",
     logo: "/images/clients/polycab.svg",
+    catalog: polycabCatalog,
+    products: polycabProducts,
   },
   {
     slug: "salzer",
