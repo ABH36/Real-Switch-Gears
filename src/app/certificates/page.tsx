@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionHeading from "@/components/ui/SectionHeading";
+import CertificateGallery from "@/components/certificates/CertificateGallery";
+import { Award, BadgeCheck, CalendarClock, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Certificates & Awards",
@@ -41,59 +42,64 @@ const awards = [
   { name: "L&T Achievement Awards", year: "2011-12", file: "/images/certificate/l&t_award_11_12.jpg" },
 ];
 
-function FramedCard({
-  file,
-  name,
-  year,
-}: {
-  file: string;
-  name: string;
-  year?: string;
-}) {
-  return (
-    <div className="flex flex-col">
-      {/* wooden frame */}
-      <div className="border-[14px] border-[#a9795b] shadow-[inset_0_0_6px_rgba(0,0,0,0.4),0_6px_18px_rgba(0,0,0,0.15)]">
-        {/* white matte */}
-        <div className="bg-white p-6 flex items-center justify-center h-72">
-          <div className="relative h-full w-full">
-            <Image src={file} alt={name} fill className="object-contain" sizes="(max-width: 640px) 100vw, 25vw" />
-          </div>
-        </div>
-      </div>
-      <div className="mt-5 mx-4 pb-3 border-b border-slate-300 text-center">
-        <h3 className="text-xl font-bold text-slate-800 leading-snug">{name}</h3>
-        {year && <p className="mt-1 text-xl font-bold text-slate-800">Year : {year}</p>}
-      </div>
-    </div>
-  );
-}
+const stats = [
+  { icon: ShieldCheck, label: "Authorised Brand Certifications", value: `${certificates.length}` },
+  { icon: Award, label: "Achievement Awards Won", value: `${awards.length}+` },
+  { icon: CalendarClock, label: "Years of Trusted Partnership", value: "15+" },
+];
 
 export default function CertificatesPage() {
   return (
     <>
-      <PageBanner title="Certificate" />
+      <PageBanner title="Certificate" icon={BadgeCheck} />
+
+      {/* Stats strip */}
+      <section className="relative -mt-12 z-10 px-4">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6">
+          {stats.map(({ icon: Icon, label, value }) => (
+            <div
+              key={label}
+              className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-[0_12px_35px_rgba(15,23,42,0.12)] ring-1 ring-slate-100"
+            >
+              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-brand-gradient text-white">
+                <Icon className="h-7 w-7" />
+              </span>
+              <div>
+                <p className="text-2xl font-extrabold text-slate-800">{value}</p>
+                <p className="text-sm font-medium leading-snug text-slate-500">{label}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Certificates */}
       <section className="py-20">
         <div className="mx-auto max-w-[1500px] px-4">
-          <SectionHeading title="CERTIFICATES" />
-          <div className="mt-14 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-            {certificates.map((c) => (
-              <FramedCard key={c.file} file={c.file} name={c.name} />
-            ))}
+          <SectionHeading
+            eyebrow="Authorised Distributor"
+            title="Our Certificates"
+            subtitle="Official authorisation certificates from India's leading electrical brands — your assurance of genuine products and trusted service."
+          />
+          <div className="mt-14">
+            <CertificateGallery items={certificates} variant="certificate" />
           </div>
         </div>
       </section>
 
       {/* Awards */}
-      <section className="pb-20">
-        <div className="mx-auto max-w-[1500px] px-4">
-          <SectionHeading title="AWARDS" />
-          <div className="mt-14 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-            {awards.map((a, i) => (
-              <FramedCard key={`${a.file}-${i}`} file={a.file} name={a.name} year={a.year} />
-            ))}
+      <section className="relative overflow-hidden bg-slate-50 py-20">
+        <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-linear-to-br from-sky-200/50 to-teal-200/40 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-linear-to-br from-red-200/40 to-orange-200/30 blur-3xl" />
+
+        <div className="relative mx-auto max-w-[1500px] px-4">
+          <SectionHeading
+            eyebrow="Recognised Excellence"
+            title="Our Awards"
+            subtitle="Honoured by our principal brands for outstanding growth, performance, and long-standing partnership."
+          />
+          <div className="mt-14">
+            <CertificateGallery items={awards} variant="award" />
           </div>
         </div>
       </section>
