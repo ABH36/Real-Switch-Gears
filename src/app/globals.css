@@ -54,20 +54,87 @@ body {
   background: linear-gradient(270deg, rgba(3, 160, 153, 0.4) 0%, rgba(0, 109, 177, 0.4) 100%);
 }
 
-/* Hero slider arrows */
-.hero-swiper .swiper-button-prev,
-.hero-swiper .swiper-button-next {
-  width: 52px;
-  height: 52px;
-  border-radius: 9999px;
-  background: #ffffff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  color: #1e293b;
+/* Hero slider — smooth "pop" scale-in transition on each slide */
+.hero-swiper .swiper-slide {
+  transition-timing-function: cubic-bezier(0.22, 0.9, 0.32, 1.28) !important;
 }
-.hero-swiper .swiper-button-prev::after,
-.hero-swiper .swiper-button-next::after {
-  font-size: 18px;
-  font-weight: 800;
+
+.hero-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  opacity: 0.6;
+  transition: transform 0.3s ease, opacity 0.3s ease, width 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 28px;
+  border-radius: 9999px;
+  transform: scale(1.05);
+}
+
+/* Hero slider — modern glassmorphism arrows, revealed on hover */
+.hero-nav-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 9999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  transform: translateY(-50%) translateX(0) scale(0.9);
+  transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s ease,
+    border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+@media (min-width: 768px) {
+  .hero-nav-btn {
+    height: 52px;
+    width: 52px;
+  }
+}
+
+/* always visible on touch devices; reveal on hover for pointer devices */
+@media (hover: hover) {
+  .hero-nav-btn {
+    opacity: 0;
+  }
+  .hero-swiper.group:hover .hero-nav-btn {
+    opacity: 1;
+  }
+}
+@media (hover: none) {
+  .hero-nav-btn {
+    opacity: 1;
+    background: rgba(15, 23, 42, 0.35);
+  }
+}
+
+.hero-nav-btn:hover {
+  background: #ffffff;
+  color: #0f172a;
+  border-color: #ffffff;
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+
+.hero-nav-btn:active {
+  transform: translateY(-50%) scale(0.96);
+}
+
+.hero-nav-btn.swiper-button-disabled {
+  opacity: 0 !important;
+  pointer-events: none;
 }
 
 

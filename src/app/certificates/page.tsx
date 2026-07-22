@@ -4,7 +4,16 @@ import PageBanner from "@/components/ui/PageBanner";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "Certificate | Real Switchgears & Cables Pvt. Ltd.",
+  title: "Certificates & Awards",
+  description:
+    "Authorised distributor certificates and achievement awards from L&T, Polycab, Salzer, GIC, Esbee, Bharat Bijlee, and Connectwell, held by Real Switchgears & Cables Pvt. Ltd.",
+  alternates: { canonical: "/certificates" },
+  openGraph: {
+    title: "Certificates & Awards | Real Switchgears & Cables Pvt. Ltd.",
+    description:
+      "Authorised distributor certificates and achievement awards from our principal electrical brands.",
+    url: "/certificates",
+  },
 };
 
 const certificates = [

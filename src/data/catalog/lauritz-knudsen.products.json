@@ -91,8 +91,8 @@
   {
     "slug": "contactor-mnx",
     "name": "MNX",
-    "category": "MNX power contactors are primarily utilised in motor feeder and control system applications. With a range spanning from 9A to 650A (AC-3), they deliver dependable performance under various conditions, including high ambient temperatures and humidity. Additionally, accessories and spare parts are available for the entire range.",
-    "overview": [],
+    "category": "contactors",
+    "overview": ["MNX power contactors are primarily utilised in motor feeder and control system applications. With a range spanning from 9A to 650A (AC-3), they deliver dependable performance under various conditions, including high ambient temperatures and humidity. Additionally, accessories and spare parts are available for the entire range."],
     "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc6b54f1aff614a879c9919a3363322a9?format=webp",
     "benefits": [
       "High reliability ensures consistent performance and minimal downtime in demanding applications.",

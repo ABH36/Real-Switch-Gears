@@ -5,7 +5,16 @@ import { ArrowRight, Award, CheckCircle2, Compass, MapPin, Target, Users } from 
 import { brands } from "@/data/brands";
 
 export const metadata: Metadata = {
-  title: "About Us | Real Switchgears & Cables Pvt. Ltd.",
+  title: "About Us",
+  description:
+    "Serving India's electrical industry since 2000. Real Switchgears & Cables Pvt. Ltd. is a trusted authorised distributor and stockist for L&T Switchgear, Polycab, Salzer, GIC, Esbee, and Braco.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Us | Real Switchgears & Cables Pvt. Ltd.",
+    description:
+      "Serving India's electrical industry since 2000 as a trusted authorised distributor and stockist for leading switchgear, cable, and control-device brands.",
+    url: "/about",
+  },
 };
 
 const aboutParas = [

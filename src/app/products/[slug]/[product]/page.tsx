@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, ChevronRight, FileDown } from "lucide-react";
-import { brands, getBrand } from "@/data/brands";
+import { brands, getBrand, type ProductDetail } from "@/data/brands";
 import VariantTabs from "@/components/VariantTabs";
 
 export function generateStaticParams() {
@@ -24,10 +24,43 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug, product } = await params;
   const brand = getBrand(slug);
-  const prod = brand?.products?.find((p) => p.slug === product);
+  if (!brand) return { title: "Product" };
+
+  const prod = brand.products?.find((p) => p.slug === product);
+  const canonical = `/products/${brand.slug}/${product}`;
+
+  if (prod) {
+    const description =
+      prod.overview?.[0]?.slice(0, 155) ??
+      `${prod.name} from ${brand.name} — authorised distributor Real Switchgears & Cables Pvt. Ltd.`;
+    return {
+      title: prod.name,
+      description,
+      alternates: { canonical },
+      openGraph: {
+        title: `${prod.name} | ${brand.name}`,
+        description,
+        url: canonical,
+        images: prod.image ? [{ url: prod.image, alt: prod.name }] : undefined,
+      },
+    };
+  }
+
+  let fallbackName: string | null = null;
+  for (const cat of brand.catalog ?? []) {
+    for (const s of cat.sections) {
+      const hit = s.items.find((i) => i.slug === product);
+      if (hit) fallbackName = hit.name;
+    }
+  }
+  if (!fallbackName) return { title: "Product" };
+
+  const description = `${fallbackName} from ${brand.name} — authorised distributor Real Switchgears & Cables Pvt. Ltd.`;
   return {
-    title: `${prod?.name ?? "Product"} | ${brand?.name ?? ""} | Real Switchgears`,
-    description: prod?.overview?.[0]?.slice(0, 155),
+    title: fallbackName,
+    description,
+    alternates: { canonical },
+    openGraph: { title: `${fallbackName} | ${brand.name}`, description, url: canonical },
   };
 }
 
@@ -55,6 +88,7 @@ export default async function ProductPage({
 
     return (
       <>
+        <BreadcrumbJsonLd brand={brand.name} brandSlug={brand.slug} name={fallback.name} slug={product} />
         <Breadcrumb brand={brand.name} brandSlug={brand.slug} category={fallback.category} name={fallback.name} />
         <section className="bg-gradient-to-br from-[#eaf5fb] to-white py-14 md:py-20">
           <div className="mx-auto max-w-4xl px-4 text-center">
@@ -78,6 +112,8 @@ export default async function ProductPage({
   /* ---------- Full product detail page ---------- */
   return (
     <>
+      <BreadcrumbJsonLd brand={brand.name} brandSlug={brand.slug} name={prod.name} slug={product} />
+      <ProductJsonLd brand={brand.name} product={prod} slug={product} brandSlug={brand.slug} />
       <Breadcrumb brand={brand.name} brandSlug={brand.slug} category={prod.category} name={prod.name} />
 
       {/* Hero */}
@@ -232,5 +268,72 @@ function Breadcrumb({
         </p>
       </div>
     </div>
+  );
+}
+
+function BreadcrumbJsonLd({
+  brand,
+  brandSlug,
+  name,
+  slug,
+}: {
+  brand: string;
+  brandSlug: string;
+  name: string;
+  slug: string;
+}) {
+  const base = "https://realswitchgears.com";
+  const items = [
+    { name: "Home", url: base },
+    { name: brand, url: `${base}/products/${brandSlug}` },
+    { name, url: `${base}/products/${brandSlug}/${slug}` },
+  ];
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: items.map((item, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: item.name,
+            item: item.url,
+          })),
+        }),
+      }}
+    />
+  );
+}
+
+function ProductJsonLd({
+  brand,
+  brandSlug,
+  product,
+  slug,
+}: {
+  brand: string;
+  brandSlug: string;
+  product: ProductDetail;
+  slug: string;
+}) {
+  const base = "https://realswitchgears.com";
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: product.name,
+          category: product.category,
+          description: product.overview?.[0],
+          image: product.image ? `${base}${product.image}` : undefined,
+          url: `${base}/products/${brandSlug}/${slug}`,
+          brand: { "@type": "Brand", name: brand },
+        }),
+      }}
+    />
   );
 }

@@ -17,8 +17,23 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const brand = getBrand(slug);
+  if (!brand) return { title: "Brand" };
+
+  const name = brand.pageTitle ?? brand.name;
+  const description =
+    brand.description ??
+    `Authorised distributor of ${name} products — browse the full ${name} catalogue from Real Switchgears & Cables Pvt. Ltd.`;
+
   return {
-    title: `${brand?.pageTitle ?? brand?.name ?? "Brand"} | Real Switchgears & Cables Pvt. Ltd.`,
+    title: name,
+    description,
+    alternates: { canonical: `/products/${brand.slug}` },
+    openGraph: {
+      title: `${name} | Real Switchgears & Cables Pvt. Ltd.`,
+      description,
+      url: `/products/${brand.slug}`,
+      images: [{ url: brand.image, alt: brand.name }],
+    },
   };
 }
 
@@ -31,7 +46,6 @@ export default async function BrandPage({
   const brand = getBrand(slug);
   if (!brand) notFound();
 
-  const title = brand.pageTitle ?? brand.name;
   const featured = (brand.products ?? []).filter((p) => p.image).slice(0, 8);
 
   return (

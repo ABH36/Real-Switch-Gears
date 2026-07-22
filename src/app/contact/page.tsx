@@ -4,7 +4,16 @@ import ContactSection from "@/components/ContactSection";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Contact | Real Switchgears & Cables Pvt. Ltd.",
+  title: "Contact Us",
+  description:
+    "Get in touch with Real Switchgears & Cables Pvt. Ltd. in Bhosari, Pune for enquiries on L&T Switchgear, Polycab wires & cables, and other branded electrical goods.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Us | Real Switchgears & Cables Pvt. Ltd.",
+    description:
+      "Have a question about our products, pricing, or availability? Reach out and our team will get back to you shortly.",
+    url: "/contact",
+  },
 };
 
 const quickContacts: { icon: React.ElementType; value: string; label: string; href?: string }[] = [

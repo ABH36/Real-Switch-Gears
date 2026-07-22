@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import {
   RadioTower, Building2, Plane, Zap, Fuel, Mountain, Wheat, ScrollText,
 } from "lucide-react";
@@ -38,16 +39,23 @@ export default function Industries() {
 
   return (
     <section className="relative py-24 overflow-hidden">
-      {/* Rotating fixed backgrounds — stacked, crossfade via opacity */}
+      {/* Rotating backgrounds — stacked, crossfade via opacity */}
       {backgrounds.map((bg, i) => (
         <div
           key={bg}
-          className="absolute inset-0 bg-cover bg-center md:bg-fixed transition-opacity duration-1000"
-          style={{
-            backgroundImage: `url(${bg})`,
-            opacity: i === active ? 1 : 0,
-          }}
-        />
+          className="absolute inset-0 transition-opacity duration-1000"
+          style={{ opacity: i === active ? 1 : 0 }}
+        >
+          <Image
+            src={bg}
+            alt=""
+            fill
+            sizes="100vw"
+            quality={65}
+            loading={i === 0 ? "eager" : "lazy"}
+            className="object-cover object-center"
+          />
+        </div>
       ))}
       <div className="absolute inset-0 bg-black/70" />
 

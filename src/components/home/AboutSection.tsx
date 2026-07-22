@@ -91,10 +91,10 @@ export default function AboutSection() {
                     />
                     <div>
                         <p className="text-slate-500 text-lg">Who we are</p>
-                        <h2 className="mt-2 text-3xl md:text-4xl font-extrabold leading-snug">
+                        <h1 className="mt-2 text-3xl md:text-4xl font-extrabold leading-snug">
                             <span className="text-red-600">Welcome to</span>{" "}
                             <span className="text-slate-800">{site.name}</span>
-                        </h2>
+                        </h1>
                         <p className="mt-6 text-slate-700 leading-relaxed text-justify font-medium">
                             LEADING AUTHORISED DISTRIBUTOR & STOCKIST OF LAURTIZ KNUDSEN (L&T
                             SWITCHGEARS) & POLYCAB — one of the most branded and quality

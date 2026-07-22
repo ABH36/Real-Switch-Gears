@@ -1,0 +1,5025 @@
+[
+  {
+    "name": "House Wire",
+    "sections": [
+      {
+        "heading": "House Wires",
+        "items": [
+          {
+            "name": "Polycab Green Wire+",
+            "slug": "polycab-green-wire"
+          },
+          {
+            "name": "POLYCABSUPREMA",
+            "slug": "polycabsuprema"
+          },
+          {
+            "name": "POLYCABOPTIMA+",
+            "slug": "polycaboptima"
+          },
+          {
+            "name": "POLYCABPRIMMA",
+            "slug": "polycabprimma"
+          },
+          {
+            "name": "Etira House Wires",
+            "slug": "etira-house-wires"
+          }
+        ]
+      },
+      {
+        "heading": "180 Meter Wires",
+        "items": [
+          {
+            "name": "Polycab Green Wire",
+            "slug": "polycab-green-wire-180-meter-wires"
+          },
+          {
+            "name": "LF FR 180m Wires",
+            "slug": "lf-fr-180m-wires"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cables by Type",
+    "sections": [
+      {
+        "heading": "LV Power Cable",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab BS 5467 MC 0.6/1kV AC",
+            "slug": "polycab-bs-5467-mc-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab BS 6724 SC AWA LSZH 0.6/1kV AC",
+            "slug": "polycab-bs-6724-sc-awa-lszh-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab BS 5467 SC 0.6/1kV AC",
+            "slug": "polycab-bs-5467-sc-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH 0.6/1kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      },
+      {
+        "heading": "Instrumentation Cable",
+        "items": [
+          {
+            "name": "Polycab Instrumentation 500 P(ST)",
+            "slug": "polycab-instrumentation-500-p-st"
+          },
+          {
+            "name": "Polycab Instrumentation 300 MC(ST)",
+            "slug": "polycab-instrumentation-300-mc-st"
+          },
+          {
+            "name": "Polycab Instrumentation 300 T(ST)",
+            "slug": "polycab-instrumentation-300-t-st"
+          },
+          {
+            "name": "Polycab BMS 300 MC-C4",
+            "slug": "polycab-bms-300-mc-c4"
+          },
+          {
+            "name": "Polycab BMS 500 MC-C4",
+            "slug": "polycab-bms-500-mc-c4"
+          },
+          {
+            "name": "Polycab Instrumentation 500 MC(ST)",
+            "slug": "polycab-instrumentation-500-mc-st"
+          },
+          {
+            "name": "Polycab BMS 300 MC-A7",
+            "slug": "polycab-bms-300-mc-a7"
+          },
+          {
+            "name": "Polycab Instrumentation 500 (ST)TiMF",
+            "slug": "polycab-instrumentation-500-st-timf"
+          },
+          {
+            "name": "Polycab Instrumentation 500 T(ST)",
+            "slug": "polycab-instrumentation-500-t-st"
+          },
+          {
+            "name": "Polycab Instrumentation 300 P(ST)",
+            "slug": "polycab-instrumentation-300-p-st"
+          },
+          {
+            "name": "Polycab BMS 500 MC-A7",
+            "slug": "polycab-bms-500-mc-a7"
+          },
+          {
+            "name": "Polycab Instrumentation 300 (ST)PiMF",
+            "slug": "polycab-instrumentation-300-st-pimf"
+          },
+          {
+            "name": "Polycab Instrumentation 300 (ST)TiMF",
+            "slug": "polycab-instrumentation-300-st-timf"
+          },
+          {
+            "name": "Polycab Instrumentation 500 (ST)PiMF",
+            "slug": "polycab-instrumentation-500-st-pimf"
+          }
+        ]
+      },
+      {
+        "heading": "Communication & Data Cable",
+        "items": [
+          {
+            "name": "Polycab RS 485 300/500V AC Armoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-armoured-cable"
+          },
+          {
+            "name": "Polycab Speaker Cable",
+            "slug": "polycab-speaker-cable"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Unarmoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-unarmoured-cable"
+          },
+          {
+            "name": "Polycab CCTV Cable",
+            "slug": "polycab-cctv-cable"
+          }
+        ]
+      },
+      {
+        "heading": "MV Power Cable",
+        "items": [
+          {
+            "name": "Polycab MV 15kV AL UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-15kv-al-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH 1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 12.7/22kV",
+            "slug": "polycab-mv-cu-bs-6622-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-20 6.35/11kV",
+            "slug": "polycab-mv-al-bs-7870-4-20-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-al-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 8.7/15kV",
+            "slug": "polycab-mv-al-iec-60502-2-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab BS 6724 SC AWA LSZH 1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-sc-awa-lszh-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 6.35/11(12)kV",
+            "slug": "polycab-mv-cu-bs-7835-6-35-11-12-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY 2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 TR-XLPE 100%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-tr-xlpe-100"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 6.0/10kV",
+            "slug": "polycab-mv-cu-iec-60502-2-6-0-10kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 12.7/22kV",
+            "slug": "polycab-mv-al-bs-6622-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 8.7/15(15)kV",
+            "slug": "polycab-mv-al-bs-7835-8-7-15-15-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 3.6/6.0kV",
+            "slug": "polycab-mv-cu-iec-60502-2-3-6-6-0kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 EPR 133%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 19/33kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-19-33kv"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV 15kV AL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-15kv-al-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 12.7/22kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-12-7-22kv"
+          },
+          {
+            "name": "Polycab BS 5467 MC(Shaped Conductor)1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-mc-shaped-conductor-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 6.35/11kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-6-35-11kv-triplex"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-35kv-al-ul-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 18/30kV",
+            "slug": "polycab-mv-cu-iec-60502-2-18-30kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 6.35/11KV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 8.7 /15kV",
+            "slug": "polycab-mv-cu-iec-60502-2-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 19/33kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-19-33kv-triplex"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-cu-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH(Shaped conductor)1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-shaped-conductor-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 12.7/22kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-12-7-22kv-triplex"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 15kV AL UL 1072 EPR 100%",
+            "slug": "polycab-mv-15kv-al-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 1.9/ 3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV Cu UL 1072 5kV XLPE 100% OR 133%",
+            "slug": "polycab-mv-cu-ul-1072-5kv-xlpe-100-or-133"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 3.8/6.6kV",
+            "slug": "polycab-mv-al-bs-6622-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 19/33kV",
+            "slug": "polycab-mv-al-bs-6622-19-33kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 6.0/10kV",
+            "slug": "polycab-mv-al-iec-60502-2-6-0-10kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV15kV Cu UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv15kv-cu-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 8.7/15kV",
+            "slug": "polycab-mv-cu-bs-6622-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 EPR 133%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 12/20kV",
+            "slug": "polycab-mv-al-iec-60502-2-12-20kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 12.7/22kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-12-7-22kv-atr"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 12.7/22kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-6622-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 6.35/11kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-6-35-11kv-triplex"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 6.35/11(12)kV",
+            "slug": "polycab-mv-al-bs-7835-6-35-11-12-kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 EPR 100%",
+            "slug": "polycab-mv-35kv-al-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-35kv-al-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 12.7/22(24)kV",
+            "slug": "polycab-mv-al-bs-7835-12-7-22-24-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1CA2XWaY/A2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1ca2xway-a2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 19/33kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-19-33kv-triplex"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-20 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-7870-4-20-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 3.6/6.0kV",
+            "slug": "polycab-mv-al-iec-60502-2-3-6-6-0kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 19/33kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-19-33kv-atr"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab BS 5467 SC 1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-sc-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 EPR 133%",
+            "slug": "polycab-mv-35kv-al-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 EPR 100%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 6.35/11kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-6-35-11kv-atr"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 8.7/15(15)kV",
+            "slug": "polycab-mv-cu-bs-7835-8-7-15-15-kv"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab BS 5467 MC 1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-mc-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 3.8/6.6(7.2)kV",
+            "slug": "polycab-mv-cu-bs-7835-3-8-6-6-7-2-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 18/30kV",
+            "slug": "polycab-mv-al-iec-60502-2-18-30kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 12.7/22kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-12-7-22kv-triplex"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 8.7/15kV",
+            "slug": "polycab-mv-al-bs-6622-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 19/33kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 EPR 100%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2-12/20kV",
+            "slug": "polycab-mv-cu-iec-60502-2-12-20kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 3.8/6.6kV",
+            "slug": "polycab-mv-cu-bs-6622-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV CU BS 6622 19/33kV",
+            "slug": "polycab-mv-cu-bs-6622-19-33kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 12.7/22(24)kV",
+            "slug": "polycab-mv-cu-bs-7835-12-7-22-24-kv"
+          },
+          {
+            "name": "Polycab MV 15kV AL UL 1072 EPR 133%",
+            "slug": "polycab-mv-15kv-al-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 6.35/11kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 3.8/6.6kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-3-8-6-6kv-atr"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 6.35/11kV",
+            "slug": "polycab-mv-al-bs-6622-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 3.8/6.6(7.2)kV",
+            "slug": "polycab-mv-al-bs-7835-3-8-6-6-7-2-kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-12-7-22kv"
+          }
+        ]
+      },
+      {
+        "heading": "EHV Power Cable",
+        "items": [
+          {
+            "name": "Polycab EHV Cu Al COR 110kV",
+            "slug": "polycab-ehv-cu-al-cor-110kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 110kV",
+            "slug": "polycab-ehv-cu-cs-pal-110kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 220kV",
+            "slug": "polycab-ehv-al-cs-pal-220kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 110kV",
+            "slug": "polycab-ehv-al-pb-110kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 110kV",
+            "slug": "polycab-ehv-al-al-cor-110kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 110kV",
+            "slug": "polycab-ehv-cu-cs-pb-110kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 66kV",
+            "slug": "polycab-ehv-cu-cs-pal-66kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 110kV",
+            "slug": "polycab-ehv-al-cs-pb-110kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 220kV",
+            "slug": "polycab-ehv-cu-pb-220kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 132kV",
+            "slug": "polycab-ehv-al-pb-132kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 132kV",
+            "slug": "polycab-ehv-cu-al-cor-132kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 66kV",
+            "slug": "polycab-ehv-cu-cs-pb-66kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 132kV",
+            "slug": "polycab-ehv-cu-cs-pal-132kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 132kV",
+            "slug": "polycab-ehv-al-cs-pal-132kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 110kV",
+            "slug": "polycab-ehv-al-cs-pal-110kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 132kV",
+            "slug": "polycab-ehv-al-cs-pb-132kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 66kV",
+            "slug": "polycab-ehv-cu-al-cor-66kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 66kV",
+            "slug": "polycab-ehv-al-cs-pb-66kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 66kV",
+            "slug": "polycab-ehv-al-al-cor-66kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 66kV",
+            "slug": "polycab-ehv-cu-pb-66kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 220kV",
+            "slug": "polycab-ehv-al-cs-pb-220kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 132kV",
+            "slug": "polycab-ehv-al-al-cor-132kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 220kV",
+            "slug": "polycab-ehv-cu-al-cor-220kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 132kV",
+            "slug": "polycab-ehv-cu-cs-pb-132kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 220kV",
+            "slug": "polycab-ehv-cu-cs-pb-220kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 220kV",
+            "slug": "polycab-ehv-cu-cs-pal-220kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 132kV",
+            "slug": "polycab-ehv-cu-pb-132kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 66kV",
+            "slug": "polycab-ehv-al-pb-66kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 110kV",
+            "slug": "polycab-ehv-cu-pb-110kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 220kV",
+            "slug": "polycab-ehv-al-pb-220kv"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Solar Cables",
+    "sections": [
+      {
+        "heading": "Solar Cables",
+        "items": [
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-Twin AT",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-twin-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC",
+            "slug": "polycab-solar-as-nzs-5000-pvc"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-Twist",
+            "slug": "polycab-solar-as-nzs-5000-rfh-twist"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-Twin",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-twin"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-AT",
+            "slug": "polycab-solar-as-nzs-5000-pvc-at"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-AT",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-AT",
+            "slug": "polycab-solar-as-nzs-5000-rfh-at"
+          },
+          {
+            "name": "Polycab AL Solar UL 4703 2000V AC",
+            "slug": "polycab-al-solar-ul-4703-2000v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO",
+            "slug": "polycab-solar-as-nzs-5000-xlpo"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-rfh-twist-at"
+          },
+          {
+            "name": "Polycab Cu Solar UL 4703 2000V AC",
+            "slug": "polycab-cu-solar-ul-4703-2000v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-AT",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-Twist",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-twist"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-Twist",
+            "slug": "polycab-solar-as-nzs-5000-pvc-twist"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-twist-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-pvc-twist-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH",
+            "slug": "polycab-solar-as-nzs-5000-rfh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Building infrastructure",
+    "sections": [
+      {
+        "heading": "Residential",
+        "items": [
+          {
+            "name": "Polycab FR-LF 1100V AC IS 694",
+            "slug": "polycab-fr-lf-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-al-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab THHN AL UL 83 600V",
+            "slug": "polycab-thhn-al-ul-83-600v"
+          },
+          {
+            "name": "Polycab Speaker Cable",
+            "slug": "polycab-speaker-cable"
+          },
+          {
+            "name": "Polycab FR-LSH 1100V AC IS 694",
+            "slug": "polycab-fr-lsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 300 MC-C4",
+            "slug": "polycab-bms-300-mc-c4"
+          },
+          {
+            "name": "Polycab HR-FR-LSH-LF Green Wire 1100V AC IS 694",
+            "slug": "polycab-hr-fr-lsh-lf-green-wire-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 500 MC-C4",
+            "slug": "polycab-bms-500-mc-c4"
+          },
+          {
+            "name": "Polycab ETIRA FR 1100V AC IS 694",
+            "slug": "polycab-etira-fr-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab Al XHHW-2 Type MC AL Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-al-xhhw-2-type-mc-al-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab Cu XHHW-2 UL 44 600V",
+            "slug": "polycab-cu-xhhw-2-ul-44-600v"
+          },
+          {
+            "name": "Polycab ETIRA FRLSH 1100V AC IS 694",
+            "slug": "polycab-etira-frlsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab 02AYY-2 Core 1100V IS 694 Flat Cable",
+            "slug": "polycab-02ayy-2-core-1100v-is-694-flat-cable"
+          },
+          {
+            "name": "Polycab THHN Cu UL 83 600V",
+            "slug": "polycab-thhn-cu-ul-83-600v"
+          },
+          {
+            "name": "Polycab Cu XHHW-2 Type MC Steel Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-cu-xhhw-2-type-mc-steel-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab NMB Cable UL 719 600V",
+            "slug": "polycab-nmb-cable-ul-719-600v"
+          },
+          {
+            "name": "Polycab AL type TC XHHW-2 Cable 600V",
+            "slug": "polycab-al-type-tc-xhhw-2-cable-600v"
+          },
+          {
+            "name": "Polycab BMS 300 MC-A7",
+            "slug": "polycab-bms-300-mc-a7"
+          },
+          {
+            "name": "Polycab Type MC Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab UFB Cable UL 493 600V",
+            "slug": "polycab-ufb-cable-ul-493-600v"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab BMS 500 MC-A7",
+            "slug": "polycab-bms-500-mc-a7"
+          },
+          {
+            "name": "Polycab AL type TC THHN/THWN-2 Cable 600V",
+            "slug": "polycab-al-type-tc-thhn-thwn-2-cable-600v"
+          },
+          {
+            "name": "Polycab Type MC AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-al-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab AL XHHW-2 UL 44 600V",
+            "slug": "polycab-al-xhhw-2-ul-44-600v"
+          }
+        ]
+      },
+      {
+        "heading": "Datacenters",
+        "items": [
+          {
+            "name": "Polycab H05Z-K/H07Z-K BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-k-h07z-k-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 6.35/11(12)kV",
+            "slug": "polycab-mv-cu-bs-7835-6-35-11-12-kv"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Armoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-armoured-cable"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-cu-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab H07Z-R BSEN 50525-3-41 450/750V AC",
+            "slug": "polycab-h07z-r-bsen-50525-3-41-450-750v-ac"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Unarmoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-unarmoured-cable"
+          },
+          {
+            "name": "Polycab H05Z-U/H07Z-U BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-u-h07z-u-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          }
+        ]
+      },
+      {
+        "heading": "Telecommunication",
+        "items": [
+          {
+            "name": "Polycab Coaxial Cable",
+            "slug": "polycab-coaxial-cable"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Armoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-armoured-cable"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Unarmoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-unarmoured-cable"
+          }
+        ]
+      },
+      {
+        "heading": "Commercial",
+        "items": [
+          {
+            "name": "Polycab Coaxial Cable",
+            "slug": "polycab-coaxial-cable"
+          },
+          {
+            "name": "Polycab FR-LF 1100V AC IS 694",
+            "slug": "polycab-fr-lf-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab Festoon Flat 4Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-4sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab 6241B/6242B/6243B BS 7211 MC 300/500V AC",
+            "slug": "polycab-6241b-6242b-6243b-bs-7211-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-al-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab H05V2V2D3-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05v2v2d3-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H03VVH2-F BSEN 50525-2-11 MC 300/300V AC",
+            "slug": "polycab-h03vvh2-f-bsen-50525-2-11-mc-300-300v-ac"
+          },
+          {
+            "name": "Polycab 3192A/3182A/3183A/3184A/3185A BS 6004 MC 300/500V AC",
+            "slug": "polycab-3192a-3182a-3183a-3184a-3185a-bs-6004-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 1Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-1sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab 6241Y/6242Y/6243Y BS 6004 MC 300/500V AC",
+            "slug": "polycab-6241y-6242y-6243y-bs-6004-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 2.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-2-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab THHN AL UL 83 600V",
+            "slug": "polycab-thhn-al-ul-83-600v"
+          },
+          {
+            "name": "Polycab Speaker Cable",
+            "slug": "polycab-speaker-cable"
+          },
+          {
+            "name": "Polycab H05VVH2-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05vvh2-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 0.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-0-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab H03Z1Z1H2-F/H05Z1Z1H2-F BSEN 50525-3-11 300/300V&300/500V AC",
+            "slug": "polycab-h03z1z1h2-f-h05z1z1h2-f-bsen-50525-3-11-300-300v-300-500v-ac"
+          },
+          {
+            "name": "Polycab FR-LSH 1100V AC IS 694",
+            "slug": "polycab-fr-lsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 300 MC-C4",
+            "slug": "polycab-bms-300-mc-c4"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER THHN/THWN-2 16 AWG Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-thhn-thwn-2-16-awg-tray-cable"
+          },
+          {
+            "name": "Polycab HR-FR-LSH-LF Green Wire 1100V AC IS 694",
+            "slug": "polycab-hr-fr-lsh-lf-green-wire-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 500 MC-C4",
+            "slug": "polycab-bms-500-mc-c4"
+          },
+          {
+            "name": "Polycab 6181Y BS 6004 SC 300/500V AC",
+            "slug": "polycab-6181y-bs-6004-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab ETIRA FR 1100V AC IS 694",
+            "slug": "polycab-etira-fr-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab Al XHHW-2 Type MC AL Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-al-xhhw-2-type-mc-al-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab Cu XHHW-2 UL 44 600V",
+            "slug": "polycab-cu-xhhw-2-ul-44-600v"
+          },
+          {
+            "name": "Polycab ETIRA FRLSH 1100V AC IS 694",
+            "slug": "polycab-etira-frlsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab 02AYY-2 Core 1100V IS 694 Flat Cable",
+            "slug": "polycab-02ayy-2-core-1100v-is-694-flat-cable"
+          },
+          {
+            "name": "Polycab THHN Cu UL 83 600V",
+            "slug": "polycab-thhn-cu-ul-83-600v"
+          },
+          {
+            "name": "Polycab Festoon Flat 0.75Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-0-75sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab Cu XHHW-2 Type MC Steel Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-cu-xhhw-2-type-mc-steel-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab NMB Cable UL 719 600V",
+            "slug": "polycab-nmb-cable-ul-719-600v"
+          },
+          {
+            "name": "Polycab AL type TC XHHW-2 Cable 600V",
+            "slug": "polycab-al-type-tc-xhhw-2-cable-600v"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER THHN/THWN-2 Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-thhn-thwn-2-tray-cable"
+          },
+          {
+            "name": "Polycab H05V2V2-F&H05V2V2H2-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05v2v2-f-h05v2v2h2-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab BMS 300 MC-A7",
+            "slug": "polycab-bms-300-mc-a7"
+          },
+          {
+            "name": "Polycab 6181B/6182B/6183B/6184B/6185B BS 7211 450/750V AC",
+            "slug": "polycab-6181b-6182b-6183b-6184b-6185b-bs-7211-450-750v-ac"
+          },
+          {
+            "name": "Polycab 6181B BS 7211 SC 450/750V AC",
+            "slug": "polycab-6181b-bs-7211-sc-450-750v-ac"
+          },
+          {
+            "name": "Polycab 6192Y/6193Y BS 6004 MC 300/500V AC",
+            "slug": "polycab-6192y-6193y-bs-6004-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Type MC Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab UFB Cable UL 493 600V",
+            "slug": "polycab-ufb-cable-ul-493-600v"
+          },
+          {
+            "name": "Polycab H03Z1Z1-F BSEN 50525-3-11 300/300V AC",
+            "slug": "polycab-h03z1z1-f-bsen-50525-3-11-300-300v-ac"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab Festoon Flat 1.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-1-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab BMS 500 MC-A7",
+            "slug": "polycab-bms-500-mc-a7"
+          },
+          {
+            "name": "Polycab AL type TC THHN/THWN-2 Cable 600V",
+            "slug": "polycab-al-type-tc-thhn-thwn-2-cable-600v"
+          },
+          {
+            "name": "Polycab H03V2V2-F&H03V2V2H2-F BSEN 50525-2-11 MC 300/300V AC",
+            "slug": "polycab-h03v2v2-f-h03v2v2h2-f-bsen-50525-2-11-mc-300-300v-ac"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER XHHW-2 Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-xhhw-2-tray-cable"
+          },
+          {
+            "name": "Polycab Type MC AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-al-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab AL XHHW-2 UL 44 600V",
+            "slug": "polycab-al-xhhw-2-ul-44-600v"
+          }
+        ]
+      },
+      {
+        "heading": "IT Industry",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xwy"
+          },
+          {
+            "name": "Polycab Instrumentation 500 P(ST)",
+            "slug": "polycab-instrumentation-500-p-st"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xfy"
+          },
+          {
+            "name": "Polycab Instrumentation 300 MC(ST)",
+            "slug": "polycab-instrumentation-300-mc-st"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab Instrumentation 300 T(ST)",
+            "slug": "polycab-instrumentation-300-t-st"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab Instrumentation 500 MC(ST)",
+            "slug": "polycab-instrumentation-500-mc-st"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab Instrumentation 500 (ST)TiMF",
+            "slug": "polycab-instrumentation-500-st-timf"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab Instrumentation 500 T(ST)",
+            "slug": "polycab-instrumentation-500-t-st"
+          },
+          {
+            "name": "Polycab Instrumentation 300 P(ST)",
+            "slug": "polycab-instrumentation-300-p-st"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab Instrumentation 300 (ST)PiMF",
+            "slug": "polycab-instrumentation-300-st-pimf"
+          },
+          {
+            "name": "Polycab Instrumentation 300 (ST)TiMF",
+            "slug": "polycab-instrumentation-300-st-timf"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab Instrumentation 500 (ST)PiMF",
+            "slug": "polycab-instrumentation-500-st-pimf"
+          },
+          {
+            "name": "Polycab CCTV Cable",
+            "slug": "polycab-cctv-cable"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Energy and Power Grid",
+    "sections": [
+      {
+        "heading": "Power & Network",
+        "items": [
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH 1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab Aerial Bunched Cable 19/33kV AC (ABC)",
+            "slug": "polycab-aerial-bunched-cable-19-33kv-ac-abc"
+          },
+          {
+            "name": "Polycab BS 6724 SC AWA LSZH 1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-sc-awa-lszh-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab BS 5467 MC 0.6/1kV AC",
+            "slug": "polycab-bs-5467-mc-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab BS 6724 SC AWA LSZH 0.6/1kV AC",
+            "slug": "polycab-bs-6724-sc-awa-lszh-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab BS 5467 MC(Shaped Conductor)1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-mc-shaped-conductor-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab Aerial Bunched Cable 1100V AC (ABC)",
+            "slug": "polycab-aerial-bunched-cable-1100v-ac-abc"
+          },
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH(Shaped conductor)1.9/3.3kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-shaped-conductor-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab Aerial Bunched Cable 6.35/11kV AC (ABC)",
+            "slug": "polycab-aerial-bunched-cable-6-35-11kv-ac-abc"
+          },
+          {
+            "name": "Polycab Aerial Bunched Cable 1.9/3.3kV AC(ABC)",
+            "slug": "polycab-aerial-bunched-cable-1-9-3-3kv-ac-abc"
+          },
+          {
+            "name": "Polycab BS 5467 SC 1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-sc-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab BS 5467 MC 1.9/3.3kV AC",
+            "slug": "polycab-bs-5467-mc-1-9-3-3kv-ac"
+          },
+          {
+            "name": "Polycab BS 5467 SC 0.6/1kV AC",
+            "slug": "polycab-bs-5467-sc-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab BS 6724 MC SWA LSZH 0.6/1kV AC",
+            "slug": "polycab-bs-6724-mc-swa-lszh-0-6-1kv-ac"
+          }
+        ]
+      },
+      {
+        "heading": "Utility",
+        "items": [
+          {
+            "name": "Polycab MV 15kV AL UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-15kv-al-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 110kV",
+            "slug": "polycab-ehv-cu-al-cor-110kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 110kV",
+            "slug": "polycab-ehv-cu-cs-pal-110kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 12.7/22kV",
+            "slug": "polycab-mv-cu-bs-6622-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-20 6.35/11kV",
+            "slug": "polycab-mv-al-bs-7870-4-20-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 220kV",
+            "slug": "polycab-ehv-al-cs-pal-220kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-al-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 8.7/15kV",
+            "slug": "polycab-mv-al-iec-60502-2-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 6.35/11(12)kV",
+            "slug": "polycab-mv-cu-bs-7835-6-35-11-12-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY 2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 TR-XLPE 100%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-tr-xlpe-100"
+          },
+          {
+            "name": "Polycab EHV AL PB 110kV",
+            "slug": "polycab-ehv-al-pb-110kv"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 6.0/10kV",
+            "slug": "polycab-mv-cu-iec-60502-2-6-0-10kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 12.7/22kV",
+            "slug": "polycab-mv-al-bs-6622-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 8.7/15(15)kV",
+            "slug": "polycab-mv-al-bs-7835-8-7-15-15-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 3.6/6.0kV",
+            "slug": "polycab-mv-cu-iec-60502-2-3-6-6-0kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 EPR 133%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 19/33kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-19-33kv"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 110kV",
+            "slug": "polycab-ehv-al-al-cor-110kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 110kV",
+            "slug": "polycab-ehv-cu-cs-pb-110kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV 15kV AL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-15kv-al-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 12.7/22kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 6.35/11kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-6-35-11kv-triplex"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 66kV",
+            "slug": "polycab-ehv-cu-cs-pal-66kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-35kv-al-ul-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 110kV",
+            "slug": "polycab-ehv-al-cs-pb-110kv"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 18/30kV",
+            "slug": "polycab-mv-cu-iec-60502-2-18-30kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 220kV",
+            "slug": "polycab-ehv-cu-pb-220kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 6.35/11KV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 132kV",
+            "slug": "polycab-ehv-al-pb-132kv"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2 8.7 /15kV",
+            "slug": "polycab-mv-cu-iec-60502-2-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 19/33kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-19-33kv-triplex"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 132kV",
+            "slug": "polycab-ehv-cu-al-cor-132kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 66kV",
+            "slug": "polycab-ehv-cu-cs-pb-66kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-cu-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 12.7/22kV Triplex",
+            "slug": "polycab-mv-cu-bs-7870-4-10-12-7-22kv-triplex"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 15kV AL UL 1072 EPR 100%",
+            "slug": "polycab-mv-15kv-al-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 1.9/ 3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 132kV",
+            "slug": "polycab-ehv-cu-cs-pal-132kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV Cu UL 1072 5kV XLPE 100% OR 133%",
+            "slug": "polycab-mv-cu-ul-1072-5kv-xlpe-100-or-133"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 132kV",
+            "slug": "polycab-ehv-al-cs-pal-132kv"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 3.8/6.6kV",
+            "slug": "polycab-mv-al-bs-6622-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PAL 110kV",
+            "slug": "polycab-ehv-al-cs-pal-110kv"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 19/33kV",
+            "slug": "polycab-mv-al-bs-6622-19-33kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 6.0/10kV",
+            "slug": "polycab-mv-al-iec-60502-2-6-0-10kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 132kV",
+            "slug": "polycab-ehv-al-cs-pb-132kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 5kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-5kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 19/33kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV15kV Cu UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv15kv-cu-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 8.7/15kV",
+            "slug": "polycab-mv-cu-bs-6622-8-7-15kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 66kV",
+            "slug": "polycab-ehv-cu-al-cor-66kv"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 EPR 133%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 TRXLPE 100%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-trxlpe-100"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 12/20kV",
+            "slug": "polycab-mv-al-iec-60502-2-12-20kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 1.9/3.3kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-1-9-3-3kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 12.7/22kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-12-7-22kv-atr"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 12.7/22kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 6.35/11kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-6-35-11kv-triplex"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 66kV",
+            "slug": "polycab-ehv-al-cs-pb-66kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 66kV",
+            "slug": "polycab-ehv-al-al-cor-66kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 6.35/11(12)kV",
+            "slug": "polycab-mv-al-bs-7835-6-35-11-12-kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 66kV",
+            "slug": "polycab-ehv-cu-pb-66kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 EPR 100%",
+            "slug": "polycab-mv-35kv-al-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 TRXLPE 133%",
+            "slug": "polycab-mv-35kv-al-ul-1072-trxlpe-133"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 12.7/22(24)kV",
+            "slug": "polycab-mv-al-bs-7835-12-7-22-24-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1CA2XWaY/A2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1ca2xway-a2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 19/33kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-19-33kv-triplex"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab MV SC Cu EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-sc-cu-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-20 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-7870-4-20-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV AL CS+PB 220kV",
+            "slug": "polycab-ehv-al-cs-pb-220kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 3.6/6.0kV",
+            "slug": "polycab-mv-al-iec-60502-2-3-6-6-0kv"
+          },
+          {
+            "name": "Polycab MV 3C AL EPR ICEA/NEMA 25kV",
+            "slug": "polycab-mv-3c-al-epr-icea-nema-25kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 19/33kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-19-33kv-atr"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV AL Al COR 132kV",
+            "slug": "polycab-ehv-al-al-cor-132kv"
+          },
+          {
+            "name": "Polycab MV 35kV AL UL 1072 EPR 133%",
+            "slug": "polycab-mv-35kv-al-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-sc-al-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV Cu Al COR 220kV",
+            "slug": "polycab-ehv-cu-al-cor-220kv"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV 15kV Cu UL 1072 EPR 100%",
+            "slug": "polycab-mv-15kv-cu-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 6.35/11kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-6-35-11kv-atr"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 8.7/15(15)kV",
+            "slug": "polycab-mv-cu-bs-7835-8-7-15-15-kv"
+          },
+          {
+            "name": "Polycab MV SC AL EPR ICEA/NEMA 8kV",
+            "slug": "polycab-mv-sc-al-epr-icea-nema-8kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 3.8/6.6(7.2)kV",
+            "slug": "polycab-mv-cu-bs-7835-3-8-6-6-7-2-kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV AL IEC 60502-2 18/30kV",
+            "slug": "polycab-mv-al-iec-60502-2-18-30kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 12.7/22kV Triplex",
+            "slug": "polycab-mv-al-bs-7870-4-10-12-7-22kv-triplex"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 8.7/15kV",
+            "slug": "polycab-mv-al-bs-6622-8-7-15kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-12-7-22kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7870-4-10 19/33kV",
+            "slug": "polycab-mv-cu-bs-7870-4-10-19-33kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 132kV",
+            "slug": "polycab-ehv-cu-cs-pb-132kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 35kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-35kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV 35kV Cu UL 1072 EPR 100%",
+            "slug": "polycab-mv-35kv-cu-ul-1072-epr-100"
+          },
+          {
+            "name": "Polycab MV 3C Cu EPR ICEA/NEMA 15kV",
+            "slug": "polycab-mv-3c-cu-epr-icea-nema-15kv"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PB 220kV",
+            "slug": "polycab-ehv-cu-cs-pb-220kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab EHV Cu CS+PAL 220kV",
+            "slug": "polycab-ehv-cu-cs-pal-220kv"
+          },
+          {
+            "name": "Polycab MV Cu IEC 60502-2-12/20kV",
+            "slug": "polycab-mv-cu-iec-60502-2-12-20kv"
+          },
+          {
+            "name": "Polycab MV 3C AL XLPE ATR AS-NZS 3.8/6.6kV",
+            "slug": "polycab-mv-3c-al-xlpe-atr-as-nzs-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 132kV",
+            "slug": "polycab-ehv-cu-pb-132kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 6622 3.8/6.6kV",
+            "slug": "polycab-mv-cu-bs-6622-3-8-6-6kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 66kV",
+            "slug": "polycab-ehv-al-pb-66kv"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 12.7/22(24)kV",
+            "slug": "polycab-mv-cu-bs-7835-12-7-22-24-kv"
+          },
+          {
+            "name": "Polycab MV 15kV AL UL 1072 EPR 133%",
+            "slug": "polycab-mv-15kv-al-ul-1072-epr-133"
+          },
+          {
+            "name": "Polycab MV SC AL XLPE ATR AS-NZS 19/33kV",
+            "slug": "polycab-mv-sc-al-xlpe-atr-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab MV AL BS 7870-4-10 6.35/11kV",
+            "slug": "polycab-mv-al-bs-7870-4-10-6-35-11kv"
+          },
+          {
+            "name": "Polycab EHV Cu PB 110kV",
+            "slug": "polycab-ehv-cu-pb-110kv"
+          },
+          {
+            "name": "Polycab MV 1T AL XLPE AS-NZS 3.8/6.6kV ATR",
+            "slug": "polycab-mv-1t-al-xlpe-as-nzs-3-8-6-6kv-atr"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 6.35/11kV",
+            "slug": "polycab-mv-al-bs-6622-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 3C Cu XLPE AS-NZS 6.35/11kV",
+            "slug": "polycab-mv-3c-cu-xlpe-as-nzs-6-35-11kv"
+          },
+          {
+            "name": "Polycab MV 1T Cu XLPE AS-NZS 19/33kV",
+            "slug": "polycab-mv-1t-cu-xlpe-as-nzs-19-33kv"
+          },
+          {
+            "name": "Polycab EHV AL PB 220kV",
+            "slug": "polycab-ehv-al-pb-220kv"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV AL BS 7835 3.8/6.6(7.2)kV",
+            "slug": "polycab-mv-al-bs-7835-3-8-6-6-7-2-kv"
+          },
+          {
+            "name": "Polycab MV SC Cu XLPE AS-NZS 12.7/22kV",
+            "slug": "polycab-mv-sc-cu-xlpe-as-nzs-12-7-22kv"
+          }
+        ]
+      },
+      {
+        "heading": "Renewable Energy",
+        "items": [
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY 2XFY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab Classic 100 300/500V AC",
+            "slug": "polycab-classic-100-300-500v-ac"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-Twin AT",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-twin-at"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC",
+            "slug": "polycab-solar-as-nzs-5000-pvc"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 1.9/3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-Twist",
+            "slug": "polycab-solar-as-nzs-5000-rfh-twist"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-Twin",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-twin"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-AT",
+            "slug": "polycab-solar-as-nzs-5000-pvc-at"
+          },
+          {
+            "name": "Polycab Solar H1Z2Z2-K BSEN 50618-AT",
+            "slug": "polycab-solar-h1z2z2-k-bsen-50618-at"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab Classic 110 Orange 300/500V AC",
+            "slug": "polycab-classic-110-orange-300-500v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab Classic 110 300/500V AC",
+            "slug": "polycab-classic-110-300-500v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 1.9/ 3.3kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-1-9-3-3kv-e"
+          },
+          {
+            "name": "Polycab Classic 110 Black 600/1000V AC",
+            "slug": "polycab-classic-110-black-600-1000v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-AT",
+            "slug": "polycab-solar-as-nzs-5000-rfh-at"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-19-33kv-e"
+          },
+          {
+            "name": "Polycab Classic 100 SY 300/500V AC",
+            "slug": "polycab-classic-100-sy-300-500v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab Classic 100 CY 450/750V AC",
+            "slug": "polycab-classic-100-cy-450-750v-ac"
+          },
+          {
+            "name": "Polycab Classic 100 450/750V AC",
+            "slug": "polycab-classic-100-450-750v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-11-11kv-ue"
+          },
+          {
+            "name": "Polycab AL Solar UL 4703 2000V AC",
+            "slug": "polycab-al-solar-ul-4703-2000v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO",
+            "slug": "polycab-solar-as-nzs-5000-xlpo"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab Classic 100 BK 600/1000V AC",
+            "slug": "polycab-classic-100-bk-600-1000v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-rfh-twist-at"
+          },
+          {
+            "name": "Polycab Classic 110 CY Screened 300/500V AC",
+            "slug": "polycab-classic-110-cy-screened-300-500v-ac"
+          },
+          {
+            "name": "Polycab Cu Solar UL 4703 2000V AC",
+            "slug": "polycab-cu-solar-ul-4703-2000v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C 2XWY/2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-2xwy-2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 19/33kV(E)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-19-33kv-e"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-AT",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-at"
+          },
+          {
+            "name": "Polycab Classic 100 CY 300/500V AC",
+            "slug": "polycab-classic-100-cy-300-500v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-Twist",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-twist"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-Twist",
+            "slug": "polycab-solar-as-nzs-5000-pvc-twist"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1CA2XWaY/A2XFaY 12.7/22kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1ca2xway-a2xfay-12-7-22kv-e"
+          },
+          {
+            "name": "Polycab Classic 110 BK 300/500V AC",
+            "slug": "polycab-classic-110-bk-300-500v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.8/6.6kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-8-6-6kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab Classic 110 SY Screened 300/500V AC",
+            "slug": "polycab-classic-110-sy-screened-300-500v-ac"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 XLPO-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-xlpo-twist-at"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 6.35/11kV(E)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-6-35-11kv-e"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-3-3-3-3kv-ue"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 PVC-Twist AT",
+            "slug": "polycab-solar-as-nzs-5000-pvc-twist-at"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 3C A2XWY/A2XFY 6.6/6.6kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-3c-a2xwy-a2xfy-6-6-6-6kv-ue"
+          },
+          {
+            "name": "Polycab Solar AS NZS 5000 RFH",
+            "slug": "polycab-solar-as-nzs-5000-rfh"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C A2XWaY/A2XFaY 11/11kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-a2xway-a2xfay-11-11kv-ue"
+          },
+          {
+            "name": "Polycab Classic 100 SY 450/750V AC",
+            "slug": "polycab-classic-100-sy-450-750v-ac"
+          },
+          {
+            "name": "Polycab MV IS 7098-II 1C 2XWaY/2XFaY 3.3/3.3kV(UE)",
+            "slug": "polycab-mv-is-7098-ii-1c-2xway-2xfay-3-3-3-3kv-ue"
+          }
+        ]
+      },
+      {
+        "heading": "Service Entrance",
+        "items": [
+          {
+            "name": "Polycab Cu SE style R UL 854 600V",
+            "slug": "polycab-cu-se-style-r-ul-854-600v"
+          },
+          {
+            "name": "Polycab Cu SE style U UL 854 600V",
+            "slug": "polycab-cu-se-style-u-ul-854-600v"
+          },
+          {
+            "name": "Polycab AL SE style R UL 854 600V",
+            "slug": "polycab-al-se-style-r-ul-854-600v"
+          },
+          {
+            "name": "Polycab AL SE style U UL 854 600V",
+            "slug": "polycab-al-se-style-u-ul-854-600v"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manufacturing industries",
+    "sections": [
+      {
+        "heading": "Automation & Process Control",
+        "items": [
+          {
+            "name": "Polycab Festoon Flat 4Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-4sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab H07V-U/H07V-R BSEN 50525-2-31 SC 450/750V AC",
+            "slug": "polycab-h07v-u-h07v-r-bsen-50525-2-31-sc-450-750v-ac"
+          },
+          {
+            "name": "Polycab H05Z-K/H07Z-K BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-k-h07z-k-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-al-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab H05V2V2D3-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05v2v2d3-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H07V-K BSEN 50525-2-31 SC 450/750V AC",
+            "slug": "polycab-h07v-k-bsen-50525-2-31-sc-450-750v-ac"
+          },
+          {
+            "name": "Polycab Flexible Cords Type SJT/HO3VV-F UL 62 300V AC",
+            "slug": "polycab-flexible-cords-type-sjt-ho3vv-f-ul-62-300v-ac"
+          },
+          {
+            "name": "Polycab 110 CY IEC 60227-7 Screened control Cable 300/500V AC",
+            "slug": "polycab-110-cy-iec-60227-7-screened-control-cable-300-500v-ac"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Armoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-armoured-cable"
+          },
+          {
+            "name": "Polycab H03VVH2-F BSEN 50525-2-11 MC 300/300V AC",
+            "slug": "polycab-h03vvh2-f-bsen-50525-2-11-mc-300-300v-ac"
+          },
+          {
+            "name": "Polycab Classic 100 300/500V AC",
+            "slug": "polycab-classic-100-300-500v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 1Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-1sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab Festoon Flat 2.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-2-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab H05VVH2-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05vvh2-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 0.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-0-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab H03Z1Z1H2-F/H05Z1Z1H2-F BSEN 50525-3-11 300/300V&300/500V AC",
+            "slug": "polycab-h03z1z1h2-f-h05z1z1h2-f-bsen-50525-3-11-300-300v-300-500v-ac"
+          },
+          {
+            "name": "Polycab Type BK BS 6231 Switch Gear & Control Gear Wiring 0.6/1kV AC",
+            "slug": "polycab-type-bk-bs-6231-switch-gear-control-gear-wiring-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab H05VV-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05vv-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER THHN/THWN-2 16 AWG Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-thhn-thwn-2-16-awg-tray-cable"
+          },
+          {
+            "name": "Polycab Type CK BS 6231 Switch Gear & Control Gear Wiring 0.6/1kV AC",
+            "slug": "polycab-type-ck-bs-6231-switch-gear-control-gear-wiring-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab Classic 110 Orange 300/500V AC",
+            "slug": "polycab-classic-110-orange-300-500v-ac"
+          },
+          {
+            "name": "Polycab Classic 110 300/500V AC",
+            "slug": "polycab-classic-110-300-500v-ac"
+          },
+          {
+            "name": "Polycab H07Z-R BSEN 50525-3-41 450/750V AC",
+            "slug": "polycab-h07z-r-bsen-50525-3-41-450-750v-ac"
+          },
+          {
+            "name": "Polycab Flexible Cords Type SOOW UL 62 600V",
+            "slug": "polycab-flexible-cords-type-soow-ul-62-600v"
+          },
+          {
+            "name": "Polycab Classic 110 Black 600/1000V AC",
+            "slug": "polycab-classic-110-black-600-1000v-ac"
+          },
+          {
+            "name": "Polycab Al XHHW-2 Type MC AL Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-al-xhhw-2-type-mc-al-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab Classic 100 SY 300/500V AC",
+            "slug": "polycab-classic-100-sy-300-500v-ac"
+          },
+          {
+            "name": "Polycab Classic 100 CY 450/750V AC",
+            "slug": "polycab-classic-100-cy-450-750v-ac"
+          },
+          {
+            "name": "Polycab Classic 100 450/750V AC",
+            "slug": "polycab-classic-100-450-750v-ac"
+          },
+          {
+            "name": "Polycab 01Y-R SC 1100V AC IS 694",
+            "slug": "polycab-01y-r-sc-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab 01Y-K 1100V AC IS 694 Twin Parallel & Twisted",
+            "slug": "polycab-01y-k-1100v-ac-is-694-twin-parallel-twisted"
+          },
+          {
+            "name": "Polycab Classic 100 BK 600/1000V AC",
+            "slug": "polycab-classic-100-bk-600-1000v-ac"
+          },
+          {
+            "name": "Polycab Flexible Cords Type SJO UL 62 300V AC",
+            "slug": "polycab-flexible-cords-type-sjo-ul-62-300v-ac"
+          },
+          {
+            "name": "Polycab Festoon Flat 0.75Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-0-75sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab Type DK BS 6231 Switch Gear & Control Gear Wiring 0.6/1kV AC",
+            "slug": "polycab-type-dk-bs-6231-switch-gear-control-gear-wiring-0-6-1kv-ac"
+          },
+          {
+            "name": "Polycab Cu XHHW-2 Type MC Steel Armoured PVC Jacket UL 1569 600V",
+            "slug": "polycab-cu-xhhw-2-type-mc-steel-armoured-pvc-jacket-ul-1569-600v"
+          },
+          {
+            "name": "Polycab H05V2-K/H07V2-K BSEN 50525-2-31 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05v2-k-h07v2-k-bsen-50525-2-31-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab Classic 110 CY Screened 300/500V AC",
+            "slug": "polycab-classic-110-cy-screened-300-500v-ac"
+          },
+          {
+            "name": "Polycab AL type TC XHHW-2 Cable 600V",
+            "slug": "polycab-al-type-tc-xhhw-2-cable-600v"
+          },
+          {
+            "name": "Polycab Classic 100 CY 300/500V AC",
+            "slug": "polycab-classic-100-cy-300-500v-ac"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER THHN/THWN-2 Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-thhn-thwn-2-tray-cable"
+          },
+          {
+            "name": "Polycab H05V2V2-F&H05V2V2H2-F BSEN 50525-2-11 MC 300/500V AC",
+            "slug": "polycab-h05v2v2-f-h05v2v2h2-f-bsen-50525-2-11-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab RS 485 300/500V AC Unarmoured Cable",
+            "slug": "polycab-rs-485-300-500v-ac-unarmoured-cable"
+          },
+          {
+            "name": "Polycab Classic 110 BK 300/500V AC",
+            "slug": "polycab-classic-110-bk-300-500v-ac"
+          },
+          {
+            "name": "Polycab Flexible Cords Type SJOOW UL 62 300V",
+            "slug": "polycab-flexible-cords-type-sjoow-ul-62-300v"
+          },
+          {
+            "name": "Polycab 02YY-R 1100V AC IS 694",
+            "slug": "polycab-02yy-r-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab H03VV-F BSEN 50525-2-11 MC 300/300V AC",
+            "slug": "polycab-h03vv-f-bsen-50525-2-11-mc-300-300v-ac"
+          },
+          {
+            "name": "Polycab H05Z-U/H07Z-U BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-u-h07z-u-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab Classic 110 SY Screened 300/500V AC",
+            "slug": "polycab-classic-110-sy-screened-300-500v-ac"
+          },
+          {
+            "name": "Polycab Type MC Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab H03Z1Z1-F BSEN 50525-3-11 300/300V AC",
+            "slug": "polycab-h03z1z1-f-bsen-50525-3-11-300-300v-ac"
+          },
+          {
+            "name": "Polycab Type MC PVC Jacketed Cu Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-pvc-jacketed-cu-conductor-ul-1569-600v"
+          },
+          {
+            "name": "Polycab Festoon Flat 1.5Sq.mm Multicore Cable",
+            "slug": "polycab-festoon-flat-1-5sq-mm-multicore-cable"
+          },
+          {
+            "name": "Polycab H05V2-U/H05V2-R/H07V2-U/H07V2-R BSEN 50525-2-31 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05v2-u-h05v2-r-h07v2-u-h07v2-r-bsen-50525-2-31-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab H05V-U/H05V-R/H05V-K BSEN 50525-2-31 SC 300/500V AC",
+            "slug": "polycab-h05v-u-h05v-r-h05v-k-bsen-50525-2-31-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab AL type TC THHN/THWN-2 Cable 600V",
+            "slug": "polycab-al-type-tc-thhn-thwn-2-cable-600v"
+          },
+          {
+            "name": "Polycab H03V2V2-F&H03V2V2H2-F BSEN 50525-2-11 MC 300/300V AC",
+            "slug": "polycab-h03v2v2-f-h03v2v2h2-f-bsen-50525-2-11-mc-300-300v-ac"
+          },
+          {
+            "name": "Polycab Classic 100 SY 450/750V AC",
+            "slug": "polycab-classic-100-sy-450-750v-ac"
+          },
+          {
+            "name": "Polycab 01Y-K SC 1100V AC IS 694",
+            "slug": "polycab-01y-k-sc-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab Cu Type TC/TC-ER XHHW-2 Tray Cable",
+            "slug": "polycab-cu-type-tc-tc-er-xhhw-2-tray-cable"
+          },
+          {
+            "name": "Polycab Type MC AL Conductor UL 1569 600V",
+            "slug": "polycab-type-mc-al-conductor-ul-1569-600v"
+          }
+        ]
+      },
+      {
+        "heading": "Healthcare",
+        "items": [
+          {
+            "name": "Polycab FR-LF 1100V AC IS 694",
+            "slug": "polycab-fr-lf-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab 6241B/6242B/6243B BS 7211 MC 300/500V AC",
+            "slug": "polycab-6241b-6242b-6243b-bs-7211-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H05Z-K/H07Z-K BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-k-h07z-k-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab Speaker Cable",
+            "slug": "polycab-speaker-cable"
+          },
+          {
+            "name": "Polycab FR-LSH 1100V AC IS 694",
+            "slug": "polycab-fr-lsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 300 MC-C4",
+            "slug": "polycab-bms-300-mc-c4"
+          },
+          {
+            "name": "Polycab HR-FR-LSH-LF Green Wire 1100V AC IS 694",
+            "slug": "polycab-hr-fr-lsh-lf-green-wire-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 500 MC-C4",
+            "slug": "polycab-bms-500-mc-c4"
+          },
+          {
+            "name": "Polycab H07Z-R BSEN 50525-3-41 450/750V AC",
+            "slug": "polycab-h07z-r-bsen-50525-3-41-450-750v-ac"
+          },
+          {
+            "name": "Polycab ETIRA FR 1100V AC IS 694",
+            "slug": "polycab-etira-fr-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab ETIRA FRLSH 1100V AC IS 694",
+            "slug": "polycab-etira-frlsh-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab BMS 300 MC-A7",
+            "slug": "polycab-bms-300-mc-a7"
+          },
+          {
+            "name": "Polycab 6181B/6182B/6183B/6184B/6185B BS 7211 450/750V AC",
+            "slug": "polycab-6181b-6182b-6183b-6184b-6185b-bs-7211-450-750v-ac"
+          },
+          {
+            "name": "Polycab 6181B BS 7211 SC 450/750V AC",
+            "slug": "polycab-6181b-bs-7211-sc-450-750v-ac"
+          },
+          {
+            "name": "Polycab H05Z-U/H07Z-U BSEN 50525-3-41 SC 300/500V&450/750V AC",
+            "slug": "polycab-h05z-u-h07z-u-bsen-50525-3-41-sc-300-500v-450-750v-ac"
+          },
+          {
+            "name": "Polycab BMS 500 MC-A7",
+            "slug": "polycab-bms-500-mc-a7"
+          }
+        ]
+      },
+      {
+        "heading": "Food & Beverages",
+        "items": [
+          {
+            "name": "Polycab HFFR-01Z-R/03XZ-R SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-r-03xz-r-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-R SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-r-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab H07BQ-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bq-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab H05BQ-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bq-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-R/04XZXZ-R 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-r-04xzxz-r-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-R/03XZZ-R 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-r-03xzz-r-1100v-ac-is-17048"
+          }
+        ]
+      },
+      {
+        "heading": "Water Treatment and Waste Disposal",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab 02YY-K 1100V (Submersible)",
+            "slug": "polycab-02yy-k-1100v-submersible"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab H07BQ-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bq-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab H05BQ-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bq-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab H07RN8-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07rn8-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      },
+      {
+        "heading": "Cement Industry",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab 02YY-K MC 1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab H07BB-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bb-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab H07BN4-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bn4-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab H05RN-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05rn-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab SiR-SC 1100V AC IS 9968-1",
+            "slug": "polycab-sir-sc-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab H05SJ-U/H05SJ-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05sj-u-h05sj-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H05RR-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05rr-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab H05BN4-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bn4-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab SiR 1100V AC IS 9968-1",
+            "slug": "polycab-sir-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab SiR-S 1100V AC IS 9968-1",
+            "slug": "polycab-sir-s-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab H05GG-F/H05GGH2-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05gg-f-h05ggh2-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab 02YY-K 1100V AC IS 694",
+            "slug": "polycab-02yy-k-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab H03S-K BSEN 50525-2-41 SC 300/300V AC",
+            "slug": "polycab-h03s-k-bsen-50525-2-41-sc-300-300v-ac"
+          },
+          {
+            "name": "Polycab 02YY-K MC+1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694-cement-industry"
+          },
+          {
+            "name": "Polycab H05BB-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bb-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab H05SS-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05ss-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab HFFR-4XZZ-K/04XZXZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-4xzz-k-04xzxz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab SiR-G 1100V AC IS 9968-1",
+            "slug": "polycab-sir-g-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-mc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab H05S-U/H05S-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05s-u-h05s-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab H07RN-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07rn-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-mc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      },
+      {
+        "heading": "Metal Industry",
+        "items": [
+          {
+            "name": "Polycab 02YY-K MC 1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab 02YY-K 1100V AC IS 694",
+            "slug": "polycab-02yy-k-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab 02YY-K MC+1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694-cement-industry"
+          },
+          {
+            "name": "Polycab HFFR-4XZZ-K/04XZXZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-4xzz-k-04xzxz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-mc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-mc-1100v-ac-is-17048"
+          }
+        ]
+      },
+      {
+        "heading": "Sugar Industry",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab 02YY-K MC 1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab 02YY-K 1100V AC IS 694",
+            "slug": "polycab-02yy-k-1100v-ac-is-694"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab 02YY-K MC+1100V AC IS 694",
+            "slug": "polycab-02yy-k-mc-1100v-ac-is-694-cement-industry"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab HFFR-4XZZ-K/04XZXZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-4xzz-k-04xzxz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-mc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab HFFR-01Z-K/03XZ-K SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-k-03xz-k-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-K/04XZXZ-K 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-k-04xzxz-k-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K MC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-mc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      },
+      {
+        "heading": "Pharmaceutical Industry",
+        "items": [
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xwy"
+          },
+          {
+            "name": "Polycab Firealarm Unarmoured Cable",
+            "slug": "polycab-firealarm-unarmoured-cable"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab HFFR-01Z-R/03XZ-R SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-01z-r-03xz-r-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab Firealarm Armoured Cable",
+            "slug": "polycab-firealarm-armoured-cable"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC UA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xfy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XY",
+            "slug": "polycab-lv-is-7098-i-1c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-sfa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-K/03XZZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-01zz-k-03xzz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab Firealarm Shielded Unarmoured Cable",
+            "slug": "polycab-firealarm-shielded-unarmoured-cable"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-sfa"
+          },
+          {
+            "name": "Polycab IGNIS 213",
+            "slug": "polycab-ignis-213"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-A2XFaY-A2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-a2xfay-a2xway"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3c-a2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 1C-2XFaY-2XWaY",
+            "slug": "polycab-lv-is-7098-i-1c-2xfay-2xway"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC AWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-awa"
+          },
+          {
+            "name": "Polycab Firealarm Shielded Armoured Cable",
+            "slug": "polycab-firealarm-shielded-armoured-cable"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XFY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-2xfy"
+          },
+          {
+            "name": "Polycab IGNIS 240",
+            "slug": "polycab-ignis-240"
+          },
+          {
+            "name": "Polycab IGNIS 215",
+            "slug": "polycab-ignis-215"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XFY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xfy"
+          },
+          {
+            "name": "Polycab HFFR-04XZ-R SC 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xz-r-sc-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XFY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xfy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-A2XY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab IGNIS 230",
+            "slug": "polycab-ignis-230"
+          },
+          {
+            "name": "Polycab LV 2.5 Cu IEC 60502-1 0.6/1kV MC SWA",
+            "slug": "polycab-lv-2-5-cu-iec-60502-1-0-6-1kv-mc-swa"
+          },
+          {
+            "name": "Polycab IGNIS 241",
+            "slug": "polycab-ignis-241"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-ua"
+          },
+          {
+            "name": "Polycab IGNIS 214",
+            "slug": "polycab-ignis-214"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XFY",
+            "slug": "polycab-lv-is-7098-i-4c-2xfy"
+          },
+          {
+            "name": "Polycab LV 1.5 Cu IEC 60502-1 0.6/1kV MC SFA",
+            "slug": "polycab-lv-1-5-cu-iec-60502-1-0-6-1kv-mc-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-swa"
+          },
+          {
+            "name": "Polycab IGNIS 210",
+            "slug": "polycab-ignis-210"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 SFA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C-2XY",
+            "slug": "polycab-lv-is-7098-i-4c-2xy"
+          },
+          {
+            "name": "Polycab IGNIS 242",
+            "slug": "polycab-ignis-242"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 1.5 2XWY",
+            "slug": "polycab-lv-is-7098-i-mc-1-5-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C-A2XY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xy"
+          },
+          {
+            "name": "Polycab HFFR-4XZZ-K/04XZXZ-K 1100V AC IS 17048 Flat Cable",
+            "slug": "polycab-hffr-4xzz-k-04xzxz-k-1100v-ac-is-17048-flat-cable"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-A2XY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XWY",
+            "slug": "polycab-lv-is-7098-i-3c-2xwy"
+          },
+          {
+            "name": "Polycab IGNIS 220",
+            "slug": "polycab-ignis-220"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV SC SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-sc-sfa"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C 2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-2xwy"
+          },
+          {
+            "name": "Polycab IGNIS 211",
+            "slug": "polycab-ignis-211"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 4C A2XWY",
+            "slug": "polycab-lv-is-7098-i-4c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C-2XY",
+            "slug": "polycab-lv-is-7098-i-2c-2xy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-swa"
+          },
+          {
+            "name": "Polycab HFFR-04XZZ-R/04XZXZ-R 1100V AC IS 17048",
+            "slug": "polycab-hffr-04xzz-r-04xzxz-r-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab LV IS-7098-I MC 2.5 2XY",
+            "slug": "polycab-lv-is-7098-i-mc-2-5-2xy"
+          },
+          {
+            "name": "Polycab IGNIS 200",
+            "slug": "polycab-ignis-200"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3.5C A2XWY",
+            "slug": "polycab-lv-is-7098-i-3-5c-a2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C 2XFY",
+            "slug": "polycab-lv-is-7098-i-3c-2xfy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-4 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-4-swa"
+          },
+          {
+            "name": "Polycab HFFR-01ZZ-R/03XZZ-R 1100V AC IS 17048",
+            "slug": "polycab-hffr-01zz-r-03xzz-r-1100v-ac-is-17048"
+          },
+          {
+            "name": "Polycab IGNIS 212",
+            "slug": "polycab-ignis-212"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3.5 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-5-swa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 SFA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-sfa"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-2 UA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-2-ua"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-3.5 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-3-5-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C A2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-a2xwy"
+          },
+          {
+            "name": "Polycab LV AL IEC 60502-1 0.6/1kV MC-4 UA",
+            "slug": "polycab-lv-al-iec-60502-1-0-6-1kv-mc-4-ua"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 2C 2XWY",
+            "slug": "polycab-lv-is-7098-i-2c-2xwy"
+          },
+          {
+            "name": "Polycab LV IS-7098-I 3C-2XY",
+            "slug": "polycab-lv-is-7098-i-3c-2xy"
+          },
+          {
+            "name": "Polycab LV Cu IEC 60502-1 0.6/1kV MC-3 SWA",
+            "slug": "polycab-lv-cu-iec-60502-1-0-6-1kv-mc-3-swa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mobility infrastructure",
+    "sections": [
+      {
+        "heading": "Mass Transit (Railways & Marine)",
+        "items": [
+          {
+            "name": "Polycab MV AL BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-al-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polycab Hydro Type LSXLPO SC IEEE 1580 0.6/1kV OR 2kV",
+            "slug": "polycab-hydro-type-lsxlpo-sc-ieee-1580-0-6-1kv-or-2kv"
+          },
+          {
+            "name": "Polymarine IEC 60092-354 6/10kV",
+            "slug": "polymarine-iec-60092-354-6-10kv"
+          },
+          {
+            "name": "Polycab Hydro Type LSXLPO MC IEEE 1580 0.6/1kV OR 2kV",
+            "slug": "polycab-hydro-type-lsxlpo-mc-ieee-1580-0-6-1kv-or-2kv"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V OS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-os-iec-60092-376"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V FS ISOS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-fs-isos-iec-60092-376"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V FS Br ISOS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-fs-br-isos-iec-60092-376"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V Br Scr IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-br-scr-iec-60092-376"
+          },
+          {
+            "name": "Polymarine IEC 60092-353 0.6/1.0kV FS Armoured Cable",
+            "slug": "polymarine-iec-60092-353-0-6-1-0kv-fs-armoured-cable"
+          },
+          {
+            "name": "Polycab MV Cu BS 7835 19/33(36)kV",
+            "slug": "polycab-mv-cu-bs-7835-19-33-36-kv"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V FS OS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-fs-os-iec-60092-376"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V Br ISOS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-br-isos-iec-60092-376"
+          },
+          {
+            "name": "Polycab MV AL BS 6622 19/33kV",
+            "slug": "polycab-mv-al-bs-6622-19-33kv"
+          },
+          {
+            "name": "Polymarine IEC 60092-354 12/20kV",
+            "slug": "polymarine-iec-60092-354-12-20kv"
+          },
+          {
+            "name": "Polymarine IEC 60092-353 0.6/1.0kV FS Uarmoured Cable",
+            "slug": "polymarine-iec-60092-353-0-6-1-0kv-fs-uarmoured-cable"
+          },
+          {
+            "name": "Polymarine IEC 60092-353 0.6/1.0kV Armoured Cable",
+            "slug": "polymarine-iec-60092-353-0-6-1-0kv-armoured-cable"
+          },
+          {
+            "name": "Polycab Hydro Type LSXLPO 0.6/1kV OR 2kV",
+            "slug": "polycab-hydro-type-lsxlpo-0-6-1kv-or-2kv"
+          },
+          {
+            "name": "Polymarine IEC 60092-354 8.7/15kV",
+            "slug": "polymarine-iec-60092-354-8-7-15kv"
+          },
+          {
+            "name": "Polymarine IEC 60092-353 1.8/3.0kV Armoured Cable",
+            "slug": "polymarine-iec-60092-353-1-8-3-0kv-armoured-cable"
+          },
+          {
+            "name": "Polycab Hydro Type TC-ER/ITC-ER CIC-TC(Type P-OS)",
+            "slug": "polycab-hydro-type-tc-er-itc-er-cic-tc-type-p-os"
+          },
+          {
+            "name": "Polymarine IEC 60092-353 0.6/1.0kV Uarmoured Cable",
+            "slug": "polymarine-iec-60092-353-0-6-1-0kv-uarmoured-cable"
+          },
+          {
+            "name": "Polycab Hydro Type TC-ER/ITC-ER CIC-TC(Type SP-OS)",
+            "slug": "polycab-hydro-type-tc-er-itc-er-cic-tc-type-sp-os"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V FS Br Scr IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-fs-br-scr-iec-60092-376"
+          },
+          {
+            "name": "Polymarine Instrumentation Pair 250V ISOS IEC 60092-376",
+            "slug": "polymarine-instrumentation-pair-250v-isos-iec-60092-376"
+          }
+        ]
+      },
+      {
+        "heading": "Defence & Armaments Industry",
+        "items": [
+          {
+            "name": "Polycab H07BB-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bb-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab H07BN4-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07bn4-f-bsen-50525-2-21-mc-450-750v-ac"
+          },
+          {
+            "name": "Polycab H05RN-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05rn-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab SiR-SC 1100V AC IS 9968-1",
+            "slug": "polycab-sir-sc-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab H05SJ-U/H05SJ-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05sj-u-h05sj-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H05RR-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05rr-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H05BN4-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bn4-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab SiR 1100V AC IS 9968-1",
+            "slug": "polycab-sir-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab SiR-S 1100V AC IS 9968-1",
+            "slug": "polycab-sir-s-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab H05GG-F/H05GGH2-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05gg-f-h05ggh2-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H03S-K BSEN 50525-2-41 SC 300/300V AC",
+            "slug": "polycab-h03s-k-bsen-50525-2-41-sc-300-300v-ac"
+          },
+          {
+            "name": "Polycab H05BB-F BSEN 50525-2-21 MC 300/500V AC",
+            "slug": "polycab-h05bb-f-bsen-50525-2-21-mc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H05SS-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05ss-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab SiR-G 1100V AC IS 9968-1",
+            "slug": "polycab-sir-g-1100v-ac-is-9968-1"
+          },
+          {
+            "name": "Polycab H05S-U/H05S-K BSEN 50525-2-41 SC 300/500V AC",
+            "slug": "polycab-h05s-u-h05s-k-bsen-50525-2-41-sc-300-500v-ac"
+          },
+          {
+            "name": "Polycab H07RN-F BSEN 50525-2-21 MC 450/750V AC",
+            "slug": "polycab-h07rn-f-bsen-50525-2-21-mc-450-750v-ac"
+          }
+        ]
+      },
+      {
+        "heading": "Aerospace Industry",
+        "items": [
+          {
+            "name": "Polycab MV Cu BS 6622 6.35/11kV",
+            "slug": "polycab-mv-cu-bs-6622-6-35-11kv"
+          },
+          {
+            "name": "Polycab H05Z1Z1-F BSEN 50525-3-11 300/500V AC",
+            "slug": "polycab-h05z1z1-f-bsen-50525-3-11-300-500v-ac"
+          },
+          {
+            "name": "Polycab MV CU BS 6622 19/33kV",
+            "slug": "polycab-mv-cu-bs-6622-19-33kv"
+          }
+        ]
+      }
+    ]
+  }
+]

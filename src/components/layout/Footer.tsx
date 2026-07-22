@@ -45,7 +45,7 @@ export default function Footer() {
           </h4>
           <div className="mt-8 bg-white rounded-4xl px-4 py-5 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
             {brands.map((b) => (
-              <Link key={b.slug} href={`/brands/${b.slug}`} className="relative h-12 w-28">
+              <Link key={b.slug} href={`/products/${b.slug}`} className="relative h-12 w-28">
                 <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="112px" />
               </Link>
             ))}

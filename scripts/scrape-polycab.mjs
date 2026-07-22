@@ -6,6 +6,7 @@ import path from "path";
 const BRAND = "polycab";
 const IMG_DIR = `public/images/products/${BRAND}`;
 const OUT_FILE = `src/data/catalog/${BRAND}.products.json`;
+const CATALOG_FILE = `src/data/catalog/${BRAND}.catalog.json`;
 const LOCAL_DIR = `scripts/html/${BRAND}`;
 const SITE = "https://polycab.com";
 
@@ -29,60 +30,75 @@ const SITE = "https://polycab.com";
 //   consumer:      /Products/GetProductsGridPartial?categorySlug={slug}&pageSize=500&pageNumber=1
 //   cables-by-type: /Products/GetCablesGridPartialByProductTypeSlug?productTypeSlug={slug}&pageSize=500&pageNumber=1
 //
-// "Cables by Application" and "Cables by Standards" were left out: spot-checking showed they list
-// the same underlying cable products as "Cables by Type", just filtered a different way, so scraping
-// them too would only produce duplicate entries.
+// "Cables by Application" is scraped too (see applicationSources below) but shares a lot of its
+// underlying cable catalog with "Cables by Type" — the de-dupe step near the bottom of this file
+// keeps a product under whichever, more specific category it was already catalogued under and
+// only lets genuinely new products in through the application listings.
+// "Cables by Standards" was left out: spot-checking showed it lists the same underlying cable
+// products as "Cables by Type" again, just filtered by IS/international standard instead.
 
+// Only "Wires" is carried from Polycab's Consumers menu (Fans, Lighting, Switches and
+// Accessories, Water Heaters, and consumer Switchgear are out of scope for this distributor
+// site), and it's surfaced directly as "House Wire" rather than nested under a "Wires" category.
 const consumerSources = [
-  // ---- Wires ----
-  { slug: "green-wireplus", family: "House Wires", category: "Wires", name: "Polycab Green Wire+", categorySlug: "polycab-green-wireplus" },
-  { slug: "suprema-house-wires", family: "House Wires", category: "Wires", name: "PolycabSuprema E-Beam Wire", categorySlug: "polycabsuprema-house-wires" },
-  { slug: "optima-plus", family: "House Wires", category: "Wires", name: "PolycabOptima+", categorySlug: "polycaboptima-plus" },
-  { slug: "primma-house-wires", family: "House Wires", category: "Wires", name: "PolycabPrimma", categorySlug: "polycabprimma-house-wires" },
-  { slug: "wires-etira", family: "House Wires", category: "Wires", name: "Etira", categorySlug: "etira-house-wires" },
-  { slug: "greenwire-180m", family: "180 Meter Wires", category: "Wires", name: "Greenwire 180M", categorySlug: "greenwire-180m" },
-  { slug: "lf-fr-180m", family: "180 Meter Wires", category: "Wires", name: "Polycab LF FR 180M", categorySlug: "polycab-lf-fr-180m" },
-  // ---- Fans ----
-  { slug: "ceiling-fan", family: "Fans", category: "Fans", name: "Ceiling Fan", categorySlug: "ceiling-fan" },
-  { slug: "table-fan", family: "Fans", category: "Fans", name: "Table Fan", categorySlug: "table-fan" },
-  { slug: "wall-fan", family: "Fans", category: "Fans", name: "Wall Fan", categorySlug: "wall-fan" },
-  { slug: "pedestal-fan", family: "Fans", category: "Fans", name: "Pedestal Fan", categorySlug: "pedestal-fan" },
-  { slug: "exhaust-fan", family: "Fans", category: "Fans", name: "Exhaust Fan", categorySlug: "exhaust-fan" },
-  { slug: "air-circulator", family: "Fans", category: "Fans", name: "Air Circulator", categorySlug: "air-circulator" },
-  { slug: "farrata-fan", family: "Fans", category: "Fans", name: "Farrata Fan", categorySlug: "farrata-fan" },
-  // ---- Lighting ----
-  { slug: "led-bulb", family: "Lighting", category: "Lighting", name: "LED Bulb", categorySlug: "led-bulb" },
-  { slug: "downlight", family: "Lighting", category: "Lighting", name: "Downlight", categorySlug: "downlight" },
-  { slug: "panel-light", family: "Lighting", category: "Lighting", name: "Panel Light", categorySlug: "panel-light" },
-  { slug: "led-batten", family: "Lighting", category: "Lighting", name: "LED Batten", categorySlug: "led-batten" },
-  { slug: "outdoor-lights", family: "Lighting", category: "Lighting", name: "Outdoor Lights", categorySlug: "outdoor-lights" },
-  { slug: "rope-strip-lights", family: "Lighting", category: "Lighting", name: "Rope and Strip Lights", categorySlug: "rope-and-strip-lights" },
-  { slug: "led-cob", family: "Lighting", category: "Lighting", name: "LED COB", categorySlug: "led-cob" },
-  // ---- Switches and Accessories ----
-  { slug: "levana", family: "Switches and Accessories", category: "Switches and Accessories", name: "Levana", categorySlug: "levana" },
-  { slug: "switches-etira", family: "Switches and Accessories", category: "Switches and Accessories", name: "Etira", categorySlug: "etira" },
-  { slug: "plastic-modular-boxes", family: "Switches and Accessories", category: "Switches and Accessories", name: "Plastic Modular Boxes", categorySlug: "plastic-modular-boxes" },
-  { slug: "switch-accessories", family: "Switches and Accessories", category: "Switches and Accessories", name: "Accessories", categorySlug: "accessories" },
-  // ---- Water Heaters ----
-  { slug: "instant-water-heater", family: "Water Heaters", category: "Water Heaters", name: "Instant Water Heater", categorySlug: "instant-water-heater" },
-  { slug: "storage-water-heater", family: "Water Heaters", category: "Water Heaters", name: "Storage Water Heater", categorySlug: "storage-water-heater" },
-  // ---- Switchgear ----
-  { slug: "mcb", family: "Switchgear", category: "Switchgear", name: "MCB", categorySlug: "mcb" },
-  { slug: "rccb", family: "Switchgear", category: "Switchgear", name: "RCCB", categorySlug: "rccb" },
-  { slug: "rcbo", family: "Switchgear", category: "Switchgear", name: "RCBO", categorySlug: "rcbo" },
-  { slug: "isolator", family: "Switchgear", category: "Switchgear", name: "Isolator", categorySlug: "isolator" },
-  { slug: "accl", family: "Switchgear", category: "Switchgear", name: "ACCL", categorySlug: "accl" },
-  { slug: "mcb-changeover-switch", family: "Switchgear", category: "Switchgear", name: "MCB Changeover Switch", categorySlug: "mcb-changeover-switch" },
-  { slug: "distribution-board", family: "Switchgear", category: "Switchgear", name: "Distribution Board", categorySlug: "distribution-board" },
+  // ---- House Wire ----
+  { slug: "green-wireplus", family: "House Wires", category: "House Wire", name: "Polycab Green Wire+", categorySlug: "polycab-green-wireplus" },
+  { slug: "suprema-house-wires", family: "House Wires", category: "House Wire", name: "PolycabSuprema E-Beam Wire", categorySlug: "polycabsuprema-house-wires" },
+  { slug: "optima-plus", family: "House Wires", category: "House Wire", name: "PolycabOptima+", categorySlug: "polycaboptima-plus" },
+  { slug: "primma-house-wires", family: "House Wires", category: "House Wire", name: "PolycabPrimma", categorySlug: "polycabprimma-house-wires" },
+  { slug: "wires-etira", family: "House Wires", category: "House Wire", name: "Etira", categorySlug: "etira-house-wires" },
+  { slug: "greenwire-180m", family: "180 Meter Wires", category: "House Wire", name: "Greenwire 180M", categorySlug: "greenwire-180m" },
+  { slug: "lf-fr-180m", family: "180 Meter Wires", category: "House Wire", name: "Polycab LF FR 180M", categorySlug: "polycab-lf-fr-180m" },
 ];
 
+// "Cables by Type" is the Industries section; its "Renewable Energy" family is surfaced
+// separately as the "Renewables" category (labelled "Solar Cables"), matching the site's own
+// Industries > Renewables > Solar Cables grouping instead of nesting it under Cables by Type.
 const cableTypeSources = [
   { slug: "lv-power-cable", family: "LV Power Cable", category: "Cables by Type", name: "LV Power Cable", productTypeSlug: "lv-power-cable" },
   { slug: "instrumentation-cable", family: "Instrumentation Cable", category: "Cables by Type", name: "Instrumentation Cable", productTypeSlug: "instrumentation-cable" },
   { slug: "communication-data-cable", family: "Communication & Data Cable", category: "Cables by Type", name: "Communication & Data Cable", productTypeSlug: "communication-data-cable" },
-  { slug: "renewable-energy-cable", family: "Renewable Energy", category: "Cables by Type", name: "Renewable Energy", productTypeSlug: "renewable-energy" },
   { slug: "mv-power-cable", family: "MV Power Cable", category: "Cables by Type", name: "MV Power Cable", productTypeSlug: "mv-power-cable" },
   { slug: "ehv-power-cable", family: "EHV Power Cable", category: "Cables by Type", name: "EHV Power Cable", productTypeSlug: "ehv-power-cable" },
+];
+
+// "Cables by Application" — surfaced directly as their own top-level categories
+// (Building infrastructure, Energy and Power Grid, Manufacturing industries, Mobility
+// infrastructure) rather than nested under "Cables by Application". Uses
+// GetCablesGridPartialByApplicationSlug (found in /js/cables.js) — same partial-grid /
+// PDP templates as Cables by Type, just filtered by "application" entity instead of
+// "product type". "Solar Cables" is scraped via productTypeSlug=renewable-energy (see
+// cableTypeSources note below) and surfaced as its own flat top-level category too.
+const applicationSources = [
+  { slug: "residential", family: "Residential", category: "Building infrastructure", name: "Residential", applicationSlug: "residential" },
+  { slug: "datacenters", family: "Datacenters", category: "Building infrastructure", name: "Datacenters", applicationSlug: "datacenters" },
+  { slug: "telecommunication", family: "Telecommunication", category: "Building infrastructure", name: "Telecommunication", applicationSlug: "telecommunication" },
+  { slug: "commercial", family: "Commercial", category: "Building infrastructure", name: "Commercial", applicationSlug: "commercial" },
+  { slug: "it-industry", family: "IT Industry", category: "Building infrastructure", name: "IT Industry", applicationSlug: "it-industry" },
+
+  { slug: "power-network", family: "Power & Network", category: "Energy and Power Grid", name: "Power & Network", applicationSlug: "power-network" },
+  { slug: "utility", family: "Utility", category: "Energy and Power Grid", name: "Utility", applicationSlug: "utility" },
+  { slug: "app-renewable-energy", family: "Renewable Energy", category: "Energy and Power Grid", name: "Renewable Energy", applicationSlug: "renewable-energy" },
+  { slug: "service-entrance", family: "Service Entrance", category: "Energy and Power Grid", name: "Service Entrance", applicationSlug: "service-entrance" },
+
+  { slug: "automation-process-control", family: "Automation & Process Control", category: "Manufacturing industries", name: "Automation & Process Control", applicationSlug: "automation-process-control" },
+  { slug: "healthcare", family: "Healthcare", category: "Manufacturing industries", name: "Healthcare", applicationSlug: "healthcare" },
+  { slug: "food-beverages", family: "Food & Beverages", category: "Manufacturing industries", name: "Food & Beverages", applicationSlug: "food-beverages" },
+  { slug: "water-treatment-and-waste-disposal", family: "Water Treatment and Waste Disposal", category: "Manufacturing industries", name: "Water Treatment and Waste Disposal", applicationSlug: "water-treatment-and-waste-disposal" },
+  { slug: "cement-industry", family: "Cement Industry", category: "Manufacturing industries", name: "Cement Industry", applicationSlug: "cement-industry" },
+  { slug: "metal-industry", family: "Metal Industry", category: "Manufacturing industries", name: "Metal Industry", applicationSlug: "metal-industry" },
+  { slug: "sugar-industry", family: "Sugar Industry", category: "Manufacturing industries", name: "Sugar Industry", applicationSlug: "sugar-industry" },
+  { slug: "pharmaceutical-industry", family: "Pharmaceutical Industry", category: "Manufacturing industries", name: "Pharmaceutical Industry", applicationSlug: "pharmaceutical-industry" },
+
+  { slug: "mass-transit-railways-marine", family: "Mass Transit (Railways & Marine)", category: "Mobility infrastructure", name: "Mass Transit (Railways & Marine)", applicationSlug: "mass-transit-railways-marine" },
+  { slug: "defence-armaments-industry", family: "Defence & Armaments Industry", category: "Mobility infrastructure", name: "Defence & Armaments Industry", applicationSlug: "defence-armaments-industry" },
+  { slug: "aerospace-industry", family: "Aerospace Industry", category: "Mobility infrastructure", name: "Aerospace Industry", applicationSlug: "aerospace-industry" },
+];
+
+// scraped directly as its own flat top-level category (family === category, same
+// pattern as "House Wire") rather than nested under "Cables by Type" or "Renewables".
+const solarSources = [
+  { slug: "renewable-energy-cable", family: "Solar Cables", category: "Solar Cables", name: "Renewable Energy", productTypeSlug: "renewable-energy" },
 ];
 
 mkdirSync(IMG_DIR, { recursive: true });
@@ -208,6 +224,16 @@ async function discoverConsumerGroups(src) {
 async function discoverCableGroups(src) {
   const url = `${SITE}/Products/GetCablesGridPartialByProductTypeSlug?productTypeSlug=${src.productTypeSlug}&sortOrder=NameAscending&pageSize=500&pageNumber=1`;
   const html = await getHtml(url, `cable-${src.slug}`);
+  return parseCableGroups(html);
+}
+
+async function discoverApplicationGroups(src) {
+  const url = `${SITE}/Products/GetCablesGridPartialByApplicationSlug?applicationSlug=${src.applicationSlug}&sortOrder=NameAscending&pageSize=500&pageNumber=1`;
+  const html = await getHtml(url, `application-${src.slug}`);
+  return parseCableGroups(html);
+}
+
+function parseCableGroups(html) {
   const $ = cheerio.load(html);
   const groups = new Map();
 
@@ -300,8 +326,8 @@ async function buildConsumerEntries(src) {
   return entries;
 }
 
-async function buildCableEntries(src) {
-  const groups = await discoverCableGroups(src);
+async function buildCableEntries(src, discoverFn = discoverCableGroups) {
+  const groups = await discoverFn(src);
   console.log("→", src.slug, `(${groups.size} model(s))`);
   const entries = [];
   for (const [title, g] of groups) {
@@ -341,6 +367,8 @@ async function buildCableEntries(src) {
 const only = process.argv.find((a) => a.startsWith("--only="))?.split("=")[1];
 const consumerQueue = only ? consumerSources.filter((s) => s.slug === only) : consumerSources;
 const cableQueue = only ? cableTypeSources.filter((s) => s.slug === only) : cableTypeSources;
+const solarQueue = only ? solarSources.filter((s) => s.slug === only) : solarSources;
+const applicationQueue = only ? applicationSources.filter((s) => s.slug === only) : applicationSources;
 
 const results = [];
 for (const s of consumerQueue) {
@@ -351,9 +379,24 @@ for (const s of consumerQueue) {
   }
   await new Promise((r) => setTimeout(r, 300));
 }
-for (const s of cableQueue) {
+for (const s of [...cableQueue, ...solarQueue]) {
   try {
     results.push(...(await buildCableEntries(s)));
+  } catch (e) {
+    console.error("   FAILED:", s.slug, e.message);
+  }
+  await new Promise((r) => setTimeout(r, 300));
+}
+// "Cables by Application" heavily re-lists cables already catalogued under Cables by Type
+// / Solar Cables / House Wire (e.g. every "Utility" product turned out to be an existing MV/EHV
+// Power Cable). A product can still only get ONE full detail record — the de-dupe below keeps
+// that under whichever source found it first — but every sighting is kept in the *catalog nav
+// tree* (see buildCatalogTree), pointing back at that one canonical slug, so e.g. "Manufacturing
+// industries > Healthcare" still lists and links to the same product page "Cables by Type" does.
+const applicationResults = [];
+for (const s of applicationQueue) {
+  try {
+    applicationResults.push(...(await buildCableEntries(s, discoverApplicationGroups)));
   } catch (e) {
     console.error("   FAILED:", s.slug, e.message);
   }
@@ -367,6 +410,15 @@ for (const r of results) {
     r.slug = `${r.slug}-${slugify(r.family)}`;
   }
   bySlug.set(r.slug, r);
+}
+const byName = new Map([...bySlug.values()].map((p) => [p.name, p]));
+for (const r of applicationResults) {
+  if (byName.has(r.name)) continue; // full detail already recorded from a prior source
+  if (bySlug.has(r.slug) && bySlug.get(r.slug).name !== r.name) {
+    r.slug = `${r.slug}-${slugify(r.family)}`;
+  }
+  bySlug.set(r.slug, r);
+  byName.set(r.name, r);
 }
 
 let out = [...bySlug.values()];
@@ -382,4 +434,33 @@ if (existsSync(OUT_FILE) && !only) {
   writeFileSync(OUT_FILE, JSON.stringify(out, null, 2) + "\n");
 }
 
-console.log(`\nDone: ${results.length} scraped → ${OUT_FILE} (${out.length} total)`);
+// ---------- catalog nav tree: every sighting kept, each item resolved to its canonical slug ----------
+function buildCatalogTree(entries) {
+  const categories = new Map(); // category -> family -> (name -> slug)
+  for (const e of entries) {
+    const canonicalSlug = byName.get(e.name)?.slug ?? e.slug;
+    if (!categories.has(e.category)) categories.set(e.category, new Map());
+    const families = categories.get(e.category);
+    if (!families.has(e.family)) families.set(e.family, new Map());
+    families.get(e.family).set(e.name, canonicalSlug);
+  }
+  return [...categories.entries()].map(([name, families]) => ({
+    name,
+    sections: [...families.entries()].map(([heading, items]) => ({
+      heading,
+      items: [...items.entries()].map(([itemName, slug]) => ({ name: itemName, slug })),
+    })),
+  }));
+}
+
+let catalogTree = [...buildCatalogTree(results), ...buildCatalogTree(applicationResults)];
+if (only) {
+  // partial run: merge this run's categories into the existing tree rather than replacing it
+  const prevCatalog = existsSync(CATALOG_FILE) ? JSON.parse(readFileSync(CATALOG_FILE, "utf8")) : [];
+  const byCategoryName = new Map(prevCatalog.map((c) => [c.name, c]));
+  for (const cat of catalogTree) byCategoryName.set(cat.name, cat);
+  catalogTree = [...byCategoryName.values()];
+}
+writeFileSync(CATALOG_FILE, JSON.stringify(catalogTree, null, 2) + "\n");
+
+console.log(`\nDone: ${results.length + applicationResults.length} scraped → ${OUT_FILE} (${out.length} total), ${CATALOG_FILE} (${catalogTree.length} categories)`);
