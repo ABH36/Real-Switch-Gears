@@ -154,7 +154,8 @@ export default async function ProductPage({
                   height={480}
                   className="w-full h-auto object-contain"
                   sizes="(max-width: 400px) 100vw, 384px"
-                  priority
+                  loading="eager"
+                  fetchPriority="high"
                 />
               </div>
             </div>

@@ -55,8 +55,8 @@ export default function HeroSlider() {
                 src={slide.image}
                 alt={slide.name}
                 fill
-                priority={i === 0}
-                loading={i === 0 ? undefined : "lazy"}
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchPriority={i === 0 ? "high" : undefined}
                 sizes="(max-width: 768px) 100vw, 1500px"
                 className="object-cover"
               />

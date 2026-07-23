@@ -13,9 +13,10 @@ export default function TopBar() {
             src="/images/logo/real_switchgear.png"
             alt={site.name}
             width={300}
-            height={80}
+            height={91}
             className="h-16 w-auto"
-            priority
+            loading="eager"
+            fetchPriority="high"
           />
         </Link>
 

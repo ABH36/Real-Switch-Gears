@@ -81,7 +81,8 @@ export default function AboutPage() {
                 width={700}
                 height={520}
                 className="w-full h-auto rounded-xl object-cover"
-                priority
+                loading="eager"
+                fetchPriority="high"
               />
             </div>
           </div>
