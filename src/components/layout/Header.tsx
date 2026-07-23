@@ -2,10 +2,23 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
-import { ArrowLeft, ChevronDown, ChevronRight, Menu, X } from "lucide-react";
-import { brands, type Brand } from "@/data/brands";
+import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
+import { brandNav } from "@/data/brand-nav";
 import { cn } from "@/lib/utils";
+
+// The full per-brand catalog (~1.5MB of product JSON) only loads once the
+// user actually opens the desktop mega-menu, instead of shipping with
+// every page's initial JS.
+const BrandDrilldown = dynamic(() => import("./BrandDrilldown"), {
+  ssr: false,
+  loading: () => (
+    <div className="flex flex-1 items-center justify-center text-sm text-slate-400">
+      Loading…
+    </div>
+  ),
+});
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -15,7 +28,7 @@ const navLinks = [
   { label: "Contact Us", href: "/contact" },
 ];
 
-const navBrands = brands.filter((b) => b.slug !== "connectwell");
+const navBrands = brandNav.filter((b) => b.slug !== "connectwell");
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -23,7 +36,7 @@ export default function Header() {
   const pathname = usePathname();
 
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeBrand, setActiveBrand] = useState<Brand>(navBrands[0]);
+  const [activeBrandSlug, setActiveBrandSlug] = useState(navBrands[0].slug);
   const panelRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
 
@@ -120,10 +133,10 @@ export default function Header() {
                 {navBrands.map((b) => (
                   <li key={b.slug}>
                     <button
-                      onClick={() => setActiveBrand(b)}
+                      onClick={() => setActiveBrandSlug(b.slug)}
                       className={cn(
                         "w-full flex items-center justify-between text-left rounded-xl px-5 py-3.5 font-bold transition-colors",
-                        activeBrand.slug === b.slug
+                        activeBrandSlug === b.slug
                           ? "bg-slate-100 text-slate-900"
                           : "text-slate-700 hover:bg-slate-50"
                       )}
@@ -132,7 +145,7 @@ export default function Header() {
                       <ChevronRight
                         className={cn(
                           "h-4 w-4 shrink-0",
-                          activeBrand.slug === b.slug ? "text-red-600" : "text-slate-300"
+                          activeBrandSlug === b.slug ? "text-red-600" : "text-slate-300"
                         )}
                       />
                     </button>
@@ -142,8 +155,8 @@ export default function Header() {
 
               {/* Right: active brand's catalog drill-down */}
               <BrandDrilldown
-                key={activeBrand.slug}
-                brand={activeBrand}
+                key={activeBrandSlug}
+                brandSlug={activeBrandSlug}
                 onNavigate={closeMenu}
               />
             </div>
@@ -193,146 +206,6 @@ export default function Header() {
   );
 }
 
-/* Right side of the panel: category list → sections → items, LK drill-down style */
-function BrandDrilldown({
-  brand,
-  onNavigate,
-}: {
-  brand: Brand;
-  onNavigate: () => void;
-}) {
-  const catalog = brand.catalog ?? [];
-  const [activeCat, setActiveCat] = useState(0);
-  const [drillSection, setDrillSection] = useState<number | null>(null);
-
-  // brand without catalog → simple panel with link
-  if (catalog.length === 0) {
-    return (
-      <div className="flex-1 min-w-0 flex flex-col items-start justify-center px-10">
-        <h3 className="text-xl font-extrabold uppercase tracking-wide text-slate-900">
-          {brand.name}
-        </h3>
-        <p className="mt-3 text-slate-600">{brand.description}</p>
-        <Link
-          href={`/products/${brand.slug}`}
-          onClick={onNavigate}
-          className="mt-6 inline-block bg-brand-gradient text-white font-semibold px-7 py-2.5 rounded-full hover:opacity-90"
-        >
-          View {brand.name}
-        </Link>
-      </div>
-    );
-  }
-
-  const category = catalog[Math.min(activeCat, catalog.length - 1)];
-  const section = drillSection !== null ? category.sections[drillSection] : null;
-
-  const selectCat = (i: number) => {
-    setActiveCat(i);
-    setDrillSection(null);
-  };
-
-  return (
-    <div className="flex flex-1 min-w-0">
-      {/* Categories */}
-      <ul className="w-[300px] shrink-0 px-3 border-r border-slate-100 overflow-y-auto">
-        {catalog.map((cat, i) => (
-          <li key={cat.name}>
-            <button
-              onClick={() => selectCat(i)}
-              className={cn(
-                "w-full flex items-center justify-between text-left rounded-xl px-4 py-3 font-semibold transition-colors",
-                i === activeCat
-                  ? "bg-slate-100 text-slate-900"
-                  : "text-slate-700 hover:bg-slate-50"
-              )}
-            >
-              <span className="truncate">{cat.name}</span>
-              <ChevronRight
-                className={cn(
-                  "h-4 w-4 shrink-0 ml-1",
-                  i === activeCat ? "text-red-600" : "text-slate-300"
-                )}
-              />
-            </button>
-          </li>
-        ))}
-      </ul>
-
-      {/* Drill-down */}
-      <div className="flex-1 min-w-0 px-6 overflow-y-auto">
-        {!section ? (
-          <>
-            <h3 className="text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3">
-              {category.name}
-            </h3>
-            <ul className="mt-2">
-              <li>
-                <Link
-                  href={`/products/${brand.slug}`}
-                  onClick={onNavigate}
-                  className="block px-3 py-2.5 font-bold text-[#1268b3] underline underline-offset-4 hover:bg-slate-50 rounded-lg"
-                >
-                  All {category.name}
-                </Link>
-              </li>
-              {category.sections.map((s, i) => (
-                <li key={s.heading}>
-                  <button
-                    onClick={() => setDrillSection(i)}
-                    className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
-                  >
-                    <span className="truncate">{s.heading}</span>
-                    <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
-                  </button>
-                </li>
-              ))}
-              {category.sections.length === 0 && (
-                <li className="px-3 py-2.5 text-slate-500">Products coming soon.</li>
-              )}
-            </ul>
-          </>
-        ) : (
-          <>
-            <button
-              onClick={() => setDrillSection(null)}
-              className="flex items-center gap-2 text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3 w-full text-left hover:text-red-600"
-            >
-              <ArrowLeft className="h-5 w-5 shrink-0 text-[#1268b3]" />
-              <span className="truncate">{section.heading}</span>
-            </button>
-            <ul className="mt-2">
-              <li>
-                <Link
-                  href={`/products/${brand.slug}`}
-                  onClick={onNavigate}
-                  className="block px-3 py-2.5 font-bold text-[#1268b3] underline underline-offset-4 hover:bg-slate-50 rounded-lg"
-                >
-                  All {section.heading}
-                </Link>
-              </li>
-              {section.items.map((item) => (
-                <li key={item.name}>
-                  <Link
-                    href={
-                      item.slug
-                        ? `/products/${brand.slug}/${item.slug}`
-                        : `/products/${brand.slug}`
-                    }
-                    onClick={onNavigate}
-                    className="block px-3 py-2.5 font-semibold text-slate-700 hover:bg-slate-50 hover:text-red-600 rounded-lg"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
 
 function NavItem({ label, href, active }: { label: string; href: string; active: boolean }) {
   return (

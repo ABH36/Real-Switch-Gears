@@ -24,6 +24,7 @@ export default function BrandsGrid() {
                     width={800}
                     height={1000}
                     className="w-full h-auto"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </Link>
 

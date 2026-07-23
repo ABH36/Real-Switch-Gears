@@ -10,11 +10,11 @@
       "The industrial implications of battery-free wireless push button operation are significant. In manufacturing environments, battery-powered wireless devices require a maintenance programme to monitor battery state and replace batteries before they cause device failure — an overhead that increases with every wireless device added to the facility. In safety-critical applications, a flat battery that causes a control device to fail is a serious operational concern. The Air Push Series eliminates both the maintenance overhead and the failure risk of battery dependency, providing a wireless control solution that is available and functional every time the operator needs it.",
       "The Air Push Series is designed for the range of industrial push button applications where wireless deployment delivers genuine operational advantage — including flexible assembly line workstations where the button position must adapt to changing product configurations, ergonomic control positioning that follows the operator rather than being fixed to a machine structure, temporary or reconfigurable production layouts where wired button installation is impractical, and machine guarding applications where a freely positioned acknowledgement button is needed without cable routing through safety guards."
     ],
-    "image": "/images/products/esbee/industrial-smart-solutions-wireless-push-buttons-air-push-series.png",
+    "image": "/images/products/esbee/industrial-smart-solutions-wireless-push-buttons-air-push-series.jpg",
     "variants": [
       {
         "name": "Wireless Push Buttons - Air Push Series",
-        "image": "/images/products/esbee/industrial-smart-solutions-wireless-push-buttons-air-push-series.png",
+        "image": "/images/products/esbee/industrial-smart-solutions-wireless-push-buttons-air-push-series.jpg",
         "features": [
           "Pocket-sized transmitter with integrated battery",
           "868 MHz frequency band with reliable modulation",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Digital Pulse Meter",
-        "image": "/images/products/esbee/industrial-smart-solutions-digital-pulse-meter.png",
+        "image": "/images/products/esbee/industrial-smart-solutions-digital-pulse-meter.jpg",
         "features": [
           "Accurate digital pulse measurement",
           "230V AC power operation",
@@ -150,7 +150,7 @@
       },
       {
         "name": "Universal Indicator - Modular",
-        "image": "/images/products/esbee/panel-led-indicators-universal-indicator-modular.png",
+        "image": "/images/products/esbee/panel-led-indicators-universal-indicator-modular.jpg",
         "features": [
           "SMD LED cluster technology",
           "Power consumption less than 1W",
@@ -693,7 +693,7 @@
       },
       {
         "name": "Entegral Push Buttons with Terminal",
-        "image": "/images/products/esbee/push-button-switches-entegral-push-buttons-with-terminal.png",
+        "image": "/images/products/esbee/push-button-switches-entegral-push-buttons-with-terminal.jpg",
         "features": [
           "Isolated terminals for NO+NC Application",
           "Current rating of 6A at 240V AC",
@@ -704,7 +704,7 @@
       },
       {
         "name": "Emergency Push Turn Push Buttons",
-        "image": "/images/products/esbee/push-button-switches-emergency-push-turn-push-buttons.png",
+        "image": "/images/products/esbee/push-button-switches-emergency-push-turn-push-buttons.jpg",
         "features": [
           "Compact design, saves space, customizations available",
           "Available with flush type, projecting type, selector, lock & key, emergency stop",
@@ -1288,7 +1288,7 @@
       },
       {
         "name": "Tower Light - 50mm",
-        "image": "/images/products/esbee/tower-lights-tower-light-50mm.png",
+        "image": "/images/products/esbee/tower-lights-tower-light-50mm.jpg",
         "features": [
           "Flexibility to upgrade from Single LED units to multiple (max 4) LED units",
           "Optional features of Buzzer with dual sound mode-continuous & intermittent with 80 dB output",
@@ -2245,11 +2245,11 @@
       "To accommodate different control system requirements, the relay board supports both NPN and PNP input configurations. Users can easily select the required mode using a jumper selection, providing flexibility when integrating the board with different PLCs and digital control systems. This adaptability simplifies installation and ensures compatibility across multiple automation setups.",
       "The relay board incorporates a freewheeling diode across the relay coil, which protects the circuit from back electromotive force (Back EMF). This feature helps prevent voltage spikes that may occur when the relay coil is switched off, thereby protecting sensitive electronic components and improving the overall reliability of the system."
     ],
-    "image": "/images/products/esbee/relay-boards-standard-24v-dc-relay-boards.png",
+    "image": "/images/products/esbee/relay-boards-standard-24v-dc-relay-boards.jpg",
     "variants": [
       {
         "name": "Standard 24V DC Relay Boards",
-        "image": "/images/products/esbee/relay-boards-standard-24v-dc-relay-boards.png",
+        "image": "/images/products/esbee/relay-boards-standard-24v-dc-relay-boards.jpg",
         "features": [
           "Standard digital Input relay module",
           "Double sided PCB and reliable relay ensures long term operation assuredly as well as board connection for 4A direct load",
@@ -2282,7 +2282,7 @@
       },
       {
         "name": "Wireless Relay Boards",
-        "image": "/images/products/esbee/relay-boards-wireless-relay-boards.png",
+        "image": "/images/products/esbee/relay-boards-wireless-relay-boards.jpg",
         "features": [
           "Reliable to operate in outer noise & obstacle",
           "Modbus RTU to RF Gateway at transmitter side for ease interface with HMI/PLC/Controller",
@@ -2293,7 +2293,7 @@
       },
       {
         "name": "Ethernet Relay Module - IP20 version",
-        "image": "/images/products/esbee/relay-boards-ethernet-relay-module-ip20-version.png",
+        "image": "/images/products/esbee/relay-boards-ethernet-relay-module-ip20-version.jpg",
         "features": [
           "8-channel SPDT relay output",
           "Ethernet-based relay control",
@@ -2565,11 +2565,11 @@
       "The PCBA is designed for the specific electrical, mechanical, and thermal environment of refrigerator appliance integration. Board layout optimises the display driver circuit for the display technology used in the appliance — LED segment, LCD, or OLED depending on the product tier — with the signal processing and power conditioning appropriate for the display technology's operating requirements. The board is protected against the humidity and temperature variation of appliance interior and door environments, with component selection and conformal coating specifications matched to the appliance's operating conditions.",
       "Manufacturing quality is a paramount consideration for appliance PCBA supply, as a display board failure creates a complete user interface failure that makes the refrigerator appear inoperable — a high-impact, high-visibility product quality issue that generates consumer complaints and warranty claims. Esbee's PCBA manufacturing and quality processes are calibrated to the zero-defect expectations of appliance OEM supply, with in-circuit and functional testing protocols that verify every board to specification before shipment."
     ],
-    "image": "/images/products/esbee/pcbas-pcba-display.png",
+    "image": "/images/products/esbee/pcbas-pcba-display.jpg",
     "variants": [
       {
         "name": "PCBA Display",
-        "image": "/images/products/esbee/pcbas-pcba-display.png",
+        "image": "/images/products/esbee/pcbas-pcba-display.jpg",
         "features": [
           "High-clarity LED/LCD interface support",
           "Touch key / membrane switch compatibility",
@@ -2602,7 +2602,7 @@
       },
       {
         "name": "HVAC PCBAs",
-        "image": "/images/products/esbee/pcbas-hvac-pcbas.png",
+        "image": "/images/products/esbee/pcbas-hvac-pcbas.jpg",
         "features": [
           "Compact and space-optimized design for modern appliance integration",
           "High reliability for continuous and repetitive usage",
@@ -2635,11 +2635,11 @@
       "Engineered for the demanding environmental conditions of automotive use, the Panic Switch – Panel Mounted is built to withstand continuous exposure to temperature extremes, humidity, vibration, and electromagnetic interference generated by the complex electrical systems in modern emergency vehicles. Its construction ensures reliable actuation every time, from the first press to thousands of operational cycles across the vehicle's working life.",
       "The switch is designed for clean, straightforward integration into existing vehicle wiring harnesses, supporting efficient installation by automotive electricians and emergency vehicle conversion specialists. Its panel-mount format is compatible with standard automotive panel cutout dimensions, reducing installation time and ensuring a professional, factory-finish appearance in the vehicle interior."
     ],
-    "image": "/images/products/esbee/emergency-switches-panic-switch-panel-mounted.png",
+    "image": "/images/products/esbee/emergency-switches-panic-switch-panel-mounted.jpg",
     "variants": [
       {
         "name": "Panic Switch – Panel Mounted",
-        "image": "/images/products/esbee/emergency-switches-panic-switch-panel-mounted.png",
+        "image": "/images/products/esbee/emergency-switches-panic-switch-panel-mounted.jpg",
         "features": [
           "AIS -140 Approved Switches",
           "Operating range 18V DC-30V DC",
@@ -2650,7 +2650,7 @@
       },
       {
         "name": "Panic Switch – Pole Mounted",
-        "image": "/images/products/esbee/emergency-switches-panic-switch-pole-mounted.png",
+        "image": "/images/products/esbee/emergency-switches-panic-switch-pole-mounted.jpg",
         "features": [
           "Operating range 18V DC-30V DC",
           "Electrical/Mechanical life 1 Lack operations",
@@ -2683,7 +2683,7 @@
       },
       {
         "name": "Door Limit Switch – ML Push Buttons S3A3",
-        "image": "/images/products/esbee/emergency-switches-door-limit-switch-ml-push-buttons-s3a3.png",
+        "image": "/images/products/esbee/emergency-switches-door-limit-switch-ml-push-buttons-s3a3.jpg",
         "features": [
           "Made in engineering plastic with high mechanical strength & heat sustenance capacity",
           "Cable entry from Bottom",
@@ -2694,7 +2694,7 @@
       },
       {
         "name": "Door Limit Switch – ML Push Buttons S3L3",
-        "image": "/images/products/esbee/emergency-switches-door-limit-switch-ml-push-buttons-s3l3.png",
+        "image": "/images/products/esbee/emergency-switches-door-limit-switch-ml-push-buttons-s3l3.jpg",
         "features": [
           "Rigid Construction with Plastic body",
           "Cable entry from Bottom",
@@ -2716,7 +2716,7 @@
       },
       {
         "name": "Stop Switch 1 – Emergency PB Station",
-        "image": "/images/products/esbee/emergency-switches-stop-switch-1-emergency-pb-station.png",
+        "image": "/images/products/esbee/emergency-switches-stop-switch-1-emergency-pb-station.jpg",
         "features": [
           "External mounting",
           "High impact material ABS engineering plastic",
@@ -2727,7 +2727,7 @@
       },
       {
         "name": "Stop Switch 2 – Emergency PB Station",
-        "image": "/images/products/esbee/emergency-switches-stop-switch-2-emergency-pb-station.png",
+        "image": "/images/products/esbee/emergency-switches-stop-switch-2-emergency-pb-station.jpg",
         "features": [
           "External mounting",
           "High impact material ABS engineering plastic",
@@ -2749,7 +2749,7 @@
       },
       {
         "name": "Brake Light Switch",
-        "image": "/images/products/esbee/emergency-switches-brake-light-switch.png",
+        "image": "/images/products/esbee/emergency-switches-brake-light-switch.jpg",
         "features": [
           "Quick response activation",
           "Reliable braking indication",
@@ -2771,11 +2771,11 @@
       "The Engine Light is engineered for the specific environmental demands of under-bonnet installation. The engine bay is one of the most thermally and chemically hostile environments in any vehicle — subject to sustained high temperatures from the engine and exhaust system, exposure to engine oil, coolant, and fuel vapours, mechanical vibration transmitted through the vehicle structure, and moisture from rain and underbonnet condensation. This light is constructed to withstand all of these conditions while maintaining consistent illumination performance throughout the vehicle's service life.",
       "Installation is designed to be straightforward for automotive electricians, using standard connection methods compatible with vehicle wiring harness systems. The light is positioned to deliver broad, even illumination across the engine bay rather than a narrow spot, ensuring that all key engine components are visible without the need to reposition a handheld torch during inspection."
     ],
-    "image": "/images/products/esbee/automobile-lighting-solutions-engine-light.png",
+    "image": "/images/products/esbee/automobile-lighting-solutions-engine-light.jpg",
     "variants": [
       {
         "name": "Engine Light",
-        "image": "/images/products/esbee/automobile-lighting-solutions-engine-light.png",
+        "image": "/images/products/esbee/automobile-lighting-solutions-engine-light.jpg",
         "features": [
           "Completely assembled product .Ready to use",
           "Product made of Engineering plastic making it more robust, impact proof, corrosion resistance & fire retardant",
@@ -2937,7 +2937,7 @@
       },
       {
         "name": "Pit Inspection Devices",
-        "image": "/images/products/esbee/pit-control-devices-pit-inspection-devices.png",
+        "image": "/images/products/esbee/pit-control-devices-pit-inspection-devices.jpg",
         "features": [
           "IP67 (with bellow and gasket) rated for dust and water resistance",
           "Customizable for diverse applications",
@@ -2959,11 +2959,11 @@
       "The Car Inspection Unit is designed to meet the mandatory requirements of EN 81-20 and EN 81-50 — the European lift safety standards that govern inspection control devices — as well as equivalent international elevator safety regulations. Key mandated features include up and down directional controls for car movement at regulated inspection speed, a hold-to-run operating principle that returns the car to the stopped state the moment the directional button is released, and an emergency stop device that immediately interrupts the safety circuit regardless of any other command.",
       "The hold-to-run operating principle is a fundamental safety feature of car top inspection control. Unlike standard push buttons that latch in the activated state, hold-to-run controls require the operator to maintain continuous button pressure throughout any movement of the elevator car. The instant the technician releases the button — whether intentionally, because of a slip, loss of balance, or unexpected event — the elevator stops. This automatic stop-on-release behaviour is the primary protection against inadvertent car movement while a technician is working on the car roof."
     ],
-    "image": "/images/products/esbee/car-top-devices-car-inspection-unit.png",
+    "image": "/images/products/esbee/car-top-devices-car-inspection-unit.jpg",
     "variants": [
       {
         "name": "Car Inspection Unit",
-        "image": "/images/products/esbee/car-top-devices-car-inspection-unit.png",
+        "image": "/images/products/esbee/car-top-devices-car-inspection-unit.jpg",
         "features": [
           "ABS Engineering plastic material resistant to ageing, impact, corrosion & non-conductive to heat unlike metal enclosure",
           "Fire retardant",
@@ -2974,7 +2974,7 @@
       },
       {
         "name": "TOCI Box",
-        "image": "/images/products/esbee/car-top-devices-toci-box.png",
+        "image": "/images/products/esbee/car-top-devices-toci-box.jpg",
         "features": [
           "Designed as per EN 81-20 / EN 81-50 elevator safety standards",
           "Customizable with cam switch, socket, push button, and selector switch",
@@ -2985,7 +2985,7 @@
       },
       {
         "name": "Maintenance Box",
-        "image": "/images/products/esbee/car-top-devices-maintenance-box.png",
+        "image": "/images/products/esbee/car-top-devices-maintenance-box.jpg",
         "features": [
           "ABS Engineering plastic material resistant to ageing, impact, corrosion & non-conductive to heat unlike metal enclosure",
           "Fire retardant",
@@ -3032,7 +3032,7 @@
       },
       {
         "name": "Alarm Horn",
-        "image": "/images/products/esbee/under-car-devices-alarm-horn.png",
+        "image": "/images/products/esbee/under-car-devices-alarm-horn.jpg",
         "features": [
           "Sound output: 90–100 dB@1 m",
           "Multiple factory-set tone options",
@@ -3054,7 +3054,7 @@
       },
       {
         "name": "Digital Display",
-        "image": "/images/products/esbee/under-car-devices-digital-display.png",
+        "image": "/images/products/esbee/under-car-devices-digital-display.jpg",
         "features": [
           "High visibility in different lighting conditions",
           "Accurate indication",
@@ -3065,7 +3065,7 @@
       },
       {
         "name": "Limit Switches",
-        "image": "/images/products/esbee/under-car-devices-limit-switches.png",
+        "image": "/images/products/esbee/under-car-devices-limit-switches.jpg",
         "features": [
           "Precision switching for accurate position control",
           "Robust construction for long service life",
@@ -3087,11 +3087,11 @@
       "The Spot Light is engineered for the operational environment of the elevator car — built to withstand the vibration of car travel, the thermal cycling of the shaft environment, and the high operational duty cycles of lifts in busy buildings. The directional adjustment mechanism allows precise beam orientation during installation to achieve the exact lighting effect specified by the interior designer, and the mechanism is designed to maintain this orientation reliably throughout the lift's service life without gradual drift or loosening under vibration.",
       "LED light sources deliver the precise, concentrated beam characteristic required for effective accent lighting while consuming minimal energy from the lift's electrical system. The long service life of LED sources minimises maintenance access to the car interior for light source replacement, reducing disruption to building occupants and maintenance costs over the elevator's operational life."
     ],
-    "image": "/images/products/esbee/elevator-lighting-solutions-cube-spot-with-driver.png",
+    "image": "/images/products/esbee/elevator-lighting-solutions-cube-spot-with-driver.jpg",
     "variants": [
       {
         "name": "Cube Spot with Driver",
-        "image": "/images/products/esbee/elevator-lighting-solutions-cube-spot-with-driver.png",
+        "image": "/images/products/esbee/elevator-lighting-solutions-cube-spot-with-driver.jpg",
         "features": [
           "Specially designed for elevator lighting application",
           "Bright and uniform light",
@@ -3168,7 +3168,7 @@
       },
       {
         "name": "Emergency Lights",
-        "image": "/images/products/esbee/elevator-lighting-solutions-emergency-lights.png",
+        "image": "/images/products/esbee/elevator-lighting-solutions-emergency-lights.jpg",
         "features": [
           "Customized solution for different elevators application",
           "Low power consumption",
@@ -3455,7 +3455,7 @@
       },
       {
         "name": "Sockets - 6A, 10A, 16 A",
-        "image": "/images/products/esbee/elevator-accessories-sockets-6a-10a-16-a.png",
+        "image": "/images/products/esbee/elevator-accessories-sockets-6a-10a-16-a.jpg",
         "features": [
           "Protective flap for ingress protection",
           "Durability: up to 10,000 operating cycles",
@@ -3543,7 +3543,7 @@
       },
       {
         "name": "Spare Lens",
-        "image": "/images/products/esbee/elevator-accessories-spare-lens.png",
+        "image": "/images/products/esbee/elevator-accessories-spare-lens.jpg",
         "features": [
           "Clear visibility and light diffusion",
           "Easy replacement design",
@@ -3587,7 +3587,7 @@
       },
       {
         "name": "Rubber Actuator Shrouds",
-        "image": "/images/products/esbee/elevator-accessories-rubber-actuator-shrouds.png",
+        "image": "/images/products/esbee/elevator-accessories-rubber-actuator-shrouds.jpg",
         "features": [
           "Designed for Gen-Next series compatibility",
           "High flexibility and durability",
@@ -3749,11 +3749,11 @@
       "At the heart of this pendant's performance is its impressive 100–150 metre communication range, enabling operators to control crane movements from virtually any position within a standard industrial bay. Coupled with a unique encrypted ID for every unit, the wireless link is secured against interference from neighbouring crane systems operating on the same frequency band. This encryption-based pairing ensures that commands are received only by the intended crane, making multi-crane environments safer and more operationally reliable.",
       "Six-direction control gives operators complete spatial command over crane movements — forward, reverse, left, right, hoist up, and hoist down — all from a single compact wireless unit. In single speed mode, movements are precise and consistent, making this pendant well-suited to applications where controlled load handling and accurate positioning are the primary operational requirements. From automotive component assembly to warehouse logistics, single speed wireless control delivers the right balance of simplicity and capability."
     ],
-    "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-single-speed.png",
+    "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-single-speed.jpg",
     "variants": [
       {
         "name": "Wireless Crane pendants - Single Speed",
-        "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-single-speed.png",
+        "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-single-speed.jpg",
         "features": [
           "100-150 m communication range with a unique encrypted ID",
           "Six-direction control, single and double-speed operation",
@@ -3764,7 +3764,7 @@
       },
       {
         "name": "Wireless Crane pendants - Double speed",
-        "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-double-speed.png",
+        "image": "/images/products/esbee/crane-wireless-solutions-wireless-crane-pendants-double-speed.jpg",
         "features": [
           "100–150 m communication range with a unique encrypted ID",
           "Six-direction control, single and double-speed operation",
@@ -3786,7 +3786,7 @@
       },
       {
         "name": "Wireless Andon Systems",
-        "image": "/images/products/esbee/crane-wireless-solutions-wireless-andon-systems.png",
+        "image": "/images/products/esbee/crane-wireless-solutions-wireless-andon-systems.jpg",
         "features": [
           "RF technology (868 MHz) with 100–150 m range (with obstacles)",
           "Web-based interface with secure login and data management",
@@ -3797,7 +3797,7 @@
       },
       {
         "name": "Relay Boards",
-        "image": "/images/products/esbee/crane-wireless-solutions-relay-boards.png",
+        "image": "/images/products/esbee/crane-wireless-solutions-relay-boards.jpg",
         "features": [
           "Reliable relay-based switching and control",
           "Available with Standard, Modbus RTU, Ethernet, and Wireless",
@@ -3860,7 +3860,7 @@
       },
       {
         "name": "Tower Light - 50mm",
-        "image": "/images/products/esbee/crane-signaling-lighting-devices-tower-light-50mm.png",
+        "image": "/images/products/esbee/crane-signaling-lighting-devices-tower-light-50mm.jpg",
         "features": [
           "Flexibility to upgrade from Single LED units to multiple (max 4) LED units",
           "Optional features of Buzzer with dual sound mode-continuous & intermittent with 80 dB output",
@@ -3904,7 +3904,7 @@
       },
       {
         "name": "Panel Lights",
-        "image": "/images/products/esbee/crane-signaling-lighting-devices-panel-lights.png",
+        "image": "/images/products/esbee/crane-signaling-lighting-devices-panel-lights.jpg",
         "features": [
           "Bright and uniform LED illumination",
           "Energy-efficient with long service life",
@@ -3948,11 +3948,11 @@
       "In crane applications, cam switches are commonly used for motor control functions, direction selection (forward/reverse), speed control circuits, power isolation, maintenance mode selection, lighting control, and auxiliary equipment operation. Their multi-position design enables multiple operating modes and circuit configurations to be controlled from a single compact device, reducing panel complexity and simplifying operator control stations.",
       "Cam switches designed for crane installations are engineered to withstand the harsh conditions found in industrial facilities, ports, steel plants, warehouses, manufacturing plants, and material handling environments. They offer excellent resistance to vibration, dust, moisture, temperature variations, and repetitive switching operations. High-quality contact blocks are rated for long service life, ensuring consistent electrical performance and reliable operation throughout the crane's operational lifespan."
     ],
-    "image": "/images/products/esbee/auxiliary-controls-pendants-cam-switches.png",
+    "image": "/images/products/esbee/auxiliary-controls-pendants-cam-switches.jpg",
     "variants": [
       {
         "name": "Cam Switches",
-        "image": "/images/products/esbee/auxiliary-controls-pendants-cam-switches.png",
+        "image": "/images/products/esbee/auxiliary-controls-pendants-cam-switches.jpg",
         "features": [
           "Robust and durable construction for long-term use",
           "Smooth mechanical operation with precise switching",
@@ -3963,7 +3963,7 @@
       },
       {
         "name": "Limit Switches",
-        "image": "/images/products/esbee/auxiliary-controls-pendants-limit-switches.png",
+        "image": "/images/products/esbee/auxiliary-controls-pendants-limit-switches.jpg",
         "features": [
           "Precision switching for accurate position control",
           "Robust construction for long service life",

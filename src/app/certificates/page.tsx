@@ -24,15 +24,15 @@ const certificates = [
   { name: "Crisil SME Rating", file: "/images/certificate/crisil_sme_rating.jpg" },
   { name: "Esbee", file: "/images/certificate/esbee.png" },
   { name: "GIC", file: "/images/certificate/gic.png" },
-  { name: "Newtek", file: "/images/certificate/newtek.png" },
+  { name: "Newtek", file: "/images/certificate/newtek.jpg" },
   { name: "Bharat Bijlee", file: "/images/certificate/bharat_bijlee.jpg" },
   { name: "Connectwell", file: "/images/certificate/connectwell.png" },
 ];
 
 const awards = [
-  { name: "Lauritz Knudsen Growth Award CY23 LV Vertical", year: "", file: "/images/certificate/l&t-certificate-2023.png" },
+  { name: "Lauritz Knudsen Growth Award CY23 LV Vertical", year: "", file: "/images/certificate/l&t-certificate-2023.jpg" },
   { name: "L&T Achievement Awards", year: "2023", file: "/images/certificate/L_T_AWARD_2023.png" },
-  { name: "L&T Highest Growth Awards", year: "2022", file: "/images/certificate/l&t_aword_2022.png" },
+  { name: "L&T Highest Growth Awards", year: "2022", file: "/images/certificate/l&t_aword_2022.jpg" },
   { name: "L&T Highest Growth Awards", year: "2022", file: "/images/certificate/LTHighestGrowthAwardsYear_2022.png" },
   { name: "L&T Best Performance Awards", year: "2020-21", file: "/images/certificate/l&t-award.png" },
   { name: "Polycab Achievement Awards", year: "2018-19", file: "/images/certificate/polycab_achievement_award.jpg" },

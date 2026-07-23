@@ -76,7 +76,7 @@ export default function AboutPage() {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="w-full max-w-md rounded-2xl bg-white p-3 shadow-[0_8px_30px_rgba(15,50,80,0.08)]">
               <Image
-                src="/images/about/1.jpeg"
+                src="/images/about/1.jpg"
                 alt="Real Switchgears & Cables Pvt. Ltd. storefront"
                 width={700}
                 height={520}

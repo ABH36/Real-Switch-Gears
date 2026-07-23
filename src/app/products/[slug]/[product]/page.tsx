@@ -153,6 +153,7 @@ export default async function ProductPage({
                   width={480}
                   height={480}
                   className="w-full h-auto object-contain"
+                  sizes="(max-width: 400px) 100vw, 384px"
                   priority
                 />
               </div>
@@ -197,6 +198,7 @@ export default async function ProductPage({
                 width={700}
                 height={500}
                 className="w-full h-auto rounded-2xl object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             )}
           </div>
@@ -214,6 +216,7 @@ export default async function ProductPage({
                 width={700}
                 height={500}
                 className="w-full h-auto rounded-2xl object-cover order-2 md:order-1"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             )}
             <div className={prod.featuresImage ? "order-1 md:order-2" : "md:col-span-2"}>

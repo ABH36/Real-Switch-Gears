@@ -87,6 +87,7 @@ export default async function BrandPage({
                 width={480}
                 height={480}
                 className="w-full h-auto object-contain"
+                sizes="(max-width: 400px) 100vw, 384px"
                 priority
               />
             </div>
@@ -117,6 +118,7 @@ export default async function BrandPage({
                       width={220}
                       height={220}
                       className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     />
                   </div>
                   <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-[#1268b3] truncate">

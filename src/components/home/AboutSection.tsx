@@ -83,11 +83,12 @@ export default function AboutSection() {
                 {/* Row 1: shop photo + intro */}
                 <div className="grid gap-12 md:grid-cols-2 items-center">
                     <Image
-                        src="/images/about/1.png"
+                        src="/images/about/1.jpg"
                         alt="Real Switchgears shop"
                         width={700}
                         height={520}
                         className="rounded-3xl object-cover w-full"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                     />
                     <div>
                         <p className="text-slate-500 text-lg">Who we are</p>
@@ -135,6 +136,7 @@ export default function AboutSection() {
                         width={600}
                         height={400}
                         className="rounded-3xl object-cover w-full"
+                        sizes="(max-width: 768px) 100vw, 33vw"
                     />
                 </div>
             </div>

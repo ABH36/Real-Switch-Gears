@@ -14,12 +14,12 @@ const tabs: BrandTab[] = [
     name: "Lauritz Knudsen",
     logo: "/images/clients/lauritz_knudsen.svg",
     items: [
-      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.png", pdf: `${PDF_BASE}/2026/Agri Price list 01-06-2026.pdf` },
-      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.png", pdf: `${PDF_BASE}/2026/ESP Price List 01-06-2026.pdf` },
-      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.png", pdf: `${PDF_BASE}/2026/Retail Products Price list 01-06-2026.pdf` },
-      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.png", pdf: `${PDF_BASE}/2026/Panel Accessories Price List 01-06-2026.pdf` },
-      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.png", pdf: `${PDF_BASE}/2026/AU Pricelist.pdf` },
-      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.png", pdf: `${PDF_BASE}/2026/EXORA ESP Price List.pdf` },
+      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.jpg", pdf: `${PDF_BASE}/2026/Agri Price list 01-06-2026.pdf` },
+      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.jpg", pdf: `${PDF_BASE}/2026/ESP Price List 01-06-2026.pdf` },
+      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.jpg", pdf: `${PDF_BASE}/2026/Retail Products Price list 01-06-2026.pdf` },
+      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: `${PDF_BASE}/2026/Panel Accessories Price List 01-06-2026.pdf` },
+      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: `${PDF_BASE}/2026/AU Pricelist.pdf` },
+      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: `${PDF_BASE}/2026/EXORA ESP Price List.pdf` },
     ],
   },
   {
@@ -40,7 +40,7 @@ const tabs: BrandTab[] = [
     logo: "/images/clients/salzer.svg",
     items: [
       { title: "Salzer Direct Price List", cover: "/images/pricelist/salzer/Salzer-Direct.png", pdf: `${PDF_BASE}/2026/Salzer New Price List 04.06.26.pdf` },
-      { title: "Salzer L&T Price List", cover: "/images/pricelist/salzer/Salzer-LT.png", pdf: `${PDF_BASE}/2026/SALZER L&T Price List .pdf` },
+      { title: "Salzer L&T Price List", cover: "/images/pricelist/salzer/Salzer-LT.jpg", pdf: `${PDF_BASE}/2026/SALZER L&T Price List .pdf` },
     ],
   },
   {
@@ -48,8 +48,8 @@ const tabs: BrandTab[] = [
     name: "GIC",
     logo: "/images/clients/gic.svg",
     items: [
-      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.png", pdf: `${PDF_BASE}/2026/GIC Direct Domestic_FY 2026 Price list Rev 0_02.05.2026.pdf` },
-      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.png", pdf: `${PDF_BASE}/2026/GIC L&T Price List.pdf` },
+      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.jpg", pdf: `${PDF_BASE}/2026/GIC Direct Domestic_FY 2026 Price list Rev 0_02.05.2026.pdf` },
+      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.jpg", pdf: `${PDF_BASE}/2026/GIC L&T Price List.pdf` },
     ],
   },
   {
@@ -57,8 +57,8 @@ const tabs: BrandTab[] = [
     name: "Esbee",
     logo: "/images/clients/esbee.svg",
     items: [
-      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.png", pdf: `${PDF_BASE}/2026/Esbee Direct Price List 15-04-2026.pdf` },
-      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.png", pdf: `${PDF_BASE}/2026/ESBEE L&T Price List.pdf` },
+      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: `${PDF_BASE}/2026/Esbee Direct Price List 15-04-2026.pdf` },
+      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: `${PDF_BASE}/2026/ESBEE L&T Price List.pdf` },
     ],
   },
   {

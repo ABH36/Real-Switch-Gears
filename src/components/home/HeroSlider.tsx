@@ -15,10 +15,10 @@ import "swiper/css/navigation";
 import "swiper/css/effect-creative";
 
 const slides = [
-  { name: "Lauritz Knudsen (L&T Switchgears)", image: "/images/banner/l_t_switchgear.png" },
-  { name: "Polycab Wires & Cables", image: "/images/banner/polycab.png" },
-  { name: "Salzer", image: "/images/banner/salzer.png" },
-  { name: "GIC", image: "/images/banner/gic.png" },
+  { name: "Lauritz Knudsen (L&T Switchgears)", image: "/images/banner/l_t_switchgear.jpg" },
+  { name: "Polycab Wires & Cables", image: "/images/banner/polycab.jpg" },
+  { name: "Salzer", image: "/images/banner/salzer.jpg" },
+  { name: "GIC", image: "/images/banner/gic.jpg" },
 ];
 
 export default function HeroSlider() {
