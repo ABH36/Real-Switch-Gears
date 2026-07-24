@@ -12800,6 +12800,7 @@
     "variants": [
       {
         "name": "Copper Bonded Earth Rod",
+        "description": "The Braco Copper Bonded Earth Rod presents installers with a cost-effective solution for achieving low earth resistance. Each rod features a high tensile strength, low carbon steel core. Through an electrolytic process, 99.95% pure copper is applied, forming a robust metallurgical bond between the steel core and the copper. This construction not only facilitates deep driving but also ensures long-lasting resistance to corrosion. The threads on the rod are meticulously formed through a cold rolling process, guaranteeing strength and preserving the molecularly bonded copper covering along the entire length of the threads. The standard copper thickness measures 250 microns, with options for greater copper thicknesses available upon request. Material: Pure copper molecularly bonded onto a steel core.",
         "image": "/images/products/braco/earthing-rods-accessories-copper-bonded-earth-rod.jpg",
         "features": [
           "Tin Plated: To avoid oxidization and achieve Maximum corrosion protection",
@@ -12903,6 +12904,7 @@
       },
       {
         "name": "Solid Copper Earth Rods",
+        "description": "Braco’s solid copper earth rods are engineered for applications demanding outstanding corrosion resistance and extended lifespan. Crafted from solid copper bar, these rods feature internal threading for seamless jointing. During deep driving, the standard practice involves inserting the rod into a bore hole and backfilling with either low-resistance earthing compound or bentonite. Trust Braco for durable, high-performance solutions in earthing applications. Material: Copper to BS EN 13601",
         "image": "/images/products/braco/earthing-rods-accessories-solid-copper-earth-rod.jpg",
         "specTable": {
           "headers": [
@@ -12981,6 +12983,7 @@
       },
       {
         "name": "Threaded Couplings",
+        "description": "Braco’s high-strength couplings are specifically designed for joining copper bond threaded earth rods together, facilitating deep driving and ensuring continual contact between the rods during and after installation. Protects earth rod threads during installation with a threaded driving headLead-in for ease of assembly Hex on the outside for grip, keeping the coupling tight during ground installationManufactured from a high copper content alloy for excellent corrosion resistance Material: Gun Metal / Brass.",
         "image": "/images/products/braco/earthing-rods-accessories-threaded-couplings.jpg",
         "specTable": {
           "headers": [
@@ -13031,6 +13034,7 @@
       },
       {
         "name": "Threaded Driving Heads",
+        "description": "Braco’s reusable threaded driving heads are designed for driving copper bond threaded earth rods by hand or with a power hammer. Simply screw the driving head into the threaded coupling for efficient and secure installation. Braco’s reusable threaded driving heads are designed for driving copper bond threaded earth rods by hand or with a power hammer. Simply screw the driving head into the threaded coupling for efficient and secure installation.",
         "image": "/images/products/braco/earthing-rods-accessories-threaded-driving-heads.jpg",
         "specTable": {
           "headers": [
@@ -13063,6 +13067,7 @@
       },
       {
         "name": "Driving Heads",
+        "description": "Braco driving heads protect the external thread and the top of the solid copper earth rod from damage during installation into the ground. Braco driving heads protect the external thread and the top of the solid copper earth rod from damage during installation into the ground.",
         "image": "/images/products/braco/earthing-rods-accessories-driving-heads.jpg",
         "specTable": {
           "headers": [
@@ -13092,6 +13097,7 @@
       },
       {
         "name": "Driving Spikes",
+        "description": "Braco driving spikes enable solid earth rods to be driven easily into the ground. Braco driving spikes enable solid earth rods to be driven easily into the ground.",
         "image": "/images/products/braco/earthing-rods-accessories-driving-spikes.jpg",
         "specTable": {
           "headers": [
@@ -13121,6 +13127,7 @@
       },
       {
         "name": "Coupling Dowels",
+        "description": "Braco phosphor bronze coupling dowel is used for joining solid copper earth rods together. Material: Copper / Copper Coated Brass. Braco phosphor bronze coupling dowel is used for joining solid copper earth rods together.",
         "image": "/images/products/braco/earthing-rods-accessories-coupling-dowels.jpg",
         "specTable": {
           "headers": [
@@ -13144,6 +13151,7 @@
       },
       {
         "name": "Earth Rod to Tape ‘A’ Clamps",
+        "description": "Braco clamps are used for joining earth rods to different sizes of copper tape. The clamps have a high resistance to corrosion and are mechanically strong to ensure a lasting connection The aluminium version is mainly used for connecting aluminium tape to a puddle flange rod as a part of lighting protection system. Material: Gun Metal / Brass",
         "image": "/images/products/braco/earthing-rods-accessories-earth-rod-tape-clamps.jpg",
         "specTable": {
           "headers": [
@@ -13360,6 +13368,7 @@
       },
       {
         "name": "Earth Rod to Cable \"G\" Clamps",
+        "description": "Braco clamps are used for joining earth rods to different size of stranded copper conductor. The clamps have a high resistance to corrosion and are mechanically strong to ensure a lasing connection. Material: Gunmetal with M 10 * 25 mm Phosphor Bronze Set Screw (ERR 1035 in Naval Brass with M6 * 20 mm Stainless steel set screw). *Suitable for use with 8 mm solid circular copper conductor Braco clamps are used for joining earth rods to different size of stranded copper conductor. The clamps have a high resistance to corrosion and are mechanically strong to ensure a lasing connection.",
         "image": "/images/products/braco/earthing-rods-accessories-earth-rod-cable-g-clamps.jpg",
         "specTable": {
           "headers": [
@@ -13480,6 +13489,7 @@
       },
       {
         "name": "'U' Bolt Clamps",
+        "description": "This versatile range of Braco U Bolt Clamps can be used to connect flat tapes and stranded cables to earth rods, reinforcing bars (re-bar), hand rails etc. Material: Gunmetal plate with M10 threaded Copper ‘U’ Bolt. This versatile range of Braco U Bolt Clamps can be used to connect flat tapes and stranded cables to earth rods, reinforcing bars (re-bar), hand rails etc.",
         "image": "/images/products/braco/earthing-rods-accessories-u-bolt-clamps.jpg",
         "specTable": {
           "headers": [
@@ -13544,6 +13554,7 @@
       },
       {
         "name": "Metallic DC Clips",
+        "description": "Braco metallic DC clips provide a secure solution for fastening the flat tape conductor to the building surface. Simply use countersunk woodscrews (1 1/2” x No. 10) and No. 10 wall plugs for installation. Material: Gunmetal / Brass. Braco metallic DC clips provide a secure solution for fastening the flat tape conductor to the building surface. Simply use countersunk woodscrews (1 1/2” x No. 10) and No. 10 wall plugs for installation.",
         "image": "/images/products/braco/earthing-rods-accessories-metallic-dc-clips.jpg",
         "specTable": {
           "headers": [
@@ -13629,6 +13640,7 @@
       },
       {
         "name": "Tape Clips",
+        "description": "Braco Wallis tape clips are designed to securely hold the flat tape conductor flush against the building surface. Installation is straightforward: use countersunk woodscrews (1 1/2” x No. 10) and No. 10 wall plugs for a secure fit. Braco Wallis tape clips are designed to securely hold the flat tape conductor flush against the building surface. Installation is straightforward: use countersunk woodscrews (1 1/2” x No. 10) and No. 10 wall plugs for a secure fit.",
         "image": "/images/products/braco/earthing-rods-accessories-tape-clips.jpg",
         "specTable": {
           "headers": [
@@ -13693,6 +13705,7 @@
       },
       {
         "name": "Square Tape Clamps",
+        "description": "Braco square tape clamps are versatile four-way connectors, ideal for creating cross, straight-through, or tee joints in flat tape installations. The base features a countersunk hole in the middle for secure attachment to the building surface, while the lid is affixed using four screws. Installation is simple: use countersunk wood screws (1” x No. 10) and No. 10 wall plugs for a secure and reliable fit. Material: Gunmetal / Brass Braco square tape clamps are versatile four-way connectors, ideal for creating cross, straight-through, or tee joints in flat tape installations. The base features a countersunk hole in the middle for secure attachment to the building surface, while the lid is affixed using four screws.",
         "image": "/images/products/braco/earthing-rods-accessories-square-tape-clips.jpg",
         "specTable": {
           "headers": [

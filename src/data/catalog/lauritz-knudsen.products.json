@@ -28,7 +28,7 @@
   {
     "slug": "u-power-omega",
     "name": "U-Power Omega",
-    "category": "air-circuit-breaker-acb",
+    "category": "Air Circuit Breaker - ACB",
     "overview": [
       "Electrical protection is crucial for ensuring the safety and reliability of power systems. Electrical installations and equipment are susceptible to internal and external faults that can cause severe damage. Circuit Breakers are essential to detect and isolate faults promptly by early detection and localization of faults. Circuit Breakers also aim to minimize the fault duration and isolate faulty parts from the circuit. Electrical systems may experience excessive current caused by overloads, short circuits, and ground faults condition.",
       "Lauritz Knudsen Electrical & Automation is a leading manufacturer of Low Voltage Switchgear for over 70 years. Lauritz Knudsen Electrical & Automation’s OMEGA Air Circuit Breakers are ideal for high-power applications in low-voltage distribution networks, offering reliability and compactness & versatility while meeting the needs of various industries."
@@ -61,7 +61,7 @@
   {
     "slug": "mcx",
     "name": "MCX",
-    "category": "contactors",
+    "category": "Contactors",
     "overview": [
       "The MCX range of 4-pole contactors, available from 18A to 900A AC-1, is extensively used with auto source transfer controllers to switch power from the main supply to backup sources such as DG (Diesel Generator) and UPS (Uninterruptible Power Supply)."
     ],
@@ -91,8 +91,10 @@
   {
     "slug": "contactor-mnx",
     "name": "MNX",
-    "category": "contactors",
-    "overview": ["MNX power contactors are primarily utilised in motor feeder and control system applications. With a range spanning from 9A to 650A (AC-3), they deliver dependable performance under various conditions, including high ambient temperatures and humidity. Additionally, accessories and spare parts are available for the entire range."],
+    "category": "Contactors",
+    "overview": [
+      "MNX power contactors are primarily utilised in motor feeder and control system applications. With a range spanning from 9A to 650A (AC-3), they deliver dependable performance under various conditions, including high ambient temperatures and humidity. Additionally, accessories and spare parts are available for the entire range."
+    ],
     "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fc6b54f1aff614a879c9919a3363322a9?format=webp",
     "benefits": [
       "High reliability ensures consistent performance and minimal downtime in demanding applications.",
@@ -124,7 +126,7 @@
   {
     "slug": "contactor-mu",
     "name": "mu",
-    "category": "contactors",
+    "category": "Contactors",
     "overview": [
       "MO Contactors combine distinctive styling and visual appeal with dependable performance. Available in a range from 9A to 300A AC-3/3e, they are ideal for both general and specialised machinery. Their compact design saves panel space, and as RoHS compliant devices, they offer the advantages of being environmentally friendly and sustainable."
     ],
@@ -2237,10 +2239,12 @@
   {
     "slug": "t-era",
     "name": "T-ERA",
+
     "category": "PCC and MCC Panels",
     "overview": [
       "T-ERA, a testament to sustainability, reliability, and safety, is crafted with decades of engineering excellence. Its range of low voltage switchgear meets international standards and quality, ensuring the safety of your applications while maximising space efficiency and minimising hazards. T-ERA not only saves you time and energy but also enhances cost optimisation. As the eco-friendly choice across a variety of applications, T-ERA leads the way in responsible technology."
     ],
+    "image": "/images/products/t-era.jpg",
     "benefits": [
       "T-ERA offers advanced technology today, ensuring adaptability to future needs in safety, sustainability, and digital integration.",
       "Built with top-notch engineering, T-ERA exceeds safety standards, providing dependable performance for peace of mind.",
@@ -2437,6 +2441,154 @@
       {
         "title": "2NO 2NC Power Contacts Configuration",
         "text": "The contactors are available in a configuration of 2 normally open (NO) and 2 normally closed (NC) power contacts, offering flexibility in circuit design and enabling both control and power switching applications."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mccb-dn",
+    "name": "DN",
+    "category": "Moulded Case Circuit Breaker - MCCB",
+    "overview": [
+      "The DZ range of Moulded Case Circuit Breakers (MCCB) is specifically designed to accommodate the complexities of modern electrical systems in contemporary installations. This range stands out due to its substantially higher fault-breaking capacities, addressing the rigorous demands of evolving power distribution requirements efficiently and effectively.",
+      "Responding to the shifting expectations of customers who seek economical yet reliable solutions, we have developed the DZ range of MCCBs that can operate up to 800V AC, with exceptional fault-breaking capacities reaching up to 200kA at 415V AC. Available in both thermal magnetic and electronic versions, these MCCBs provide comprehensive protection, encompassing advanced current, voltage, frequency, power, and harmonic-based safeguards. This versatility empowers system designers and users to select and implement protection schemes that best fit their specific requirements, ensuring tailored and robust electrical safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fa04bf135f58c4367b959a477814500df",
+    "benefits": [
+      "No load line bias ensures balanced power distribution, enhancing system efficiency.",
+      "Finger-proof terminals increase safety by preventing accidental contact, crucial for maintaining secure operations.",
+      "Phase barriers included with MCCBs enhance safety by effectively preventing electrical arcing between phases.",
+      "A wide range of common internal and external accessories is available, offering extensive customisation options to meet specific system requirements."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Breaking Capacity",
+        "text": "Offers multiple options including 36kA, 50kA, 80kA, 120kA, and 200kA, ensuring robust protection against high fault levels."
+      },
+      {
+        "title": "Operating Voltage",
+        "text": "Supports operating voltages of 415V, 690V, and 800V AC, providing flexibility for various electrical systems."
+      },
+      {
+        "title": "Variants",
+        "text": "Available in both 3-pole and 4-pole configurations, allowing for versatile application across different circuit designs."
+      },
+      {
+        "title": "Compliance",
+        "text": "Adheres to international standards, including IEC60947-2, EN60947-2, and IS/IEC60947-2, ensuring quality and safety."
+      },
+      {
+        "title": "Protection Releases",
+        "text": "Features both thermal magnetic and microprocessor-based releases, offering precise and reliable protection."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mccb-du",
+    "name": "DU",
+    "category": "Moulded Case Circuit Breaker - MCCB",
+    "overview": [
+      "The DU Series represents the next generation of MCCBs, distinguished by its state-of-the-art design that combines contemporary, user-friendly features with outstanding ergonomics, aesthetics, and compactness. This series excels in functionality and form, making it an ideal choice for modern electrical infrastructure needs.",
+      "In terms of compliance, the DU Series adheres to the latest international standards including IS/IEC 60947-2, IEC 60947-2, and EN 60947-2. Each product in the range carries the CE marking, affirming its quality and safety for use even in humid environments. Furthermore, equipped with a wide array of accessories, the series ensures operational safety, reliability, and versatility, meeting even the most demanding system requirements."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb34f40d022444b76b3f749157cd0d986",
+    "benefits": [
+      "The design is compact, optimising space and simplifying installation processes.",
+      "No load line bias ensures balanced power distribution, enhancing system efficiency.",
+      "Finger-proof terminals increase safety by preventing accidental contact, crucial in maintaining secure operations.",
+      "Phase barriers included with MCCBs enhance safety by effectively preventing electrical arcing between phases."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Breaking Capacity",
+        "text": "Multiple options with 10kA, 18kA, 25kA, 30kA, 36kA, and 50kA, providing robust fault protection in various scenarios."
+      },
+      {
+        "title": "Variants",
+        "text": "Configurations include 1-pole, 2-pole, 3-pole, and 4-pole, allowing flexibility to match different circuit designs."
+      },
+      {
+        "title": "Compliance",
+        "text": "Adheres to international standards IEC60947-2, EN60947-2, and IS/IEC60947-2, ensuring global acceptance and reliability."
+      },
+      {
+        "title": "Durability",
+        "text": "Features higher mechanical and electrical life, enhancing longevity and performance stability under frequent operational use."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mccb-dy",
+    "name": "DY",
+    "category": "Moulded Case Circuit Breaker - MCCB",
+    "overview": [
+      "The DY Series represents the next generation of MCCBs, distinguished by its state-of-the-art design that combines contemporary, user-friendly features with outstanding ergonomics, aesthetics, and compactness. This series excels in functionality and form, making it an ideal choice for modern electrical infrastructure needs.",
+      "In terms of compliance, the DY Series adheres to the latest international standards including IS/IEC 60947-2, IEC 60947-2, and EN 60947-2. Each product in the range carries the CE marking, affirming its quality and safety for use even in humid environments. Furthermore, equipped with a wide array of accessories, the series ensures operational safety, reliability, and versatility, meeting even the most demanding system requirements."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fdcd3a3c593e741fbacf7d2dd61ff84f2?format=webp",
+    "benefits": [
+      "The design is compact, optimising space and simplifying installation processes.",
+      "No load line bias ensures balanced power distribution, enhancing system efficiency.",
+      "Finger-proof terminals increase safety by preventing accidental contact, crucial in maintaining secure operations.",
+      "Phase barriers included with MCCBs enhance safety by effectively preventing electrical arcing between phases."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Breaking Capacity",
+        "text": "Multiple options with 10kA, 18kA, 25kA, 30kA, 36kA, and 50kA, providing robust fault protection in various scenarios."
+      },
+      {
+        "title": "Variants",
+        "text": "Configurations include 1-pole, 2-pole, 3-pole, and 4-pole, allowing flexibility to match different circuit designs."
+      },
+      {
+        "title": "Compliance",
+        "text": "Adheres to international standards IEC60947-2, EN60947-2, and IS/IEC60947-2, ensuring global acceptance and reliability."
+      },
+      {
+        "title": "Durability",
+        "text": "Features higher mechanical and electrical life, enhancing longevity and performance stability under frequent operational use."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "c-power",
+    "name": "C-Power",
+    "category": "Air Circuit Breaker - ACB",
+    "overview": [
+      "Lauritz Knudsen Electrical & Automation offers C-Power range of Air Circuit Breakers (ACBs) up to 6300A, 100kA @415V, designed to safeguard electrical systems from overcurrent and short-circuit faults. C-Power ACBs are tailored to meet all power distribution system requirements, ensuring safe and efficient operation. With a modular design and standardized range, these ACBs are suitable for diverse electrical applications in Buildings, Infrastructure, Utilities and Industries.",
+      "Special Solution for harsh/corrosive environments is also available in C-Power family"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F428f74348a5c4736b52e0acfd8c61bc1?format=webp",
+    "benefits": [
+      "Leveraging scalability, durability and connectivity, C-Power ACBs integrate technological aspects to enhance uptime and energy efficiency.",
+      "Engineered for extreme tropical conditions, these ACBs excel in challenging environments, setting a market benchmark for performance and safety.",
+      "With a common door cut-out for the entire range and uniform height and depth for ACBs up to 4000A, they offer flexibility and ease of use.",
+      "Entire range offers High Short time withstand capacity, Icu=Ics=Icw for 1 sec to achieve total selectivity and full uptime of system."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "C-Power ACBs provide user-friendly features such as front-accessible overcurrent settings in the release, telescopic racking handle and various racking interlocks.",
+        "text": ""
+      },
+      {
+        "title": "This range also offers a unique ‘Maintenance position’ in draw-out type ACBs for easy maintenance and inspection.",
+        "text": ""
+      },
+      {
+        "title": "The ACBs are available in Load Isolator version and feature a fully rated neutral pole for the entire range.",
+        "text": ""
+      },
+      {
+        "title": "Additionally, it offers an extendable Electrical Life by replacing the arcing contacts on-site for all ratings.",
+        "text": ""
       }
     ],
     "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"

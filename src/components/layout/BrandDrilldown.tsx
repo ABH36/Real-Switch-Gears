@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
-import { brands } from "@/data/brands";
+import { brands, getProductCategorySlug } from "@/data/brands";
 import { cn } from "@/lib/utils";
 
 // Loaded only when the desktop "Products" menu is opened — pulls in every
@@ -135,7 +135,7 @@ export default function BrandDrilldown({
                   <Link
                     href={
                       item.slug
-                        ? `/products/${brand.slug}/${item.slug}`
+                        ? `/products/${brand.slug}/${getProductCategorySlug(brand, item.slug)}/${item.slug}`
                         : `/products/${brand.slug}`
                     }
                     onClick={onNavigate}

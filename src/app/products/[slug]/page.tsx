@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import BrandCatalog from "@/components/BrandCatalog";
-import { brands, getBrand } from "@/data/brands";
+import { brands, getBrand, getProductCategorySlug } from "@/data/brands";
 
 export function generateStaticParams() {
   return brands.map((b) => ({ slug: b.slug }));
@@ -68,14 +68,12 @@ export default async function BrandPage({
               >
                 Get A Quote <ArrowRight className="h-4 w-4" />
               </Link>
-              {featured.length > 0 && (
-                <a
-                  href="#products"
-                  className="inline-flex items-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3 rounded-full hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
-                >
-                  View Products
-                </a>
-              )}
+              <a
+                href="#products"
+                className="inline-flex items-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3 rounded-full hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
+              >
+                View Products
+              </a>
             </div>
           </div>
 
@@ -96,9 +94,25 @@ export default async function BrandPage({
         </div>
       </section>
 
+      {/* Full catalog */}
+      <section id="products" className="py-12 md:py-16 scroll-mt-16">
+        <div className="mx-auto max-w-6xl px-4">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">
+            {featured.length > 0 ? "Browse Full Catalog" : "Products"}
+          </h2>
+          <div className="mt-8">
+            {brand.catalog && brand.catalog.length > 0 ? (
+              <BrandCatalog catalog={brand.catalog} brandSlug={brand.slug} />
+            ) : (
+              <p className="text-slate-600">{brand.description}</p>
+            )}
+          </div>
+        </div>
+      </section>
+
       {/* Featured products — real product photography, not filler */}
       {featured.length > 0 && (
-        <section id="products" className="py-12 md:py-16 scroll-mt-16">
+        <section className="py-12 md:py-16 bg-slate-50">
           <div className="mx-auto max-w-6xl px-4">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">Featured Products</h2>
@@ -109,7 +123,7 @@ export default async function BrandPage({
               {featured.map((p) => (
                 <Link
                   key={p.slug}
-                  href={`/products/${brand.slug}/${p.slug}`}
+                  href={`/products/${brand.slug}/${getProductCategorySlug(brand, p.slug)}/${p.slug}`}
                   className="group rounded-2xl border border-slate-200 bg-white p-4 hover:border-[#1268b3] hover:shadow-[0_8px_24px_rgba(15,50,80,0.08)] transition-all"
                 >
                   <div className="aspect-square rounded-xl bg-slate-50 p-4 flex items-center justify-center overflow-hidden">
@@ -132,22 +146,6 @@ export default async function BrandPage({
           </div>
         </section>
       )}
-
-      {/* Full catalog */}
-      <section className={`py-12 md:py-16 ${featured.length > 0 ? "bg-slate-50" : ""}`}>
-        <div className="mx-auto max-w-6xl px-4">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">
-            {featured.length > 0 ? "Browse Full Catalog" : "Products"}
-          </h2>
-          <div className="mt-8">
-            {brand.catalog && brand.catalog.length > 0 ? (
-              <BrandCatalog catalog={brand.catalog} brandSlug={brand.slug} />
-            ) : (
-              <p className="text-slate-600">{brand.description}</p>
-            )}
-          </div>
-        </div>
-      </section>
 
       {/* Other brands */}
       <section className="py-12 md:py-16 bg-brand-gradient-soft">

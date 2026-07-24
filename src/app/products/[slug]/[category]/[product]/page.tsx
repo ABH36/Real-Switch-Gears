@@ -3,31 +3,35 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, ChevronRight, FileDown } from "lucide-react";
-import { brands, getBrand, type ProductDetail } from "@/data/brands";
+import { brands, getBrand, getProductCategorySlug, type ProductDetail } from "@/data/brands";
 import VariantTabs from "@/components/VariantTabs";
 
 export function generateStaticParams() {
-  return brands.flatMap((b) => [
-    ...(b.products ?? []).map((p) => ({ slug: b.slug, product: p.slug })),
-    ...(b.catalog ?? []).flatMap((cat) =>
-      cat.sections.flatMap((s) =>
-        s.items.filter((i) => i.slug).map((i) => ({ slug: b.slug, product: i.slug! }))
-      )
-    ),
-  ]);
+  return brands.flatMap((b) => {
+    const slugs = new Set<string>();
+    for (const p of b.products ?? []) slugs.add(p.slug);
+    for (const cat of b.catalog ?? [])
+      for (const s of cat.sections) for (const i of s.items) if (i.slug) slugs.add(i.slug);
+
+    return Array.from(slugs).map((product) => ({
+      slug: b.slug,
+      category: getProductCategorySlug(b, product),
+      product,
+    }));
+  });
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string; product: string }>;
+  params: Promise<{ slug: string; category: string; product: string }>;
 }): Promise<Metadata> {
-  const { slug, product } = await params;
+  const { slug, category, product } = await params;
   const brand = getBrand(slug);
   if (!brand) return { title: "Product" };
 
   const prod = brand.products?.find((p) => p.slug === product);
-  const canonical = `/products/${brand.slug}/${product}`;
+  const canonical = `/products/${brand.slug}/${category}/${product}`;
 
   if (prod) {
     const description =
@@ -67,9 +71,9 @@ export async function generateMetadata({
 export default async function ProductPage({
   params,
 }: {
-  params: Promise<{ slug: string; product: string }>;
+  params: Promise<{ slug: string; category: string; product: string }>;
 }) {
-  const { slug, product } = await params;
+  const { slug, category, product } = await params;
   const brand = getBrand(slug);
   if (!brand) notFound();
 
@@ -88,7 +92,13 @@ export default async function ProductPage({
 
     return (
       <>
-        <BreadcrumbJsonLd brand={brand.name} brandSlug={brand.slug} name={fallback.name} slug={product} />
+        <BreadcrumbJsonLd
+          brand={brand.name}
+          brandSlug={brand.slug}
+          category={category}
+          name={fallback.name}
+          slug={product}
+        />
         <Breadcrumb brand={brand.name} brandSlug={brand.slug} category={fallback.category} name={fallback.name} />
         <section className="bg-gradient-to-br from-[#eaf5fb] to-white py-14 md:py-20">
           <div className="mx-auto max-w-4xl px-4 text-center">
@@ -112,8 +122,14 @@ export default async function ProductPage({
   /* ---------- Full product detail page ---------- */
   return (
     <>
-      <BreadcrumbJsonLd brand={brand.name} brandSlug={brand.slug} name={prod.name} slug={product} />
-      <ProductJsonLd brand={brand.name} product={prod} slug={product} brandSlug={brand.slug} />
+      <BreadcrumbJsonLd
+        brand={brand.name}
+        brandSlug={brand.slug}
+        category={category}
+        name={prod.name}
+        slug={product}
+      />
+      <ProductJsonLd brand={brand.name} product={prod} slug={product} brandSlug={brand.slug} category={category} />
       <Breadcrumb brand={brand.name} brandSlug={brand.slug} category={prod.category} name={prod.name} />
 
       {/* Hero */}
@@ -278,11 +294,13 @@ function Breadcrumb({
 function BreadcrumbJsonLd({
   brand,
   brandSlug,
+  category,
   name,
   slug,
 }: {
   brand: string;
   brandSlug: string;
+  category: string;
   name: string;
   slug: string;
 }) {
@@ -290,7 +308,7 @@ function BreadcrumbJsonLd({
   const items = [
     { name: "Home", url: base },
     { name: brand, url: `${base}/products/${brandSlug}` },
-    { name, url: `${base}/products/${brandSlug}/${slug}` },
+    { name, url: `${base}/products/${brandSlug}/${category}/${slug}` },
   ];
   return (
     <script
@@ -314,11 +332,13 @@ function BreadcrumbJsonLd({
 function ProductJsonLd({
   brand,
   brandSlug,
+  category,
   product,
   slug,
 }: {
   brand: string;
   brandSlug: string;
+  category: string;
   product: ProductDetail;
   slug: string;
 }) {
@@ -334,7 +354,7 @@ function ProductJsonLd({
           category: product.category,
           description: product.overview?.[0],
           image: product.image ? `${base}${product.image}` : undefined,
-          url: `${base}/products/${brandSlug}/${slug}`,
+          url: `${base}/products/${brandSlug}/${category}/${slug}`,
           brand: { "@type": "Brand", name: brand },
         }),
       }}

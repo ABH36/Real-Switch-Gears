@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { CatalogCategory } from "@/data/brands";
+import { slugify } from "@/lib/utils";
 
 export default function BrandCatalog({
   catalog,
@@ -56,7 +57,7 @@ export default function BrandCatalog({
                   <Link
                     href={
                       item.slug
-                        ? `/products/${brandSlug}/${item.slug}`
+                        ? `/products/${brandSlug}/${slugify(section.heading)}/${item.slug}`
                         : `/products/${brandSlug}`
                     }
                     className="group flex items-center justify-between gap-3 rounded-lg px-4 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#1268b3] transition-colors"

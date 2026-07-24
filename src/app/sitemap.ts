@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { brands } from "@/data/brands";
+import { brands, getProductCategorySlug } from "@/data/brands";
 
 const base = "https://realswitchgears.com";
 
@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const productPages = brands.flatMap((b) =>
     (b.products ?? []).map((p) => ({
-      url: `${base}/products/${b.slug}/${p.slug}`,
+      url: `${base}/products/${b.slug}/${getProductCategorySlug(b, p.slug)}/${p.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.6,

@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import { useRef } from "react";
@@ -8,11 +5,9 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
-import { Autoplay, Pagination, Navigation, EffectCreative } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/effect-creative";
 
 const slides = [
   { name: "Lauritz Knudsen (L&T Switchgears)", image: "/images/banner/l_t_switchgear.jpg" },
@@ -22,32 +17,22 @@ const slides = [
 ];
 
 export default function HeroSlider() {
-  const prevRef = useRef<HTMLButtonElement>(null);
-  const nextRef = useRef<HTMLButtonElement>(null);
+  const swiperRef = useRef<SwiperType | null>(null);
 
   return (
-    <section className="px-3 md:px-8 -mt-1">
-      <div className="mx-auto max-w-[1500px] rounded-3xl overflow-hidden shadow-md relative hero-swiper group">
+    <section className="px-3 md:px-4 -mt-1">
+      <div className="mx-auto max-w-[1500px] rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-md relative hero-swiper group">
         <Swiper
-          modules={[Autoplay, Pagination, Navigation, EffectCreative]}
-          effect="creative"
-          creativeEffect={{
-            prev: { shadow: false, translate: [0, 0, 0], scale: 0.82, opacity: 0 },
-            next: { shadow: false, translate: [0, 0, 0], scale: 0.82, opacity: 0 },
-          }}
-          speed={900}
+          modules={[Autoplay, Pagination]}
+          onSwiper={(s) => (swiperRef.current = s)}
+          speed={700}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
-          onBeforeInit={(swiper: SwiperType) => {
-            // @ts-expect-error swiper types expect navigation params to already be an object
-            swiper.params.navigation.prevEl = prevRef.current;
-            // @ts-expect-error swiper types expect navigation params to already be an object
-            swiper.params.navigation.nextEl = nextRef.current;
-          }}
-          navigation
           loop
           grabCursor
-          className="h-[300px] md:h-[520px]"
+          threshold={5}
+          resistanceRatio={0.65}
+          className="aspect-[16/9] md:aspect-auto md:h-[520px]"
         >
           {slides.map((slide, i) => (
             <SwiperSlide key={slide.name} className="relative">
@@ -58,24 +43,26 @@ export default function HeroSlider() {
                 loading={i === 0 ? "eager" : "lazy"}
                 fetchPriority={i === 0 ? "high" : undefined}
                 sizes="(max-width: 768px) 100vw, 1500px"
-                className="object-cover"
+                className="object-contain md:object-cover select-none pointer-events-none"
+                draggable={false}
               />
             </SwiperSlide>
           ))}
         </Swiper>
 
-        {/* Custom navigation arrows */}
         <button
-          ref={prevRef}
+          type="button"
           aria-label="Previous slide"
-          className="hero-nav-btn left-3 md:left-5"
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="hero-nav-btn left-2 md:left-5"
         >
           <ChevronLeft className="h-5 w-5 md:h-6 md:w-6" strokeWidth={2.5} />
         </button>
         <button
-          ref={nextRef}
+          type="button"
           aria-label="Next slide"
-          className="hero-nav-btn right-3 md:right-5"
+          onClick={() => swiperRef.current?.slideNext()}
+          className="hero-nav-btn right-2 md:right-5"
         >
           <ChevronRight className="h-5 w-5 md:h-6 md:w-6" strokeWidth={2.5} />
         </button>

@@ -1,3 +1,5 @@
+import { slugify } from "@/lib/utils";
+
 export type CatalogItem = { name: string; slug?: string }; // slug links to product page
 export type CatalogSection = { heading: string; items: CatalogItem[] };
 export type CatalogCategory = { name: string; sections: CatalogSection[] };
@@ -141,3 +143,21 @@ export const brands: Brand[] = [
 ];
 
 export const getBrand = (slug: string) => brands.find((b) => b.slug === slug);
+
+// Single source of truth for a product's category-slug URL segment. The
+// catalog's section heading (the nav structure) wins when the product is
+// listed there; the product's own `category` field is only a fallback for
+// items with full detail data that aren't (yet) wired into the nav catalog.
+// Every place that builds or reads a `/products/[slug]/[category]/[product]`
+// URL must go through this so a product resolves to exactly one page.
+export function getProductCategorySlug(brand: Brand, productSlug: string): string {
+  for (const cat of brand.catalog ?? []) {
+    for (const s of cat.sections) {
+      if (s.items.some((i) => i.slug === productSlug)) {
+        return slugify(s.heading);
+      }
+    }
+  }
+  const p = brand.products?.find((pr) => pr.slug === productSlug);
+  return slugify(p?.category ?? "product");
+}

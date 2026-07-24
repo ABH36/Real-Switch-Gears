@@ -191,6 +191,17 @@ async function scrapePage(url, imgNamePrefix) {
   if (isInlineModelListing) {
     return { name, overview, features, image: undefined, specTable, inlineModelListing: true };
   }
+
+  // Intro description sits in a sibling column next to the product photo,
+  // outside any accordion tab — the per-tab parsing below only ever looks
+  // inside .accordion-body, so this is the only place that captures it.
+  $(".content-text p").each((_, p) => {
+    const $p = $(p);
+    if ($p.closest(".accordion-body").length) return;
+    const t = $p.text().replace(/\s+/g, " ").trim();
+    if (t && t.length > 20 && !PLACEHOLDER_RE.test(t) && !overview.includes(t)) overview.push(t);
+  });
+
   if (accordionHeaders.length) {
     for (const h of accordionHeaders) {
       const $h = $(h);
@@ -286,6 +297,7 @@ async function scrapeMulti(src) {
         continue;
       }
       const variant = { name: p.name || purl };
+      if (p.overview.length) variant.description = p.overview.join(" ");
       if (p.image) variant.image = p.image;
       if (p.features.length) variant.features = p.features;
       if (p.specTable) variant.specTable = p.specTable;
