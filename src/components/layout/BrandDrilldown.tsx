@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
-import { brands, getProductCategorySlug } from "@/data/brands";
+import { brands, getProductCategorySlug, type CatalogCategory } from "@/data/brands";
 import { cn } from "@/lib/utils";
 
 // Loaded only when the desktop "Products" menu is opened — pulls in every
@@ -17,7 +17,11 @@ export default function BrandDrilldown({
   onNavigate: () => void;
 }) {
   const brand = brands.find((b) => b.slug === brandSlug);
-  const [activeCat, setActiveCat] = useState(0);
+  // Index path through nested `.children` — [0] alone is "the Nth top-level
+  // category selected"; longer paths drill into groups like Polycab's
+  // Industries > Cables by Application. Independent from `drillSection`,
+  // which is always relative to whichever leaf category `path` resolves to.
+  const [path, setPath] = useState<number[]>([0]);
   const [drillSection, setDrillSection] = useState<number | null>(null);
 
   if (!brand) return null;
@@ -43,25 +47,38 @@ export default function BrandDrilldown({
     );
   }
 
-  const category = catalog[Math.min(activeCat, catalog.length - 1)];
-  const section = drillSection !== null ? category.sections[drillSection] : null;
+  let node: CatalogCategory = catalog[Math.min(path[0], catalog.length - 1)];
+  for (let i = 1; i < path.length; i++) {
+    if (!node.children?.length) break;
+    node = node.children[Math.min(path[i], node.children.length - 1)];
+  }
+  const section = drillSection !== null ? (node.sections?.[drillSection] ?? null) : null;
 
-  const selectCat = (i: number) => {
-    setActiveCat(i);
+  const selectTopCat = (i: number) => {
+    setPath([i]);
     setDrillSection(null);
   };
+  const drillInto = (i: number) => {
+    setPath([...path, i]);
+    setDrillSection(null);
+  };
+  const goBack = () => {
+    if (drillSection !== null) setDrillSection(null);
+    else if (path.length > 1) setPath(path.slice(0, -1));
+  };
+  const canGoBack = drillSection !== null || path.length > 1;
 
   return (
     <div className="flex flex-1 min-w-0">
-      {/* Categories */}
+      {/* Top-level categories */}
       <ul className="w-[300px] shrink-0 px-3 border-r border-slate-100 overflow-y-auto">
         {catalog.map((cat, i) => (
           <li key={cat.name}>
             <button
-              onClick={() => selectCat(i)}
+              onClick={() => selectTopCat(i)}
               className={cn(
                 "w-full flex items-center justify-between text-left rounded-xl px-4 py-3 font-semibold transition-colors",
-                i === activeCat
+                path[0] === i
                   ? "bg-slate-100 text-slate-900"
                   : "text-slate-700 hover:bg-slate-50"
               )}
@@ -70,7 +87,7 @@ export default function BrandDrilldown({
               <ChevronRight
                 className={cn(
                   "h-4 w-4 shrink-0 ml-1",
-                  i === activeCat ? "text-red-600" : "text-slate-300"
+                  path[0] === i ? "text-red-600" : "text-slate-300"
                 )}
               />
             </button>
@@ -80,47 +97,65 @@ export default function BrandDrilldown({
 
       {/* Drill-down */}
       <div className="flex-1 min-w-0 px-6 overflow-y-auto">
-        {!section ? (
-          <>
-            <h3 className="text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3">
-              {category.name}
-            </h3>
-            <ul className="mt-2">
-              <li>
-                <Link
-                  href={`/products/${brand.slug}`}
-                  onClick={onNavigate}
-                  className="block px-3 py-2.5 font-bold text-[#1268b3] underline underline-offset-4 hover:bg-slate-50 rounded-lg"
-                >
-                  All {category.name}
-                </Link>
-              </li>
-              {category.sections.map((s, i) => (
-                <li key={s.heading}>
-                  <button
-                    onClick={() => setDrillSection(i)}
-                    className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
-                  >
-                    <span className="truncate">{s.heading}</span>
-                    <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
-                  </button>
-                </li>
-              ))}
-              {category.sections.length === 0 && (
-                <li className="px-3 py-2.5 text-slate-500">Products coming soon.</li>
-              )}
-            </ul>
-          </>
+        {canGoBack ? (
+          <button
+            onClick={goBack}
+            className="flex items-center gap-2 text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3 w-full text-left hover:text-red-600"
+          >
+            <ArrowLeft className="h-5 w-5 shrink-0 text-[#1268b3]" />
+            <span className="truncate">{section ? section.heading : node.name}</span>
+          </button>
         ) : (
-          <>
-            <button
-              onClick={() => setDrillSection(null)}
-              className="flex items-center gap-2 text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3 w-full text-left hover:text-red-600"
-            >
-              <ArrowLeft className="h-5 w-5 shrink-0 text-[#1268b3]" />
-              <span className="truncate">{section.heading}</span>
-            </button>
-            <ul className="mt-2">
+          <h3 className="text-base font-extrabold uppercase tracking-wide text-slate-900 border-b border-slate-200 pb-3">
+            {node.name}
+          </h3>
+        )}
+
+        <ul className="mt-2">
+          {!section && (
+            <li>
+              <Link
+                href={`/products/${brand.slug}`}
+                onClick={onNavigate}
+                className="block px-3 py-2.5 font-bold text-[#1268b3] underline underline-offset-4 hover:bg-slate-50 rounded-lg"
+              >
+                All {node.name}
+              </Link>
+            </li>
+          )}
+
+          {!section &&
+            node.children?.map((child, i) => (
+              <li key={child.name}>
+                <button
+                  onClick={() => drillInto(i)}
+                  className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
+                >
+                  <span className="truncate">{child.name}</span>
+                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
+                </button>
+              </li>
+            ))}
+
+          {!section &&
+            node.sections?.map((s, i) => (
+              <li key={s.heading}>
+                <button
+                  onClick={() => setDrillSection(i)}
+                  className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
+                >
+                  <span className="truncate">{s.heading}</span>
+                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
+                </button>
+              </li>
+            ))}
+
+          {!section && !node.children?.length && node.sections?.length === 0 && (
+            <li className="px-3 py-2.5 text-slate-500">Products coming soon.</li>
+          )}
+
+          {section && (
+            <>
               <li>
                 <Link
                   href={`/products/${brand.slug}`}
@@ -145,9 +180,9 @@ export default function BrandDrilldown({
                   </Link>
                 </li>
               ))}
-            </ul>
-          </>
-        )}
+            </>
+          )}
+        </ul>
       </div>
     </div>
   );

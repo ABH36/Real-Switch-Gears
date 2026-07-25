@@ -2,7 +2,17 @@ import { slugify } from "@/lib/utils";
 
 export type CatalogItem = { name: string; slug?: string }; // slug links to product page
 export type CatalogSection = { heading: string; items: CatalogItem[] };
-export type CatalogCategory = { name: string; sections: CatalogSection[] };
+// A category can have `sections` (items directly under it — every brand
+// except Polycab only ever uses this shape), `children` (nested
+// sub-categories, for multi-level nav like Polycab's Industries > Cables by
+// Application > Building infrastructure), or both — e.g. Polycab's "Cables by
+// Type" has its own direct sections (LV Power Cable, ...) plus a further
+// "Others" child group.
+export type CatalogCategory = {
+  name: string;
+  sections?: CatalogSection[];
+  children?: CatalogCategory[];
+};
 
 
 import { lkCatalog, lkProducts } from "./catalog/lauritz-knudsen";
@@ -144,6 +154,33 @@ export const brands: Brand[] = [
 
 export const getBrand = (slug: string) => brands.find((b) => b.slug === slug);
 
+// Walks a (possibly nested, via `children`) category tree and flattens
+// every leaf `CatalogSection` found anywhere in it, at any depth. Every
+// place that needs to search "all sections of a brand" — regardless of how
+// many grouping levels sit above them — should go through this instead of
+// assuming categories are flat.
+export function collectSections(categories: CatalogCategory[]): CatalogSection[] {
+  const out: CatalogSection[] = [];
+  for (const cat of categories) {
+    if (cat.sections) out.push(...cat.sections);
+    if (cat.children) out.push(...collectSections(cat.children));
+  }
+  return out;
+}
+
+// Finds a catalog item (by product slug) anywhere in a nested category
+// tree and returns its display name plus the section it's listed under.
+export function findCatalogItem(
+  categories: CatalogCategory[],
+  productSlug: string
+): { name: string; heading: string } | null {
+  for (const section of collectSections(categories)) {
+    const hit = section.items.find((i) => i.slug === productSlug);
+    if (hit) return { name: hit.name, heading: section.heading };
+  }
+  return null;
+}
+
 // Single source of truth for a product's category-slug URL segment. The
 // catalog's section heading (the nav structure) wins when the product is
 // listed there; the product's own `category` field is only a fallback for
@@ -151,11 +188,9 @@ export const getBrand = (slug: string) => brands.find((b) => b.slug === slug);
 // Every place that builds or reads a `/products/[slug]/[category]/[product]`
 // URL must go through this so a product resolves to exactly one page.
 export function getProductCategorySlug(brand: Brand, productSlug: string): string {
-  for (const cat of brand.catalog ?? []) {
-    for (const s of cat.sections) {
-      if (s.items.some((i) => i.slug === productSlug)) {
-        return slugify(s.heading);
-      }
+  for (const s of collectSections(brand.catalog ?? [])) {
+    if (s.items.some((i) => i.slug === productSlug)) {
+      return slugify(s.heading);
     }
   }
   const p = brand.products?.find((pr) => pr.slug === productSlug);

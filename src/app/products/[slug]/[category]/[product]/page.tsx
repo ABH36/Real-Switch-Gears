@@ -3,15 +3,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, ChevronRight, FileDown } from "lucide-react";
-import { brands, getBrand, getProductCategorySlug, type ProductDetail } from "@/data/brands";
+import {
+  brands,
+  collectSections,
+  findCatalogItem,
+  getBrand,
+  getProductCategorySlug,
+  type ProductDetail,
+} from "@/data/brands";
 import VariantTabs from "@/components/VariantTabs";
 
 export function generateStaticParams() {
   return brands.flatMap((b) => {
     const slugs = new Set<string>();
     for (const p of b.products ?? []) slugs.add(p.slug);
-    for (const cat of b.catalog ?? [])
-      for (const s of cat.sections) for (const i of s.items) if (i.slug) slugs.add(i.slug);
+    for (const s of collectSections(b.catalog ?? [])) for (const i of s.items) if (i.slug) slugs.add(i.slug);
 
     return Array.from(slugs).map((product) => ({
       slug: b.slug,
@@ -50,21 +56,15 @@ export async function generateMetadata({
     };
   }
 
-  let fallbackName: string | null = null;
-  for (const cat of brand.catalog ?? []) {
-    for (const s of cat.sections) {
-      const hit = s.items.find((i) => i.slug === product);
-      if (hit) fallbackName = hit.name;
-    }
-  }
-  if (!fallbackName) return { title: "Product" };
+  const hit = findCatalogItem(brand.catalog ?? [], product);
+  if (!hit) return { title: "Product" };
 
-  const description = `${fallbackName} from ${brand.name} — authorised distributor Real Switchgears & Cables Pvt. Ltd.`;
+  const description = `${hit.name} from ${brand.name} — authorised distributor Real Switchgears & Cables Pvt. Ltd.`;
   return {
-    title: fallbackName,
+    title: hit.name,
     description,
     alternates: { canonical },
-    openGraph: { title: `${fallbackName} | ${brand.name}`, description, url: canonical },
+    openGraph: { title: `${hit.name} | ${brand.name}`, description, url: canonical },
   };
 }
 
@@ -81,13 +81,8 @@ export default async function ProductPage({
 
   /* ---------- Fallback: catalog item without detail data yet ---------- */
   if (!prod) {
-    let fallback: { name: string; category: string } | null = null;
-    for (const cat of brand.catalog ?? []) {
-      for (const s of cat.sections) {
-        const hit = s.items.find((i) => i.slug === product);
-        if (hit) fallback = { name: hit.name, category: s.heading };
-      }
-    }
+    const hit = findCatalogItem(brand.catalog ?? [], product);
+    const fallback = hit ? { name: hit.name, category: hit.heading } : null;
     if (!fallback) notFound();
 
     return (

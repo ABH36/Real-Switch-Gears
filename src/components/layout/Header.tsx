@@ -214,7 +214,7 @@ export default function Header() {
               {brandsOpen ? (
                 <Minus className="h-4 w-4 shrink-0 text-red-600" />
               ) : (
-                <Plus className="h-4 w-4 shrink-0 text-slate-400" />
+                <Plus className="h-4 w-4 shrink-0 text-[#1268b3]" />
               )}
             </button>
             {brandsOpen && (
@@ -231,7 +231,7 @@ export default function Header() {
                         {isOpen ? (
                           <Minus className="h-3.5 w-3.5 shrink-0 text-red-600" />
                         ) : (
-                          <Plus className="h-3.5 w-3.5 shrink-0 text-slate-400" />
+                          <Plus className="h-3.5 w-3.5 shrink-0 text-[#1268b3]" />
                         )}
                       </button>
                       {isOpen && (

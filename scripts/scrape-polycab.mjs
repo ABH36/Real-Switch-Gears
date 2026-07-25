@@ -34,8 +34,9 @@ const SITE = "https://polycab.com";
 // underlying cable catalog with "Cables by Type" — the de-dupe step near the bottom of this file
 // keeps a product under whichever, more specific category it was already catalogued under and
 // only lets genuinely new products in through the application listings.
-// "Cables by Standards" was left out: spot-checking showed it lists the same underlying cable
-// products as "Cables by Type" again, just filtered by IS/international standard instead.
+// "Cables by Standards" (see standardSources below) is scraped the same way as applications —
+// it lists the same underlying cable products again, just filtered by IS/international standard,
+// so it's treated as another "sighting" source that only contributes genuinely new products.
 
 // Only "Wires" is carried from Polycab's Consumers menu (Fans, Lighting, Switches and
 // Accessories, Water Heaters, and consumer Switchgear are out of scope for this distributor
@@ -58,8 +59,121 @@ const cableTypeSources = [
   { slug: "lv-power-cable", family: "LV Power Cable", category: "Cables by Type", name: "LV Power Cable", productTypeSlug: "lv-power-cable" },
   { slug: "instrumentation-cable", family: "Instrumentation Cable", category: "Cables by Type", name: "Instrumentation Cable", productTypeSlug: "instrumentation-cable" },
   { slug: "communication-data-cable", family: "Communication & Data Cable", category: "Cables by Type", name: "Communication & Data Cable", productTypeSlug: "communication-data-cable" },
+  // same productTypeSlug as solarSources' "renewable-energy-cable" below — real site lists this
+  // identical cable set under two different nav labels ("Renewable Energy" here vs "Solar Cables"
+  // under Renewables), so it's scraped twice on purpose, once per family/category.
+  { slug: "renewable-energy-cable-type", family: "Renewable Energy", category: "Cables by Type", name: "Renewable Energy", productTypeSlug: "renewable-energy" },
   { slug: "mv-power-cable", family: "MV Power Cable", category: "Cables by Type", name: "MV Power Cable", productTypeSlug: "mv-power-cable" },
   { slug: "ehv-power-cable", family: "EHV Power Cable", category: "Cables by Type", name: "EHV Power Cable", productTypeSlug: "ehv-power-cable" },
+];
+
+// "Others" (under Cables by Type) isn't a flat listing on the real site — /cables/types/others is
+// itself a submenu of 11 further cable types, each with its own productTypeSlug and real product
+// grid. Scraped into a synthetic "Cables by Type — Others" category so polycab.ts can nest it as
+// an "Others" child group under the Cables by Type node without disturbing that node's own six
+// direct sections above.
+const othersCableTypeSources = [
+  { slug: "others-control-cable", family: "Control Cable", category: "Cables by Type — Others", name: "Control Cable", productTypeSlug: "control-cable" },
+  { slug: "others-fire-protection-cable", family: "Fire Protection Cable", category: "Cables by Type — Others", name: "Fire Protection Cable", productTypeSlug: "fire-protection-cable" },
+  { slug: "others-industrial-cable", family: "Industrial Cable", category: "Cables by Type — Others", name: "Industrial Cable", productTypeSlug: "industrial-cable" },
+  { slug: "others-rubber-cable", family: "Rubber Cable", category: "Cables by Type — Others", name: "Rubber Cable", productTypeSlug: "rubber-cable" },
+  { slug: "others-marine-offshoreonshore-cable", family: "Marine (Offshore/Onshore) Cable", category: "Cables by Type — Others", name: "Marine (Offshore/Onshore) Cable", productTypeSlug: "marine-offshoreonshore-cable" },
+  { slug: "others-high-temperature-cable", family: "High Temperature Cable", category: "Cables by Type — Others", name: "High Temperature Cable", productTypeSlug: "high-temperature-cable" },
+  { slug: "others-defence", family: "Defence", category: "Cables by Type — Others", name: "Defence", productTypeSlug: "defence" },
+  { slug: "others-domestic-appliance-and-lighting-cable", family: "Domestic Appliance and Lighting Cable", category: "Cables by Type — Others", name: "Domestic Appliance and Lighting Cable", productTypeSlug: "domestic-appliance-and-lighting-cable" },
+  { slug: "others-building-wires", family: "Building Wires", category: "Cables by Type — Others", name: "Building Wires", productTypeSlug: "building-wires" },
+  { slug: "others-special-cable", family: "Special Cable", category: "Cables by Type — Others", name: "Special Cable", productTypeSlug: "special-cable" },
+  { slug: "others-aerial-bunched-cable", family: "Aerial Bunched Cable", category: "Cables by Type — Others", name: "Aerial Bunched Cable", productTypeSlug: "aerial-bunched-cable" },
+];
+
+// "Cables by Standards" — like "Others" above, the two standard groups (/cables/standards/indian-
+// standards-is, /cables/standards/international-standards) aren't direct listings either; each is
+// a submenu of individual IS/international codes, and GetCablesGridPartialByStandardSlug takes
+// that code (e.g. "is-694", "ul-1072"), not the group slug. Spot-checking confirms the scraper's
+// original note: these codes re-list cable products already catalogued under Cables by Type /
+// Others, so they're scraped like applicationSources — discovery + de-dupe, no wasted duplicate
+// detail records. Scraped into two synthetic categories so polycab.ts can nest both groups under
+// one "Cables by Standards" node.
+const isStandardCodes = {
+  "is-7098-i": "IS 7098-I",
+  "is-17048": "IS 17048",
+  "is-694": "IS 694",
+  "is-9968-1": "IS 9968-1",
+  "is-7098-ii": "IS 7098-II",
+  "is-9968-2": "IS 9968-2",
+  "is-14255": "IS 14255",
+  "polycab-standard": "Polycab standard",
+  "is-9857": "IS 9857",
+};
+const intlStandardCodes = {
+  "bsen-50288-7": "BSEN 50288-7",
+  "bs-5467": "BS 5467",
+  "polycab-standard": "Polycab Standard",
+  "iec-60227-7": "IEC 60227-7",
+  "bsen-50525-2-21": "BSEN 50525-2-21",
+  "bs-6231": "BS 6231",
+  "ul-83": "UL 83",
+  "ul-44": "UL 44",
+  "ul-4703": "UL 4703",
+  "ul-854": "UL 854",
+  "ul-1569": "UL 1569",
+  "bs-7846": "BS 7846",
+  "bs-7629-1": "BS 7629-1",
+  "bs-8592": "BS 8592",
+  "bs-7211": "BS 7211",
+  "bs-6724": "BS 6724",
+  "iec-60092-353": "IEC 60092-353",
+  "iec-60092-354": "IEC 60092-354",
+  "bsen-50525-3-11": "BSEN 50525-3-11",
+  "bsen-50525-2-11": "BSEN 50525-2-11",
+  "bsen-50525-3-41": "BSEN 50525-3-41",
+  "bsen-50525-2-41": "BSEN 50525-2-41",
+  "bs-7835": "BS 7835",
+  "ul-1596": "UL 1596",
+  "ul-1277": "UL 1277",
+  "ul-493": "UL 493",
+  "ul-719": "UL 719",
+  "ul-62": "UL 62",
+  "bs-6622": "BS 6622",
+  "bs-7870-4-10": "BS 7870-4-10",
+  "iec-60092-376": "IEC 60092-376",
+  "asnzs-14291": "AS/NZS 1429.1",
+  "ansiicea-s-93-639": "ANSI/ICEA S-93-639",
+  "iec-60502-1": "IEC 60502-1",
+  "ieee-1580": "IEEE 1580",
+  "bsen-50525-2-31": "BSEN 50525-2-31",
+  "iec-60840": "IEC 60840",
+  "icea-s-108-720": "ICEA S-108-720",
+  "ul-1072": "UL 1072",
+  "icea-s-97-682": "ICEA S-97-682",
+  "ansinema-wc-74icea-s-93-639": "ANSI/NEMA WC 74/ICEA S-93-639",
+  "bs-7870-4-20": "BS 7870-4-20",
+  "iec-60502-2": "IEC 60502-2",
+  "icea-s-93-639": "ICEA S-93-639",
+  "bs-6004": "BS 6004",
+  "ul-2250": "UL 2250",
+  "as-nzs-5000": "AS NZS 5000",
+  "bsen-50618": "BSEN 50618",
+  "bs-en-50525-2-51": "BS EN 50525-2-51",
+  "bsen-50525-2-81": "BSEN 50525-2-81",
+  "ansiscte-74": "ANSI/SCTE 74",
+  "rs-485": "RS 485",
+};
+const standardSources = [
+  ...Object.entries(isStandardCodes).map(([code, label]) => ({
+    slug: `standard-is-${code}`,
+    family: label,
+    category: "Cables by Standards — Indian Standards (IS)",
+    name: label,
+    standardSlug: code,
+  })),
+  ...Object.entries(intlStandardCodes).map(([code, label]) => ({
+    slug: `standard-intl-${code}`,
+    family: label,
+    category: "Cables by Standards — International Standards",
+    name: label,
+    standardSlug: code,
+  })),
 ];
 
 // "Cables by Application" — surfaced directly as their own top-level categories
@@ -233,6 +347,12 @@ async function discoverApplicationGroups(src) {
   return parseCableGroups(html);
 }
 
+async function discoverStandardGroups(src) {
+  const url = `${SITE}/Products/GetCablesGridPartialByStandardSlug?standardSlug=${src.standardSlug}&sortOrder=NameAscending&pageSize=500&pageNumber=1`;
+  const html = await getHtml(url, `standard-${src.slug}`);
+  return parseCableGroups(html);
+}
+
 function parseCableGroups(html) {
   const $ = cheerio.load(html);
   const groups = new Map();
@@ -326,11 +446,19 @@ async function buildConsumerEntries(src) {
   return entries;
 }
 
-async function buildCableEntries(src, discoverFn = discoverCableGroups) {
+async function buildCableEntries(src, discoverFn = discoverCableGroups, knownNames = null) {
   const groups = await discoverFn(src);
   console.log("→", src.slug, `(${groups.size} model(s))`);
   const entries = [];
   for (const [title, g] of groups) {
+    // "Cables by Standards" re-lists hundreds of already-scraped cable products (see
+    // standardSources comment) — skip the PDP fetch entirely for a title we already have full
+    // detail for, and just record a stub sighting; buildCatalogTree resolves it to the existing
+    // canonical slug via `byName` regardless of what's in this stub.
+    if (knownNames && knownNames.has(title)) {
+      entries.push({ slug: slugify(title), name: title, category: src.category, family: src.family, overview: [] });
+      continue;
+    }
     try {
       const prodId = extractProdId(g.href);
       const cacheKey = `cable-pdp-${src.slug}-${prodId}`;
@@ -364,11 +492,17 @@ async function buildCableEntries(src, discoverFn = discoverCableGroups) {
   return entries;
 }
 
-const only = process.argv.find((a) => a.startsWith("--only="))?.split("=")[1];
-const consumerQueue = only ? consumerSources.filter((s) => s.slug === only) : consumerSources;
-const cableQueue = only ? cableTypeSources.filter((s) => s.slug === only) : cableTypeSources;
-const solarQueue = only ? solarSources.filter((s) => s.slug === only) : solarSources;
-const applicationQueue = only ? applicationSources.filter((s) => s.slug === only) : applicationSources;
+// --only accepts a comma-separated list of source slugs (or the literal "standards" shorthand for
+// every standardSources entry) so a targeted re-scrape doesn't have to be one slug per invocation.
+const onlyArg = process.argv.find((a) => a.startsWith("--only="))?.split("=")[1];
+const only = onlyArg ? new Set(onlyArg.split(",")) : null;
+const wantsAllStandards = only?.has("standards") ?? false;
+const consumerQueue = only ? consumerSources.filter((s) => only.has(s.slug)) : consumerSources;
+const cableQueue = only ? cableTypeSources.filter((s) => only.has(s.slug)) : cableTypeSources;
+const othersCableTypeQueue = only ? othersCableTypeSources.filter((s) => only.has(s.slug)) : othersCableTypeSources;
+const solarQueue = only ? solarSources.filter((s) => only.has(s.slug)) : solarSources;
+const applicationQueue = only ? applicationSources.filter((s) => only.has(s.slug)) : applicationSources;
+const standardQueue = only ? standardSources.filter((s) => wantsAllStandards || only.has(s.slug)) : standardSources;
 
 const results = [];
 for (const s of consumerQueue) {
@@ -379,7 +513,7 @@ for (const s of consumerQueue) {
   }
   await new Promise((r) => setTimeout(r, 300));
 }
-for (const s of [...cableQueue, ...solarQueue]) {
+for (const s of [...cableQueue, ...othersCableTypeQueue, ...solarQueue]) {
   try {
     results.push(...(await buildCableEntries(s)));
   } catch (e) {
@@ -387,6 +521,24 @@ for (const s of [...cableQueue, ...solarQueue]) {
   }
   await new Promise((r) => setTimeout(r, 300));
 }
+// de-dupe by slug (disambiguate genuine collisions by suffixing the source family slug)
+const bySlug = new Map();
+for (const r of results) {
+  if (bySlug.has(r.slug) && bySlug.get(r.slug).name !== r.name) {
+    r.slug = `${r.slug}-${slugify(r.family)}`;
+  }
+  bySlug.set(r.slug, r);
+}
+const byName = new Map([...bySlug.values()].map((p) => [p.name, p]));
+// on a partial (--only) run, `results` won't contain the other already-scraped products, so pull
+// in the existing file too — otherwise a re-listing source (application/standard) scraped in
+// isolation can't tell it has already seen a product and will duplicate a full detail record for it.
+if (only && existsSync(OUT_FILE)) {
+  for (const p of JSON.parse(readFileSync(OUT_FILE, "utf8"))) {
+    if (!byName.has(p.name)) byName.set(p.name, p);
+  }
+}
+
 // "Cables by Application" heavily re-lists cables already catalogued under Cables by Type
 // / Solar Cables / House Wire (e.g. every "Utility" product turned out to be an existing MV/EHV
 // Power Cable). A product can still only get ONE full detail record — the de-dupe below keeps
@@ -402,17 +554,20 @@ for (const s of applicationQueue) {
   }
   await new Promise((r) => setTimeout(r, 300));
 }
-
-// de-dupe by slug (disambiguate genuine collisions by suffixing the source family slug)
-const bySlug = new Map();
-for (const r of results) {
-  if (bySlug.has(r.slug) && bySlug.get(r.slug).name !== r.name) {
-    r.slug = `${r.slug}-${slugify(r.family)}`;
+// "Cables by Standards" re-lists the same cable products again (~479 unique titles across all
+// codes, spot-checked <10% genuinely new) — skip the PDP fetch for anything already known by name
+// so a full scrape doesn't cost hundreds of redundant detail-page requests.
+const standardResults = [];
+for (const s of standardQueue) {
+  try {
+    standardResults.push(...(await buildCableEntries(s, discoverStandardGroups, new Set(byName.keys()))));
+  } catch (e) {
+    console.error("   FAILED:", s.slug, e.message);
   }
-  bySlug.set(r.slug, r);
+  await new Promise((r) => setTimeout(r, 300));
 }
-const byName = new Map([...bySlug.values()].map((p) => [p.name, p]));
-for (const r of applicationResults) {
+
+for (const r of [...applicationResults, ...standardResults]) {
   if (byName.has(r.name)) continue; // full detail already recorded from a prior source
   if (bySlug.has(r.slug) && bySlug.get(r.slug).name !== r.name) {
     r.slug = `${r.slug}-${slugify(r.family)}`;
@@ -453,14 +608,31 @@ function buildCatalogTree(entries) {
   }));
 }
 
-let catalogTree = [...buildCatalogTree(results), ...buildCatalogTree(applicationResults)];
+let catalogTree = [
+  ...buildCatalogTree(results),
+  ...buildCatalogTree(applicationResults),
+  ...buildCatalogTree(standardResults),
+];
 if (only) {
-  // partial run: merge this run's categories into the existing tree rather than replacing it
+  // Partial run: merge this run's categories into the existing tree section-by-section (not a
+  // whole-category replace) — a targeted re-scrape of just one family (e.g. "Others" under
+  // "Cables by Type") must not wipe out that category's other, previously-scraped families
+  // (LV Power Cable, Instrumentation Cable, ...) that this run never touched.
   const prevCatalog = existsSync(CATALOG_FILE) ? JSON.parse(readFileSync(CATALOG_FILE, "utf8")) : [];
   const byCategoryName = new Map(prevCatalog.map((c) => [c.name, c]));
-  for (const cat of catalogTree) byCategoryName.set(cat.name, cat);
+  for (const cat of catalogTree) {
+    const prev = byCategoryName.get(cat.name);
+    if (!prev) {
+      byCategoryName.set(cat.name, cat);
+      continue;
+    }
+    const bySectionHeading = new Map((prev.sections ?? []).map((s) => [s.heading, s]));
+    for (const sec of cat.sections ?? []) bySectionHeading.set(sec.heading, sec);
+    byCategoryName.set(cat.name, { name: cat.name, sections: [...bySectionHeading.values()] });
+  }
   catalogTree = [...byCategoryName.values()];
 }
 writeFileSync(CATALOG_FILE, JSON.stringify(catalogTree, null, 2) + "\n");
 
-console.log(`\nDone: ${results.length + applicationResults.length} scraped → ${OUT_FILE} (${out.length} total), ${CATALOG_FILE} (${catalogTree.length} categories)`);
+const totalScraped = results.length + applicationResults.length + standardResults.length;
+console.log(`\nDone: ${totalScraped} scraped → ${OUT_FILE} (${out.length} total), ${CATALOG_FILE} (${catalogTree.length} categories)`);
