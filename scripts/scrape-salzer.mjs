@@ -150,7 +150,7 @@ async function scrapeOne(src) {
     const $content = $label.next(".noPr");
     if (!heading || !$content.length) return;
 
-    if (/specification/i.test(heading)) {
+    if (/specification|feature/i.test(heading)) {
       $content.find("li h3").each((_, h3) => {
         const t = $(h3).text().replace(/\s+/g, " ").trim();
         if (t && !benefits.includes(t)) benefits.push(t);

@@ -138,7 +138,10 @@
     "slug": "genie-pro",
     "name": "Genie Pro",
     "category": "Programmable Logic Controller",
-    "overview": [],
+    "overview": [
+      "GIC Genie Pro is a compact programmable smart relay/PLC supporting up to 60 I/Os (24DI + 20DO + 8AI + 8AO), with a backlit LCD display for on-panel monitoring and setup.",
+      "Built-in Ethernet with optional RS485, ladder and FBD programming, and micro SD-based data logging make it suited for standalone machine control and small automation panels."
+    ],
     "image": "/images/products/gic/genie-pro.jpg",
     "benefits": [
       "Supports up to 60 I/Os (24DI + 20DO + 8AI + 8AO)",

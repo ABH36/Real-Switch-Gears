@@ -156,7 +156,10 @@
     "slug": "rotary-limit-switches",
     "name": "Rotary limit Switches",
     "category": "Industrial Components",
-    "overview": [],
+    "overview": [
+      "Cam-operated rotary limit switches from Salzer provide reliable end-of-travel and over-travel protection for cranes, hoists, elevators and other motion-control machinery.",
+      "A rotating shaft actuates multiple independent switching cams, giving precise, repeatable trip points for position and speed-stage control in industrial automation."
+    ],
     "image": "/images/products/salzer/rotary-limit-switches.jpg",
     "catalogue": "/catalogues/salzer/rotary-20limit-20switch-20catalogue-20rev-200.pdf"
   },
@@ -192,7 +195,10 @@
     "slug": "industrial-plug-socket",
     "name": "Industrial Plug & Socket",
     "category": "Industrial Components",
-    "overview": [],
+    "overview": [
+      "Salzer industrial plug and socket combinations deliver safe, IP-rated power connections for heavy-duty industrial, commercial and outdoor applications.",
+      "Robust housings and interlocked designs prevent accidental disconnection under load, making them suitable for demanding factory-floor and site-power environments."
+    ],
     "image": "/images/products/salzer/industrial-plug-socket.jpg",
     "catalogue": "/catalogues/salzer/industrial-20plugs-20and-20socks.pdf"
   },
@@ -368,8 +374,21 @@
     "slug": "miniature-circuit-breakers-mcb",
     "name": "Miniature Circuit Breakers",
     "category": "Building Segment",
-    "overview": [],
-    "image": "/images/products/salzer/miniature-circuit-breakers-mcb.jpg",
+    "overview": [
+      "Salzer Miniature Circuit Breakers protect wiring and connected equipment from overload and short-circuit faults, complying with IEC/IS 60898-1 with a short-circuit breaking capacity of 10 kA.",
+      "Silver-graphite contacts, thermal-magnetic tripping and flame-retardant construction ensure long, dependable service life across residential and light-industrial distribution boards."
+    ],
+    "image": "/images/products/salzer/miniature-circuit-breakers-mcb.png",
+    "benefits": [
+      "Complies to IEC / IS 60898-1",
+      "High Short circuit Breaking Capacity - 10 KA",
+      "IP 20 Protection",
+      "Thermal Overload + Magnetic short circuit protection",
+      "Silver Graphite contact tips for Enhanced Electrical life",
+      "Can accommodate Wires upto 25 Sqmm",
+      "Supports Both Busbar & Cable Connectivity",
+      "Made of High grade Flame retardant material"
+    ],
     "catalogue": "/catalogues/salzer/s90-20modular-20pricelist-20feb-202026-20mcb-compressed.pdf"
   },
   {
@@ -412,7 +431,10 @@
     "slug": "movement-sensors",
     "name": "Movement sensors",
     "category": "Building Segment",
-    "overview": [],
+    "overview": [
+      "Salzer movement sensors detect occupancy and motion to automatically switch lighting and connected loads, helping reduce energy consumption in commercial and residential spaces.",
+      "Adjustable sensitivity and time-delay settings allow the sensor to be tuned to the room and application it serves."
+    ],
     "image": "/images/products/salzer/movement-sensors.jpg",
     "catalogue": "/catalogues/salzer/s90-20modular-20pricelist-20feb-202026-20speciality-compressed.pdf"
   },
@@ -420,7 +442,10 @@
     "slug": "remote-switches",
     "name": "Remote switches",
     "category": "Building Segment",
-    "overview": [],
+    "overview": [
+      "Salzer remote switches let lighting and appliances be turned on and off from a distance without rewiring existing circuits, simplifying retrofits and multi-point control.",
+      "Compact DIN-rail or in-wall mounting keeps installation straightforward for both new and existing electrical panels."
+    ],
     "image": "/images/products/salzer/remote-switches.jpg",
     "catalogue": "/catalogues/salzer/salzer-20pricelist-20june-202024-20speciality-20products-compressed-202.pdf"
   },
@@ -428,7 +453,10 @@
     "slug": "single-phase-motor-starters",
     "name": "Single phase motor starters",
     "category": "Building Segment",
-    "overview": [],
+    "overview": [
+      "Salzer single-phase motor starters provide reliable starting, running and overload protection for single-phase motors used in pumps, fans, compressors and other light-industrial equipment.",
+      "Integrated thermal overload protection safeguards the motor from sustained over-current conditions, extending equipment life."
+    ],
     "image": "/images/products/salzer/single-phase-motor-starters.jpg",
     "catalogue": "/catalogues/salzer/salzer-20pricelist-20june-202024-20speciality-20products-compressed-203.pdf"
   },
