@@ -2239,7 +2239,6 @@
   {
     "slug": "t-era",
     "name": "T-ERA",
-
     "category": "PCC and MCC Panels",
     "overview": [
       "T-ERA, a testament to sustainability, reliability, and safety, is crafted with decades of engineering excellence. Its range of low voltage switchgear meets international standards and quality, ensuring the safety of your applications while maximising space efficiency and minimising hazards. T-ERA not only saves you time and energy but also enhances cost optimisation. As the eco-friendly choice across a variety of applications, T-ERA leads the way in responsible technology."
@@ -2592,5 +2591,135 @@
       }
     ],
     "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "mccb-dz",
+    "name": "DZ",
+    "category": "Moulded Case Circuit Breaker - MCCB",
+    "overview": [
+      "The DZ range of Moulded Case Circuit Breakers (MCCB) is specifically designed to accommodate the complexities of modern electrical systems in contemporary installations. This range stands out due to its substantially higher fault-breaking capacities, addressing the rigorous demands of evolving power distribution requirements efficiently and effectively.",
+      "Responding to the shifting expectations of customers who seek economical yet reliable solutions, we have developed the DZ range of MCCBs that can operate up to 800V AC, with exceptional fault-breaking capacities reaching up to 200kA at 415V AC. Available in both thermal magnetic and electronic versions, these MCCBs provide comprehensive protection, encompassing advanced current, voltage, frequency, power, and harmonic-based safeguards. This versatility empowers system designers and users to select and implement protection schemes that best fit their specific requirements, ensuring tailored and robust electrical safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fa04bf135f58c4367b959a477814500df",
+    "benefits": [
+      "No load line bias ensures balanced power distribution, enhancing system efficiency.",
+      "Finger-proof terminals increase safety by preventing accidental contact, crucial for maintaining secure operations.",
+      "Phase barriers included with MCCBs enhance safety by effectively preventing electrical arcing between phases.",
+      "A wide range of common internal and external accessories is available, offering extensive customisation options to meet specific system requirements."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "Breaking Capacity",
+        "text": "Offers multiple options including 36kA, 50kA, 80kA, 120kA, and 200kA, ensuring robust protection against high fault levels."
+      },
+      {
+        "title": "Operating Voltage",
+        "text": "Supports operating voltages of 415V, 690V, and 800V AC, providing flexibility for various electrical systems."
+      },
+      {
+        "title": "Variants",
+        "text": "Available in both 3-pole and 4-pole configurations, allowing for versatile application across different circuit designs."
+      },
+      {
+        "title": "Compliance",
+        "text": "Adheres to international standards, including IEC60947-2, EN60947-2, and IS/IEC60947-2, ensuring quality and safety."
+      },
+      {
+        "title": "Protection Releases",
+        "text": "Features both thermal magnetic and microprocessor-based releases, offering precise and reliable protection."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "sdf-fn",
+    "name": "FN",
+    "category": "Switch Disconnectors & Switch Disconnector Fuses - SDF",
+    "overview": [
+      "Guaranteed performance in challenging environment coupled with unmatched reliability, these switching solutions are thriving in ruling in innumerable industrial and commercial installations.",
+      "These switches are easy to install, use and inspect. All the switches also come with standard protective.",
+      "features such as terminal shrouds, phase barriers and high ground clearances."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F56ac72a0b6d74e41884e545be3558ac7",
+    "benefits": [
+      "Door interlocking in ON position with defeat feature",
+      "Ample Space for termination in spacious SS enclosure version, no separate cable gland boxes required Clear ON/OFF indications.",
+      "Telescopic Shaft: Step-less depth adjustment",
+      "Suitable for aluminum termination."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "AC-23A utilization category for entire range (Quick-make/ Quick-break mechanism",
+        "text": ""
+      },
+      {
+        "title": "Quad break contact system",
+        "text": "Better arc quenching and higher electrical life of contacts"
+      },
+      {
+        "title": "Higher Clearance creepage",
+        "text": ""
+      },
+      {
+        "title": "High ground clearance",
+        "text": ""
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "bbt-s-line",
+    "name": "S-Line",
+    "category": "Busbar Trunking - BBT",
+    "overview": [
+      "Lauritz Knudsen Electrical & Automation is the leading supplier of the S-Line Busbar Trunking System in over 30 countries. Whether you're setting up a Metro line or an industrial complex, our S-Line Busbar Trunking products meet all your power distribution needs using copper or aluminium busbars.",
+      "The S-Line offers bus duct systems from 250A to 6300A, featuring flexible designs with uniform Class-F insulation, excellent insulation, and higher joint overlapping for longer life, higher savings, and enhanced safety."
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F09bac4a1cd40426e9efcdd75d3ecfcf4?format=webp",
+    "benefits": [
+      "Joint block with maintenance-free twin-headed shear-off nut, ensuring secure connections without the need for ongoing maintenance.",
+      "Plug-in box with mechanical interlock and enhanced safety features, providing secure and easy installation with added protection.",
+      "A robust, safe, and reliable solution, designed to meet high standards of durability and performance in demanding environments."
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp",
+    "features": [
+      {
+        "title": "UL certified Class-F insulation",
+        "text": "Our busduct systems feature UL certified Class-F insulation with uniform thickness, providing excellent thermal stability and long-term reliability for safer and more efficient power distribution."
+      },
+      {
+        "title": "Ingress protection up to IP66",
+        "text": "Designed for harsh environments, our busbar trunking systems offer ingress protection up to IP66, ensuring they are dust-tight and protected against powerful water jets, suitable for industrial and outdoor use."
+      },
+      {
+        "title": "Certified for Seismic zone-V compliance",
+        "text": "Our busduct systems are certified for Seismic zone-V compliance, guaranteeing they can withstand severe seismic activity, ensuring continuous operation and structural integrity in earthquake-prone areas."
+      }
+    ],
+    "featuresImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F00ed0b4b82684a7f89b92e4064982be5?format=webp"
+  },
+  {
+    "slug": "cos-c-line",
+    "name": "c-line",
+    "category": "Change Over Switch - COS",
+    "overview": [
+      "C-LINE ensures a high standard of safety through its dependable switching mechanism, which operates independently of the user’s speed of operation. This mechanism incorporates a fail-safe mechanical interlock for all 3 positions in the I-0-II versions. Additionally, the inclusion of I-0-II position indicators directly on the handle and mechanism further enhances operational safet"
+    ],
+    "image": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Ffc55a0959ccf4d8bb391dadde972e47e?format=webp",
+    "benefits": [
+      "Range from 40A to 2000A",
+      "Available in Open Execution, In SS Enclosure, Fused and Motorized version",
+      "User friendly features like",
+      "Staggered Terminals for ease in termination",
+      "Flippable handle for ease in operation",
+      "Dual Shaft position of centre and side",
+      "Fused version in form of kit",
+      "Higher Electrical and Mechanical Endurance",
+      "Higer Withstand Capacity",
+      "Frame 1 is DB mountable"
+    ],
+    "benefitsImage": "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F47a6135c77a142ec8bde7223544e094a?format=webp"
   }
 ]
