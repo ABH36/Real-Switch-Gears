@@ -12,7 +12,7 @@ const highlights = [
 
 export default function AboutSection() {
   return (
-    <section className="relative overflow-hidden bg-white py-20 md:py-28">
+    <section className="relative overflow-hidden bg-white py-10 md:py-28">
       {/* decorative backdrop */}
       <div className="pointer-events-none absolute -left-32 top-10 h-80 w-80 rounded-full bg-linear-to-br from-sky-100 to-teal-100 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-linear-to-br from-red-100 to-orange-100 blur-3xl" />
@@ -55,10 +55,13 @@ export default function AboutSection() {
             </p>
             <Link
               href="/about"
-              className="group mt-8 inline-flex items-center gap-2 rounded-full bg-brand-gradient px-7 py-3.5 font-bold text-white shadow-sm transition-opacity hover:opacity-90"
+              className="group relative mt-8 inline-flex items-center gap-2 overflow-hidden rounded-full border-2 border-red-600 px-7 py-3.5 text-sm font-extrabold uppercase tracking-wide text-red-600 transition-colors duration-300 hover:text-white"
             >
-              Read More<span className="sr-only"> about {site.name}</span>
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              <span className="absolute inset-0 -translate-x-full bg-red-600 transition-transform duration-300 ease-out group-hover:translate-x-0" />
+              <span className="relative z-10 inline-flex items-center gap-2">
+                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                Read More<span className="sr-only"> about {site.name}</span>
+              </span>
             </Link>
           </div>
         </div>

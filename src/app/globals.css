@@ -186,3 +186,24 @@ body {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+
+.hero-swiper .swiper-slide-active .hero-kenburns img {
+  animation: heroZoom 7s ease-out forwards;
+}
+
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to   { transform: scale(1.06); }
+}
+
+
+/* creative effect ke liye side slides visible rakho */
+.hero-swiper .swiper {
+  overflow: visible;
+}
+
+.hero-swiper {
+  overflow: hidden;   /* section boundary pe clip, thoda peek allow */
+  padding: 0 8px;
+}
