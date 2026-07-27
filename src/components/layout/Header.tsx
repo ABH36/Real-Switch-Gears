@@ -85,8 +85,8 @@ export default function Header() {
           <Image
             src="/images/logo/real_switchgear.png"
             alt={site.name}
-            width={600}
-            height={182}
+            width={264}
+            height={80}
             className="h-20 w-auto"
             loading="eager"
             fetchPriority="high"

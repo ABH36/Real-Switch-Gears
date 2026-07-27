@@ -29,6 +29,8 @@ export default function AboutSection() {
               height={520}
               className="w-full rounded-3xl object-cover shadow-[0_20px_50px_rgba(15,50,80,0.15)]"
               sizes="(max-width: 768px) 100vw, 50vw"
+              loading="eager"
+              fetchPriority="high"
             />
 
             {/* floating years-of-experience badge */}
