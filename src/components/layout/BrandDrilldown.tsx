@@ -71,7 +71,7 @@ export default function BrandDrilldown({
   return (
     <div className="flex flex-1 min-w-0">
       {/* Top-level categories */}
-      <ul className="w-[300px] shrink-0 px-3 border-r border-slate-100 overflow-y-auto">
+      <ul className="drilldown-scroll w-[300px] shrink-0 px-3 border-r border-slate-100 overflow-y-auto">
         {catalog.map((cat, i) => (
           <li key={cat.name}>
             <button
@@ -96,7 +96,7 @@ export default function BrandDrilldown({
       </ul>
 
       {/* Drill-down */}
-      <div className="flex-1 min-w-0 px-6 overflow-y-auto">
+      <div className="drilldown-scroll flex-1 min-w-0 px-6 overflow-y-auto">
         {canGoBack ? (
           <button
             onClick={goBack}

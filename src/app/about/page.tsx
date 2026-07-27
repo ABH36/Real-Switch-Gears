@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Award, CheckCircle2, Compass, MapPin, Target, Users } from "lucide-react";
+import {
+  ArrowRight,
+  Award,
+  CheckCircle2,
+  Compass,
+  MapPin,
+  ShieldCheck,
+  Target,
+  Users,
+} from "lucide-react";
 import { brands } from "@/data/brands";
 
 export const metadata: Metadata = {
@@ -154,23 +163,48 @@ export default function AboutPage() {
       </section>
 
       {/* Brands we represent */}
-      <section className="py-12 md:py-16">
+      <section className="py-12 md:py-16 bg-slate-50">
         <div className="mx-auto max-w-6xl px-4">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">Brands We Represent</h2>
-          <p className="mt-2 text-slate-500 text-sm">Tap a brand to browse its full product range.</p>
+          <div className="text-center">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#1268b3]">Our Partner Brands</p>
+            <span className="mt-2 inline-block h-[3px] w-10 rounded-full bg-gradient-to-r from-[#1268b3] to-[#03a099]" />
+            <h2 className="mt-3 text-2xl md:text-3xl font-extrabold text-slate-900">
+              Brands <span className="text-[#1268b3]">We Represent</span>
+            </h2>
+            <p className="mt-2 text-sm text-slate-500">Tap a brand to explore its complete product range.</p>
+          </div>
 
-          <div className="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {brands.map((b) => (
-              <Link
-                key={b.slug}
-                href={`/products/${b.slug}`}
-                className="flex items-center justify-center rounded-2xl border border-slate-200 bg-white p-6 h-24 hover:border-[#1268b3] hover:shadow-[0_8px_24px_rgba(15,50,80,0.08)] transition-all"
-              >
-                <div className="relative h-full w-full">
-                  <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="200px" />
-                </div>
-              </Link>
-            ))}
+          <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-5">
+            {brands.map((b) => {
+              return (
+                <Link
+                  key={b.slug}
+                  href={`/products/${b.slug}`}
+                  className="group relative flex flex-col items-center rounded-2xl border border-slate-100 bg-white px-5 py-7 text-center shadow-[0_2px_12px_rgba(15,50,80,0.05)] transition-all hover:-translate-y-1 hover:border-[#1268b3]/40 hover:shadow-[0_12px_30px_rgba(15,50,80,0.1)]"
+                >
+                  <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_4px_16px_rgba(15,50,80,0.1)] ring-1 ring-slate-100">
+                    <span className="relative h-11 w-11">
+                      <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="44px" />
+                    </span>
+                  </span>
+
+                  <h3 className="mt-4 text-base font-extrabold text-slate-900">{b.name}</h3>
+                  <p className="mt-1.5 text-xs leading-relaxed text-slate-500">{b.description}</p>
+
+                  <span className="mt-4 w-full border-t border-slate-100 pt-3 inline-flex items-center justify-center gap-1.5 text-xs font-bold text-[#1268b3]">
+                    View Products
+                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#eaf5fb] px-5 py-2.5 text-xs font-semibold text-[#1268b3]">
+              <ShieldCheck className="h-4 w-4" />
+              Trusted Brands. Genuine Products. Reliable Solutions.
+            </span>
           </div>
         </div>
       </section>
