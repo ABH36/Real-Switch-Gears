@@ -123,7 +123,7 @@ export default function Header() {
 
           <Link
             href="/quote"
-            className="hidden md:flex absolute right-0 top-0 h-[55px] w-[170px] items-center justify-center bg-[#db2516] hover:opacity-90 text-white font-normal text-base rounded-full transition-opacity border-2"
+            className="hidden md:flex absolute right-0 top-0 h-[55px] w-[170px] items-center justify-center bg-[#db2516] hover:bg-white text-white hover:text-[#db2516] font-normal text-base rounded-full transition-colors duration-700 ease-in-out border-2"
           >
             Get A Quote
           </Link>

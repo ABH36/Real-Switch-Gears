@@ -1,10 +1,23 @@
+// Single source of truth for the WhatsApp number — every WhatsApp link on the
+// site (floating button, contact page, per-product enquiry links) is built
+// from this one value, so changing a number only ever means editing this file.
+const WHATSAPP_NUMBER = "919373321989";
+
+// Single source of truth for the site's own deployed domain — used to build
+// absolute URLs in the sitemap, robots.txt, canonical/OpenGraph metadata, and
+// per-product structured data (JSON-LD). Point this at whichever host is
+// currently live (production domain, or a staging host like easypanel) and
+// every one of those updates together. No trailing slash.
+const SITE_URL = "https://real-switch-gear-real-switch-frontend.qbol3h.easypanel.host";
+
 export const site = {
+  url: SITE_URL,
   name: "Real Switchgears & Cables Pvt. Ltd.",
   shortName: "Real Switchgears",
   phone: "020 - 27110960",
   phoneHref: "tel:02027110960",
-  whatsapp:
-    "https://api.whatsapp.com/send?phone=919766399438&text=Hi, I would like to enquire about your products.",
+  whatsappNumber: WHATSAPP_NUMBER,
+  whatsapp: `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent("Hi, I would like to enquire about your products.")}`,
   email: "sales@realswitchgears.com",
   address:
     "Shop No. 6, Plot No. BG-74A, Jay Tulja Bhavani Complex, Telco Road, MIDC, Bhosari, Pune - 411 026, Maharashtra.",

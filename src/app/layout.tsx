@@ -10,7 +10,7 @@ import { site } from "@/data/site";
 
 const geist = Geist({ subsets: ["latin"], display: "swap" });
 
-const siteUrl = "https://realswitchgears.com";
+const siteUrl = site.url;
 const title = "Real Switchgears & Cables Pvt. Ltd. | Authorised Distributor & Stockist";
 const description =
   "Leading authorised distributor & stockist of Lauritz Knudsen (L&T Switchgears), Polycab wires & cables, and other branded electrical goods in Pune, India.";

@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 
 export default function TopBar() {
   return (
-    <div className="hidden md:block bg-white">
+    <div id="top-bar" className="hidden md:block bg-white">
       <div className="mx-auto max-w-[1137px] px-4 flex items-center justify-between h-[148px]">
         <Link href="/">
           <Image

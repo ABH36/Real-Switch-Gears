@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { brands, getProductCategorySlug } from "@/data/brands";
+import { site } from "@/data/site";
 
-const base = "https://realswitchgears.com";
+const base = site.url;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

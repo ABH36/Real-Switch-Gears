@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, CheckCircle2, ChevronRight, FileDown } from "lucide-react";
+import { ArrowRight, CheckCircle2, ChevronRight, FileDown, Mail, Phone } from "lucide-react";
 import {
   brands,
   collectSections,
@@ -11,7 +11,52 @@ import {
   getProductCategorySlug,
   type ProductDetail,
 } from "@/data/brands";
+import { site } from "@/data/site";
 import VariantTabs from "@/components/VariantTabs";
+import ScrollPastTopBar from "@/components/ScrollPastTopBar";
+
+const SITE_URL = site.url;
+
+// Same enquiry copy across all three channels — includes the product's own
+// canonical URL so whoever receives it knows exactly which product/variant
+// the customer means, without asking follow-up questions.
+function buildEnquiryLinks(productName: string, brandName: string, category: string, canonicalUrl: string) {
+  const text = `Hi, I'm interested in ${productName} (${brandName} - ${category}).\n${canonicalUrl}`;
+  return {
+    whatsapp: `https://api.whatsapp.com/send?phone=${site.whatsappNumber}&text=${encodeURIComponent(text)}`,
+    email: `mailto:${site.email}?subject=${encodeURIComponent(`Enquiry: ${productName}`)}&body=${encodeURIComponent(text)}`,
+  };
+}
+
+function ContactMethods({ whatsapp, email }: { whatsapp: string; email: string }) {
+  return (
+    <div className="mt-3 flex flex-wrap gap-3">
+      <a
+        href={site.phoneHref}
+        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
+      >
+        <Phone className="h-4 w-4" /> Call
+      </a>
+      <a
+        href={whatsapp}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-green-600 hover:text-green-600 transition-colors"
+      >
+        <svg viewBox="0 0 32 32" className="h-4 w-4 fill-current" aria-hidden="true">
+          <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.8.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.8 0-3.5-.5-5-1.3l-.4-.2-4.9.9.9-4.7-.2-.4C5.5 17.8 5 16.4 5 15 5 9 9 4 16 4s11 5 11 11-4.9 10-11 10zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z" />
+        </svg>
+        WhatsApp
+      </a>
+      <a
+        href={email}
+        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
+      >
+        <Mail className="h-4 w-4" /> Email
+      </a>
+    </div>
+  );
+}
 
 export function generateStaticParams() {
   return brands.flatMap((b) => {
@@ -85,8 +130,16 @@ export default async function ProductPage({
     const fallback = hit ? { name: hit.name, category: hit.heading } : null;
     if (!fallback) notFound();
 
+    const fallbackLinks = buildEnquiryLinks(
+      fallback.name,
+      brand.name,
+      fallback.category,
+      `${SITE_URL}/products/${brand.slug}/${category}/${product}`
+    );
+
     return (
       <>
+        <ScrollPastTopBar />
         <BreadcrumbJsonLd
           brand={brand.name}
           brandSlug={brand.slug}
@@ -108,6 +161,9 @@ export default async function ProductPage({
             >
               Enquire Now <ArrowRight className="h-4 w-4" />
             </Link>
+            <div className="flex justify-center">
+              <ContactMethods whatsapp={fallbackLinks.whatsapp} email={fallbackLinks.email} />
+            </div>
           </div>
         </section>
       </>
@@ -115,8 +171,16 @@ export default async function ProductPage({
   }
 
   /* ---------- Full product detail page ---------- */
+  const enquiryLinks = buildEnquiryLinks(
+    prod.name,
+    brand.name,
+    prod.category,
+    `${SITE_URL}/products/${brand.slug}/${category}/${product}`
+  );
+
   return (
     <>
+      <ScrollPastTopBar />
       <BreadcrumbJsonLd
         brand={brand.name}
         brandSlug={brand.slug}
@@ -129,7 +193,7 @@ export default async function ProductPage({
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-[#eaf5fb] via-[#f4fafd] to-white">
-        <div className="mx-auto max-w-6xl px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+        <div className="mx-auto max-w-6xl px-4 py-10 md:py-4 grid md:grid-cols-2 gap-8 md:gap-14 items-center">
           <div className="order-2 md:order-1">
             <p className="text-sm font-semibold uppercase tracking-wide text-[#1268b3]">{prod.category}</p>
             <h1 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-800 leading-tight text-balance">
@@ -153,17 +217,20 @@ export default async function ProductPage({
                 </a>
               )}
             </div>
+            <ContactMethods whatsapp={enquiryLinks.whatsapp} email={enquiryLinks.email} />
           </div>
 
           {prod.image && (
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="w-full max-w-xs sm:max-w-sm rounded-2xl bg-white p-6 shadow-[0_8px_30px_rgba(15,50,80,0.08)]">
+              {/* Fixed height + object-contain guarantees the whole product photo is
+                  always visible on load, whatever its aspect ratio — never cropped,
+                  never taller than the viewport. */}
+              <div className="relative w-full max-w-xs sm:max-w-sm h-80 sm:h-90 md:h-100 rounded-2xl bg-white p-6 shadow-[0_8px_30px_rgba(15,50,80,0.08)]">
                 <Image
                   src={prod.image}
                   alt={prod.name}
-                  width={480}
-                  height={480}
-                  className="w-full h-auto object-contain"
+                  fill
+                  className="object-contain"
                   sizes="(max-width: 400px) 100vw, 384px"
                   loading="eager"
                   fetchPriority="high"
@@ -299,7 +366,7 @@ function BreadcrumbJsonLd({
   name: string;
   slug: string;
 }) {
-  const base = "https://realswitchgears.com";
+  const base = SITE_URL;
   const items = [
     { name: "Home", url: base },
     { name: brand, url: `${base}/products/${brandSlug}` },
@@ -337,7 +404,7 @@ function ProductJsonLd({
   product: ProductDetail;
   slug: string;
 }) {
-  const base = "https://realswitchgears.com";
+  const base = SITE_URL;
   return (
     <script
       type="application/ld+json"
