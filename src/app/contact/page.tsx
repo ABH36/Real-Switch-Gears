@@ -38,7 +38,7 @@ export default function ContactPage() {
             to you shortly.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto text-left">
+          <div className="mt-8 flex flex-wrap justify-center gap-3 max-w-5xl mx-auto text-left">
             {quickContacts.map(({ icon: Icon, value, label, href }) => {
               const isExternal = href?.startsWith("http");
               const Tag = href ? "a" : "div";
@@ -52,8 +52,8 @@ export default function ContactPage() {
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-gradient">
                     <Icon className="h-4.5 w-4.5 text-white" />
                   </span>
-                  <div className="min-w-0">
-                    <p className="text-sm font-bold text-slate-800 truncate">{value}</p>
+                  <div>
+                    <p className="text-sm font-bold text-slate-800 whitespace-nowrap">{value}</p>
                     <p className="text-xs text-slate-500">{label}</p>
                   </div>
                 </Tag>

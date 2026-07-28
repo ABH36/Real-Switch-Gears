@@ -15,6 +15,7 @@ export const site = {
   name: "Real Switchgears & Cables Pvt. Ltd.",
   shortName: "Real Switchgears",
   phone: "020 - 27110960",
+  phone2: "020 - 27110960",
   phoneHref: "tel:02027110960",
   whatsappNumber: WHATSAPP_NUMBER,
   whatsapp: `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent("Hi, I would like to enquire about your products.")}`,

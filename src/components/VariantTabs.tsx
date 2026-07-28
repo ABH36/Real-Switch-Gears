@@ -60,7 +60,16 @@ export default function VariantTabs({ variants }: { variants: ProductVariant[] }
 
         {/* Tabs — horizontally scrollable strip, works the same on mobile & desktop */}
         <div className="mt-6 -mx-4 px-4 sm:mx-0 sm:px-0">
-          <div className="flex gap-2.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="flex gap-2.5 overflow-x-scroll pb-3 cursor-grab active:cursor-grabbing select-none
+  [scrollbar-width:thin]
+  [scrollbar-color:#1268b3_#e2e8f0]
+  [&::-webkit-scrollbar]:h-2.5
+  [&::-webkit-scrollbar]:block
+  [&::-webkit-scrollbar-track]:bg-slate-200
+  [&::-webkit-scrollbar-track]:rounded-full
+  [&::-webkit-scrollbar-thumb]:bg-[#1268b3]
+  [&::-webkit-scrollbar-thumb]:rounded-full
+  [&::-webkit-scrollbar-thumb]:hover:bg-[#0f5694]">
             {filtered.length === 0 ? (
               <p className="py-2.5 text-sm text-slate-500">No models match &ldquo;{query}&rdquo;.</p>
             ) : (
@@ -68,11 +77,10 @@ export default function VariantTabs({ variants }: { variants: ProductVariant[] }
                 <button
                   key={variant.name}
                   onClick={() => setActive(i)}
-                  className={`shrink-0 whitespace-nowrap rounded-full px-4 py-2.5 text-sm font-semibold transition-all duration-200 ${
-                    i === active
-                      ? "bg-brand-gradient text-white shadow-md scale-[1.03]"
-                      : "bg-white text-slate-600 border border-slate-200 hover:border-[#1268b3] hover:text-[#1268b3] hover:shadow-sm"
-                  }`}
+                  className={`shrink-0 whitespace-nowrap rounded-full px-4 py-2.5 text-sm font-semibold transition-all duration-200 ${i === active
+                    ? "bg-brand-gradient text-white shadow-md scale-[1.03]"
+                    : "bg-white text-slate-600 border border-slate-200 hover:border-[#1268b3] hover:text-[#1268b3] hover:shadow-sm"
+                    }`}
                 >
                   {variant.name}
                 </button>

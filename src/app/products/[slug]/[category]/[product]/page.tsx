@@ -33,26 +33,34 @@ function ContactMethods({ whatsapp, email }: { whatsapp: string; email: string }
     <div className="mt-3 flex flex-wrap gap-3">
       <a
         href={site.phoneHref}
-        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
+        className="group inline-flex items-center gap-2.5 rounded-full border border-blue-500 bg-white pl-2 pr-6 py-2 text-sm font-semibold text-[#1268b3] shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
       >
-        <Phone className="h-4 w-4" /> Call
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1268b3] text-white transition-transform duration-200 group-hover:scale-110">
+          <Phone className="h-4 w-4" />
+        </span>
+        Call
       </a>
       <a
         href={whatsapp}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-green-600 hover:text-green-600 transition-colors"
+        className="group inline-flex items-center gap-2.5 rounded-full border border-green-500 bg-white pl-2 pr-6 py-2 text-sm font-semibold text-green-700 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
       >
-        <svg viewBox="0 0 32 32" className="h-4 w-4 fill-current" aria-hidden="true">
-          <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.8.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.8 0-3.5-.5-5-1.3l-.4-.2-4.9.9.9-4.7-.2-.4C5.5 17.8 5 16.4 5 15 5 9 9 4 16 4s11 5 11 11-4.9 10-11 10zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z" />
-        </svg>
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-white transition-transform duration-200 group-hover:scale-110">
+          <svg viewBox="0 0 32 32" className="h-4 w-4 fill-current" aria-hidden="true">
+            <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.8.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.8 0-3.5-.5-5-1.3l-.4-.2-4.9.9.9-4.7-.2-.4C5.5 17.8 5 16.4 5 15 5 9 9 4 16 4s11 5 11 11-4.9 10-11 10zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z" />
+          </svg>
+        </span>
         WhatsApp
       </a>
       <a
         href={email}
-        className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 hover:border-[#1268b3] hover:text-[#1268b3] transition-colors"
+        className="group inline-flex items-center gap-2.5 rounded-full border border-blue-700 bg-white pl-2 pr-6 py-2 text-sm font-semibold text-[#1268b3] shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
       >
-        <Mail className="h-4 w-4" /> Email
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1268b3] text-white transition-transform duration-200 group-hover:scale-110">
+          <Mail className="h-4 w-4" />
+        </span>
+        Email
       </a>
     </div>
   );
@@ -246,7 +254,7 @@ export default async function ProductPage({
         <section className="py-12 md:py-16">
           <div className="mx-auto max-w-6xl px-4">
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">Overview</h2>
-            <div className="mt-5 space-y-4 text-slate-600 leading-relaxed max-w-4xl">
+            <div className="mt-5 space-y-4 text-slate-600 leading-relaxed ">
               {prod.overview.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}

@@ -182,9 +182,9 @@ export default function AboutPage() {
                   href={`/products/${b.slug}`}
                   className="group relative flex flex-col items-center rounded-2xl border border-slate-100 bg-white px-5 py-7 text-center shadow-[0_2px_12px_rgba(15,50,80,0.05)] transition-all hover:-translate-y-1 hover:border-[#1268b3]/40 hover:shadow-[0_12px_30px_rgba(15,50,80,0.1)]"
                 >
-                  <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_4px_16px_rgba(15,50,80,0.1)] ring-1 ring-slate-100">
-                    <span className="relative h-11 w-11">
-                      <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="44px" />
+                  <span className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_4px_16px_rgba(15,50,80,0.1)] ring-1 ring-slate-100 transition-all duration-300 group-hover:ring-2 group-hover:ring-[#1268b3]/30 group-hover:shadow-[0_8px_24px_rgba(18,104,179,0.18)] group-hover:scale-105">
+                    <span className="relative h-16 w-16">
+                      <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="64px" />
                     </span>
                   </span>
 

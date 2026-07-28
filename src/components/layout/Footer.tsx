@@ -32,6 +32,8 @@ export default function Footer() {
             <h6 className="text-lg font-semibold">Contact</h6>
             <a href={site.phoneHref} className="mt-2.5 block text-[#f5f5f5]">
               {site.phone}
+              {/* <br />
+              {site.phone2} */}
             </a>
           </div>
         </div>
