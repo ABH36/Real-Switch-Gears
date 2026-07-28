@@ -43,7 +43,7 @@ export default function Footer() {
             Brands
             <span className="absolute inset-x-0 bottom-0 mx-auto h-0.5 w-6 bg-white" />
           </h3>
-          <div className="mt-4 grid grid-cols-2 items-center justify-items-center gap-x-4 gap-y-6 rounded-3xl bg-[#f5f5f5] px-4 py-8 sm:grid-cols-3 sm:gap-y-8 lg:flex lg:flex-wrap lg:justify-evenly lg:gap-y-4 lg:rounded-full lg:px-4 lg:py-3">
+          <div className="mt-4 grid grid-cols-2 items-center justify-items-center gap-x-1 gap-y-6 rounded-3xl bg-[#f5f5f5] px-4 py-8 sm:grid-cols-3 sm:gap-y-8 lg:flex lg:flex-wrap lg:justify-evenly lg:gap-y-4 lg:rounded-full lg:px-2 lg:py-3">
             {brands.map((b) => (
               <Link
                 key={b.slug}
