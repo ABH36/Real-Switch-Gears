@@ -6,6 +6,14 @@ import Image from "next/image";
 type PricelistItem = { title: string; cover: string; pdf?: string };
 type BrandTab = { id: string; name: string; logo: string; items: PricelistItem[] };
 
+// realswitchgears.com's own PDF hosting has been down (509, bandwidth
+// exceeded) since ~July 2026. Where a current price list could be found —
+// via the brand's own site or another verified authorised dealer, never an
+// unverified re-upload — it was downloaded, compressed, and re-hosted on our
+// own Cloudinary account below, so customers never see a third party's
+// domain or branding in the address bar. The handful still on PDF_BASE have
+// no public source anywhere (confidential dealer pricing, or the brand
+// simply doesn't publish one) and stay pointed at the dead link.
 const PDF_BASE = "https://realswitchgears.com/img/pricelist";
 
 const tabs: BrandTab[] = [
@@ -14,12 +22,12 @@ const tabs: BrandTab[] = [
     name: "Lauritz Knudsen",
     logo: "/images/clients/lauritz_knudsen.svg",
     items: [
-      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.jpg", pdf: `${PDF_BASE}/2026/Agri Price list 01-06-2026.pdf` },
-      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.jpg", pdf: `${PDF_BASE}/2026/ESP Price List 01-06-2026.pdf` },
-      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.jpg", pdf: `${PDF_BASE}/2026/Retail Products Price list 01-06-2026.pdf` },
-      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: `${PDF_BASE}/2026/Panel Accessories Price List 01-06-2026.pdf` },
-      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: `${PDF_BASE}/2026/AU Pricelist.pdf` },
-      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: `${PDF_BASE}/2026/EXORA ESP Price List.pdf` },
+      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328200/pricelist/lt__agri.pdf" },
+      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328204/pricelist/lt__esp.pdf" },
+      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328208/pricelist/lt__retail.pdf" },
+      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328207/pricelist/lt__panel-accessories.pdf" },
+      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328202/pricelist/lt__au-solution.pdf" },
+      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328205/pricelist/lt__exora.pdf" },
     ],
   },
   {
@@ -27,11 +35,11 @@ const tabs: BrandTab[] = [
     name: "Polycab",
     logo: "/images/clients/polycab.svg",
     items: [
-      { title: "Polycab Armoured Cables", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: `${PDF_BASE}/2026/POLYCAB 02 Armoured Cables 29-04-2026 PCC LP No. 02 Dtd 29th April 2026.pdf` },
-      { title: "Polycab Flexible Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: `${PDF_BASE}/2026/POLYCAB 03 Flexible Cables 21-05-2026 LDC LP No. 03 Dtd 21st May 2026.pdf` },
+      { title: "Polycab Armoured Cables", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328209/pricelist/polycab__armoured-flexible.pdf" },
+      { title: "Polycab Flexible Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328209/pricelist/polycab__armoured-flexible.pdf" },
       { title: "Polycab Industrial Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg" },
-      { title: "Polycab LDC LP No. 12", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: `${PDF_BASE}/2026/LDC LP No. 12 Dtd 4th February 2026.pdf` },
-      { title: "Polycab PCC LP No. 04", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: `${PDF_BASE}/2026/PCC LP No. 04 Dtd 13th January 2026.pdf` },
+      { title: "Polycab LDC LP No. 12", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328211/pricelist/polycab__ldc-pcc.pdf" },
+      { title: "Polycab PCC LP No. 04", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328211/pricelist/polycab__ldc-pcc.pdf" },
     ],
   },
   {
@@ -39,7 +47,10 @@ const tabs: BrandTab[] = [
     name: "Salzer",
     logo: "/images/clients/salzer.svg",
     items: [
-      { title: "Salzer Direct Price List", cover: "/images/pricelist/salzer/Salzer-Direct.png", pdf: `${PDF_BASE}/2026/Salzer New Price List 04.06.26.pdf` },
+      { title: "Salzer Direct Price List", cover: "/images/pricelist/salzer/Salzer-Direct.png", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328212/pricelist/salzer__direct.pdf" },
+      // No public source exists for L&T-channel Salzer pricing anywhere — it's
+      // confidential dealer pricing, not something any manufacturer or
+      // reseller publishes. Left on the dead realswitchgears.com link.
       { title: "Salzer L&T Price List", cover: "/images/pricelist/salzer/Salzer-LT.jpg", pdf: `${PDF_BASE}/2026/SALZER L&T Price List .pdf` },
     ],
   },
@@ -48,8 +59,8 @@ const tabs: BrandTab[] = [
     name: "GIC",
     logo: "/images/clients/gic.svg",
     items: [
-      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.jpg", pdf: `${PDF_BASE}/2026/GIC Direct Domestic_FY 2026 Price list Rev 0_02.05.2026.pdf` },
-      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.jpg", pdf: `${PDF_BASE}/2026/GIC L&T Price List.pdf` },
+      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328198/pricelist/gic__direct.pdf" },
+      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328199/pricelist/gic__lt.pdf" },
     ],
   },
   {
@@ -57,8 +68,8 @@ const tabs: BrandTab[] = [
     name: "Esbee",
     logo: "/images/clients/esbee.svg",
     items: [
-      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: `${PDF_BASE}/2026/Esbee Direct Price List 15-04-2026.pdf` },
-      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: `${PDF_BASE}/2026/ESBEE L&T Price List.pdf` },
+      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328196/pricelist/esbee__direct.pdf" },
+      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328197/pricelist/esbee__lt.pdf" },
     ],
   },
   {
@@ -66,6 +77,8 @@ const tabs: BrandTab[] = [
     name: "Newtek",
     logo: "/images/clients/newtek_electricals.svg",
     items: [
+      // Newtek doesn't publish price lists anywhere public (their own site
+      // says "enquire for price"); these three still point at the dead link.
       { title: "Newtek Resin Cast Price List", cover: "/images/pricelist/newtek/NEWTEK-Resin-Cast-REV.jpg", pdf: `${PDF_BASE}/2026/NEWTEK RESIN CAST 01-04-2026.pdf` },
       { title: "Newtek Split Core CT Price List", cover: "/images/pricelist/newtek/Split-Core-CT.jpg", pdf: `${PDF_BASE}/split-core-price-list-24-05-2022.pdf` },
       { title: "Newtek Nylon Casing Price List", cover: "/images/pricelist/newtek/Nylon-Casing-Revise.jpg", pdf: `${PDF_BASE}/2026/NEWTEK New Nylon Price list 01-04-2026.pdf` },
@@ -76,6 +89,8 @@ const tabs: BrandTab[] = [
     name: "Connectwell",
     logo: "/images/clients/connectwell.svg",
     items: [
+      // No public Connectwell price list found (only product catalogues);
+      // these four still point at the dead link.
       { title: "Connectwell Single Page Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Connectwell-Single-PagePrice-List-10-04-2026.pdf` },
       { title: "Connectwell Terminal Blocks (4N) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Connectwell  CW Terminal Blocks 4N Price List 2026-27.pdf` },
       { title: "Connectwell Pipe & Glands (4T) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Controlwell-Price-List-(4T)-wef-10-Apr-26.pdf` },
@@ -87,7 +102,7 @@ const tabs: BrandTab[] = [
     name: "Braco",
     logo: "/images/clients/braco.svg",
     items: [
-      { title: "Braco Price List 2026", cover: "/images/pricelist/braco/Braco-Pricelist.jpg", pdf: `${PDF_BASE}/2026/Braco-List-Price-01.01.2026.pdf` },
+      { title: "Braco Price List 2026", cover: "/images/pricelist/braco/Braco-Pricelist.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328194/pricelist/braco__national.pdf" },
     ],
   },
 ];
