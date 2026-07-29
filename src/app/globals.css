@@ -228,3 +228,176 @@ body {
   overflow: hidden;   /* section boundary pe clip, thoda peek allow */
   padding: 0 8px;
 }
+
+/* ---- Product CTA + contact-chip hover system ---- */
+
+.cta-magnetic {
+  --mx: 0px;
+  --my: 0px;
+  position: relative;
+  overflow: hidden;
+  transform: translate(var(--mx), var(--my));
+  transition: transform 300ms cubic-bezier(.22, 1, .36, 1), box-shadow 300ms cubic-bezier(.22, 1, .36, 1);
+  box-shadow: 0 6px 16px rgba(3, 160, 153, 0.25);
+}
+.cta-magnetic::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  transform: skewX(-18deg);
+  transition: left 550ms cubic-bezier(.22, 1, .36, 1);
+  pointer-events: none;
+}
+.cta-magnetic:hover {
+  transform: translate(var(--mx), calc(var(--my) - 8px));
+  box-shadow: 0 16px 40px rgba(3, 160, 153, 0.4), 0 4px 12px rgba(0, 109, 177, 0.28);
+}
+.cta-magnetic:hover::after {
+  left: 120%;
+}
+.cta-arrow {
+  transition: transform 300ms cubic-bezier(.22, 1, .36, 1);
+}
+.cta-magnetic:hover .cta-arrow {
+  transform: translateX(5px);
+}
+
+/* Call chip: icon ripple + 10° rotate, label shift, soft lift */
+.chip-call {
+  position: relative;
+  transition: transform 260ms cubic-bezier(.22, 1, .36, 1), box-shadow 260ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-call:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(18, 104, 179, 0.28);
+}
+.chip-call .chip-icon {
+  position: relative;
+  transition: transform 260ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-call:hover .chip-icon {
+  transform: rotate(10deg);
+}
+.chip-call .chip-icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1.5px solid #1268b3;
+  opacity: 0;
+}
+.chip-call:hover .chip-icon::after {
+  animation: chip-ripple 900ms cubic-bezier(.22, 1, .36, 1) infinite;
+}
+.chip-call .chip-label {
+  display: inline-block;
+  transition: transform 260ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-call:hover .chip-label {
+  transform: translateX(4px);
+}
+@keyframes chip-ripple {
+  0% { opacity: 0.55; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.7); }
+}
+
+/* WhatsApp chip: outline fills solid, shimmer sweep, icon pulse, lift */
+.chip-wa {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 300ms cubic-bezier(.22, 1, .36, 1), color 300ms cubic-bezier(.22, 1, .36, 1),
+    transform 300ms cubic-bezier(.22, 1, .36, 1), box-shadow 300ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-wa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  transform: skewX(-18deg);
+  z-index: 1;
+  transition: left 480ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-wa:hover::before {
+  left: 120%;
+}
+.chip-wa:hover {
+  background-color: #128c4a;
+  color: #fff;
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(18, 140, 74, 0.32);
+}
+.chip-wa:hover .chip-icon {
+  background-color: rgba(255, 255, 255, 0.22) !important;
+}
+.chip-wa:hover .chip-icon svg {
+  animation: chip-pulse 900ms cubic-bezier(.22, 1, .36, 1) infinite;
+}
+@keyframes chip-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.16); }
+}
+
+/* Email chip: glow lift + envelope flap flips open */
+.chip-mail {
+  position: relative;
+  transition: transform 300ms cubic-bezier(.22, 1, .36, 1), box-shadow 300ms cubic-bezier(.22, 1, .36, 1),
+    background 300ms cubic-bezier(.22, 1, .36, 1), color 300ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-mail:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #2451c4, #5b86e0);
+  transform: translateY(-6px);
+  box-shadow: 0 0 0 3px rgba(36, 81, 196, 0.18), 0 14px 30px rgba(36, 81, 196, 0.3);
+}
+.chip-mail .envelope {
+  position: relative;
+  width: 15px;
+  height: 11px;
+  perspective: 60px;
+}
+.chip-mail .envelope-body {
+  position: absolute;
+  inset: 0;
+  border: 1.6px solid #fff;
+  border-radius: 2px;
+}
+.chip-mail .envelope-flap {
+  position: absolute;
+  top: -1px;
+  left: 0.5px;
+  width: calc(100% - 1px);
+  height: 0;
+  border-left: 6.5px solid transparent;
+  border-right: 6.5px solid transparent;
+  border-top: 5.5px solid #fff;
+  transform-origin: 50% 0%;
+  transition: transform 320ms cubic-bezier(.22, 1, .36, 1);
+}
+.chip-mail:hover .envelope-flap {
+  transform: rotateX(-140deg) translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-magnetic,
+  .cta-magnetic::after,
+  .cta-arrow,
+  .chip-call,
+  .chip-call .chip-icon,
+  .chip-call .chip-icon::after,
+  .chip-call .chip-label,
+  .chip-wa,
+  .chip-wa::before,
+  .chip-wa .chip-icon svg,
+  .chip-mail,
+  .chip-mail .envelope-flap {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

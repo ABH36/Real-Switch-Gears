@@ -11,17 +11,33 @@ export default function ContactSection() {
     phone: "",
     message: "",
   });
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const body = encodeURIComponent(
-      `Company: ${form.company}\nEmail: ${form.email}\nPhone: ${form.phone}\n\n${form.message}`
-    );
-    window.location.href = `mailto:${site.email}?subject=Enquiry from ${form.company}&body=${body}`;
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "Contact page",
+          company: form.company,
+          email: form.email,
+          phone: form.phone,
+          message: form.message,
+        }),
+      });
+      if (!res.ok) throw new Error("Request failed");
+      setStatus("sent");
+      setForm({ company: "", email: "", phone: "", message: "" });
+    } catch {
+      setStatus("error");
+    }
   };
 
   const label = "block text-sm font-semibold text-slate-700";
@@ -126,10 +142,21 @@ export default function ContactSection() {
               </div>
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center gap-2 bg-brand-gradient text-white font-semibold py-3.5 rounded-full hover:opacity-90 transition-opacity"
+                disabled={status === "sending"}
+                className="w-full inline-flex items-center justify-center gap-2 bg-brand-gradient text-white font-semibold py-3.5 rounded-full hover:opacity-90 transition-opacity disabled:opacity-60"
               >
-                Send Message <Send className="h-4 w-4" />
+                {status === "sending" ? "Sending…" : "Send Message"} <Send className="h-4 w-4" />
               </button>
+              {status === "sent" && (
+                <p className="text-sm font-medium text-emerald-600">
+                  Thanks — your message has been sent. We&apos;ll get back to you shortly.
+                </p>
+              )}
+              {status === "error" && (
+                <p className="text-sm font-medium text-red-600">
+                  Something went wrong. Please try again or call us at {site.phone}.
+                </p>
+              )}
             </form>
           </div>
         </div>

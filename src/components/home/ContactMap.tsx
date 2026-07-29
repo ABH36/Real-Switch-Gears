@@ -8,16 +8,34 @@ export default function ContactMap() {
   const [form, setForm] = useState({
     name: "", company: "", email: "", contact: "", message: "",
   });
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = () => {
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nCompany: ${form.company}\nEmail: ${form.email}\nContact: ${form.contact}\n\n${form.message}`
-    );
-    window.location.href = `mailto:${site.email}?subject=Enquiry from ${form.name}&body=${body}`;
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "Quote page",
+          name: form.name,
+          company: form.company,
+          email: form.email,
+          phone: form.contact,
+          message: form.message,
+        }),
+      });
+      if (!res.ok) throw new Error("Request failed");
+      setStatus("sent");
+      setForm({ name: "", company: "", email: "", contact: "", message: "" });
+    } catch {
+      setStatus("error");
+    }
   };
 
   const fields = [
@@ -48,39 +66,54 @@ export default function ContactMap() {
           Tell us what you need — we&apos;ll get back to you shortly.
         </p>
 
-        <div className="mt-8 space-y-4">
-          {fields.map(({ name, placeholder, icon: Icon, type }) => (
-            <div key={name} className="relative">
-              <Icon className="pointer-events-none absolute left-3.5 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-slate-400" />
-              <input
-                name={name}
-                type={type}
-                placeholder={placeholder}
-                value={form[name]}
+        <form onSubmit={handleSubmit}>
+          <div className="mt-8 space-y-4">
+            {fields.map(({ name, placeholder, icon: Icon, type }) => (
+              <div key={name} className="relative">
+                <Icon className="pointer-events-none absolute left-3.5 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-slate-400" />
+                <input
+                  name={name}
+                  type={type}
+                  required={name === "email"}
+                  placeholder={placeholder}
+                  value={form[name]}
+                  onChange={handleChange}
+                  className={inputCls}
+                />
+              </div>
+            ))}
+            <div className="relative">
+              <MessageSquare className="pointer-events-none absolute left-3.5 top-4 h-4.5 w-4.5 text-slate-400" />
+              <textarea
+                name="message"
+                required
+                placeholder="Describe Your Requirement"
+                rows={4}
+                value={form.message}
                 onChange={handleChange}
                 className={inputCls}
               />
             </div>
-          ))}
-          <div className="relative">
-            <MessageSquare className="pointer-events-none absolute left-3.5 top-4 h-4.5 w-4.5 text-slate-400" />
-            <textarea
-              name="message"
-              placeholder="Describe Your Requirement"
-              rows={4}
-              value={form.message}
-              onChange={handleChange}
-              className={inputCls}
-            />
           </div>
-        </div>
-        <button
-          onClick={handleSubmit}
-          className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-gradient px-10 py-3.5 font-bold text-white shadow-sm transition-opacity hover:opacity-90"
-        >
-          Submit
-          <Send className="h-4 w-4" />
-        </button>
+          <button
+            type="submit"
+            disabled={status === "sending"}
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-gradient px-10 py-3.5 font-bold text-white shadow-sm transition-opacity hover:opacity-90 disabled:opacity-60"
+          >
+            {status === "sending" ? "Sending…" : "Submit"}
+            <Send className="h-4 w-4" />
+          </button>
+          {status === "sent" && (
+            <p className="mt-3 text-sm font-medium text-emerald-600">
+              Thanks — your enquiry has been sent. We&apos;ll get back to you shortly.
+            </p>
+          )}
+          {status === "error" && (
+            <p className="mt-3 text-sm font-medium text-red-600">
+              Something went wrong. Please try again or call us at {site.phone}.
+            </p>
+          )}
+        </form>
       </div>
     </section>
   );
