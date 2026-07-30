@@ -67,7 +67,7 @@ export default function Footer() {
         <p>
           © {new Date().getFullYear()} {site.name} All rights reserved. Powered by{" "}
           <a
-            href="https://www.bdminfotech.com/"
+            href="https://bdm.co.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-1 inline-block align-middle"

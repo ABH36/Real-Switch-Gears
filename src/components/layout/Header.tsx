@@ -171,17 +171,19 @@ export default function Header() {
                       <button
                         onClick={() => setActiveBrandSlug(b.slug)}
                         className={cn(
-                          "w-full flex items-center justify-between text-left rounded-xl px-5 py-3.5 font-bold transition-colors",
+                          "group w-full flex items-center justify-between text-left rounded-xl px-5 py-3.5 font-bold transition-colors",
                           activeBrandSlug === b.slug
                             ? "bg-slate-100 text-slate-900"
-                            : "text-slate-700 hover:bg-slate-50"
+                            : "text-slate-700 hover:bg-[#1268b3]/10 hover:text-[#1268b3]"
                         )}
                       >
                         {b.name}
                         <ChevronRight
                           className={cn(
-                            "h-4 w-4 shrink-0",
-                            activeBrandSlug === b.slug ? "text-red-600" : "text-slate-300"
+                            "h-4 w-4 shrink-0 transition-colors",
+                            activeBrandSlug === b.slug
+                              ? "text-red-600"
+                              : "text-slate-300 group-hover:text-[#1268b3]"
                           )}
                         />
                       </button>

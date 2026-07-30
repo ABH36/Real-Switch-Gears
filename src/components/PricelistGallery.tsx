@@ -6,28 +6,23 @@ import Image from "next/image";
 type PricelistItem = { title: string; cover: string; pdf?: string };
 type BrandTab = { id: string; name: string; logo: string; items: PricelistItem[] };
 
-// realswitchgears.com's own PDF hosting has been down (509, bandwidth
-// exceeded) since ~July 2026. Where a current price list could be found —
-// via the brand's own site or another verified authorised dealer, never an
-// unverified re-upload — it was downloaded, compressed, and re-hosted on our
-// own Cloudinary account below, so customers never see a third party's
-// domain or branding in the address bar. The handful still on PDF_BASE have
-// no public source anywhere (confidential dealer pricing, or the brand
-// simply doesn't publish one) and stay pointed at the dead link.
-const PDF_BASE = "https://realswitchgears.com/img/pricelist";
-
+// realswitchgears.com's own PDF hosting went down (509, bandwidth exceeded)
+// in ~July 2026. Every price list below was downloaded — from the brand's
+// own site, a verified authorised dealer, or supplied directly — and
+// re-hosted on our own Cloudinary account, so customers never see a third
+// party's domain or branding in the address bar.
 const tabs: BrandTab[] = [
   {
     id: "lt",
     name: "Lauritz Knudsen",
     logo: "/images/clients/lauritz_knudsen.svg",
     items: [
-      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328200/pricelist/lt__agri.pdf" },
-      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328204/pricelist/lt__esp.pdf" },
-      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328208/pricelist/lt__retail.pdf" },
-      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328207/pricelist/lt__panel-accessories.pdf" },
-      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328202/pricelist/lt__au-solution.pdf" },
-      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328205/pricelist/lt__exora.pdf" },
+      { title: "Agri Price List", cover: "/images/pricelist/lt/Agri-Price-List.jpg", pdf: "/pricelist/files/lt__agri.pdf" },
+      { title: "ESP Price List", cover: "/images/pricelist/lt/ESP-Price-List.jpg", pdf: "/pricelist/files/lt__esp.pdf" },
+      { title: "Retail Products Price list", cover: "/images/pricelist/lt/Retail-Products-Price-List.jpg", pdf: "/pricelist/files/lt__retail.pdf" },
+      { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: "/pricelist/files/lt__panel-accessories.pdf" },
+      { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: "/pricelist/files/lt__au-solution.pdf" },
+      { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: "/pricelist/files/lt__exora.pdf" },
     ],
   },
   {
@@ -35,11 +30,10 @@ const tabs: BrandTab[] = [
     name: "Polycab",
     logo: "/images/clients/polycab.svg",
     items: [
-      { title: "Polycab Armoured Cables", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328209/pricelist/polycab__armoured-flexible.pdf" },
-      { title: "Polycab Flexible Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328209/pricelist/polycab__armoured-flexible.pdf" },
-      { title: "Polycab Industrial Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg" },
-      { title: "Polycab LDC LP No. 12", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328211/pricelist/polycab__ldc-pcc.pdf" },
-      { title: "Polycab PCC LP No. 04", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328211/pricelist/polycab__ldc-pcc.pdf" },
+      { title: "Polycab Armoured Cables", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "/pricelist/files/polycab__armoured.pdf" },
+      { title: "Polycab Flexible Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "/pricelist/files/polycab__flexible.pdf" },
+      { title: "Polycab LDC LP No. 12", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "/pricelist/files/polycab__ldc.pdf" },
+      { title: "Polycab PCC LP No. 04", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "/pricelist/files/polycab__pcc.pdf" },
     ],
   },
   {
@@ -47,11 +41,8 @@ const tabs: BrandTab[] = [
     name: "Salzer",
     logo: "/images/clients/salzer.svg",
     items: [
-      { title: "Salzer Direct Price List", cover: "/images/pricelist/salzer/Salzer-Direct.png", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328212/pricelist/salzer__direct.pdf" },
-      // No public source exists for L&T-channel Salzer pricing anywhere — it's
-      // confidential dealer pricing, not something any manufacturer or
-      // reseller publishes. Left on the dead realswitchgears.com link.
-      { title: "Salzer L&T Price List", cover: "/images/pricelist/salzer/Salzer-LT.jpg", pdf: `${PDF_BASE}/2026/SALZER L&T Price List .pdf` },
+      { title: "Salzer Direct Price List", cover: "/images/pricelist/salzer/Salzer-Direct.png", pdf: "/pricelist/files/salzer__direct.pdf" },
+      { title: "Salzer L&T Price List", cover: "/images/pricelist/salzer/Salzer-LT.jpg", pdf: "/pricelist/files/salzer__lt.pdf" },
     ],
   },
   {
@@ -59,8 +50,8 @@ const tabs: BrandTab[] = [
     name: "GIC",
     logo: "/images/clients/gic.svg",
     items: [
-      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328198/pricelist/gic__direct.pdf" },
-      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328199/pricelist/gic__lt.pdf" },
+      { title: "GIC Direct Price List", cover: "/images/pricelist/gic/GIC-Direct-Price-List.jpg", pdf: "/pricelist/files/gic__direct.pdf" },
+      { title: "GIC L&T Price List", cover: "/images/pricelist/gic/GIC-LT.jpg", pdf: "/pricelist/files/gic__lt.pdf" },
     ],
   },
   {
@@ -68,8 +59,8 @@ const tabs: BrandTab[] = [
     name: "Esbee",
     logo: "/images/clients/esbee.svg",
     items: [
-      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328196/pricelist/esbee__direct.pdf" },
-      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328197/pricelist/esbee__lt.pdf" },
+      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: "/pricelist/files/esbee__direct.pdf" },
+      { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: "/pricelist/files/esbee__lt.pdf" },
     ],
   },
   {
@@ -77,11 +68,10 @@ const tabs: BrandTab[] = [
     name: "Newtek",
     logo: "/images/clients/newtek_electricals.svg",
     items: [
-      // Newtek doesn't publish price lists anywhere public (their own site
-      // says "enquire for price"); these three still point at the dead link.
-      { title: "Newtek Resin Cast Price List", cover: "/images/pricelist/newtek/NEWTEK-Resin-Cast-REV.jpg", pdf: `${PDF_BASE}/2026/NEWTEK RESIN CAST 01-04-2026.pdf` },
-      { title: "Newtek Split Core CT Price List", cover: "/images/pricelist/newtek/Split-Core-CT.jpg", pdf: `${PDF_BASE}/split-core-price-list-24-05-2022.pdf` },
-      { title: "Newtek Nylon Casing Price List", cover: "/images/pricelist/newtek/Nylon-Casing-Revise.jpg", pdf: `${PDF_BASE}/2026/NEWTEK New Nylon Price list 01-04-2026.pdf` },
+      // All three supplied directly and re-hosted on Cloudinary.
+      { title: "Newtek Resin Cast Price List", cover: "/images/pricelist/newtek/NEWTEK-Resin-Cast-REV.jpg", pdf: "/pricelist/files/newtek__resin-cast.pdf" },
+      { title: "Newtek Split Core CT Price List", cover: "/images/pricelist/newtek/Split-Core-CT.jpg", pdf: "/pricelist/files/newtek__split-core-ct.pdf" },
+      { title: "Newtek Nylon Casing Price List", cover: "/images/pricelist/newtek/Nylon-Casing-Revise.jpg", pdf: "/pricelist/files/newtek__nylon-casing.pdf" },
     ],
   },
   {
@@ -89,12 +79,11 @@ const tabs: BrandTab[] = [
     name: "Connectwell",
     logo: "/images/clients/connectwell.svg",
     items: [
-      // No public Connectwell price list found (only product catalogues);
-      // these four still point at the dead link.
-      { title: "Connectwell Single Page Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Connectwell-Single-PagePrice-List-10-04-2026.pdf` },
-      { title: "Connectwell Terminal Blocks (4N) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Connectwell  CW Terminal Blocks 4N Price List 2026-27.pdf` },
-      { title: "Connectwell Pipe & Glands (4T) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Controlwell-Price-List-(4T)-wef-10-Apr-26.pdf` },
-      { title: "Connectwell Terminal Blocks Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: `${PDF_BASE}/2026/Connectwell  Terminal Price List  10-Apr-26.pdf` },
+      // All four supplied directly and re-hosted on Cloudinary.
+      { title: "Connectwell Single Page Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: "/pricelist/files/connectwell__single-page.pdf" },
+      { title: "Connectwell Terminal Blocks (4N) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: "/pricelist/files/connectwell__4n-terminal-blocks.pdf" },
+      { title: "Connectwell Pipe & Glands (4T) Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: "/pricelist/files/connectwell__4t-pipe-glands.pdf" },
+      { title: "Connectwell Terminal Blocks Price List", cover: "/images/pricelist/connectwell/Connectwell-Pricelist.png", pdf: "/pricelist/files/connectwell__terminal.pdf" },
     ],
   },
   {
@@ -102,7 +91,7 @@ const tabs: BrandTab[] = [
     name: "Braco",
     logo: "/images/clients/braco.svg",
     items: [
-      { title: "Braco Price List 2026", cover: "/images/pricelist/braco/Braco-Pricelist.jpg", pdf: "https://res.cloudinary.com/aokdwbfg/image/upload/v1785328194/pricelist/braco__national.pdf" },
+      { title: "Braco Price List 2026", cover: "/images/pricelist/braco/Braco-Pricelist.jpg", pdf: "/pricelist/files/braco__national.pdf" },
     ],
   },
 ];
@@ -112,19 +101,23 @@ export default function PricelistGallery() {
   const current = tabs.find((t) => t.id === active)!;
 
   return (
-    <section className="py-16">
+    <section className="py-6">
       <div className="mx-auto max-w-7xl px-4">
         {/* Brand logo tabs */}
-        <div className="flex flex-wrap items-end justify-center gap-x-12 gap-y-6 border-b border-slate-200 pb-0">
+        <div className="flex flex-nowrap items-end justify-center gap-x-4 sm:gap-x-8 overflow-x-auto border-b border-slate-200 pb-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActive(tab.id)}
-              className="flex flex-col items-center gap-3 pb-4 relative"
+              className="flex shrink-0 flex-col items-center gap-3 pb-4 relative"
             >
-              <span className="relative h-14 w-36">
-                <Image src={tab.logo} alt={tab.name} fill className="object-contain" sizes="144px" />
-              </span>
+              <Image
+                src={tab.logo}
+                alt={tab.name}
+                width={400}
+                height={80}
+                className="h-14 w-auto sm:h-20 object-contain"
+              />
               {/* active underline */}
               <span
                 className={`absolute bottom-0 left-0 right-0 h-1 rounded-full transition-opacity ${

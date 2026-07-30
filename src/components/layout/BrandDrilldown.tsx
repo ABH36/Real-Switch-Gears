@@ -77,17 +77,19 @@ export default function BrandDrilldown({
             <button
               onClick={() => selectTopCat(i)}
               className={cn(
-                "w-full flex items-center justify-between text-left rounded-xl px-4 py-3 font-semibold transition-colors",
+                "group w-full flex items-center justify-between text-left rounded-xl px-4 py-3 font-semibold transition-colors",
                 path[0] === i
                   ? "bg-slate-100 text-slate-900"
-                  : "text-slate-700 hover:bg-slate-50"
+                  : "text-slate-700 hover:bg-[#1268b3]/10 hover:text-[#1268b3]"
               )}
             >
               <span className="truncate">{cat.name}</span>
               <ChevronRight
                 className={cn(
-                  "h-4 w-4 shrink-0 ml-1",
-                  path[0] === i ? "text-red-600" : "text-slate-300"
+                  "h-4 w-4 shrink-0 ml-1 transition-colors",
+                  path[0] === i
+                    ? "text-red-600"
+                    : "text-slate-300 group-hover:text-[#1268b3]"
                 )}
               />
             </button>
@@ -129,10 +131,10 @@ export default function BrandDrilldown({
               <li key={child.name}>
                 <button
                   onClick={() => drillInto(i)}
-                  className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
+                  className="group w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 transition-colors hover:bg-[#1268b3]/10 hover:text-[#1268b3] rounded-lg"
                 >
                   <span className="truncate">{child.name}</span>
-                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
+                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400 transition-colors group-hover:text-[#1268b3]" />
                 </button>
               </li>
             ))}
@@ -142,10 +144,10 @@ export default function BrandDrilldown({
               <li key={s.heading}>
                 <button
                   onClick={() => setDrillSection(i)}
-                  className="w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 hover:bg-slate-100 rounded-lg"
+                  className="group w-full flex items-center justify-between text-left px-3 py-2.5 font-semibold text-slate-800 transition-colors hover:bg-[#1268b3]/10 hover:text-[#1268b3] rounded-lg"
                 >
                   <span className="truncate">{s.heading}</span>
-                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400" />
+                  <ChevronRight className="h-4 w-4 shrink-0 ml-1 text-slate-400 transition-colors group-hover:text-[#1268b3]" />
                 </button>
               </li>
             ))}
