@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Award, Calendar, Eye, ShieldCheck, X } from "lucide-react";
+import Reveal from "@/components/ui/Reveal";
 
 export type CertificateItem = {
   name: string;
@@ -34,54 +35,55 @@ export default function CertificateGallery({
     <>
       <div className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((item, i) => (
-          <button
-            key={`${item.file}-${i}`}
-            onClick={() => setActive(item)}
-            className="group relative flex flex-col rounded-2xl bg-white text-left ring-1 ring-slate-200 shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_45px_rgba(15,23,42,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
-          >
-            {/* top accent bar */}
-            <div className="h-1.5 w-full shrink-0 bg-brand-gradient" />
+          <Reveal key={`${item.file}-${i}`} delay={Math.min((i % 4) * 90, 270)} y={24}>
+            <button
+              onClick={() => setActive(item)}
+              className="group relative flex w-full flex-col rounded-2xl bg-white text-left ring-1 ring-slate-200 shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_45px_rgba(15,23,42,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+            >
+              {/* top accent bar */}
+              <div className="h-1.5 w-full shrink-0 bg-brand-gradient" />
 
-            {/* year badge for awards */}
-            {variant === "award" && item.year && (
-              <span className="absolute right-3 top-5 z-10 inline-flex items-center gap-1 rounded-full bg-red-600 px-3 py-1 text-xs font-bold text-white shadow-md">
-                <Calendar className="h-3 w-3" />
-                {item.year}
-              </span>
-            )}
-
-            {/* image area */}
-            <div className="relative h-56 w-full overflow-hidden bg-linear-to-br from-slate-50 to-slate-100 p-6 sm:h-60">
-              <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.06]">
-                <Image
-                  src={item.file}
-                  alt={item.name}
-                  fill
-                  className="object-contain drop-shadow-sm"
-                  sizes="(max-width: 640px) 100vw, 25vw"
-                />
-              </div>
-
-              {/* hover overlay */}
-              <div className="absolute inset-0 flex items-center justify-center bg-slate-900/0 transition-colors duration-300 group-hover:bg-slate-900/35">
-                <span className="flex translate-y-2 items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-800 opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                  <Eye className="h-4 w-4" /> View Full
+              {/* year badge for awards */}
+              {variant === "award" && item.year && (
+                <span className="absolute right-3 top-5 z-10 inline-flex items-center gap-1 rounded-full bg-red-600 px-3 py-1 text-xs font-bold text-white shadow-md">
+                  <Calendar className="h-3 w-3" />
+                  {item.year}
                 </span>
-              </div>
-            </div>
-
-            {/* label */}
-            <div className="flex flex-1 items-center justify-center gap-2 border-t border-slate-100 px-5 py-4 text-center">
-              {variant === "certificate" ? (
-                <ShieldCheck className="h-4 w-4 shrink-0 text-red-600" />
-              ) : (
-                <Award className="h-4 w-4 shrink-0 text-red-600" />
               )}
-              <h3 className="text-base font-bold leading-snug text-slate-800 sm:text-lg">
-                {item.name}
-              </h3>
-            </div>
-          </button>
+
+              {/* image area */}
+              <div className="relative h-56 w-full overflow-hidden bg-linear-to-br from-slate-50 to-slate-100 p-6 sm:h-60">
+                <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.06]">
+                  <Image
+                    src={item.file}
+                    alt={item.name}
+                    fill
+                    className="object-contain drop-shadow-sm"
+                    sizes="(max-width: 640px) 100vw, 25vw"
+                  />
+                </div>
+
+                {/* hover overlay */}
+                <div className="absolute inset-0 flex items-center justify-center bg-slate-900/0 transition-colors duration-300 group-hover:bg-slate-900/35">
+                  <span className="flex translate-y-2 items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-800 opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                    <Eye className="h-4 w-4" /> View Full
+                  </span>
+                </div>
+              </div>
+
+              {/* label */}
+              <div className="flex flex-1 items-center justify-center gap-2 border-t border-slate-100 px-5 py-4 text-center">
+                {variant === "certificate" ? (
+                  <ShieldCheck className="h-4 w-4 shrink-0 text-red-600" />
+                ) : (
+                  <Award className="h-4 w-4 shrink-0 text-red-600" />
+                )}
+                <h3 className="text-base font-bold leading-snug text-slate-800 sm:text-lg">
+                  {item.name}
+                </h3>
+              </div>
+            </button>
+          </Reveal>
         ))}
       </div>
 

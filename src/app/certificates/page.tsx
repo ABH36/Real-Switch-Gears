@@ -3,6 +3,7 @@ import PageBanner from "@/components/ui/PageBanner";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CertificateGallery from "@/components/certificates/CertificateGallery";
 import ConfettiCelebration from "@/components/certificates/ConfettiCelebration";
+import Reveal from "@/components/ui/Reveal";
 import { Award, BadgeCheck, CalendarClock, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -58,19 +59,18 @@ export default function CertificatesPage() {
       {/* Stats strip */}
       <section className="relative -mt-12 z-10 px-4">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6">
-          {stats.map(({ icon: Icon, label, value }) => (
-            <div
-              key={label}
-              className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-[0_12px_35px_rgba(15,23,42,0.12)] ring-1 ring-slate-100"
-            >
-              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-brand-gradient text-white">
-                <Icon className="h-7 w-7" />
-              </span>
-              <div>
-                <p className="text-2xl font-extrabold text-slate-800">{value}</p>
-                <p className="text-sm font-medium leading-snug text-slate-500">{label}</p>
+          {stats.map(({ icon: Icon, label, value }, i) => (
+            <Reveal key={label} delay={i * 80} y={20}>
+              <div className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-[0_12px_35px_rgba(15,23,42,0.12)] ring-1 ring-slate-100">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-brand-gradient text-white">
+                  <Icon className="h-7 w-7" />
+                </span>
+                <div>
+                  <p className="text-2xl font-extrabold text-slate-800">{value}</p>
+                  <p className="text-sm font-medium leading-snug text-slate-500">{label}</p>
+                </div>
               </div>
-            </div>
+            </Reveal>
           ))}
         </div>
       </section>

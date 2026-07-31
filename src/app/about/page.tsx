@@ -12,6 +12,7 @@ import {
   Users,
 } from "lucide-react";
 import { brands } from "@/data/brands";
+import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -101,22 +102,24 @@ export default function AboutPage() {
       {/* Stats */}
       <section className="py-10 md:py-12 border-b border-slate-100">
         <div className="mx-auto max-w-6xl px-4 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-          {stats.map(({ icon: Icon, value, label }) => (
-            <div key={label} className="flex items-center gap-3 rounded-2xl bg-slate-50 p-4 md:p-5">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-gradient">
-                <Icon className="h-5 w-5 text-white" />
-              </span>
-              <div className="min-w-0">
-                <p className="text-base sm:text-lg font-extrabold text-slate-800 leading-tight">{value}</p>
-                <p className="text-xs text-slate-500 leading-tight">{label}</p>
+          {stats.map(({ icon: Icon, value, label }, i) => (
+            <Reveal key={label} delay={i * 70} y={20}>
+              <div className="flex items-center gap-3 rounded-2xl bg-slate-50 p-4 md:p-5">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-gradient">
+                  <Icon className="h-5 w-5 text-white" />
+                </span>
+                <div className="min-w-0">
+                  <p className="text-base sm:text-lg font-extrabold text-slate-800 leading-tight">{value}</p>
+                  <p className="text-xs text-slate-500 leading-tight">{label}</p>
+                </div>
               </div>
-            </div>
+            </Reveal>
           ))}
         </div>
       </section>
 
       {/* About Company */}
-      <section className="py-12 md:py-16">
+      <Reveal className="py-12 md:py-16" as="section">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800">About the Company</h2>
           <div className="mt-5 space-y-4 text-slate-600 leading-relaxed max-w-4xl">
@@ -125,40 +128,44 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </Reveal>
 
       {/* Vision & Mission */}
       <section className="py-12 md:py-16 bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 grid gap-6 md:grid-cols-2">
-          <div className="rounded-2xl bg-white p-7 md:p-8 shadow-[0_2px_20px_rgba(15,50,80,0.06)]">
-            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-gradient">
-              <Target className="h-6 w-6 text-white" />
-            </span>
-            <h3 className="mt-5 text-xl font-extrabold text-slate-800">Our Vision</h3>
-            <ul className="mt-4 space-y-3">
-              {visionList.map((item, i) => (
-                <li key={i} className="flex gap-2.5 text-slate-600 leading-relaxed text-[15px]">
-                  <CheckCircle2 className="h-5 w-5 shrink-0 mt-0.5 text-[#1268b3]" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <Reveal y={24}>
+            <div className="rounded-2xl bg-white p-7 md:p-8 shadow-[0_2px_20px_rgba(15,50,80,0.06)]">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-gradient">
+                <Target className="h-6 w-6 text-white" />
+              </span>
+              <h3 className="mt-5 text-xl font-extrabold text-slate-800">Our Vision</h3>
+              <ul className="mt-4 space-y-3">
+                {visionList.map((item, i) => (
+                  <li key={i} className="flex gap-2.5 text-slate-600 leading-relaxed text-[15px]">
+                    <CheckCircle2 className="h-5 w-5 shrink-0 mt-0.5 text-[#1268b3]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
 
-          <div className="rounded-2xl bg-white p-7 md:p-8 shadow-[0_2px_20px_rgba(15,50,80,0.06)]">
-            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-gradient">
-              <Compass className="h-6 w-6 text-white" />
-            </span>
-            <h3 className="mt-5 text-xl font-extrabold text-slate-800">Our Mission</h3>
-            <ul className="mt-4 space-y-3">
-              {missionList.map((item, i) => (
-                <li key={i} className="flex gap-2.5 text-slate-600 leading-relaxed text-[15px]">
-                  <CheckCircle2 className="h-5 w-5 shrink-0 mt-0.5 text-[#1268b3]" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <Reveal delay={100} y={24}>
+            <div className="rounded-2xl bg-white p-7 md:p-8 shadow-[0_2px_20px_rgba(15,50,80,0.06)]">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-gradient">
+                <Compass className="h-6 w-6 text-white" />
+              </span>
+              <h3 className="mt-5 text-xl font-extrabold text-slate-800">Our Mission</h3>
+              <ul className="mt-4 space-y-3">
+                {missionList.map((item, i) => (
+                  <li key={i} className="flex gap-2.5 text-slate-600 leading-relaxed text-[15px]">
+                    <CheckCircle2 className="h-5 w-5 shrink-0 mt-0.5 text-[#1268b3]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
         </div>
       </section>
 
@@ -175,27 +182,28 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-5">
-            {brands.map((b) => {
+            {brands.map((b, i) => {
               return (
-                <Link
-                  key={b.slug}
-                  href={`/products/${b.slug}`}
-                  className="group relative flex flex-col items-center rounded-2xl border border-slate-100 bg-white px-5 py-7 text-center shadow-[0_2px_12px_rgba(15,50,80,0.05)] transition-all hover:-translate-y-1 hover:border-[#1268b3]/40 hover:shadow-[0_12px_30px_rgba(15,50,80,0.1)]"
-                >
-                  <span className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_4px_16px_rgba(15,50,80,0.1)] ring-1 ring-slate-100 transition-all duration-300 group-hover:ring-2 group-hover:ring-[#1268b3]/30 group-hover:shadow-[0_8px_24px_rgba(18,104,179,0.18)] group-hover:scale-105">
-                    <span className="relative h-16 w-16">
-                      <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="64px" />
+                <Reveal key={b.slug} delay={Math.min(i * 60, 300)} y={20}>
+                  <Link
+                    href={`/products/${b.slug}`}
+                    className="group relative flex flex-col items-center rounded-2xl border border-slate-100 bg-white px-5 py-7 text-center shadow-[0_2px_12px_rgba(15,50,80,0.05)] transition-all hover:-translate-y-1 hover:border-[#1268b3]/40 hover:shadow-[0_12px_30px_rgba(15,50,80,0.1)]"
+                  >
+                    <span className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_4px_16px_rgba(15,50,80,0.1)] ring-1 ring-slate-100 transition-all duration-300 group-hover:ring-2 group-hover:ring-[#1268b3]/30 group-hover:shadow-[0_8px_24px_rgba(18,104,179,0.18)] group-hover:scale-105">
+                      <span className="relative h-16 w-16">
+                        <Image src={b.logo} alt={b.name} fill className="object-contain" sizes="64px" />
+                      </span>
                     </span>
-                  </span>
 
-                  <h3 className="mt-4 text-base font-extrabold text-slate-900">{b.name}</h3>
-                  <p className="mt-1.5 text-xs leading-relaxed text-slate-500">{b.description}</p>
+                    <h3 className="mt-4 text-base font-extrabold text-slate-900">{b.name}</h3>
+                    <p className="mt-1.5 text-xs leading-relaxed text-slate-500">{b.description}</p>
 
-                  <span className="mt-4 w-full border-t border-slate-100 pt-3 inline-flex items-center justify-center gap-1.5 text-xs font-bold text-[#1268b3]">
-                    View Products
-                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
-                  </span>
-                </Link>
+                    <span className="mt-4 w-full border-t border-slate-100 pt-3 inline-flex items-center justify-center gap-1.5 text-xs font-bold text-[#1268b3]">
+                      View Products
+                      <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </Link>
+                </Reveal>
               );
             })}
           </div>

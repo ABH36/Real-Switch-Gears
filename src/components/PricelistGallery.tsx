@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Reveal from "@/components/ui/Reveal";
 
 type PricelistItem = { title: string; cover: string; pdf?: string };
 type BrandTab = { id: string; name: string; logo: string; items: PricelistItem[] };
@@ -133,24 +134,25 @@ export default function PricelistGallery() {
         {/* Cards */}
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {current.items.map((p, i) => (
-            <a
-              key={`${p.cover}-${i}`}
-              href={encodeURI(p.pdf ?? p.cover)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group rounded-lg overflow-hidden shadow-[0_0_40px_rgba(0,0,0,0.09)] hover:-translate-y-1 transition-transform bg-white flex flex-col"
-            >
-              <Image
-                src={p.cover}
-                alt={p.title}
-                width={500}
-                height={700}
-                className="w-full h-auto"
-              />
-              <div className="bg-[#1268b3] py-4 px-3 text-center mt-auto">
-                <h3 className="text-white font-bold text-lg leading-snug">{p.title}</h3>
-              </div>
-            </a>
+            <Reveal key={`${p.cover}-${i}`} delay={Math.min(i * 80, 320)} y={24}>
+              <a
+                href={encodeURI(p.pdf ?? p.cover)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group rounded-lg overflow-hidden shadow-[0_0_40px_rgba(0,0,0,0.09)] hover:-translate-y-1 transition-transform bg-white flex flex-col"
+              >
+                <Image
+                  src={p.cover}
+                  alt={p.title}
+                  width={500}
+                  height={700}
+                  className="w-full h-auto"
+                />
+                <div className="bg-[#1268b3] py-4 px-3 text-center mt-auto">
+                  <h3 className="text-white font-bold text-lg leading-snug">{p.title}</h3>
+                </div>
+              </a>
+            </Reveal>
           ))}
         </div>
       </div>
