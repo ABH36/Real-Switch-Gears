@@ -103,20 +103,22 @@ export default function PricelistGallery() {
   return (
     <section className="py-6">
       <div className="mx-auto max-w-7xl px-4">
-        {/* Brand logo tabs */}
-        <div className="flex flex-nowrap items-end justify-center gap-x-4 sm:gap-x-8 overflow-x-auto border-b border-slate-200 pb-0">
+        {/* Brand logo tabs — 4-col grid on mobile so every brand is visible
+            without scrolling; single scrollable line from sm: up where
+            there's enough width. */}
+        <div className="grid grid-cols-4 items-end justify-items-center gap-x-2 gap-y-5 border-b border-slate-200 pb-4 sm:flex sm:flex-nowrap sm:justify-center sm:gap-x-8 sm:gap-y-0 sm:overflow-x-auto sm:pb-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActive(tab.id)}
-              className="flex shrink-0 flex-col items-center gap-3 pb-4 relative"
+              className="flex shrink-0 flex-col items-center gap-3 pb-2 sm:pb-4 relative"
             >
               <Image
                 src={tab.logo}
                 alt={tab.name}
                 width={400}
                 height={80}
-                className="h-14 w-auto sm:h-20 object-contain"
+                className="h-9 w-auto max-w-full object-contain sm:h-14 sm:max-w-none md:h-20"
               />
               {/* active underline */}
               <span

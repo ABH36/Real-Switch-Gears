@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageBanner from "@/components/ui/PageBanner";
+import PricelistHero from "@/components/PricelistHero";
 import PricelistGallery from "@/components/PricelistGallery";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function PricelistPage() {
   return (
     <>
-      <PageBanner title="Pricelist" />
+      <PricelistHero />
       <PricelistGallery />
     </>
   );
