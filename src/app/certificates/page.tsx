@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CertificateGallery from "@/components/certificates/CertificateGallery";
+import ConfettiCelebration from "@/components/certificates/ConfettiCelebration";
 import { Award, BadgeCheck, CalendarClock, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -51,6 +52,7 @@ const stats = [
 export default function CertificatesPage() {
   return (
     <>
+      <ConfettiCelebration />
       <PageBanner title="Certificate" icon={BadgeCheck} />
 
       {/* Stats strip */}
