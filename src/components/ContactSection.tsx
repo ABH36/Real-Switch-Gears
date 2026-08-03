@@ -33,10 +33,12 @@ export default function ContactSection() {
           message: form.message,
         }),
       });
+      console.log("Enquiry response:", res);
       if (!res.ok) throw new Error("Request failed");
       setStatus("sent");
       setForm({ company: "", email: "", phone: "", message: "" });
-    } catch {
+    } catch (error) {
+      console.error("Error submitting enquiry:", error);
       setStatus("error");
     }
   };
