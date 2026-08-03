@@ -60,7 +60,7 @@ const tabs: BrandTab[] = [
     name: "Esbee",
     logo: "/images/clients/esbee.svg",
     items: [
-      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.jpg", pdf: "/pricelist/files/esbee__direct.pdf" },
+      { title: "Esbee Direct Price List", cover: "/images/pricelist/esbee/Esbee-Direct.png", pdf: "/pricelist/files/esbee__direct.pdf" },
       { title: "Esbee L&T Price List", cover: "/images/pricelist/esbee/Esbee-LT.jpg", pdf: "/pricelist/files/esbee__lt.pdf" },
     ],
   },
@@ -134,21 +134,23 @@ export default function PricelistGallery() {
         {/* Cards */}
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {current.items.map((p, i) => (
-            <Reveal key={`${p.cover}-${i}`} delay={Math.min(i * 80, 320)} y={24}>
+            <Reveal key={`${p.cover}-${i}`} delay={Math.min(i * 80, 320)} y={24} className="h-full">
               <a
                 href={encodeURI(p.pdf ?? p.cover)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group rounded-lg overflow-hidden shadow-[0_0_40px_rgba(0,0,0,0.09)] hover:-translate-y-1 transition-transform bg-white flex flex-col"
+                className="group flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-[0_0_40px_rgba(0,0,0,0.09)] transition-transform hover:-translate-y-1"
               >
-                <Image
-                  src={p.cover}
-                  alt={p.title}
-                  width={500}
-                  height={700}
-                  className="w-full h-auto"
-                />
-                <div className="bg-[#1268b3] py-4 px-3 text-center mt-auto">
+                <div className="relative h-64 w-full shrink-0 overflow-hidden bg-slate-50 sm:h-72">
+                  <Image
+                    src={p.cover}
+                    alt={p.title}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  />
+                </div>
+                <div className="mt-auto flex min-h-[76px] items-center justify-center bg-[#1268b3] px-3 py-4 text-center sm:min-h-[84px]">
                   <h3 className="text-white font-bold text-lg leading-snug">{p.title}</h3>
                 </div>
               </a>
