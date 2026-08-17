@@ -24,6 +24,9 @@ const tabs: BrandTab[] = [
       { title: "Panel Accessories Price List", cover: "/images/pricelist/lt/Panel-Accessories.jpg", pdf: "/pricelist/files/lt__panel-accessories.pdf" },
       { title: "AU Solution Price List", cover: "/images/pricelist/lt/AU-Solution-Price-List.jpg", pdf: "/pricelist/files/lt__au-solution.pdf" },
       { title: "EXORA Price List", cover: "/images/pricelist/lt/Exora-Price-List.jpg", pdf: "/pricelist/files/lt__exora.pdf" },
+      { title: "Agri Irrigation Automation Solution Price List", cover: "/images/pricelist/lt/Agri-Irrigation-Automation.jpg", pdf: "/pricelist/files/lt__agri-irrigation-automation.pdf" },
+      { title: "Agri Submersible Flat Cables Price List", cover: "/images/pricelist/lt/Agri-Submersible-Flat-Cables.jpg", pdf: "/pricelist/files/lt__agri-submersible-flat-cables.pdf" },
+      { title: "Agri Wires & Cables Price List", cover: "/images/pricelist/lt/Agri-Wires-Cables.jpg", pdf: "/pricelist/files/lt__agri-wires-cables.pdf" },
     ],
   },
   {
