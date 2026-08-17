@@ -33,8 +33,8 @@ const tabs: BrandTab[] = [
     items: [
       { title: "Polycab Armoured Cables", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "/pricelist/files/polycab__armoured.pdf" },
       { title: "Polycab Flexible Cables", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "/pricelist/files/polycab__flexible.pdf" },
-      { title: "Polycab LDC LP No. 12", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "/pricelist/files/polycab__ldc.pdf" },
-      { title: "Polycab PCC LP No. 04", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "/pricelist/files/polycab__pcc.pdf" },
+      { title: "Polycab LDC LP No. 04", cover: "/images/pricelist/polycab/Flexible-Cables.jpg", pdf: "/pricelist/files/polycab__ldc.pdf" },
+      { title: "Polycab PCC LP No. 05", cover: "/images/pricelist/polycab/Armoured-Cables.jpg", pdf: "/pricelist/files/polycab__pcc.pdf" },
     ],
   },
   {
